@@ -1,0 +1,89 @@
+version: '2'
+services:
+  db:
+   image: mysql/mysql-server:8.0.0
+   environment:
+    MYSQL_ROOT_PASSWORD: "root"
+    MYSQL_DATABASE: webodv
+    MYSQL_USER: webodv
+    MYSQL_PASSWORD: webodv
+   networks:
+    - webodv-dev
+   ports:
+    - 3307:3306
+   #make db permanent
+   #volumes:
+    #- ./db:/var/lib/mysql
+  dbodv:
+   image: mysql/mysql-server:8.0.0
+   environment:
+    MYSQL_ROOT_PASSWORD: "root"
+    MYSQL_DATABASE: wsodv
+    MYSQL_USER: webodv
+    MYSQL_PASSWORD: webodv
+   networks:
+    - webodv-dev
+   ports:
+    - 3308:3306
+  phpmyadmin_db:
+   image: phpmyadmin/phpmyadmin
+   depends_on:
+    - db
+   ports:
+    - 11111:80
+   networks:
+    - webodv-dev
+   environment:
+     PMA_HOST: db
+     PMA_PORT: 3306
+  phpmyadmin_dbodv:
+   image: phpmyadmin/phpmyadmin
+   depends_on:
+    - dbodv
+   ports:
+    - 11110:80
+   networks:
+    - webodv-dev
+   environment:
+     PMA_HOST: dbodv
+     PMA_PORT: 3306
+  webodv:
+   image: hub.awi.de/webodv/webodv:v1.0.0
+   depends_on:
+    - dbodv
+    - db
+   ports:
+    - 11112:80
+   networks:
+    - webodv-dev
+   volumes:
+    # the user in the docker has uid=1000, thus make sure that all mounted folders have owner uid=1000 and
+    # the correct permissions
+    # ODV installation
+    - ./odv_software:/var/www/html/bin:ro
+    # ODV bathy data
+    - ./ODV:/home/woody/Documents/ODV:rw
+    # data
+    - ./ODV_Data:/var/www/html/webodv/storage/app/default:rw
+    #- settings
+    - ./settings:/var/www/html/webodv/storage/app/settings/settings_webodv:rw
+    # init
+    - ./init.bash:/var/www/html/init.bash
+    #
+    # development: "xhost +" to tunnel X11 apps 
+    - ./webodv:/var/www/html/webodv:rw
+    - /home/smieruch/.Xauthority:/root/.Xauthority
+    - /tmp/.X11-unix:/tmp/.X11-unix
+    #
+    #
+   environment:
+    settings_name: default #
+    settings_path: /var/www/html/webodv/storage/app/settings
+    path_to_odv_settings: settings_webodv
+    proxy_ws: webodv_ProxyPass.txt
+    REVERSE_PROXY: 0   #o or 1 for false and true
+    FORCE_SCHEME: http        #see AppServiceProvider
+    FORCE_ROOT_URL: https://dev.webodv.awi.de
+networks:
+  webodv-dev:
+    driver: bridge

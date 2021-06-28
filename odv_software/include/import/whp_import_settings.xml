@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+ <Contents>
+   <DescriptorVarLabels>
+     <Entry nameLabel="CASTNO" />
+     <Entry nameLabel="SAMPNO" />
+     <Entry nameLabel="BTLNBR" />
+     <Entry nameLabel="BIONBR" />
+     <Entry nameLabel="GEOTR_EVENT" />
+     <Entry nameLabel="GEOTR_SAMPNO" />
+     <Entry nameLabel="BTL_DATE" />
+     <Entry nameLabel="BTL_TIME" />
+     <Entry nameLabel="BTL_LON" />
+     <Entry nameLabel="BTL_LAT" />
+   </DescriptorVarLabels>
+   <ErrorVarLabels>
+     <Entry baseNameLabel="CFC-11" errorNameLabel="CF11ER" />
+     <Entry baseNameLabel="CFC-12" errorNameLabel="CF12ER" />
+     <Entry baseNameLabel="CCL4" errorNameLabel="CCL4ER" />
+     <Entry baseNameLabel="CFC113" errorNameLabel="CF113ER" />
+     <Entry baseNameLabel="TRITUM" errorNameLabel="TRITER" />
+     <Entry baseNameLabel="DELHE3" errorNameLabel="DELHER" />
+     <Entry baseNameLabel="HELIUM" errorNameLabel="HELIER" />
+     <Entry baseNameLabel="NEON" errorNameLabel="NEONER" />
+     <Entry baseNameLabel="DELC14" errorNameLabel="C14ERR" />
+     <Entry baseNameLabel="DELC13" errorNameLabel="C13ERR" />
+     <Entry baseNameLabel="I-129" errorNameLabel="I129ER" />
+   </ErrorVarLabels>
+   <MetaVarLabels>
+     <Entry nameLabel="EXPOCODE" />
+     <Entry nameLabel="SECT_ID" />
+     <Entry nameLabel="STNNBR" />
+     <Entry nameLabel="DATE" />
+     <Entry nameLabel="TIME" />
+     <Entry nameLabel="LONGITUDE" />
+     <Entry nameLabel="LATITUDE" />
+     <Entry nameLabel="DEPTH" />
+   </MetaVarLabels>
+   <VarLabelSubstitutions>
+     <Entry alias="DO14C [/MILLE]" label="14C-DOC [/MILLE]" />
+     <Entry alias="ALKALI [UMOL/K]" label="ALKALI [UMOL/KG]" />
+     <Entry alias="TALK [UMOL/KG]" label="ALKALI [UMOL/KG]" />
+     <Entry alias="AL [NMOL/L]" label="ALUMIN [NMOL/L]" />
+     <Entry alias="BARIUM [UM/KG]" label="BARIUM [UMOL/KG]" />
+     <Entry alias="BEDFORT [NUM]" label="BIONBR" />
+     <Entry alias="BTLNBR [ID]" label="BTLNBR" />
+     <Entry alias="C13ERR" label="C13ERR [/MILLE]" />
+     <Entry alias="C14ERR" label="C14ERR [/MILLE]" />
+     <Entry alias="C14ERR [O/OO]" label="C14ERR [/MILLE]" />
+     <Entry alias="CCL-4 [PMOL/KG]" label="CCL4 [PMOL/KG]" />
+     <Entry alias="C113ER [PMOL/KG]" label="CF113ER [PMOL/KG]" />
+     <Entry alias="CFC-11 [PM/KG]" label="CFC-11 [PMOL/KG]" />
+     <Entry alias="CFC-11 [PM/K]" label="CFC-11 [PMOL/KG]" />
+     <Entry alias="CFC-11 [PMOL.KG]" label="CFC-11 [PMOL/KG]" />
+     <Entry alias="CFC11 [PMOL/KG]" label="CFC-11 [PMOL/KG]" />
+     <Entry alias="CFC11 [PM/KG]" label="CFC-11 [PMOL/KG]" />
+     <Entry alias="CFC-12 [PM/KG]" label="CFC-12 [PMOL/KG]" />
+     <Entry alias="CFC-12 [PM/K]" label="CFC-12 [PMOL/KG]" />
+     <Entry alias="CFC12 [PMOL/KG]" label="CFC-12 [PMOL/KG]" />
+     <Entry alias="CFC12 [PM/KG]" label="CFC-12 [PMOL/KG]" />
+     <Entry alias="CFC-113 [PMOL/KG]" label="CFC113 [PMOL/KG]" />
+     <Entry alias="CFC113 [PMOOL/KG]" label="CFC113 [PMOL/KG]" />
+     <Entry alias="CHLA [UG/KG]" label="CHLORA [UG/KG]" />
+     <Entry alias="CHLOR_A [UG/KG]" label="CHLORA [UG/KG]" />
+     <Entry alias="CHLA [UG/L]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLOR_A [UG/L]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLORA [MG/M3]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLORA [MG/M**3]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLOROPHYLL [MG/M^3]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLORA [MG/M^3]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLORA [MG/CUM]" label="CHLORA [UG/L]" />
+     <Entry alias="CHLORA [UGM/L]" label="CHLORA [UG/L]" />
+     <Entry alias="CTDPRS [DBARS]" label="CTDPRS [DBAR]" />
+     <Entry alias="CTDPRS [DBA]" label="CTDPRS [DBAR]" />
+     <Entry alias="CTDPRS [DBR]" label="CTDPRS [DBAR]" />
+     <Entry alias="CTDOXG [UMOL/KG]" label="CTDOXY [UMOL/KG]" />
+     <Entry alias="CTDOXG" label="CTDOXY [UMOL/KG]" />
+     <Entry alias="CTDSAL [PSS78]" label="CTDSAL [PSS-78]" />
+     <Entry alias="CTDSAL [ISS78]" label="CTDSAL [PSS-78]" />
+     <Entry alias="CTDSAL [PSS-68]" label="CTDSAL [PSS-78]" />
+     <Entry alias="CTDSAL [PSU]" label="CTDSAL [PSS-78]" />
+     <Entry alias="CTDSAL" label="CTDSAL [PSS-78]" />
+     <Entry alias="CTDTMP [DEG]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [DEG_C]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [DEG C]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [DEGC]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [DEGREES C]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [ITS90]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [IPTS-90]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [ITST90]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [IT-90]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [IPTS-68]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [IPTS68]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [ITS-68]" label="CTDTMP [ITS-90]" />
+     <Entry alias="CTDTMP [IPTS-78]" label="CTDTMP [ITS-90]" />
+     <Entry alias="D15N_NO3" label="D15N_NO3 [/MILLE]" />
+     <Entry alias="C13 [/MILLE]" label="DELC13 [/MILLE]" />
+     <Entry alias="13C [/MILLE]" label="DELC13 [/MILLE]" />
+     <Entry alias="DELC13 [O/OO]" label="DELC13 [/MILLE]" />
+     <Entry alias="DELC13 [\\MILLE]" label="DELC13 [/MILLE]" />
+     <Entry alias="C14 [/MILLE]" label="DELC14 [/MILLE]" />
+     <Entry alias="14C [/MILLE]" label="DELC14 [/MILLE]" />
+     <Entry alias="DELC14 [O/OO]" label="DELC14 [/MILLE]" />
+     <Entry alias="DELC14 [\\MILLE]" label="DELC14 [/MILLE]" />
+     <Entry alias="DELHE3 [%]" label="DELHE3 [PERCNT]" />
+     <Entry alias="DELHE3 [PCTMOD]" label="DELHE3 [PERCNT]" />
+     <Entry alias="DELHER" label="DELHER [PERCNT]" />
+     <Entry alias="FCO220C [UATM]" label="FCO2 [UATM]" />
+     <Entry alias="FCO2IN [UATM]" label="FCO2 [UATM]" />
+     <Entry alias="FCO_TMP [DEG C]" label="FCO2TMP [DEG C]" />
+     <Entry alias="FCO2_TMP [DEG C]" label="FCO2TMP [DEG C]" />
+     <Entry alias="IRON [NMOL/L]" label="FE [NMOL/L]" />
+     <Entry alias="CTDFLUOR" label="FLUOR [MG/M^3]" />
+     <Entry alias="CTDFLUORO" label="FLUOR [MG/M^3]" />
+     <Entry alias="FLUOR [UG/L]" label="FLUOR [MG/M^3]" />
+     <Entry alias="HELIER" label="HELIER [NMOL/KG]" />
+     <Entry alias="MANG [NMOL/L]" label="MN [NMOL/L]" />
+     <Entry alias="MANGANESE [NMOL/L]" label="MN [NMOL/L]" />
+     <Entry alias="NEONE [NMOL/KG]" label="NEON [NMOL/KG]" />
+     <Entry alias="NEONER" label="NEONER [NMOL/KG]" />
+     <Entry alias="AMONIUM [UMOL/KG]" label="NH4 [UMOL/KG]" />
+     <Entry alias="AMONIO [UMOL/KG]" label="NH4 [UMOL/KG]" />
+     <Entry alias="AMMONIA [UMOL/KG]" label="NH4 [UMOL/KG]" />
+     <Entry alias="AMMONI [UMOL/KG]" label="NH4 [UMOL/KG]" />
+     <Entry alias="NO2+NO3 [UMOL/KG]" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NO3+NO2 [UMOL/KG]" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NO2+NO3" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NITRATE [UMOL/KG]" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NITRAT [MOL/KG U]" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NO3 [UMOL/KG]" label="NITRAT [UMOL/KG]" />
+     <Entry alias="NO3+NO3 [UMOL/L]" label="NITRAT [UMOL/L]" />
+     <Entry alias="NO2+NO3 [UMOL/L]" label="NITRAT [UMOL/L]" />
+     <Entry alias="NITRITE [UMOL/KG]" label="NITRIT [UMOL/KG]" />
+     <Entry alias="NO2 [UMOL/KG]" label="NITRIT [UMOL/KG]" />
+     <Entry alias="O16/O16 [MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="O16/O16 [/MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="O18O16 [/MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="O18O16 [MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="O18_O16 [/MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="O18/O16 [/MILLE]" label="DELO18 [/MILLE]" />
+     <Entry alias="DELO18 [O/OO]" label="DELO18 [/MILLE]" />
+     <Entry alias="PCO2 [PPM@EQ]" label="PCO2 [UATM]" />
+     <Entry alias="PCO2 [PPM]" label="PCO2 [UATM]" />
+     <Entry alias="PCO2_20 [UATM]" label="PCO2 [UATM@20]" />
+     <Entry alias="PCO2 [UATM@4C]" label="PCO2 [UATM@4]" />
+     <Entry alias="PCO_TMP [DEG C]" label="PCO2TMP [DEG C]" />
+     <Entry alias="PCO_T [DEG C]" label="PCO2TMP [DEG C]" />
+     <Entry alias="PCO2TMP [DEG_C]" label="PCO2TMP [DEG C]" />
+     <Entry alias="PCO2TMP [DEC C]" label="PCO2TMP [DEG C]" />
+     <Entry alias="PH [@25_DEG]" label="PH" />
+     <Entry alias="PH [25_DEG]" label="PH" />
+     <Entry alias="PO4 [UMOL/KG]" label="PHSPHT [UMOL/KG]" />
+     <Entry alias="PHSPHT" label="PHSPHT [UMOL/KG]" />
+     <Entry alias="PHTEMP [DEC C]" label="PHTEMP [DEG C]" />
+     <Entry alias="PHTEMP [DEG C]" label="PHTEMP [DEG C]" />
+     <Entry alias="PHTEMP [DEG_C]" label="PHTEMP [DEG C]" />
+     <Entry alias="PH_TEMP [DEGC]" label="PHTEMP [DEG C]" />
+     <Entry alias="PH_TMP [DEG C]" label="PHTEMP [DEG C]" />
+     <Entry alias="PH_TMP [ITS-90]" label="PHTEMP [DEG C]" />
+     <Entry alias="PH [SW]" label="PH_SWS" />
+     <Entry alias="REVPRS [DBR]" label="REVPRS [DBAR]" />
+     <Entry alias="REVPRS" label="REVPRS [DBAR]" />
+     <Entry alias="REVTMP" label="REVTMP [ITS-90]" />
+     <Entry alias="REVTMP [DEG C]" label="REVTMP [ITS-90]" />
+     <Entry alias="REVTMP [ITS90]" label="REVTMP [ITS-90]" />
+     <Entry alias="REVTMP [ITS-68]" label="REVTMP [ITS-90]" />
+     <Entry alias="REVTMP [DEGREES C]" label="REVTMP [ITS-90]" />
+     <Entry alias="SALNTY [PSU]" label="SALNTY [PSS-78]" />
+     <Entry alias="SALNTY [PSS78]" label="SALNTY [PSS-78]" />
+     <Entry alias="SALNTY [ISS78]" label="SALNTY [PSS-78]" />
+     <Entry alias="SALNTY" label="SALNTY [PSS-78]" />
+     <Entry alias="H4SIO4 [UMOL/KG]" label="SILCAT [UMOL/KG]" />
+     <Entry alias="SIO2 [UMOL/KG]" label="SILCAT [UMOL/KG]" />
+     <Entry alias="SIL [UMOL/KG]" label="SILCAT [UMOL/KG]" />
+     <Entry alias="TCO2 [UMOL/KG]" label="TCARBN [UMOL/KG]" />
+     <Entry alias="DIC [UMOL/KG]" label="TCARBN [UMOL/KG]" />
+     <Entry alias="THETA [DEG C]" label="THETA [degrees C]" />
+     <Entry alias="THETA [DEG_C]" label="THETA [degrees C]" />
+     <Entry alias="THETA [DEG-C]" label="THETA [degrees C]" />
+     <Entry alias="THETA [DEGC]" label="THETA [degrees C]" />
+     <Entry alias="THETA [DEG]" label="THETA [degrees C]" />
+     <Entry alias="THETA [IPTS-68]" label="THETA [degrees C]" />
+     <Entry alias="THETA [IPTS-90]" label="THETA [degrees C]" />
+     <Entry alias="THETA [ITS-90]" label="THETA [degrees C]" />
+     <Entry alias="TRITIUM [TU]" label="TRITUM [TU]" />
+     <Entry alias="H3 [TU]" label="TRITUM [TU]" />
+     <Entry alias="CTDTRANS" label="XMISS [%TRANS]" />
+     <Entry alias="GEOTRC_EVENTNO" label="GEOTR_EVENT" />
+     <Entry alias="GEOTRC_SAMPNO" label="GEOTR_SAMPNO" />
+   </VarLabelSubstitutions>
+ </Contents>
+ 

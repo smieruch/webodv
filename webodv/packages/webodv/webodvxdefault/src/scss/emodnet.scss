@@ -1,0 +1,74 @@
+/* emodnet.scss */    
+
+
+//this is original emodnet
+// $darkblue:#012E58;
+// $orange:#f8b334;
+// $emodnetblue:#0a71b4;
+// $darkgrey:#333333;
+
+// $theme-colors: (
+//     primary: $darkblue
+// );
+
+
+//this is geotraces
+$turkgrey:#c8f0f0;
+$turk:#94aab3;
+$darkblue:#012E58;
+$xgrey:#647878;
+$turkgrey2:#264755;
+$darkgrey:#647878;
+$lightgrey:#f2f2f2;
+
+$newturk:#c7dcdc;
+
+
+$theme-colors: (
+    primary: $xgrey
+);
+
+
+
+/* import the necessary Bootstrap files */
+@import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/bootstrap";
+
+// @import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/_variables";
+// @import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/_mixins";
+
+// // @import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/functions";
+// @import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/_buttons";
+
+/* ------- customize secondary buttons -------- */   
+
+.btn-outline-emodnet {
+    //this is the original emodnet
+    //@include button-outline-variant($darkblue, $orange, $darkblue, $orange);
+
+    //this is for geotraces
+    @include button-outline-variant($turk, $turkgrey2, $turk, $turk);
+    //@include button-variant($turk, $turkgrey2, $turkgrey2, $turk);
+}
+
+
+.btn-emodnet {
+    //this is the original emodnet
+    //@include button-outline-variant($darkblue, $orange, $darkblue, $orange);
+
+    //this is for geotraces
+    @include button-variant($turk, $turk, $turkgrey2, $turk);
+
+}
+
+.btn-emodnet-grey {
+    //@include button-variant($darkblue, $orange, $darkblue, $orange);
+    //                                  border     clicked border  hover border
+     @include button-variant($newturk, $lightgrey, $newturk, $lightgrey);
+     // @include button-variant($lightgrey, $lightgrey, $lightgrey, $darkgrey);
+}
+
+
+
+
+//@import "/home/smieruch/Docker/webODV/webodv/node_modules/bootstrap/scss/bootstrap";
+

@@ -1,0 +1,9 @@
+/db
+/webodv/node_modules
+/webodv/public/downloads
+/webodv/storage
+*~
+/ODV
+/settings
+/odv_software
+/ODV_Data

@@ -1,0 +1,1029 @@
+% GZT01: RiverNames.gzt
+% Monitoring Sites of the
+% Global River Discharge Database (RivDIS)
+% http://www-eosdis.ornl.gov
+% 
+% 
+% 
+%
+Feature;Type;No;East-Longitude;North-Latitude
+
+Djoua(Kibassi);site;1;15;4.22
+Wina(Lahore);site;1;13;7
+Niari(Safel);site;1;13.76;-3.95
+Dja(Somalomo);site;1;12.77;3.38
+Oubangui(Bangui);site;1;18.5;4.37
+Blue Nile(Lake Tana);site;1;37.45;11.51
+Blue Nile(Sudan border);site;1;35.14;11.15
+Sangha(Salo);site;1;16.12;3.18
+Niger(Niamey);site;1;2;13
+Ogooue(Lambarene);site;1;10.23;0.68
+Mono(Correkope);site;1;1.16;7.66
+Gorouol(Alcongui);site;1;0.6;14.75
+Nkam(Melong);site;1;10;5.12
+Wabi Shebele Wenz(Gode);site;1;43.7;5.86
+Goulbi de Maradi(Madarounfa);site;1;7.19;13.42
+G. Maradi(Madarounfa);site;1;7;19
+Wouri(Yabassi);site;1;9.96;4.45
+Sanaga(Edea);site;1;10.06;3.76
+Mbam(Goura);site;1;11.36;4.56
+Sanaga(Nachtigal);site;1;11.63;4.35
+Djerem(Mbakaou);site;1;12.81;6.33
+Benoue(Garoua);site;1;13.38;9.3
+Lobaye(M'Bata);site;1;18.3;3.66
+Chari(Ndjamona);site;1;15.03;12.11
+Chari(Sarh);site;1;18.41;9.15
+Tano(Alenda);site;1;357.25;5.11
+Pra(Daboasi);site;1;358.35;5.13
+Volta(Senchi);site;1;0.1;6.2
+N'Zo(Zienoa);site;1;355.21;6.42
+Comoe(Aniassue);site;1;356.32;6.65
+Tana(Garissa);site;1;39.7;-0.45
+Ikopa(Antsatrana);site;1;46.85;-17.41
+Mananara(Maroangaty);site;1;46.96;-22.93
+Mangoky(Bevoay);site;1;43.87;-21.83
+Senegal(Galougo);site;1;348.96;13.91
+Niger(Koulikoro);site;1;352.45;12.86
+Bani(Douna);site;1;354.05;13.18
+Niger(Mopti - Nantaka);site;1;355.8;14.5
+Niger(Dire);site;1;356.62;16.26
+Sebou(Azib Soltane);site;1;354.57;34.28
+Senegal(Bakel);site;1;347.55;14.9
+Kilombero(Swero);site;1;37;-8.2
+Nile(Dongola);site;1;30.48;19.18
+Beas(Mandi Plain);site;1;75.13;31.17
+Chenab(Akhnoor);site;1;74.75;32.9
+Narmada(Jamtara);site;1;79;23
+Johore(Rantau Panjang);site;1;103.73;1.77
+Ravi(Mukesar);site;1;75.23;32.45
+Klang(Kuala Lumpur);site;1;101.66;3.03
+Selengor(Rantau Panjang);site;1;101.43;3.4
+Langat(Dingkil);site;1;101.68;2.84
+Wainganga(Ashti);site;1;79.78;19.78
+Teesta(Anderson Br.);site;1;88.87;26.33
+Trengganu(Kampong Tanggol);site;1;103.3;5.13
+Bukit Timah Canal(0 km Bukit Timah Road);site;1;103.78;1.33
+Pahang(Temerloh);site;1;102.42;3.43
+Karun(Ahvaz);site;1;48.66;31.31
+Kor(Ahmadabad Drudzan);site;1;51.31;30.15
+Minab(Brantin);site;1;57.18;27.26
+Lar(Ploor);site;1;52;35
+Shafa-Rud(Poonel);site;1;49.11;37.53
+Limnitis(Saw Mill);site;1;32.72;35.08
+Sabarmati(Ahmedabad);site;1;72.63;23.08
+Babol(Babol);site;1;52;36
+Bhima(Takali);site;1;75.85;17.4
+Gorgan(Gonbad Kavous);site;1;55.13;37.23
+Godavari(Dhalegaon);site;1;76.37;19.2
+Periyar(Planchode);site;1;76.75;10.17
+Tungabhadra(Bawapuram);site;1;77.81;15.9
+Yarmuk(Maqarin);site;1;35.9;32.7
+Amguema(Mouth of the Brook Shumny);site;1;181.5;67.66
+Buyukmenderes(Soke);site;1;27.33;37.66
+Ilek(Aktubinsk);site;1;57.15;50.28
+Lobva(Lobva);site;1;60.26;59.13
+Karaturgay(Akutkul);site;1;64.2;49.91
+Zerafshan(Dupuli);site;1;67.76;39.38
+Arys(Arys);site;1;68.76;42.41
+Ozat(Anandpur);site;1;70.5;21.33
+Gunt(Khorog);site;1;71.51;37.53
+Nura(Sergiopolskoye);site;1;73.35;50.06
+Chu(Chapaevo (Tash-Utkul));site;1;73.9;43.41
+Bolshoy Yugan(Ugut);site;1;74.11;60.31
+Karatal(Ush-Tobe);site;1;77.85;45.26
+Kargat(Gavrilovsky);site;1;80;55.16
+Malwatu Oya(Kappachchi);site;1;80.26;8.6
+Tym(Napas);site;1;81.91;59.9
+Ulba(Ulba-Perevalochnaya);site;1;83.02;50.12
+Damodar(Rhondia);site;1;87.36;23.46
+Tuba(Bugurtak);site;1;92.76;53.76
+Iya(Tulun);site;1;100.88;54.67
+Perak(Iskandar Bridge);site;1;100.96;4.81
+Kelantan(Guillemard Bridge);site;1;102.15;5.76
+Khilok(Maleta);site;1;108.25;50.76
+Cho-Shui(Chi-chi);site;1;120.75;23.83
+Pampanga(Arayat, Pampanga);site;1;120.76;15.16
+Cagayan(Palattao, Naguilian, Isabela);site;1;121.43;17.5
+Cagayan(Isabela, Luson Island);site;1;121.68;16.6
+Amga(Buyaga);site;1;126.95;59.55
+Han(Indogyo);site;1;126.96;37.46
+Nag Dong(Sam Nang Jin);site;1;128.85;35.4
+Chikugo(Senoshita);site;1;130.48;33.31
+Ussuri(Kirovsky);site;1;133.65;45.01
+Yodo(Hirakata);site;1;135.63;34.8
+Shinano(Ojiya);site;1;138.8;37.3
+Tone(Kirihashi);site;1;139.7;36.13
+Ishikari(Ishikari - Ohashi);site;1;141.53;43.11
+Tym(Ado-Tymovo);site;1;142.71;51.26
+Nera(Ala-Chubuk);site;1;144.66;61.68
+Khasyn(Kolyma Rd., 79th km);site;1;151.3;64.18
+Sugoy(Omchikchan);site;1;156;62.6
+Loire(Blois);site;1;1.33;47.58
+Maritsa(Plovdiv);site;1;27.75;42.15
+Kem(Yushkozero);site;1;32;64.7
+Olfusa(Selfoss);site;1;338.99;63.93
+Thjorsa(Urridafoss);site;1;339.36;63.93
+Jokulsa(Dettifoss);site;1;343.59;65.83
+Lagarfljot(Lagarfoss);site;1;345.64;65.5
+Severn(Bewdley);site;1;357.69;52.36
+Trent(Colwick);site;1;358.94;53.94
+Jucar(Masia del Mompo);site;1;359.35;39.11
+Thames(Teddington);site;1;359.67;51.4
+Maas(Lith);site;1;5.45;51.81
+Rhone(Chancy);site;1;5.97;46.13
+Mosel(Cochem);site;1;7.16;50.15
+Main(Kleinheubach);site;1;9.23;49.71
+Adige(Boara Pisani);site;1;11.83;45.13
+Tiber(Rome);site;1;12.48;41.9
+Inn(Scharding);site;1;13.43;48.45
+Morava(Moravsky Jan);site;1;16.93;48.6
+Angermanalven(Solleften);site;1;17.26;63.16
+Sava(Sremska Mitrovica);site;1;19.61;44.96
+Drini(Kalimash);site;1;19.4;42.39
+Vjosa(Dorze);site;1;19.8;40.38
+Mures(Arad);site;1;21.31;46.16
+Lulealven(Boden Waterworks);site;1;21.61;65.83
+Somes(Satu Mare);site;1;22.88;47.78
+Iskur(Kunino);site;1;24;43.18
+Piarnu(Orekula);site;1;24.83;58.45
+Kola(1429th km of Octiabrsky Railway);site;1;33.05;68.88
+Olonka(Olonets);site;1;33.01;60.55
+Oka(Kostomarovo);site;1;36.03;53.08
+Protva(Spas - Zagorie);site;1;36.65;55.03
+Rioni(Sakochakidze);site;1;41.8;42.21
+Vaga(Filaievskaya);site;1;42.25;61.23
+Vorona(Chutanovka);site;1;42.71;52.61
+Kalaus(Svetlograd);site;1;42.78;45.23
+Unzha(Makariev);site;1;43.66;57.9
+Terek(Ordzhonikidze);site;1;44.6;43.06
+Vorotan(Uruk);site;1;46.15;39.48
+Kara-Samur(Luchek);site;1;47.15;41.73
+Malyy Uzen(Aleksashkino);site;1;47.81;50.91
+Vychegda(Malaya Kuzhba);site;1;53.73;61.66
+Toa(Aguacate);site;1;285.31;20.39
+Guantamo(Sta Sofia);site;1;284.67;20
+Sarapiqui(Cariblanco);site;1;276;10.25
+Salado(San Carlos);site;1;283.17;20.5
+Barranca(Nagatac);site;1;275.5;10
+Bayano(Calle Larga);site;1;282;9
+Chiriqui Viejo(Paso Canoa);site;1;277.16;8.54
+Chirigui(David);site;1;277.59;8.42
+Tabasara(Camaron);site;1;278.36;8.07
+Great River(Lethe);site;1;282.03;18.38
+San Cristobal(La Campana);site;1;276.95;22.73
+Viego(Santa Barbara);site;1;273.88;12.74
+Viego(La Lima);site;1;274.01;12.84
+Tamarindo(Tamarindo);site;1;273.3;12.23
+Villanueva(Villanueva en Puente);site;1;274;12
+Grande(Paiwas);site;1;274.88;12.78
+Brito(Miramar);site;1;274.05;11.38
+San Juan(El Castillo);site;1;275.58;11.02
+Santa Maria(San Francisco);site;1;279.03;8.23
+San Diego(Los Gavilanes);site;1;276.6;22.65
+Grande(Rio Grande);site;1;279.5;8.64
+Porcupine(Old Crow);site;1;220.17;67.56
+Yukon(Dawson);site;1;220.57;64.06
+Pelly(Pelly Crossing);site;1;223.42;62.83
+Yukon(Carmacks);site;1;223.74;62.1
+Stikine(Telegraph Creek);site;1;228.84;57.9
+Nass(Shumel Creek);site;1;230.92;55.25
+Mackenzie(Norman Wells);site;1;233.14;65.28
+Liard(Lower Crossing);site;1;233.9;59.41
+South Nahanni(Clausen Creek);site;1;235.97;61.25
+Liard(Fort Liard);site;1;236.6;60.25
+Fraser(Marguerite);site;1;237.55;52.53
+Fraser(Hope);site;1;238.55;49.38
+Thompson(Spences Bridge);site;1;238.65;50.35
+Columbia((On Columbia));site;1;242.29;49.18
+Columbia(International Boundary);site;1;242.37;48.92
+Mackenzie(Fort Providence);site;1;242.47;61.26
+Peace(Peace River);site;1;242.69;56.25
+Kootenayi(Copeland);site;1;243.59;48.91
+Peace(Peace Point);site;1;247.57;59.11
+Slave(Fitzgerald);site;1;248.42;59.86
+Athabasca(McMurray);site;1;248.6;56.78
+South Saskatchewan(Medicine Hat);site;1;249.32;50.05
+South Saskatchewan(Saskatoon);site;1;253.34;52.11
+North Saskatchewan(Prince Albert);site;1;254.24;53.2
+Thelon(Beverly Lake);site;1;258.64;64.53
+Saskatchewan(Pas);site;1;258.82;53.83
+Churchill(Granville Falls);site;1;259.55;56.15
+Assiniboine(Brandon);site;1;260.07;49.85
+Souris(Wawanesa);site;1;260.32;49.6
+Nelson(Bladder Rapids);site;1;262.07;54.76
+Assiniboine(Headingley);site;1;262.6;49.86
+Red(Emerson);site;1;262.79;49
+Back(Deep Rose Lake);site;1;263.5;66.08
+Kazan(Kazan Falls);site;1;264.24;63.66
+Winnipeg(Slave Falls);site;1;264.44;50.23
+Severn(Muskrat Dam);site;1;268.5;53.46
+Winisk(Asheweig River Tributary);site;1;272.77;54.51
+Attawapiskat(Attawapiskat Lake);site;1;276.14;52.08
+St. Marys(Sault Ste Marie);site;1;275.64;46.51
+Albany(Hat Island);site;1;276.14;51.33
+Moose(Moose River Crossing);site;1;278.7;50.81
+Niagara(Queenston);site;1;280.95;43.15
+Ottawa(La Cave Rapids);site;1;281.29;46.36
+Grande Riviere(l'Achazi);site;1;281.44;53.73
+Eastmain(Gorge de Basile);site;1;281.92;52.25
+Grande Riviere De La Baleine((On Grande Riviere));site;1;282.42;55.28
+Nottaway(Soscumica);site;1;282.57;50.13
+Rupert(Nemiscau);site;1;283.12;52.45
+Ottawa(Chats Falls);site;1;283.77;45.46
+St. Lawrence(Cornwall);site;1;285.22;45
+Grande Riviere(De Pontois);site;1;285.47;53.63
+Peribonca(Centrale de Chute a la Savanne);site;1;288.17;48.75
+Saguenay(Centrale d'Isle-Maligne);site;1;288.37;48.58
+Aux Feuilles(Peladeau);site;1;289.59;58.65
+Aux Melezes(Koksoak);site;1;290.42;57.68
+Caniapiscau(Chute de la Pyrite);site;1;290.75;57.43
+Aux Outardes(Centrale de Chute-aux-Outardes);site;1;291.6;49.15
+Manicouagan(Centrale McCormick);site;1;291.67;49.2
+A La Baleine(40.2 km de l'embouchure);site;1;292.42;57.88
+St. John(Pokiok);site;1;292.77;45.96
+Moisie(QNSLR);site;1;293.82;50.35
+George(Chutes Helene);site;1;294.04;58.15
+Natashquan(l'embouchure);site;1;298.4;50.2
+Churchill(Upper Muskrat Falls);site;1;299.25;53.26
+Du Petit-Mecatina(Netagamiou);site;1;300.4;50.7
+Grande de Tarcoles(Balsa);site;1;275.54;9.93
+Reventazon(Angosture);site;1;276.35;9.9
+Grande de Terraba(Palmar);site;1;276.54;8.95
+La Rioja(Moscones);site;1;283.34;20.56
+Lempa(San Marcos);site;1;271.3;13.43
+Grande de San Miguel(Vado Marin);site;1;271.72;13.3
+Santiago(El Capomal);site;1;254.89;21.82
+Panuco(Las Adjuntas);site;1;261.44;21.98
+Usumacinta(Boca del Cerro);site;1;268.52;17.43
+Yukon(Kaltag, Alaska);site;1;201.29;64.33
+Kuskokwim(Crooked Creek, Alaska);site;1;201.89;61.86
+Copper(Chitina, Alaska);site;1;215.55;61.46
+Eel(Scotia, California);site;1;235.9;40.5
+Rogue(Agness, Oregon);site;1;235.94;42.58
+Klamath(Klamath, California);site;1;236.04;41.51
+Umpqua(Elkton, Oregon);site;1;236.44;43.58
+Chehalis(Porter, Washington);site;1;236.69;46.93
+Willamette(Salem, Oregon);site;1;236.97;44.95
+Cowlitz(Castle Rock, Washington);site;1;237.09;46.26
+Sacramento(Sacramento, California);site;1;238.5;38.58
+San Joaquin(Vernalis, California);site;1;238.74;37.68
+Columbia(The Dalles, Oregon);site;1;238.82;45.6
+Humboldt(Imlay, Nevada);site;1;241.8;40.7
+Snake(Clarkstone, Washington);site;1;242.84;46.43
+Pend Oreille(Newport, Washington);site;1;242.97;48.18
+Colorado(Limite Internacional Norte);site;1;245.37;32.73
+Sevier(Juab, Utah);site;1;247.97;39.36
+Colorado(Lees Ferry, Arizona);site;1;248.42;36.86
+Green(Green River, Utah);site;1;249.85;38.98
+Missouri(Culbertson, Montana);site;1;255.54;48.11
+Yellowstone(Sidney, Montana);site;1;255.84;47.61
+Pecos(Langtry, Texas);site;1;258.62;29.83
+Rio Grande(Laredo, Texas);site;1;260.5;27.5
+Nueces(Mathis, Texas);site;1;262.14;28.03
+Missouri(Yankton, South Dakota);site;1;262.6;42.86
+Red of the North(Grand Forks, N.D.);site;1;262.92;47.93
+Platte(Louisville, Nebraska);site;1;263.7;41.03
+Colorado(Wharton, Texas);site;1;263.9;29.3
+Arkansas(Tulsa, Oklahoma);site;1;264;36.15
+Missouri(Nebraska City, Nebraska);site;1;264.17;40.66
+Brazos(Richmond, Texas);site;1;264.25;29.58
+Canadian(Whitefield, Oklahoma);site;1;264.77;35.26
+Kansas(Desoto, Kansas);site;1;265.12;38.9
+Trinity(Romayor, Texas);site;1;265.15;30.43
+Neches(Evedale, Texas);site;1;265.9;30.35
+Sabine(Ruliff, Texas);site;1;266.25;30.3
+Red(Alexandria, Louisiana);site;1;267.55;31.31
+Arkansas(Little Rock, Arkansas);site;1;267.74;34.75
+Ouachita(Monroe, Louisiana);site;1;267.87;32.5
+Mississippi(Tarbert Landing, Missisippi);site;1;268.39;31
+White(Devalls Bluff, Arkansas);site;1;268.55;34.78
+Missouri(Hermann, Missouri);site;1;268.57;38.71
+Mississippi(Vicksburg, Missisippi);site;1;269.1;32.31
+Mississippi(Clinton, Iowa);site;1;269.75;41.78
+Mississippi(Alton, Illinois);site;1;269.84;38.88
+Pearl(Bogalusia, Lousiana);site;1;270.19;30.8
+Pascagoula(Merrill, Missisippi);site;1;271.27;30.98
+Ohio(Metropolis, Illinois);site;1;271.27;37.15
+Cumberland(Grand Riber, Kentucky);site;1;271.6;37.15
+Tennessee(Paducah, Kentucky);site;1;271.72;37.01
+Fox(Wrightstown, Wis.);site;1;271.8;44.31
+Wabash(Mt Carmel, Illinois);site;1;272.25;38.4
+Alabama(Claiborne, Alabama);site;1;272.49;31.53
+Escambia(Century, Florida);site;1;272.77;30.95
+Grand(Grand Rapids, Mich.);site;1;274.32;42.96
+Apalachicola(Chattahoochee, Florida);site;1;275.14;30.7
+Ohio(Louisville, Kentucky);site;1;274.22;38.28
+Maumee(Waterville, Ohio);site;1;276.29;41.5
+Suwannee(Brandford, Florida);site;1;277.07;29.95
+Altamaha(Doctortown, Georgia);site;1;278.18;31.65
+St. Johns(Deland, Florida);site;1;278.62;29.01
+Savannah(Clyd, Georgia);site;1;278.74;32.53
+Santee(Pineville, South Carolina);site;1;279.85;33.45
+Pee Dee(Pee Dee, South Carolina);site;1;280.45;34.2
+Cape Fear(Lillington, North Carolina);site;1;281.19;35.4
+Roanoke(Roanoke Rapids, N.C.);site;1;282.37;36.46
+James(Richmond, Virginia);site;1;282.45;37.56
+Potomac(Washington, D.C.);site;1;282.85;38.96
+Susquehanna(Harrisburg, Pennsylvania);site;1;283.14;40.25
+St. Lawrence(Massena, New York);site;1;284.5;44.7
+Delaware(Trenton, New Jersey);site;1;285.22;40.21
+Connecticut(Thompsonville, Connecticut);site;1;287.4;41.98
+Merrimack(Lowell, Massachussets);site;1;288.7;42.65
+Androscoggin(Auburn, Maine);site;1;289.79;44.06
+Kennebec(Bingham, Maine);site;1;290.12;45.05
+Penobscot(West Enfield, Maine);site;1;291.35;45.23
+Fitzroy(The Gap);site;1;150.1;-23.1
+Murray(Lock 9 Upper);site;1;141.6;-34.19
+Burdekin(Clare);site;1;147.23;-19.76
+Daly(Mount Nancar);site;1;130.73;-13.83
+Clutha(Balclutha);site;1;169.73;-46.23
+Fitzroy(Dimond Gorge);site;1;126.01;-17.68
+Ord(Coolibah Pocket);site;1;128.67;-15.63
+Waiau(L. Manapouri Outlet);site;1;167.6;-45.56
+Cleddau(Milford);site;1;167.93;-44.68
+Clutha(Clyde);site;1;169.35;-45.21
+Jollie(Mt. Cook Station);site;1;170.16;-43.85
+Waitaki(Kurow);site;1;170.43;-44.68
+Buller(Te Kuha);site;1;171.7;-41.83
+Selwyn(Whitecliffs);site;1;171.9;-43.46
+Moutere(Old House Rd.);site;1;173;-41.23
+Manganui(Tarkiki Road);site;1;174.26;-39.23
+Hutt(Kaitoke);site;1;175.2;-41.05
+Waikato(Taupo Outlet);site;1;176.06;-38.7
+Omakere(Fordale);site;1;176.73;-40.01
+Maipo(Cabimbao);site;1;288.47;-33.78
+Limari(Panamericana);site;1;288.47;-30.66
+Rapel(Corneche);site;1;288.42;-33.98
+Baker(Colonia);site;1;287.15;-47.35
+Magdalena(Pto Berrio);site;1;285.62;6.5
+Chimehuin(Huechhulafquen);site;1;289;-39
+Calera(A.j.Amarillo);site;1;280.34;3.66
+Biobio(Desembocadura);site;1;286.92;-36.83
+Cauca(La Salvajina);site;1;283.43;3.07
+Paraguay(Asuncion);site;1;302.73;-24.89
+Jubones(D.j.San Francisco);site;1;280.5;3.33
+Quljos(D.J. Oyacachi);site;1;282.22;-0.32
+Toachi(A.j.Pilaton);site;1;281.17;0.33
+Uruguay(Concordia);site;1;301.96;-31.95
+Salado(H.C.Casanas);site;1;299.05;-30.87
+Pastaza(Banos);site;1;281.6;-1.38
+Quevedo(Quevedo);site;1;280.67;-0.01
+Mira(D.J.Lita);site;1;281.67;0.83
+Ambi(D.j.Cariyacu);site;1;281.84;0.33
+Granobles(A.j.Guachalo);site;1;281.84;0
+Vinces(Vinces);site;1;280.25;-1.53
+Zapotal(Lechugal);site;1;280.6;-1.4
+Esmeraldas(D. J. Sade);site;1;280.6;0.51
+Chimbo(Bucay);site;1;280.87;-1.16
+Limay(P. Flores);site;1;289.57;-40.53
+Bocono(Pena Larga);site;1;289.95;8.9
+Tocuyo(Pte. Torres);site;1;290.1;10.2
+Colorado(Buta Ranquil);site;1;290.27;-37.1
+Neuquen(Paso Indios);site;1;290.59;-38.53
+San Juan(La Puntilla);site;1;291.37;-31.51
+Apure(San Fernando);site;1;292.57;7.9
+Tuy(El Vigia);site;1;293.37;10.23
+Colorado(Pichi Mahuida);site;1;295.17;-38.83
+Juramento(Miraflores);site;1;295.17;-25.36
+Dulce(El Sauce);site;1;295.5;-27.58
+Tercero(Embalse);site;1;295.62;-32.16
+Pasaje(Miraflores);site;1;295.64;-25.26
+Bermejo(Z. del Tigre);site;1;295.79;-23.1
+Orinoco(Cdad. Bolivar);site;1;296.65;8.15
+Madeira(Porto Velho);site;1;296.09;-8.76
+Salado(El Arenal);site;1;296.25;-26.21
+Negro(P. Angostura);site;1;296.34;-40.43
+Essequibo(Plantain Island);site;1;301.42;5.85
+Paraguay(Fecho dos Morros);site;1;302.08;-21.42
+Uruguay(Salto);site;1;302.07;-31.36
+Negro(Palmar);site;1;302.82;-33.12
+Parana(Posadas);site;1;304.12;-27.36
+Amazonas(Obidos);site;1;304.45;-1.91
+Parana(Guaira);site;1;305.74;-24.06
+Iguacu(Salto Osorio);site;1;306.95;-25.55
+Paraiba do Sul(Campos);site;1;318.67;-21.75
+Sao Francisco(Juazeiro);site;1;319.5;-9.41
+Jequitinhonha(Jacintop);site;1;319.72;-16.13
+Purari(Wabo);site;1;145.05;-6.99
+Tauri(Hells Gate);site;1;146.11;-7.81
+Teesta(Kaunia);site;1;89.5;25.7
+Mina(Oued El-Abtal);site;1;0.68;35.49
+Cheliff(Sidi Belatar);site;1;0.26;36.02
+Rhiou(Ammi Moussa);site;1;1.12;35.87
+Mazafran(Fer a Cheval);site;1;2.81;36.66
+Boudouaou(Keddara);site;1;3.41;36.65
+Isser(Lakhdaria);site;1;3.58;36.61
+Sebaou(Baghilia);site;1;3.86;36.8
+Bouselam(Sidi Yahia);site;1;4.45;36.46
+Rhumel(Oued Athmania);site;1;6.29;36.23
+Melah(Bouchegouf);site;1;7.71;36.27
+Merguellil(Haffouz);site;1;9.66;35.63
+Mejerda(Sloughia);site;1;9.51;36.58
+Ebro(Tortosa);site;1;0.51;40.82
+Garonne(Mas d'Agenais);site;1;0.24;44.42
+Loire(Montjean);site;1;359.2;47.38
+Loire(Gien);site;1;2.58;47.68
+Seine(Paris);site;1;2.25;48.83
+Rhone(Beaucaire);site;1;4.67;43.92
+Rhone(Givors);site;1;4.83;45.75
+Rhine(Basel (St. Alban));site;1;7.58;47.56
+Po(Piacenza);site;1;9.73;45.08
+Dee(Woodend);site;1;357.4;57.05
+Rhine(Rees);site;1;6.4;51.76
+Skjern(Alergard);site;1;8.7;55.95
+Weser(Intschede);site;1;9.13;52.96
+Gudena(Astedbro);site;1;9.6;55.9
+Noun(Bafoussam);site;1;10.5;5.5
+Po(Buretto);site;1;10.39;44.96
+Po(Pontelagoscuro);site;1;11.52;44.93
+Danube(Hofkirchen);site;1;13.12;48.67
+Danube(Bratislava);site;1;17.1;48.12
+Drava(Donji Miholjac);site;1;18.2;45.78
+Danube(Bezdan);site;1;18.85;45.85
+Danube(Nagymaros);site;1;18.95;47.78
+Erzen(Ndroq);site;1;19.65;41.27
+Elbe(Wittenberge);site;1;11.75;52.99
+Glomma(Solbergfoss);site;1;11.12;59.6
+Tryggevalde(Lille Linde);site;1;12.2;55.34
+Vannern - Gota(Vanersborg);site;1;12.32;58.38
+Odra(Gozdowice);site;1;14.32;52.76
+Wisla(Tczew);site;1;18.8;54.09
+Danube(Ceatal Izmail);site;1;28.8;45.18
+Devolli(Kokel);site;1;20.19;41.19
+Drini i Zi(Ura e Dodes);site;1;20.34;41.9
+Tisza(Szeged);site;1;20.17;46.25
+Velika Morava(Ljubicevski Most);site;1;21.12;44.39
+Tisza(Polgar);site;1;21.12;47.86
+Struma(Krupnik);site;1;22.7;42.38
+Danube(Drobeta-Turnu Severin);site;1;22.42;44.7
+Struma(Razdavitza);site;1;23.15;41.83
+Maritsa(Harmanli);site;1;25.93;41.92
+Kamtehiya(Gzozdevo);site;1;27.81;43.02
+Dnestr(Bendery);site;1;29.68;46.8
+Wisla(Warsaw);site;1;21.03;52.25
+Bug(Wyszkow);site;1;21.45;52.58
+Neman(Smalininkai);site;1;22.52;55.01
+Western Dvina(Daugavpils);site;1;26.68;55.88
+Kemi(Taivalkoski);site;1;24.7;65.95
+Kymijoki(Pernoo);site;1;26.75;60.8
+Vuoksi(Imatra);site;1;28.77;61.15
+Muzizi(Hoima / Fort Portal Rd (Muzizi));site;1;30.73;0.86
+Nkusi(Hoima / Fort Portal Rd (Nkussi));site;1;31;1.13
+Lake Victoria(Oyean Res. (Owen Falls));site;1;33.11;0.46
+Victoria Nile(Mbulamuti);site;1;33.03;0.81
+Manafwa(Bulucheke / Butaleja);site;1;34.35;1
+Baro(Gambella);site;1;34.58;8.25
+Ghibe(Abelti);site;1;37.53;7.87
+Genale(Chenemassa);site;1;39.68;5.51
+Wabi Shebele Wenz(Dodolla Bridge);site;1;39.03;7.01
+Blue Nile (Abbay River)(Kessie);site;1;38.18;11.15
+Tekeze(Embamadre);site;1;38.2;13.73
+Jordan(Obstacle Bridge);site;1;35.63;33.33
+Ceyhan(Misis);site;1;35.63;36.95
+Barada(Hameh);site;1;36.23;33.53
+Assi(Qussair);site;1;36.53;34.5
+Assi(Jisr Echigour);site;1;36.35;35.76
+Euphrates(Youssef Pacha);site;1;38.18;36.36
+Euphrates (Firat)(Keban);site;1;38.77;38.82
+Sakarya(Botbasi);site;1;30.51;40.96
+Southern Bug(Aleksandrovka);site;1;31.18;47.72
+Kizil(Inozu);site;1;35.55;41.29
+Dnieper(Dnieper Hydroelectric Plant);site;1;35.15;47.92
+Kuban(Tikhovsky);site;1;38.32;45.15
+Neva(Novosaratovka);site;1;30.72;59.8
+Desna(Chernigov);site;1;31.37;51.45
+Onega(Porog);site;1;38.27;63.82
+Awash(Awash);site;1;40.15;9.33
+Euphrates(Hit D.S.);site;1;42.72;33.83
+Tigris(Mosul);site;1;43.15;36.32
+Tigris(Baghdad);site;1;44.38;33.3
+Ghezalozan(Gilvan);site;1;49.16;36.76
+Don(Razdorskaya);site;1;40.67;47.5
+Medveditsa(Archedinskaya);site;1;43.17;49.82
+Volga(Volgograd Hydroelectric Plant);site;1;44.72;48.76
+Kura(Surra);site;1;48.67;40.12
+Viatka(Kirov);site;1;49.55;58.65
+Northern Dvina(Ust - Pinega);site;1;42.17;64.1
+Mezen(Malonisogorskaya);site;1;45.67;64.95
+Karun(Pol-e-Shale);site;1;50.1;31.85
+Ural(Kushum);site;1;51.28;50.85
+Belaya(Birsk);site;1;55.55;55.37
+Petchora(Ust - Tsilma);site;1;52.25;65.47
+Usa(Adzva);site;1;59.1;66.65
+Indus(Kotri);site;1;68.35;25.35
+Syr-Darya(Tyumen-Aryk);site;1;67.05;44.05
+Ishim(Petropavlovsk);site;1;69.12;54.97
+Northern Sosva(Sosvinskaya Kultbaza);site;1;61.88;63.67
+Ob(Salekhard);site;1;66.53;66.57
+Krishna(Alamatti);site;1;75.55;16.33
+Cauvery(Krisnarajasagar);site;1;76.58;12.42
+Hagari(Ramapuram);site;1;76.97;15.63
+Vaigai(Peranai);site;1;77.8;10.1
+Krishna(Deosugur);site;1;76.82;16.35
+Ponnaiyar(Tirukoilur Anicut);site;1;79.26;12.98
+Penner(Nellore);site;1;79.98;14.65
+Chenab(Panjnad);site;1;71.3;29.35
+Tapti(Kathore);site;1;72.95;21.28
+Narmada(Garudeshwar);site;1;73.65;21.92
+Mahi(Sevalia);site;1;73.03;22.3
+Indus(Attock);site;1;72.25;33.9
+Jhelum(Munshibagh);site;1;73.93;34.08
+Pur(Samburg);site;1;78.15;67.08
+Kalu Ganga(Putupaula);site;1;80.06;6.61
+Kelani Ganga(Hanwella);site;1;80.06;6.91
+Mahaweli Ganga(Peradeniya);site;1;80.62;7.28
+Krishna(Vijayawada);site;1;80.62;16.52
+Indravati(Parthagudem);site;1;80.35;18.82
+Godavari(Polavaram);site;1;81.78;16.92
+Kolab(Kotta);site;1;82.52;18.78
+Mahanadi(Kaimundi);site;1;83.67;20.42
+Brahmani(Barkot Br.);site;1;85;21
+Subarnarekha(Kokpara);site;1;85;23
+Ganga(Farakka);site;1;87.92;24.83
+Ganges(Paksay);site;1;89.03;24.08
+Brahmaputra(Bahadurabad);site;1;89.66;25.18
+North Saskatchewan(Lea Park);site;1;252.47;52.36
+Tom(Tomsk);site;1;84.87;56.58
+Yenisey(Igarka);site;1;86.5;67.48
+Manas(Mathanguri);site;1;90.84;26.41
+Brahmaputra(Panda);site;1;91.7;26.13
+Jai Bhoreili(N.T. Road Crossing);site;1;92.89;26.93
+Kobdo(Ulgi);site;1;89.95;48.98
+Podkamennaya Tungunska(Kuzmovka);site;1;92.02;62.22
+Chao Phraya(Nakhon - Sawan);site;1;100.11;15.67
+Chi(Yasothon);site;1;104.14;15.78
+Mun(Ubon Ratchathani);site;1;104.86;15.22
+Mekong(Chiang Saen);site;1;100.09;20.27
+Delgermuren(Muren);site;1;100.13;49.58
+Selenge(Chutic);site;1;102.83;49.36
+Orkhon(Orkhon);site;1;103.56;48.65
+Tola(Ulan-Bator);site;1;106.91;47.9
+Kirenga(Shorokhovo);site;1;108.07;57.67
+Xi Jiang(Wuzhou 3);site;1;111.3;23.48
+Bei Jiang(Hengshi);site;1;113.26;23.85
+Dong Jiang(Boluo);site;1;114.3;23.16
+Huang He(Sanmenxia);site;1;111.36;34.81
+Chang Jiang(Hankou);site;1;114.28;30.58
+Chang Jiang(Datong);site;1;117.61;30.76
+Huai He(Bengbu);site;1;117.38;32.93
+Kerulen(Undurkham);site;1;110.66;47.31
+Vitim(Bodaibo);site;1;114.25;57.9
+Markha(Malykai);site;1;117.05;63.43
+Anabar(Saskylakh);site;1;113.95;71.98
+Hilabangan(Pangsud, Kabonkalan, Negros Occ.);site;1;122.88;9.99
+Marbel(Marbel 8, Koronadal, Cotabato);site;1;124.66;6.46
+Andanan(Bayugan I, Agusan);site;1;125.85;8.78
+Jalaur(Calyan, Pototan, Iloilo);site;1;122.66;10.93
+Bicol(Sto Domingo, Nabua, Cam. Sur);site;1;123.32;13.4
+Taedong(Mirim);site;1;125.78;39.01
+Yeong San(Na Ju);site;1;126.23;35.01
+Geum(Gyu Am);site;1;126.9;36.26
+Namgang(Samdung);site;1;126.18;38.98
+Taedong(Dokchon);site;1;126.3;39.75
+Seom Jin(Sing Jeung);site;1;127.56;35.18
+Han(Yeo Ju);site;1;127.65;37.3
+Nag Dong(Wae Gwan);site;1;128.4;36.1
+Nag Dong(Jin Dong);site;1;128.5;35.19
+Songhua Jiang(Haerbin);site;1;126.58;45.76
+Amnokgang(Kumchang);site;1;127.13;41.53
+Sodusu(Yenam);site;1;128.83;41.73
+Lena(Kusur);site;1;127.41;70.89
+Amur(Komsomolsk);site;1;137.12;50.63
+Yana(Dzhangky);site;1;135.33;69.67
+Indigirka(Vorontsovo);site;1;147.35;69.58
+Kolyma(Srednekolymsk);site;1;153.67;67.37
+Kamchatka(Kluchi);site;1;161.05;56.63
+Penzhina(Kamenskoe);site;1;166.03;62.42
+Niari(Kayes);site;1;13.3;-4.16
+Nyanga(Donguila);site;1;11.96;-2.86
+Kouilou(Sounda);site;1;12.06;-4.1
+Loudima(IFAC);site;1;13.06;-4.13
+Foulakary(Kimpanzou);site;1;14.93;-4.6
+Nkeni(Gamboma);site;1;15.85;-1.9
+Congo(Brazzaville);site;1;15.31;-4.26
+Sangha(Ouesso);site;1;16.05;1.61
+Kafue(Wusakili);site;1;28.25;-12.88
+Rwizi(Mbarara Water Supply);site;1;30.65;-0.61
+Ord(Ord River Homestead);site;1;128.85;-17.38
+Tontouna(Mine Liliane);site;1;166.28;-21.95
+Parana(Corrientes);site;1;301.15;-27.46
+Santa Isabel(Locotal);site;1;293.98;-17.04
+Beni(Angosto del Bala);site;1;292.45;-14.55
+Tamampaya(Villa Barrientos);site;1;292.75;-16.32
+Desaguadero(Ulloma);site;1;291.55;-17.4
+Salado(Achupallas);site;1;299.89;-35.08
+Ayensu(Winneba);site;1;359.4;5.38
+Ankobra(Prestea);site;1;357.89;5.27
+Diani(Bac);site;1;350.94;8.05
+Mile(Kankan);site;1;350.66;10.36
+Isser(Bensekrane);site;1;358.78;35.07
+Tafna(Pierre du Chat);site;1;358.56;35.14
+Guadalquivir(Alcala del Rio);site;1;354.02;37.52
+Guadiana(Pulo do Lobo);site;1;352.37;37.8
+Cobres(M. da Ponte);site;1;352.15;37.83
+Tejo(V.V. de Rodao);site;1;352.33;39.66
+Odelouca(M. dos Pachecos);site;1;351.6;37.22
+Sado(M. Da Gamitinha);site;1;351.6;38.05
+Tejo(Almourol);site;1;351.63;39.45
+Ebro(Zaragoza);site;1;359.1;41.67
+Paiva(Castro daire);site;1;352.08;40.88
+Duero(Villachica);site;1;354.52;41.5
+Douro(Regua);site;1;352.32;41.15
+Vouga(Pedre Ribeiradio);site;1;351.72;40.75
+Mondego(Coimbra);site;1;351.58;40.2
+Tamega(Ponte de Canavezes);site;1;351.85;41.18
+Minho(Foz do Mouro);site;1;351.4;42.07
+Liffey(Leixlip);site;1;353.43;53.32
+Boyne(Slane Castle);site;1;353.43;53.7
+Blackwater(Ballyduff);site;1;351.95;52.15
+Shannon(Killaloe);site;1;351.57;52.8
+Enne(Ballyshannon);site;1;351.8;54.5
+Corrib(Galway);site;1;350.91;53.27
+Moy(Ballina);site;1;350.85;54.1
+Makona(Nongoa);site;1;349.67;8.5
+Moa(Moa Bridge);site;1;348.84;7.81
+Bundoya(Palima);site;1;348.54;8.18
+Sewa(Jaiama Sawafe);site;1;348.74;8.56
+Seli(Bumbuna);site;1;348.25;9.03
+Gambia(Kedougou);site;1;347.82;12.55
+Gambia(Mako);site;1;347.64;12.81
+Diarha(Diarha - Pont Routier);site;1;347.24;12.61
+Niokolo-Koba(Niokolo-Koba - Pont Routier);site;1;347.27;13.06
+Faleme(Kidira);site;1;347.79;14.78
+Konkoure(Pt Telimele);site;1;347.05;10.86
+Gambia(Simenti);site;1;346.7;13.03
+Gambia(Wassadou-Amout);site;1;346.64;13.35
+Niaoule(Niaoule Tanou);site;1;346.32;13.48
+Casamance(Kolda);site;1;345.07;12.88
+Grande Riviere(Goyaves);site;1;299;16
+Saint John(Mactaquac);site;1;293.17;45.96
+Patia(Pte Pusmeo);site;1;282.39;1.7
+Yaque del Sur(El Puente);site;1;288.94;18.68
+Nizaito(Villa Nizao);site;1;288.82;18.02
+Yaque del Norte(Palo Verde);site;1;288.93;19.75
+Artibonite(Pedro Santana);site;1;288.32;19.1
+Magdalena(Calamar);site;1;285.09;10.26
+Rio Grande(Fellowship);site;1;282.52;17.99
+Rio Cobre(Spanish Town);site;1;282.95;18.05
+Hudson(Green Island, N.Y.);site;1;286.32;42.75
+Arnaud(Hamelin);site;1;288.1;59.99
+Grande Riviere(Baleine);site;1;287;54
+La Villa(Atalayita);site;1;279.46;7.87
+San Pablo(Interamericana);site;1;278.75;8.2
+Mico(Muelle de los Bueyes);site;1;275.46;12.07
+Grande(Copalar);site;1;275.1;12.9
+Grande(San Pedro del Norte);site;1;275.28;13.05
+Tuma(Masapa);site;1;274.48;13.1
+Coco(Corriente Lira);site;1;274.16;13.54
+Las Conchas(Grande de San Miguel);site;1;271.61;13.29
+Damuji(Rodas);site;1;279.46;22.36
+Colorado(Yuma, Arizona);site;1;245.35;32.66
+Severn(Limestone Rapids);site;1;271.68;55.38
+Paz(La Hacahdura);site;1;269.9;13.74
+Candelaria(Candelaria);site;1;268.93;18.18
+Suchiate(Suchiate II);site;1;267.81;14.68
+Grijalva(Reforma);site;1;266.77;16.35
+Rompido de Samaria(Samaria);site;1;266.71;17.97
+Cortzacoalcos(Las Perlas);site;1;265.13;17.63
+Tehuantepec(Las Cueuas II);site;1;264.66;16.43
+Papaloapan(Papaloapan);site;1;263.92;18.17
+La Antiqua(Cardel);site;1;263.63;19.36
+Bobos(Martinez de la Torre);site;1;262.6;20.7
+Tecolutla(Remolino);site;1;262.75;20.4
+Verde(Paso de la Reyna);site;1;262.41;16.3
+Santa Catalina(Las Juntas);site;1;261.73;16.7
+Papagayo(La Parota);site;1;260.36;16.93
+Cazones(Poza Rica);site;1;262.52;20.55
+Tuxpan(Alamo);site;1;262.33;20.94
+Bravo(Matamoros);site;1;262.48;25.9
+Gods River(Gods Lake);site;1;265.92;54.84
+Coahuayana(Callejones);site;1;256.37;18.8
+Conchos(Ojinaga);site;1;255.55;29.57
+Ameca(Las Gaviotas);site;1;254.86;20.93
+W Acaponeta(Acaponeta);site;1;254.65;22.48
+Piaxtla(Ixpalino);site;1;253.41;23.95
+San Lorenzo(Santa Cruz);site;1;253.05;24.48
+Humaya(Palos Blancos);site;1;252.62;24.9
+Sinaloa(Jaina);site;1;251.99;25.9
+Fuerte(San Miguel Zapotitlan);site;1;250.95;25.95
+Yaqui(El Novillo);site;1;250.36;28.94
+North Saskatchewan(Deer Creek);site;1;250.39;53.51
+Agno(Carmen, Rosales, Pangasinan);site;1;120.58;15.88
+Agusan(Infanta, Quezon);site;1;121;14
+Skeena(Usk);site;1;231.58;54.57
+Victoria(Coolibah Homestead);site;1;130.96;-15.55
+Coppename(Maksita);site;1;303.88;4.9
+Nickerie(Stondansie);site;1;303.49;5.1
+Corantijn(Mataway);site;1;302.35;5.8
+Comba(Kingoyi);site;1;14.28;-4.21
+Cauca(La Virginia);site;1;285.18;3.97
+Magdalena(Puente Santander);site;1;285;2
+Prado(Boqueron);site;1;286;3
+Sogamoso(El Tablazo);site;1;286.92;6.82
+Fonce(San Gil);site;1;287.18;5.97
+Oyapock(Maripa);site;1;308.12;3.81
+Rio Uruguay(Puerto Salto);site;1;301.8;-32.42
+Arauca(Pte Internacional);site;1;290;7
+Aricuaisa(Pie de Monte);site;1;288;9
+Escalante(La Ferreira);site;1;289;8
+Guasare(El Carbon);site;1;288;11
+Masparro(Pte Masparro);site;1;290;8
+Neveri(La Corcovada);site;1;296;10
+Orinoco(Musinacio);site;1;296.18;7.98
+Uribante(Pte Uribante);site;1;288;7
+Grande(Abapo);site;1;296.54;-18.85
+Xingu(Altamira);site;1;307.79;-3.2
+Tocantins(Porto Nacional);site;1;311.57;-10.7
+Araguaia(Conceicao do Araguaia);site;1;310.75;-8.28
+Tocantins(Itupiranga);site;1;310.65;-5.13
+Pilcomayo(Villa Montes);site;1;296.54;-18.85
+Parnaiba(Porto Formoso);site;1;317.6;-3.43
+Sao Francisco(Traipu);site;1;323.02;-9.96
+Atrato(Tagachi);site;1;283.29;6.21
+Guavio(Ubala);site;1;286.47;4.71
+Daule(La Capilla);site;1;280.01;-1.69
+Coca(San Rafael);site;1;282.43;-0.1
+Paute(D. J. Palmira);site;1;281.45;-2.55
+Cuyuni(Kamaria Falls);site;1;301.2;6.42
+Marowijne(Langa Tabbetje);site;1;305.6;5
+Columbia(Birchbank);site;1;242.28;49.18
+Nile(El Ekhsase);site;1;31.26;29.71
+Nile(Assiut);site;1;31.1;27.18
+Nile(Nag Hammadi);site;1;32;26.21
+Nile(Esna);site;1;32.55;25.43
+Nile(Gaafra);site;1;32.9;24.31
+Saint Maurice(Centrale de Grand-Mere);site;1;287.32;46.62
+Natashquan(Natasquan);site;1;298.38;51.14
+Harricana(Amos);site;1;281.88;48.6
+De Rupert(Nemiscau);site;1;283.13;51.45
+Koliba(Gaoual);site;1;346.8;11.75
+Makhaleng(Molimo - Nthuse);site;1;27.9;-29.43
+Senqu(Seaka);site;1;27.56;-30.35
+Caledon(Mohlokaqala);site;1;27.7;-29
+Tsehlanyane(Oxbow);site;1;28.62;-28.72
+St. John(Baila);site;1;350.84;7.06
+Sehnkwehn(Tournouta - Bafu Bay);site;1;350.7;5.3
+Yuna(El Limon);site;1;290.18;19.15
+Cestos(Sawolo);site;1;351.37;6.43
+Lofa(Dougomai);site;1;350.25;8.2
+Zor Creek(Gbarnga);site;1;350.52;7.01
+Shire(Liwonde);site;1;35.2;-15.06
+Linthipe(Malapa);site;1;33.84;-13.72
+South Rukuru(Chisewezo);site;1;33.42;-12.11
+Senegal(Kayes);site;1;348.41;14.51
+Riviere Seche(Bel Air);site;1;57.74;-20.25
+Deep River(Pont Lardier);site;1;57.73;-20.26
+Grande River South East(Beau Champ);site;1;57.76;-20.27
+Riviere des Creoles(Riche en Eau);site;1;57.64;-20.38
+Porcupine(Fort Yukon, Alaska);site;1;216.87;66.98
+Tanana(Tanacross, Alaska);site;1;216.26;63.39
+Tanana(Nenana, Alaska);site;1;210.82;64.55
+Yukon(Ruby, Alaska);site;1;204.52;64.74
+Koyukuk(Hughes, Alaska);site;1;205.75;66.3
+Riviere La Chaux(Beau Vallon);site;1;57.69;-20.41
+Maputo(Madubula);site;1;32.6;-26.78
+Umbeluzi(Boane);site;1;32.31;-26.05
+Incomati(Chobela);site;1;32.73;-25.01
+Limpopo(Chokwe);site;1;33.06;-24.54
+Save(Villafranca do Save);site;1;34.68;-21.1
+Pungue(Bue-Maria);site;1;34.18;-19.01
+Zambezi(Matundo - Cais);site;1;33.58;-16.15
+Buzi(Estaquinha);site;1;34;-19.83
+Gambia(Wassadou Aval);site;1;346.62;13.35
+Gambia(GoulLoumbo);site;1;346.27;13.46
+Thiokoye(Thiokoye - Pont  Routier);site;1;12.57;-12.52
+Maboa(Dodo);site;1;348.85;8.15
+Pampana(Matotoka);site;1;348.14;8.66
+Seli(Badala);site;1;348.32;9.27
+Blue Nile(Khartoum);site;1;32.55;15.61
+White Nile(Malakal);site;1;31.62;9.58
+Mellegue(K13);site;1;8.64;36.29
+Zeroud(Sidi Saad);site;1;9.71;35.38
+Kafu(Kampala / Gulu Rd);site;1;32.05;1.55
+Nyong(Mbalmayo);site;1;11.5;3.51
+Ntem(Ngoazik);site;1;11.3;2.3
+Cross(Mamfe);site;1;9.31;5.75
+Pripyat(Mozyr);site;1;29.23;51.98
+Mati(Shoshaj);site;1;20.01;41.6
+Shkumbin(Paper);site;1;19.95;41.05
+Osumi(Ura Vajgurere);site;1;19.87;40.77
+Elbe(Decin);site;1;14.22;50.78
+Armeria(Coliman);site;1;256.06;18.94
+Euphrates(D.S. Hindiya B.);site;1;44.16;33.13
+Mekong(Mukdahan);site;1;104.89;16.33
+Selemdhza(Ust-Ulma);site;1;129.12;51.95
+Anadyr(Novy Eropol);site;1;169;65.08
+Maya(Chabda);site;1;134.75;59.77
+Amu-Darya(Chatly);site;1;59.7;42.28
+Vasilikos(Zyyi);site;1;33.31;34.71
+Zangzagang(Jonchon);site;1;126.45;40.66
+Biryugang(Songchon);site;1;126.22;39.27
+Jhelum(Baramula Br.);site;1;74.33;34.22
+Kalinadi(Dundeli);site;1;74.75;15.25
+Godavari(Babli);site;1;77.81;18.86
+Godavari(Basar);site;1;77.98;18.86
+Godavari(Mancherial);site;1;79.45;18.83
+Wardha(Bamni Br.);site;1;79.36;19.8
+Cauvery(Grand Anicut (South));site;1;78.83;10.83
+Kelani Ganga(Glencourse);site;1;80.18;6.97
+Gin Ganga(Agaliya);site;1;80.19;6.18
+Mahaweli Ganga(Manampitiya);site;1;81.08;7.91
+Olenek(downstream of Pur River);site;1;123.22;72.12
+Bhima(Yadgiri);site;1;76.95;16.81
+Tamiraparn(Sri Vai Kuntum);site;1;77;18
+Zerqa(Jerash Bridge);site;1;35;32
+Tisza(Tisza-palkonya);site;1;20.78;47.66
+Douro(Pochino);site;1;351.53;41.06
+Tejo(Belver);site;1;352;39.46
+Amguema(Brook Shumny);site;1;181.7;68.54
+Cavalla(Flampleu);site;1;351.94;7.25
+Cavalla(Tai);site;1;352.6;5.84
+Sassandra(Semien);site;1;352.94;7.71
+Bandama(Tiassale);site;1;355.19;5.88
+Marahoue(Bouafle);site;1;354.25;6.98
+Comoe(Serebou);site;1;356.07;7.93
+Bandama(Brimbo);site;1;354.82;6.29
+Sembrong(Brizay Bridge);site;1;103;1
+Krian(Dusun Limai);site;1;100.47;5.55
+Grande River South East(La Pipe);site;1;57.61;-20.31
+Sebou(Ain Timedrine);site;1;355.47;33.75
+Oum el Rebia(Dechra el Oued);site;1;354.1;32.69
+Moulouya(Dar el Caid);site;1;356.68;34.24
+Ouergha(M'Jara);site;1;354.75;34.59
+El Abid(Ait Ouchene);site;1;353.92;32.25
+Bou Regreg(Lalla Chafia);site;1;353.47;33.7
+Akagera(Rusumo);site;1;30.78;-2.37
+Nyabarongo(Kanzenze);site;1;30.11;-2.06
+Nyabarongo(Kigali);site;1;29.99;-1.99
+Gwai(Kamativi);site;1;27.05;-18.36
+Ncema(Ncema Dam);site;1;29.31;-20.31
+Manyame(Prince Edward Dam);site;1;31.06;-17.98
+Manyame(Mangura Mine Weir);site;1;30.35;-16.95
+Mazowe(Lion's Den);site;1;31.55;-17.28
+Mutare(Premier Estate);site;1;32.55;-18.91
+Umshagashi(Waterworks Weir);site;1;30.85;-20.05
+Sabi(Condo);site;1;32.01;-19.21
+Nyabodi(Nyaruwa Flume);site;1;32.8;-19.85
+Aux Outardes(Centrale n3);site;1;291.29;49.55
+Manicouagan(Centrale n2);site;1;291.67;49.33
+Natashquan(Alieste);site;1;298.3;50.41
+Du Petit-Mecatina(Breton);site;1;299.89;51.83
+Grande de San Miguel(Las Conchas);site;1;271.59;13.27
+Cabuz(Malacatan);site;1;268;14.86
+Guacalate(Alotenango);site;1;269.11;14.48
+San Pedro(San Pedro Macton);site;1;269.25;17.25
+San Pedro(San Pedro);site;1;105.15;21.96
+Meta(Pte Lleras);site;1;287.04;4.11
+San Juan(Penitas);site;1;282.79;4.3
+Atrato(Bellavista);site;1;283.14;6.56
+Cauca(Pintadala);site;1;284.4;5.73
+Negro(Paso Pereira);site;1;304.8;-32.41
+Songhua Jiang(Jilin);site;1;126.53;43.83
+Luan He(Luanxian);site;1;118.75;39.73
+Yonding(Guanting);site;1;115.6;40.23
+Jing He(Zhangjiashan);site;1;108.6;34.63
+Han Jiang(Ankang);site;1;109.01;32.68
+Yiluo(Heishiguan);site;1;112.93;34.71
+Wu Jiang(Gongtan);site;1;108.35;28.9
+Chang Jiang(Yichang);site;1;111.23;30.66
+Gan Jiang(Jian);site;1;114.98;27.1
+Yu Jiang(Nanning);site;1;108.36;22.8
+Zayandeh(Pol-e-Kaleh);site;1;51.23;32.38
+Zayandeh(Pol-e-Kahju);site;1;51.68;32.63
+Halil(Hossein abad Jiroft);site;1;57.58;28.78
+Alexander(near Eliashiv);site;1;34.9;32.36
+Soreq(near Gedera);site;1;34.78;31.81
+Tapi(Surat Thani);site;1;99.25;8.56
+Trang(Trang);site;1;99.54;7.76
+Jizera(Turice);site;1;14.79;50.3
+Berounka(Beroun);site;1;14.08;49.96
+Nitra(Nitrianska Streda);site;1;18.16;48.51
+Hron(Banska Bystrica);site;1;19.13;48.73
+Ems(Versen);site;1;7.25;52.73
+Vouga(Ponte de Vouzela);site;1;351.89;40.73
+Mondego(Ponte de Yoncais);site;1;352.29;40.54
+Spey(Boat o Brig);site;1;356.85;57.51
+Tay(Ballathie);site;1;356.64;56.49
+Tweed(Norham);site;1;357.84;55.71
+Wharfe(Flint Mill);site;1;358.65;53.91
+Nene(Orton);site;1;359.74;52.56
+Waveney(Needham Mill);site;1;1.29;52.35
+Ouse(Bedford);site;1;359.52;52.14
+Stour(Langham);site;1;0.93;51.96
+Taw(Umberletgh);site;1;356.03;50.99
+Danube(Bogojevo);site;1;19.02;45.53
+Tisza(Senta);site;1;20.1;45.93
+Waikato(Ngaruawahia);site;1;175.15;-37.68
+Wanganui(Paetawa);site;1;175.15;-39.76
+Sepik(Ambunti);site;1;142.15;-4.22
+Cauvery(Grand Anicut (North));site;1;76.1;12.62
+Gongola(Dadin Kowa);site;1;11.62;10.27
+Niger(Jebba);site;1;4.85;9.13
+Chixoy(San Augustin);site;1;269;14.96
+Motagua(Morales);site;1;271.07;15.32
+La Pasion(El Porvenir);site;1;270;16
+Chixoy(Las Torres);site;1;270;15.5
+Ouergha(Ourtzagh);site;1;354;35
+Dowga(Donga);site;1;10.24;7.44
+Loa(Quillagua);site;1;290.44;-21.83
+Santa(Pte Carret);site;1;282;-9
+Chira(Pte Sullana);site;1;279.51;-4.65
+Ramis(Pte Carret);site;1;289.78;-15.02
+Tugela(Mandini);site;1;31.04;-28.96
+Orange(Aliwal North);site;1;26.69;-30.65
+Mazowe(Bindura);site;1;31.17;-17.27
+Mbewe(Chiromo);site;1;35;-16.5
+Niari(Loudima);site;1;13.08;-4.11
+Manyinga(Manyinga Road Bridge);site;1;24.2;-13.14
+Orange(Upington);site;1;21.08;-28.69
+Orange(Vioolsdrif);site;1;17.51;-28.71
+Volga(Staritsa);site;1;46;48.3
+Mekong(Nakhon Pathom);site;1;99.74;13.93
+Madelena(Madelena);site;1;331.5;38.5
+Lempa(Colima);site;1;271.1;13.7
+Mono(Athieme);site;1;1.67;6.92
+Mekrou(Barou);site;1;2.73;12.35
+Niger(Malanvilla);site;1;3.3;11.87
+Oueme(Sagon);site;1;2.43;7.17
+Oueme(Bonou);site;1;2.45;6.9
+Nyong(Dehane);site;1;10.12;3.57
+Chinko(Rafai);site;1;23.92;4.97
+Mbomou(Zemio);site;1;25.15;5.03
+M'Poko(Bossele-Bali);site;1;18.47;4.53
+Ouham(Bossangoa);site;1;17.45;6.47
+Nahr Aouk(Golongoso);site;1;19.15;9
+Kotto(Kembe);site;1;21.92;4.6
+Ouham(Batangafo);site;1;18.28;7.3
+M'Bomou(Bangassou);site;1;22.82;4.72
+Logone(Bongor);site;1;15.42;10.27
+Bahr Azoum(Am Timan);site;1;20.28;11.03
+Chari(Bousso);site;1;16.72;10.48
+Logone(Moundou);site;1;16.07;8.53
+Pende(Doba);site;1;16.83;8.65
+Logone(Lai);site;1;16.3;9.4
+Bahr Sala(Moissala);site;1;17.77;8.33
+Cavalla(Tate);site;1;352.41;4.38
+Sassandra(Soubre);site;1;353.4;5.76
+Nile(Aswan Dam);site;1;32.9;23.96
+Ogooue(Lastourville);site;1;12.73;-0.81
+Ogooue(Booue);site;1;11.94;-0.1
+Ivindo(Loa-Loa);site;1;12.83;0.51
+Nyanga(Ibanga);site;1;10.72;-2.76
+Ogooue(Franceville);site;1;13.53;-1.64
+Ngounie(Fougamaou);site;1;10.59;-1.22
+Black Volta(Bamboi);site;1;357.97;8.15
+White Volta(Yarugu);site;1;359.6;10.98
+Oti(Sabari);site;1;0.23;9.28
+Niger(Kouroussa);site;1;350.12;10.65
+Tinkisso(Ouaran);site;1;350.39;11.37
+Saint Paul(Walker Bridge);site;1;350.47;7.33
+Betsiboka(Ambodiroka);site;1;46.93;-16.93
+Mahavavy Nord(Ambilobe);site;1;49.07;-13.15
+Mananjary(Antisindra);site;1;47.72;-20.65
+Mandare(Amboassary);site;1;46.38;-25.03
+Mangoky(Banian);site;1;44.02;-21.9
+Niger(Kirango aval);site;1;353.95;13.72
+Sankarani(Gouala);site;1;351.77;11.97
+Baoule(Dioila);site;1;353.2;12.52
+Niger(Ansongo);site;1;0.5;15.67
+Bakoye(Oualia);site;1;349.28;13.78
+Bafing(Dibia);site;1;349.52;13.14
+Faleme(Fadougou);site;1;348.77;12.31
+Faleme(Gourbassi);site;1;348.62;13.23
+Niger(Gaya);site;1;3.4;11.88
+Komadougou(Bagara Diffa);site;1;12.6;13.28
+Limpopo(Oxenham Ranch);site;1;27.96;-22.95
+Limpopo(Beitbrug);site;1;29.99;-22.22
+Vaal(De Hoop 65);site;1;24.6;-28.52
+Vaal(Engelbrechtsdrift);site;1;28.06;-26.82
+Groot-Vis(Piggot's Bridge);site;1;26.45;-33.1
+Doring(Aspoort);site;1;19.54;-32.34
+Groot-Vis(Outspan);site;1;26.99;-33.24
+Atbarah(Kilo 3);site;1;33.97;17.7
+Bahr el Jabel(Mongalia);site;1;31.77;5.2
+White Nile(Jebel Aulia Dam);site;1;32.5;15.23
+Bubu(Bahi);site;1;35.3;-5.97
+Rufiji(Stiegeler's Gorge);site;1;37.92;-7.8
+Great Ruaha(Mtera);site;1;36.98;-7.92
+Ruvu(Morogoro Rd.);site;1;38.7;-6.68
+Oti(Mango);site;1;0.47;10.3
+Joumine(Jebel Antra);site;1;9.47;36.95
+Mejerda(Ghardimaou);site;1;8.43;36.27
+Zaire(Kinshasa);site;1;15.3;-4.3
+Zambia(Watopa Pontoon);site;1;23.6;-14.02
+Kafue(Nduben);site;1;27.82;-13.4
+Lusiwasi(Masase);site;1;31.03;-13.22
+Chambeshi(Old Pontoon);site;1;31.07;-10.95
+Luombe(Chishimba Falls);site;1;30.92;-10.12
+Mwambeshi(Nsama);site;1;29.93;-8.9
+Lundi(Tokwe Confluence);site;1;31.27;-21.13
+Limpopo(Beitbridge Pumpstation);site;1;29.98;-22.22
+Black Volta(Dapola);site;1;357.08;10.57
+White Volta(Yakala);site;1;359.3;11.35
+Jubba(Lugh Ganana);site;1;42.32;3.56
+Shebele(Belet Uen);site;1;45.2;4.78
+Shebele(Bulo Burti);site;1;45.67;3.87
+Shebele(Mahaddei Uen);site;1;45.53;3
+Shebele(Balad);site;1;45.42;2.37
+Shebele(Afgoi);site;1;45.09;2.17
+Shebele(Afgoi);site;1;45.09;2.17

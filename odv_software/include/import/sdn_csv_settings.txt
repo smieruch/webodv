@@ -1,0 +1,49 @@
+Data set name:METAVAR:INDEXED_TEXT
+Discipline:METAVAR:INDEXED_TEXT
+Category:METAVAR:INDEXED_TEXT
+Variables measured:METAVAR:INDEXED_TEXT
+Data format:METAVAR:INDEXED_TEXT
+Data format version:METAVAR:INDEXED_TEXT
+Data size:METAVAR:INDEXED_TEXT
+Data set creation date:METAVAR:TEXT:9
+Latitude 1:METAVAR:FLOAT
+Latitude 2:METAVAR:FLOAT
+Longitude 1:METAVAR:FLOAT
+Longitude 2:METAVAR:FLOAT
+Datum:METAVAR:INDEXED_TEXT
+Measuring area type:METAVAR:INDEXED_TEXT
+Water depth (m):METAVAR:FLOAT
+Depth reference:METAVAR:INDEXED_TEXT
+Minimum instrument depth (m):METAVAR:FLOAT
+Maximum instrument depth (m):METAVAR:FLOAT
+Start date:METAVAR:TEXT:9
+Start time:METAVAR:TEXT:9
+End date:METAVAR:TEXT:9
+End time:METAVAR:TEXT:9
+Vertical resolution:METAVAR:INDEXED_TEXT
+Vertical resolution unit:METAVAR:INDEXED_TEXT
+Instrument / gear type:METAVAR:INDEXED_TEXT
+Track resolution:METAVAR:INDEXED_TEXT
+Track resolution unit:METAVAR:INDEXED_TEXT
+Frequency:METAVAR:INDEXED_TEXT
+Frequency unit:METAVAR:INDEXED_TEXT
+Platform type:METAVAR:INDEXED_TEXT
+Cruise name:METAVAR:INDEXED_TEXT
+Alternative cruise name:METAVAR:INDEXED_TEXT
+Cruise start date:METAVAR:TEXT:9
+Station name:METAVAR:INDEXED_TEXT
+Alternative station name:METAVAR:INDEXED_TEXT
+Station start date:METAVAR:TEXT:9
+Originator:METAVAR:INDEXED_TEXT
+Data Holding centre:METAVAR:INDEXED_TEXT
+Project name:METAVAR:INDEXED_TEXT
+EDMED references:METAVAR:INDEXED_TEXT
+CSR references:METAVAR:INDEXED_TEXT
+Publication references:METAVAR:INDEXED_TEXT
+Data Distributor:METAVAR:INDEXED_TEXT
+Database reference:METAVAR:INDEXED_TEXT
+Access/ordering of data:METAVAR:INDEXED_TEXT
+Access restriction:METAVAR:INDEXED_TEXT
+CDI-record id:METAVAR:INDEXED_TEXT
+CDI-record creation date:METAVAR:TEXT:9
+CDI-partner:METAVAR:INDEXED_TEXT

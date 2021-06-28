@@ -1,0 +1,3548 @@
+% GZT01: GazetteerBGN.gzt
+% GAZETTEER of UNDERSEA FEATURES
+% Prepared by the US Department of Defense, Defense Mapping Agency
+% Features catalogued as of September, 1989
+% Names approved by the United States Board on Geographic Names
+%
+%
+%
+Feature;Type;No;East-Longitude;North-Latitude
+
+Abbott Seamount;seamount;1;174.3;31.8
+Abington Reef;reef;1;149.75;-18
+Abra Canyon;canyon;1;120.367;17.5167
+Abraham Canyon;canyon;1;172.333;52.6167
+Abrolhos Bank;bank;1;321.25;-18.5
+Abrolhos Seamounts;seamounts;1;323.5;-17.3333
+Accomac Canyon;canyon;1;285.967;37.7667
+Acis Shoals;reefs;1;112.65;3.75
+Acor Bank;bank;1;330.667;38.1667
+Adak Basin;basin;1;183;51.0833
+Adak Canyon;canyon;1;182.917;51.4167
+Adams Bank;bank;1;176;-41.3333
+Adams Seamount;seamount;1;183.767;50.0167
+Adare Seamounts;seamounts;1;171.5;-70
+Addington Patch;reef;1;114.4;15.6
+Adelie Valley;valley;1;136;-65.5
+Admundsen Trough;trough;1;237;70.5
+Admundsen Valley;valley;1;232;71.5
+Adolph Seamount;seamount;1;181.833;-11.9167
+Adriatic Basin;basin;1;17.5;42
+Adriatic Plain;plain;1;17.9167;41.8333
+Adventure Bank;bank;1;12.1667;37.3333
+Aegir Ridge;ridge;1;356.25;66.1667
+Africana II Bank;bank;1;42.5;-46
+Africana Seamount;seamount;1;29.1667;-37.1667
+Afungi Canyon;canyon;1;40.7833;-10.7833
+Agadir Canyon;canyon;1;347.167;32.5
+Aganak Canyon;canyon;1;182.7;51.9167
+Agassiz Fracture Zone;fracture zone;1;232.75;-38.25
+Agassiz Valleys;valleys;1;277.25;24
+Agattu Canyon;canyon;1;172.583;52.3833
+Agerholm Seamount;seamount;1;224.417;34.4167
+Aguja Canyon;canyon;1;285.833;11.6667
+Agulhas Bank;bank;1;21;-35.5
+Agulhas Basin;basin;1;27;-47
+Agulhas Plateau;plateau;1;26;-40
+Ahyi Seamount;seamount;1;145.033;20.4167
+Aja Fracture Zone;fracture zone;1;215;56
+Akashi Knoll;knoll;1;145.083;8.2
+Alaminos Bank;bank;1;268.25;28.0167
+Alaminos Canyon;canyon;1;265.417;26.5
+Alarcon Seamount;seamount;1;251.25;23.6167
+Alaska Plain;plain;1;217;55
+Albany Canyon;canyon;1;118.167;-35.5
+Albany Seamount;seamount;1;322.75;38.5833
+Albatross Bank;bank;1;207.667;56.1667
+Albatross Bank;shoal;1;284.333;17.6667
+Albatross Cordillera;cordillera;1;245;-45
+Albatross Knoll;knoll;1;240.05;33
+Albatross Plateau;plateau;1;257;10
+Albay Shoal;reef;1;118.483;9.95
+Albemarle Shelf Valley;shelf valley;1;284.65;36.8333
+Alboran Basin;basin;1;356;36
+Alboran Plain;plain;1;356.167;35.9167
+Alboran Ridge;ridge;1;356.917;35.9167
+Alboran Trough;trough;1;357;36.1167
+Alcala de Chivert Canyon;canyon;1;1.41667;40.2333
+Alden Seamount;seamount;1;201.25;49.0833
+Alderdice Bank;bank;1;268;28.0833
+Alert Patches;reefs;1;118.25;4.15
+Aleut Knoll;knoll;1;175.9;51.3833
+Aleut Valley;valley;1;176.2;51.25
+Aleutian Basin;basin;1;177;57
+Aleutian Ridge;ridge;1;182;51.5
+Aleutian Rise;rise;1;175;49.8333
+Aleutian Terrace;terrace;1;181;50.6667
+Aleutian Trench;trench;1;190;51
+Alexa Bank;reef;1;175.333;-11.5833
+Alexander Agassiz Guyot;tablemount;1;178.55;17.9
+Alexander Seamount;seamount;1;206.533;18.95
+Alexandra Bank;reef;1;110.617;8.03333
+Alexandria Canyon;canyon;1;30;31.75
+Alga Bank;bank;1;13.4833;37.0333
+Algerian Basin;basin;1;5;40
+Algerian-Tyrrhenian Trough;trough;1;9.41667;38.35
+Algol Seamount;seamount;1;275.5;-2.25
+Alice Reef;reef;1;119.083;4.76667
+Alice Shoal;reef;1;280.633;16.0833
+Alicia Annie Reef;reef;1;115.467;9.41667
+Alida Reef;reef;1;107.85;0.983333
+Alidade Bank;bank;1;358.5;35.75
+Alison Reef;reef;1;114.1;8.81667
+Alix Seamount;seamount;1;61.3667;-17.5167
+Allegheny Seamount;seamount;1;301.25;36.8667
+Allison Guyot;tablemount;1;180.4;18.5167
+Almeria Canyon;canyon;1;357.5;36.55
+Almirante Brown Canyon;canyon;1;301;-46.1667
+Almirante Leite Knolls;knolls;1;35.0833;-26.1167
+Almirante Saldanha Seamount;seamount;1;322.5;-22.5
+Alpha Cordillera;cordillera;1;235;85.5
+Alphard Banks;banks;1;20.8667;-35.0333
+Alphecca Seamount;seamount;1;242.867;18.3333
+Alsek Valley;valley;1;220.5;58.5
+Altair Seamount;seamount;1;326;44.6667
+Altnacraig Shoal;reef;1;118.333;9
+Alula-Fartak Trench;trench;1;51.7833;14.0667
+Alvarado Ridge;ridge;1;276.25;-5.5
+Alvin Canyon;canyon;1;289.5;39.8667
+Amami Plateau;plateau;1;132.167;28.1667
+Amatignak Basin;basin;1;180.367;50.9167
+Amatignak Canyon;canyon;1;180.533;51.1333
+Amatignak Spur;spur;1;180.583;51
+Amazon Canyons;canyons;1;311.667;3.5
+Amazon Fan;fan;1;312.5;5
+Ambelau Basin;basin;1;126.667;-4.25
+Amchitka Canyon;canyon;1;179.883;51.25
+Amchitka Spur;spur;1;179.75;51.5
+Ameghino Canyon;canyon;1;302.667;-43.6667
+Amelia Canyon;canyon;1;40.6667;-12.8833
+Amerasia Basin;basin;1;190;80
+America-Antarctic Ridge;ridge;1;344;-59
+America-Antarctica Ridge;ridge;1;344;-59
+Amery Basin;basin;1;74.5;-68.25
+Amirante Bank;bank;1;53.1667;-6
+Amirante Basin;basin;1;54;-7
+Amirante Ridge;ridge;1;53.1667;-6
+Amirante Trench;trench;1;52.5;-8
+Amlia Basin;basin;1;187;52.5
+Amlia Canyon;canyon;1;186.75;52.9
+Amlia Fracture Zone;fracture zone;1;187;50
+Amlia Knoll;knoll;1;186.117;53.0833
+Ammen Basin;basin;1;291.25;42.8333
+Ammen Rock;reef;1;291.083;42.8833
+Ammen Swell;rise;1;291.417;42.8333
+Ampere Seamount;seamount;1;347;35.0833
+Amukta Canyon;canyon;1;188.25;53.1667
+Amundsen Plain;plain;1;235;-65
+Amundsen Trough;trough;1;237;70.5
+Amy Douglas Bank;bank;1;116.25;10.8333
+An Rise;rise;1;150;49.5
+Anatolian Trough;trough;1;24.5;40
+Anaximander Ridge;ridge;1;30;35.5
+Andaman Basin;basin;1;94;10
+Andaman Nicobar Ridge;ridge;1;93;12
+Andregg Seamount;seamount;1;169.8;25.7667
+Andrew Tablemount;tablemount;1;50.5;6.75
+Anegada Gap;gap;1;295.75;18.3333
+Angola Basin;basin;1;3;-15
+Angola Plain;plain;1;2;-15
+Angria Bank;bank;1;72.0833;16.5
+Anguilla Bank;bank;1;296.95;18.5
+Animal Basin;basin;1;242.417;31.3333
+Antalya Basin;basin;1;31.5;35.6667
+Antalya Canyon;canyon;1;30.6667;36.6667
+Antelope Shoal;reef;1;117.2;8.73333
+Antialtair Seamount;seamount;1;337.55;43.6167
+Antoine Bank;bank;1;267.7;27.8333
+Anton Bruun Ridge;ridge;1;51.75;-8.8
+Anton Dohrn Seamount;seamount;1;349;57.5
+Aotea Knoll;knoll;1;172.05;-37.5833
+Apache Trough;trough;1;164.65;51
+Appelbaum Bank;bank;1;265.75;27.85
+Applequist Seamount;seamount;1;217.25;55.4167
+Apuupuu Seamount;seamount;1;204.533;18.5667
+Aquitaine Shelf;shelf;1;358.3;44.8333
+Arabian Basin;basin;1;65;11.5
+Arafura Shelf;shelf;1;137;-10
+Arakane Reef;reef;1;142.75;15.6167
+Archimedes Seamount;seamount;1;249.533;13.3167
+Ardasier Reefs;reefs;1;114.283;7.6
+Arena Canyon;canyon;1;235.883;38.9667
+Argentina Seamount;seamount;1;18.1667;-37.4167
+Argentine Basin;basin;1;315;-45
+Argentine Plain;plain;1;310;-47.5
+Argo Bank;tablemount;1;159.25;-23.5
+Argo Fracture Zone;fracture zone;1;66.1667;-13.75
+Argo Plain;plain;1;117;-14
+Arguello Canyon;canyon;1;238.917;34.35
+Arguello Fan;fan;1;238;34
+Arguello Terrace;terrace;1;239.083;34.5
+Ariel Bank;reefs;1;178.3;-38.7167
+Arlington Reef;reef;1;146.033;-16.7167
+Arlis Gap;gap;1;170;84
+Arlis Spur;spur;1;179.5;75.75
+Armoricain Seamount;seamount;1;347.583;46.45
+Armoricain Shelf;shelf;1;356.667;46.8333
+Arrowsmith Bank;reef;1;273.533;21.0833
+Arroyo Seamount;seamount;1;337.333;6.25
+Artimon Bank;bank;1;302;45.1667
+Aru Basin;basin;1;134;-5
+Aruba Gap;gap;1;288;13.75
+Ascension Canyon;canyon;1;237.533;36.9167
+Ascension Fracture Zone;fracture zone;1;346;-7.33333
+Ashmore Reef;reef;1;123.083;-12.2333
+Ashton Seamount;seamount;1;346.667;38
+Asterias Seamount;seamount;1;294.7;38.9
+Astoria Canyon;canyon;1;235.5;46.25
+Astoria Fan;fan;1;233.75;45.25
+Astoria Seachannel;seachannel;1;234.167;45
+Astrid Ridge;ridge;1;12;-68
+Astrolabe Reefs;reefs;1;165.583;-19.8167
+Astrolabe Trough;trough;1;178.5;-19.5
+Atka Basin;basin;1;186;51.3333
+Atka Canyon;canyon;1;186.217;52.75
+Atka Seamount;seamount;1;184.833;50.2667
+Atlantic-Indian Basin;basin;1;15;-60
+Atlantic-Indian Ridge;ridge;1;15;-53
+Atlantis Canyon;canyon;1;289.8;39.8667
+Atlantis Fracture Zone;fracture zone;1;318;30
+Atlantis II Fracture Zone;fracture zone;1;57;-33
+Atlantis II Seamounts;seamounts;1;296.883;38.45
+Atlantis Seamount;seamount;1;329.75;34
+Atwater Valley;valley;1;272.5;27.5
+Auckland Islands Shelf;shelf;1;167;-50.4167
+Aucklands Spur;spur;1;165.417;-52
+August Canyon;canyon;1;176.85;52.5
+Aurora Reef;reef;1;129.533;0.716667
+Austell Spur;spur;1;349;48.25
+Austral Fracture Zone;fracture zone;1;229.5;-20
+Austral Fracture Zone;fracture zone;1;234;-19.5
+Austral Seamounts;seamounts;1;207.25;-22.6667
+Avalon Knoll;knoll;1;241.783;33.4
+Aves Apron;apron;1;295;15
+Aves Ridge;ridge;1;296.5;14
+Aviles Canyon;canyon;1;353.683;43.9167
+Avon Canyon;canyon;1;3.91667;6.16667
+Axarfjardhardjup;valley;1;343.117;66.4333
+Ayers Seamount;seamount;1;166.417;26.2667
+Ayu Trough;trough;1;132.5;3.5
+Ayugadak Canyon;canyon;1;178.117;51.5
+Azores Plateau;plateau;1;330;39
+Azores-Biscay Rise;rise;1;341;42.6667
+Azores-Gibraltar Ridge;ridge;1;344;37
+Azur Fan;fan;1;7.5;43.4167
+Babylon Canyon;canyon;1;288.067;39.5
+Baccaro Bank;bank;1;295.2;43
+Baffin Basin;basin;1;293;73.25
+Bagration Seamount;seamount;1;353.55;-15.4167
+Bahama Escarpment;escarpment;1;286;23.25
+Bahia Blanca Canyon;canyon;1;305.667;-41.4167
+Bain Fracture Zone;fracture zone;1;32.3333;-46
+Baird Seamounts;seamounts;1;197.667;16.25
+Baja California Seamount Province;province;1;236;26
+Bajapa Reef;reef;1;119.1;4.66667
+Baker Fan;fan;1;223.883;55.2333
+Baker Reef;reef;1;116.167;10.7333
+Baker Seachannel;seachannel;1;222.75;54.5667
+Bakkafloadjup;valley;1;346;66.25
+Balabac Great Reefs;reefs;1;116.917;7.93333
+Balanus Seamount;seamount;1;294.617;39.4167
+Baldwin Bank;reef;1;126.167;-12.8667
+Balearic Plain;plain;1;6;40.5
+Balfour Shoal;reef;1;114;15.45
+Bali Basin;basin;1;116;-7.83333
+Balleny Basin;basin;1;170;-67
+Balleny Fracture Zone;fracture zone;1;156;-62
+Balleny Seamounts;seamounts;1;161.5;-61
+Balleny Trough;trough;1;158;-66
+Balmoral Reef;reef;1;175.867;-15.6667
+Baltimore Canyon;canyon;1;286.267;38.05
+Bampton Reefs;reefs;1;158.367;-19.25
+Banc de la Sentinelle;bank;1;9.7;38
+Banda Reef;reef;1;118.017;3.83333
+Banda Trench;trench;1;131;-5
+Banderas Canyon;canyon;1;254.233;20.5
+Bankok Shoal;reef;1;114.083;16
+Banks Rise;rise;1;228;75.5
+Banks Shelf;shelf;1;234;73
+Banks Slope;slope;1;232;74.5
+Banquereau;bank;1;301.5;44.5
+Banzare Seamounts;seamounts;1;77.7333;-58.8333
+Baranof Fan;fan;1;222.633;55.8167
+Baranof Seachannel;seachannel;1;222.5;55
+Barbados Ridge;ridge;1;300.417;12.75
+Barbados Trough;trough;1;300.617;12
+Barcoo Tablemount;tablemount;1;156.333;-32.3333
+Bardin Seamount;seamount;1;53.6333;-13.9333
+Barents Plain;plain;1;35;83
+Barents Trough;trough;1;29;75
+Barkley Canyon;canyon;1;233.833;48.25
+Barlas Bank;bank;1;322.667;-54
+Barque Canada Reef;reef;1;113.317;8.2
+Barra Fan;fan;1;350;56.8333
+Barracouta Reef;reef;1;124.033;-12.6
+Barracuda Fracture Zone;fracture zone;1;309;16
+Barracuda Plain;plain;1;303.5;17
+Barracuda Reef;reef;1;118.117;8.9
+Barracuda Ridge;ridge;1;303;16.1667
+Barren Ridge;ridge;1;93.5;12.25
+Barrier Plateau;plateau;1;175.75;-35.6667
+Barrow Canyon;canyon;1;206;72.5
+Barrow Sill;sill;1;263.5;79.5
+Barwon Bank;bank;1;153.583;-26.5
+Bass Canyon;canyon;1;149.083;-38.6667
+Bassett Shoal;reef;1;114.167;15.4667
+Batavia Seamount;seamount;1;100.333;-25.75
+Bathymetrists Seamounts;seamounts;1;338.5;7.5
+Batjan Basin;basin;1;126.75;-1
+Batt Reef;reef;1;145.767;-16.4167
+Bauer Basin;basin;1;258.25;-10
+Bauer Fracture Zone;fracture zone;1;260;-15
+Bauer Scarp;scarp;1;256.5;-8
+Bayonnaise Bank;seamount;1;180.283;-12.1167
+Beachport Terrace;terrace;1;139;-38
+Beagle Reef;reef;1;123.467;-15.2833
+Bean Seamount;seamount;1;213;52.25
+Bear Seamount;seamount;1;292.583;39.9167
+Bear Valley;valley;1;235.25;40.4833
+Beata Escarpment;escarpment;1;287.167;16.1667
+Beata Plateau;plateau;1;289;14.6667
+Beata Ridge;ridge;1;287.5;16
+Beata Spur;spur;1;288.333;14.6667
+Beaton Seamount;seamount;1;162.833;26.0833
+Beaufort Reef;reef;1;118.75;4.4
+Beaufort Rise;rise;1;216.5;72
+Beaufort Shelf;shelf;1;217.5;70
+Beaufort Slope;slope;1;215;71
+Beaufort Terrace;terrace;1;220;73
+Beaufort Valley;valley;1;281.833;32.3
+Beauge Bank;bank;1;299.85;49.75
+Beethoven Ridge;ridge;1;201;26.2333
+Beirut Canyon;canyon;1;35.1667;33.9167
+Belem Ridge;ridge;1;319.25;0.0833333
+Belgica Bank;bank;1;345;78.4667
+Belgrano Bank;bank;1;311.5;-73
+Belize Fan;fan;1;273.5;18
+Belle-Ile Canyon;canyon;1;355.217;46.3333
+Bellingshausen Plain;plain;1;270;-64
+Bellini Seamount;seamount;1;196.817;32.7
+Bellona Plateau;plateau;1;158.5;-20.5
+Bellona Reefs;reefs;1;159;-21
+Bellona Saddle;saddle;1;166.5;-36.75
+Bellona Shoal;reef;1;159.75;-21
+Bellona Valley;valley;1;165.75;-40
+Bellsund Valley;valley;1;12.8333;77.3333
+Benham Plateau;plateau;1;124.75;16.5
+Benham Seamount;seamount;1;124.25;15.8
+Benicarlo Canyon;canyon;1;1.36667;40.35
+Benicasim Canyon;canyon;1;1.41667;40.1333
+Benrinnes Reef;reef;1;118.75;5.85
+Beothuk Knoll;knoll;1;313.5;46.1
+Bering Canyon;canyon;1;191.75;54.1333
+Bering Channel;seachannel;1;187.5;54.6667
+Bering Spur;spur;1;168.367;54.1833
+Bering Strait Valley;valley;1;191.5;65.75
+Berkeley Canyon;canyon;1;287.25;38.95
+Berkner Bank;bank;1;312;-75
+Berlanga Rise;rise;1;266.5;8.5
+Berlin Seamount;seamount;1;194;32.85
+Bermuda Rise;rise;1;295;32.5
+Bernoulli Seamount;seamount;1;248.167;18.1667
+Berufjardharall;valley;1;346.583;64.1333
+Bethel Shoal;shoal;1;279.817;27.7333
+Bethune Bank;reef;1;185.75;-19.5833
+Beveridge Reef;reef;1;192.133;-20.0333
+Bicentenary Seamount;seamount;1;184.533;-19.4
+Bill Baileys Bank;seamount;1;349.75;60.5833
+Bird Canyon;canyon;1;178.25;51.4
+Biscay Plain;plain;1;352.75;45
+Biscay Seamount;seamount;1;349.417;45.4167
+Bishop Rock;reef;1;240.867;32.45
+Bishop Seamount;seamount;1;200.967;18.8333
+Bittern Reef;reef;1;113.667;9.23333
+Bizerte Canyon;canyon;1;10;38.3833
+Bizet Seamount;seamount;1;198.367;32.2667
+Black Mud Canyon;canyon;1;352.3;47.6667
+Blackfin Ridge;ridge;1;201;26
+Blackhaw Seamounts;seamounts;1;192.083;14
+Blacks Basin;basin;1;290.7;43.1333
+Blake Basin;basin;1;284;29
+Blake Canyon;canyon;1;283.95;30.2167
+Blake Escarpment;escarpment;1;283.25;29
+Blake Knolls;knolls;1;241.75;32.2833
+Blake Plateau;terrace;1;281;31
+Blake Reef;reef;1;119.217;4.73333
+Blake Spur;spur;1;283.5;30
+Blake-Bahama Ridge;ridge;1;286.5;29
+Blanco Fracture Zone;fracture zone;1;232;43.5
+Blanco Saddle;saddle;1;234.5;42.5833
+Blanco Trench;trench;1;230;44.3333
+Blavet Canyon;canyon;1;355.133;46.6167
+Bligh Bank;shoal;1;2.76667;51.6
+Block Canyon;canyon;1;288.733;39.8333
+Block Island Ridge;ridge;1;288.467;41.1
+Block Island Shelf Valley;shelf valley;1;288.383;40.5833
+Blue Ridge Seamount;seamount;1;117.1;15.1333
+Boa Vista Seamount;seamount;1;337.867;15.8
+Bobrof Canyon;canyon;1;182.467;51.95
+Bode Verde Fracture Zone;fracture zone;1;343.5;-11
+Bodega Canyon;canyon;1;236.417;38.2333
+Bogorov Seamount;seamount;1;136.5;42.5
+Bogoslof Canyon;canyon;1;192.2;53.9167
+Bolles Knoll;knoll;1;202.25;49
+Bollons Tablemount;tablemount;1;183.833;-49.6667
+Bombay Castle;reef;1;111.7;7.93333
+Bombay Shoal;reef;1;116.917;9.43333
+Bon Homme Richard Seamount;seamount;1;184.45;19.35
+Bonaire Basin;basin;1;292.5;11.4167
+Bonaparte Basin;basin;1;128;-13
+Bonaparte Seamount;seamount;1;353.167;-15.8333
+Bone Basin;basin;1;121;-6
+Bonin Ridge;ridge;1;142.5;26.5
+Bonin Seamounts;seamounts;1;144;26
+Bonin Trench;trench;1;145;23
+Bonnecamps Canyon;canyon;1;299.583;43.0833
+Booshu Spur;spur;1;187.717;63.5667
+Boot Reefs;reefs;1;144.65;-10.0167
+Borchgrevink Canyon;canyon;1;170.25;-70.25
+Boreas Basin;basin;1;1;77.5
+Boreas Plain;plain;1;1;77
+Borneo Shoal;reef;1;117.5;7.33333
+Bougainville Reef;reef;1;147.1;-15.5
+Bouma Bank;bank;1;267.55;28.05
+Boundary Bank;knoll;1;242.383;32.4667
+Bounty Seachannel;seachannel;1;177.5;-46.5333
+Bounty Trough;trough;1;178;-46
+Boutelle Seamount;seamount;1;228.917;39.0167
+Bouvet Fracture Zone;fracture zone;1;1;-55
+Bowditch Seamount;seamount;1;295.45;32.7333
+Bowers Bank;bank;1;179.5;54.3
+Bowers Basin;basin;1;176;53.75
+Bowers Canyon;canyon;1;172.5;-71.9167
+Bowers Canyon;canyon;1;180.583;52.8333
+Bowers Ridge;ridge;1;180;54
+Bowers Seamount;seamount;1;174.783;54.0833
+Bowie Canyon;canyon;1;179;52.5667
+Bowie Seamount;seamount;1;224.367;53.3
+Bowlers Reef;reef;1;174.3;-41.7167
+Bowling Bank;bank;1;172.25;-33.9667
+Boxall Reef;reef;1;116.183;9.6
+Boyd Seamount;seamount;1;2.91667;72.6833
+Bradelle Bank;bank;1;297.083;47.4167
+Bradley Reefs;reefs;1;160.8;-6.86667
+Braemer Ridge;ridge;1;177;-15.75
+Brahms Seamount;seamount;1;197.683;31.15
+Bransfield Trough;trough;1;306;-61.5
+Brategg Bank;bank;1;291.417;-65.2667
+Brazil Basin;basin;1;335;-15
+Breidhamerkurdjup;valley;1;344.333;63.6167
+Bremen Bank;reef;1;112.467;16.3
+Bremer Canyon;canyon;1;119.917;-35
+Brigham Seamount;seamount;1;201.267;19.1333
+Bright Bank;bank;1;266.7;27.8833
+Brisbane Tablemount;tablemount;1;155;-26.75
+Bristol Canyon;canyon;1;191;54.9167
+Britannia Tablemount;tablemount;1;155.583;-28.3333
+Britannia Tablemounts;tablemounts;1;155.5;-28.25
+Broad Canyon;canyon;1;175.85;51.2
+Broke Canyon;canyon;1;116.167;-35.4167
+Broken Ridge;plateau;1;95;-31.5
+Broken-Top Guyot;tablemount;1;144.167;26.0833
+Bromley Plateau;plateau;1;325;-32
+Brooks Banks;banks;1;193.167;24.0833
+Broughton Gap;gap;1;188.267;-42.65
+Brouwer Seamount;seamount;1;109;-32
+Brown Bank;bank;1;285.267;21.5
+Brown Bear Seamount;seamount;1;229.583;46.0167
+Brown Reef;reef;1;117.45;10.65
+Brown Seamount;seamount;1;221.5;55
+Brownes Bank;bank;1;21.25;-36.4167
+Browns Bank;bank;1;293.917;42.6667
+Bruce Ridge;ridge;1;325;-60
+Bruce Spur;spur;1;101.25;-63.5
+Bryan Seamount;seamount;1;207.267;17.9167
+Bryant Bank;bank;1;267.533;28.0167
+Bryant Seamount;seamount;1;202.05;49.3333
+Buccaneer Bank;bank;1;279.867;21.4167
+Buell Seamount;seamount;1;293.6;39.0833
+Buffington Seamount;seamount;1;167.433;24.25
+Bukhti Canyon;canyon;1;177.55;51.7833
+Buldir Basin;basin;1;176.7;52.2
+Buldir Reef;reef;1;176.35;52.15
+"""Bull Pen, The""";basin;1;298.417;44.25
+Bullard Fracture Zone;fracture zone;1;348;-58.0333
+Bulldog Bank;bank;1;50.9333;-10.0333
+Bulls Scarp;escarpment;1;281.383;32.5833
+Burdick Knoll;knoll;1;202.2;45.85
+Burdwood Bank;plateau;1;301;-54.25
+Burgeo Bank;bank;1;302.083;47.1667
+Burica Canyon;canyon;1;277.25;8
+Burton Seamount;seamount;1;188.25;-32
+Buru Basin;basin;1;127;-2.5
+Busch Seamount;seamount;1;161.833;27.6667
+Bushett Reefs;reefs;1;173.5;-42.7
+Bushnell Knoll;knoll;1;241;31.4
+Butung Basin;basin;1;123.5;-6
+Byrd Canyon;canyon;1;202.75;-75.5
+Cabliers Bank;bank;1;357.7;35.8
+Cabo Creus Canyon;canyon;1;3.48333;42.35
+Cabrillo Seamount;seamount;1;250.75;22.8333
+Cadamosto Seamount;seamount;1;335.083;14.6667
+Caesar Seamount;seamount;1;12.25;40.2167
+Cagayan Canyon;canyon;1;121.6;18.4167
+Cagliari Canyon;canyon;1;9.45;38.9167
+Cagliari Trough;trough;1;9.45;38.8167
+Calabar Canyon;canyon;1;8.23333;3.88333
+California Seamount;seamount;1;236;17.8333
+Callou Bank;reef;1;107.75;9.35
+Caloosahatchee Seamount;seamount;1;310.25;34.6667
+Camaguey Ridge;ridge;1;278;20
+Cameron Canyon;canyon;1;310.35;43.0833
+Campbell Bank;bank;1;174.733;-41.7667
+Campbell Island Shelf;shelf;1;169.5;-52.25
+Campbell Plateau;plateau;1;170;-51
+Campbell Seachannel;seachannel;1;173.5;-47.25
+Campbell Seamount;seamount;1;218.083;50.25
+Campbell Spur;spur;1;166;-55
+Campeche Bank;bank;1;270;22
+Campeche Canyon;canyon;1;267.5;20.5
+Campeche Escarpment;escarpment;1;273;24.5833
+Canada Basin;basin;1;215;80
+Canada Plain;plain;1;220;80
+Canary Basin;basin;1;335;30
+Canary Ridge;ridge;1;345;28
+Cano Seamount;seamount;1;250;10.2667
+Canso Bank;bank;1;299.667;45.1667
+Cantabria Knoll;knoll;1;352.017;45.0667
+Cantor Seamount;seamount;1;250.633;16.3167
+Cap Breton Canyon;canyon;1;358.167;43.6667
+Cap Ferret Canyon;canyon;1;357.5;44.7
+Cape Basin;basin;1;7;-37
+Cape Fear Terrace;terrace;1;282.65;33.2333
+Cape Johnson Tablemount;tablemount;1;182.75;17.1333
+Cape Johnson Trough;trough;1;165.25;-8.75
+Cape Knoll;knoll;1;176.483;52.5667
+Cape Lookout Shoals;shoals;1;283.5;34.5
+Cape Plain;plain;1;6;-34.75
+Cape Rise;rise;1;15;-42
+Cape Verde Basin;basin;1;330;15
+Cape Verde Plain;plain;1;334;23
+Cape Verde Seamount;seamount;1;338.133;15.3333
+Cape Verde Terrace;terrace;1;340;18
+Capel Tablemount;tablemount;1;159.25;-25.2667
+Capricorn Sill;sill;1;154;-18.75
+Capricorn Tablemount;tablemount;1;187.8;-18.5833
+Carbonara Ridge;ridge;1;9.58333;38.7833
+Cardno Tablemount;tablemount;1;353.867;-12.8833
+Cardonal Canyon;canyon;1;250;22.85
+Cargados Carajos Bank;bank;1;59.75;-16.5
+Cargo Canyon;canyon;1;176.5;52.45
+Cariaco Basin;basin;1;294.833;10.6167
+Carlisle Canyon;canyon;1;189.75;53.4667
+Carlsbad Canyon;canyon;1;242.6;33.1
+Carlsberg Ridge;ridge;1;61;6
+Carmel Canyon;canyon;1;238.033;36.5333
+Carmen Basin;basin;1;249.333;26.3333
+Carnatic Shoal;reef;1;117.35;10.1
+Carnegie Ridge;ridge;1;275;-1
+Carnegie Seamount;seamount;1;278.117;-0.25
+Caroline Ridge;ridge;1;150;8
+Carondelet Reef;reef;1;186.167;-5.55
+Carpenter Shoal;reef;1;114.283;16.0667
+Carson Canyon;canyon;1;311.35;45.45
+Carstens Valley;valley;1;289.3;38.4333
+Carter Seamount;seamount;1;338.833;8.96667
+Carteret Canyon;canyon;1;287.167;38.8667
+Caryn Seamount;seamount;1;292.067;36.6667
+Cascadia Basin;basin;1;232.5;47
+Cascadia Gap;gap;1;231.5;43.5833
+Cascadia Plain;plain;1;232.5;47
+Cascadia Seachannel;seachannel;1;230;43.5
+Cascais Canyon;canyon;1;350.417;38.3333
+Cashes Basin;basin;1;290.933;42.8833
+Cashes Ledge;ridge;1;291.083;42.8833
+Castellammare Canyon;canyon;1;13.6167;38.7833
+Castle Rock Seamount;seamount;1;308.65;36.2833
+Castor Bank;reef;1;47.6333;-12.85
+Castor Guyot;tablemount;1;147;25.8333
+Caswell Spur;spur;1;166.667;-44.75
+Cat Gap;gap;1;285.5;24.5
+Cat Shoals;shoals;1;210.917;70.6167
+Catalina Basin;basin;1;241.5;33.1667
+Catalina Canyon;canyon;1;241.45;33.3833
+Catalina Escarpment;escarpment;1;241.583;33.2667
+Cathay Shoal;reef;1;113.967;15.9
+Cathedral Trough;trough;1;165.25;-53
+Cato Trough;trough;1;155;-23.1667
+Catoche Knoll;knoll;1;274.833;23.8
+Catoche Tongue;tongue;1;274;23.5
+Cavalli Canyons;canyons;1;174.083;-34.7833
+Cawston Shoal;reef;1;113.767;15.5167
+Cay Sal Bank;reefs;1;280;23.75
+Cayman Bank;reef;1;278.433;19.3167
+Cayman Ridge;ridge;1;279.5;19.5
+Cayman Trench;trench;1;280;19
+Ceara Plain;plain;1;323.5;0
+Ceara Plateau;plateau;1;322.5;-3.25
+Ceara Ridge;ridge;1;316.5;4.5
+Ceara Terrace;terrace;1;320.75;-2.16667
+Cedros Escarpment;escarpment;1;244.5;27.5
+Cedros Trench;trench;1;244.25;27.75
+Ceduna Canyon;canyon;1;132.75;-35.75
+Ceduna Terrace;terrace;1;132;-35
+Celebes Basin;basin;1;122;4
+Celestial Reef;reef;1;228.55;54.5333
+Celestial Seamount;seamount;1;190.683;-3.05
+Celtic Shelf;shelf;1;353;49.25
+Central Basin;basin;1;43;73.5
+Central Basin Trough;trough;1;130;16.75
+Central Pacific Basin;basin;1;185;5
+Central Reef;reef;1;112.35;8.91667
+Central Slope;slope;1;267.167;27.1667
+Central Terrace;terrace;1;34.25;-27.8333
+Central Viti Canyon;canyon;1;172.483;-39.05
+Centre Bank;bank;1;174.75;-41.5
+Centre Seachannel;seachannel;1;172.75;-46.2167
+Ceram Trough;trench;1;129.5;-2.41667
+Cermeno Seamount;seamount;1;251.233;10.3833
+Cerralvo Seamount;seamount;1;250.417;24.2
+Cerralvo Trough;trough;1;250.25;24.25
+Ceuta Canyon;canyon;1;354.7;35.9167
+Ceva-i-Ra;reef;1;174.583;-21.75
+Ceylon Plain;plain;1;82;-4
+Chagos Bank;bank;1;72;-6.25
+Chagos Trench;trench;1;73.5;-7
+Chagos-Laccadive Plateau;plateau;1;73;3
+Chagulak Canyon;canyon;1;188.667;53.25
+Chain Fracture Zone;fracture zone;1;344;-2
+Chain Knoll;knoll;1;291.567;28.2333
+Chain Ridge;ridge;1;54;6
+Challenger Bank;tablemount;1;294.95;32.0833
+Challenger Deep;deep;1;142.2;11.3333
+Challenger Fracture Zone;fracture zone;1;250;-34
+Challenger Plateau;plateau;1;169.5;-40
+Chambers Knoll;reef;1;119.217;4.81667
+Chamorro Seamount;seamount;1;144.7;20.3
+Champlain Seamount;seamount;1;322.667;-20.25
+Chaplino Valley;valley;1;188.217;64.1667
+Charcot Fan;fan;1;274;-66
+Charcot Seamounts;seamounts;1;348.5;45
+Charles Quint;reef;1;11.8667;34.9333
+Charleston Valley;valley;1;282.167;32.7
+Charlie Gap;gap;1;189;78
+Charlie-Gibbs Fracture Zone;fracture zone;1;324.5;52.75
+Charlotte Bank;knoll;1;173.217;-11.7833
+Charlotte Bank;reef;1;107.617;7.11667
+Chase Seamount;seamount;1;220.417;42.0667
+Chatham Rise;rise;1;180;-43.5
+Chautauqua Seamount;seamount;1;197.333;22.1667
+Chazhma Canyon;canyon;1;162;55.15
+Chebacco Canyon;canyon;1;292.05;40.2
+Chelan Bank;bank;1;193.433;54.0667
+Chelan Seamount;seamount;1;228.467;49.75
+Cheref Seamount;seamount;1;145.467;19.9167
+Cherkis Seamount;seamount;1;334.283;43.3833
+Chile Basin;basin;1;280;-33
+Chile Rise;rise;1;270;-40
+Chinook Trough;trough;1;186.25;44
+Chirikof Basin;basin;1;191;64.5
+Chirikof Seamount;seamount;1;207;54.8333
+Chopin Seamount;seamount;1;197.95;26.1333
+Christiaensen Basin;basin;1;310.25;40.45
+Christian Canyon;canyon;1;321;62
+Christmas Ridge;ridge;1;200;5
+Christmas Rise;rise;1;103;-13
+Chuckchi Borderland;borderland;1;195;77
+Chukchi Plain;plain;1;188;77
+Chukchi Plateau;plateau;1;195;78
+Chukchi Rise;rise;1;195;78
+Chuo-goto Seachannels;seachannels;1;128.167;33.25
+Cilicia Trough;trough;1;33.5;35.8333
+Cindy Seamount;seamount;1;338.583;7.66667
+Cipangu Basin;basin;1;150;35
+Circeo Terrace;terrace;1;12.75;41.0833
+Clairaut Seamount;seamount;1;249.517;17.9833
+Clarence Trough;trough;1;228.133;55.1667
+Clarion Bank;bank;1;286;20.8333
+Clarion Fracture Zone;fracture zone;1;238;18
+Clark Basin;basin;1;279.333;10.8333
+Clark Reef;reef;1;220.333;-8.08333
+Clark Seamount;seamount;1;202.367;20
+Clayoquot Canyon;canyon;1;233.383;49
+Claypile Bank;bank;1;265.833;28.3333
+Clifford Smith Canyon;canyon;1;310.917;44.5833
+Clipper Canyon;canyon;1;291.333;40
+Clipperton Fracture Zone;fracture zone;1;245;10
+Clipperton Ridge;ridge;1;250;10.5
+Clipperton Seamounts;seamounts;1;249;8
+Cobb Fracture Zone;fracture zone;1;230;47.3333
+Cobb Seamount;seamount;1;229.183;46.7667
+Cochrane Bank;reef;1;113.25;3.83333
+Coco-de-Mer Seamounts;seamounts;1;56;0.5
+Cocos Basin;basin;1;94;-5
+Cocos Plain;plain;1;93.5;-3
+Cocos Ridge;ridge;1;274;5.5
+Cocos-Keeling Rise;rise;1;96;-13
+Coiba Ridge;ridge;1;278.25;6.5
+Colahan Seamount;seamount;1;176;31.25
+Colbeck Basin;basin;1;200.5;-77
+Colmer Knoll;knoll;1;273.8;20.4667
+Colnett Basin;basin;1;243;30.8333
+Colombian Basin;basin;1;284;13
+Colombian Plain;plain;1;284;13
+Colombian Trench;trench;1;281.75;4.75
+Colon Ridge;ridge;1;264;2
+Colorado Seamount;seamount;1;322.667;33.25
+Columbia Ledge;reef;1;291.867;43.95
+Columbia Seamount;seamount;1;328;-20.5
+Columbus Knoll;knoll;1;285.783;24.5833
+Colville Ridge;ridge;1;177.5;-34.5
+Colvocoresses Reef;reef;1;72.6167;4.88333
+Combe Bank;seamount;1;182.417;-12.5333
+Combe Shoal;reef;1;113.9;15.8
+Comino Ridge;ridge;1;10.2667;40.6667
+Comino Trough;trough;1;10.1667;40.6667
+Commodore Reef;reef;1;115.233;8.38333
+Comoro Basin;basin;1;44;-14
+Comoro Plain;plain;1;44.5;-13.75
+Comstock Seamount;seamount;1;203.083;48.25
+Conception Bank;bank;1;347.25;29.5
+Condor Bank;seamount;1;148.067;7.5
+Condor Reef;reef;1;147.85;8.08333
+Conducia Canyon;canyon;1;40.8333;-14.9167
+Congo Canyon;canyon;1;11.8333;-6
+Congo Fan;fan;1;9;-6
+Congolene Canyon;canyon;1;40.25;-16.1
+Congress Seamount;seamount;1;305.183;33.1167
+Connell Reef;reef;1;112.583;5.11667
+Conrad Fracture Zone;fracture zone;1;356;-56
+Conrad Seamount;seamount;1;192;-29.75
+Constantine Seamount;seamount;1;171.333;-20.5
+Constantine Valley;valley;1;179.5;51.45
+Conway Ridge;ridge;1;173.65;-42.6667
+Conway Trough;valley;1;173.583;-42.6667
+Cook Bank;bank;1;231.333;50.9333
+Cook Canyon;canyon;1;169.583;-43.2833
+Cook Seachannel;seachannel;1;166;-43.5
+Cook Strait Canyon;canyon;1;174.583;-41.3333
+Cook Trough;trough;1;231.7;51.1
+Cooper Ridge;ridge;1;209.5;10.25
+Coral Patch Seamount;seamount;1;348.05;34.9333
+Coral Sea Basin;basin;1;152;-14
+Cordell Bank;bank;1;236.583;38
+Coriolis Trough;trough;1;170;-19.5
+Corner Seamounts;seamounts;1;308.5;35.5
+Cornwallis South Reef;reef;1;114.233;8.75
+Coronado Bank;bank;1;242.6;32.5833
+Coronado Canyon;canyon;1;242.633;32.5
+Coronado Escarpment;escarpment;1;242.567;32.6
+Correira Guyot;tablemount;1;57.1833;-6.48333
+Corsair Canyon;canyon;1;293.817;41.3333
+Corsica Terrace;terrace;1;9.83333;41.6667
+Cortes Bank;knoll;1;240.833;32.4667
+Coulee Canyon;canyon;1;176.35;51.7
+Coulee Spur;spur;1;176.4;51.8833
+"""Cow Pen, The""";basin;1;298.583;44.2
+Cowie Seamount;seamount;1;210.5;54.25
+Cox Ledge;bank;1;288.833;41.1
+Cramer Seamount;seamount;1;164.217;24.1
+Crary Bank;bank;1;169;-75
+Crary Seamount;seamount;1;225;84
+Crawford Seamount;tablemount;1;348.833;-38.75
+Creagh Reef;reef;1;118.633;4.36667
+Crescent Seamount;seamount;1;294.367;33.2167
+Crespi Knoll;knoll;1;242.133;33.1
+Crest Basin;basin;1;174.9;52.4333
+Crest Knoll;knoll;1;174.917;52.4833
+Crest Seamount;seamount;1;242.917;24.5833
+Cretan Trough;trough;1;25;36
+Crosley Seamount;seamount;1;207.567;16.9167
+Cross Seamount;seamount;1;201.75;18.75
+Crough Seamount;seamount;1;238.25;-24.75
+Crowell Basin;basin;1;292.667;42.9167
+Crowther Canyon;canyon;1;232.25;49.8
+Crozet Basin;basin;1;60;-39
+Crozet Plateau;plateau;1;51;-46
+Crozet Ridge;ridge;1;45;-45
+Cruiser Tablemount;tablemount;1;332;32
+Crumb Seamount;seamount;1;336.75;43.4667
+Cuarteron Reef;reef;1;112.783;8.83333
+Cultivator Shoal;shoal;1;291.833;41.5
+Curacao Ridge;ridge;1;292;13
+Currituck Seamount;seamount;1;186.5;-30
+Cutts Knoll;knoll;1;202.583;49.3
+Cuvier Basin;basin;1;111;-22
+Cuvier Plain;plain;1;111;-22
+Cuvier Plateau;plateau;1;108;-24
+Cyprus Basin;basin;1;34;33.6667
+D'Entrecasteaux Canyon;canyon;1;115.833;-35.3333
+Dacia Seamount;seamount;1;346.3;31.1667
+Dai-go-goto Bank;bank;1;128.233;33.1833
+Dai-ichi-goto Bank;bank;1;128.733;33.3667
+Dai-ni-goto Bank;bank;1;128.433;33
+Dai-roku-goto Bank;bank;1;128.133;33.2
+Dai-san-goto Bank;bank;1;128.367;33
+Dai-shi-goto Bank;bank;1;128.367;33.1333
+Daikakuji Seamount;seamount;1;172.3;32.0833
+Daini-kinan Seamount;seamount;1;136.7;30.15
+Daisy Bank;bank;1;235.267;44.65
+Daito Ridge;ridge;1;133;25.5
+Dakar Canyon;canyon;1;342.2;14.75
+Dall Bank;bank;1;240.583;32.8667
+Dall Seamount;seamount;1;214.417;58.1667
+Dallas Reef;reef;1;113.883;7.63333
+Daly Seamount;seamount;1;202.333;18.1333
+Damar Ridge;ridge;1;129.5;-6.83333
+Dame Marie Ridge;ridge;1;284.5;18.3333
+Dampier Ridge;ridge;1;157.667;-32.5
+Dampier Seamount;seamount;1;359.6;-11.1667
+Dana Fracture Zone;fracture zone;1;265;-12.5
+Dana Seamount;seamount;1;204.05;18.6333
+Danas Bank;bank;1;308.75;62.6667
+Danas Valley;valley;1;308.917;62.5833
+Danells Valley;valley;1;317.75;60.7
+Danielsen Canyon;canyon;1;326;64
+Dantes Hole;hole;1;255.867;8.28333
+Daon Seamount;seamount;1;145.5;17.9667
+Darwin Guyot;tablemount;1;171.583;22.0667
+David Knoll;knoll;1;50.25;6.4
+David Spur;spur;1;178.683;52.3667
+Davidson Bank;bank;1;196.25;54
+Davidson Seamount;seamount;1;237.283;35.7167
+Davie Ridge;ridge;1;41.75;-17.1667
+Davie Seamount;seamount;1;23.5;-36.5
+Davis Bank;shoal;1;290.333;41.25
+Davis Basin;basin;1;291.65;42.8
+Davis Knoll;knoll;1;239.083;34.1167
+Davis Seamounts;seamounts;1;4.5;-51.5
+Davis Sill;sill;1;303;65.5
+Davis Strait Rise;rise;1;301;66
+Dawson Canyon;canyon;1;298.917;43
+Day Seamount;seamount;1;203.667;18.6667
+De Gerlache Seamounts;seamounts;1;269.5;-65
+De Koningh Seamount;seamount;1;25;-53.3667
+De Krafft Seamount;seamount;1;203.717;13.8833
+De Soto Canyon;canyon;1;272.5;29
+De Venster Seamount;seamount;1;177.5;30.25
+Debussy Seamount;seamount;1;197.917;30.3
+Dehlinger Seamount;seamount;1;222.683;42
+Del Cano Rise;rise;1;44.25;-45.25
+Delfin Basin;basin;1;246.167;29.6667
+Delgada Canyon;canyon;1;235.833;40.0333
+Delgada Fan;fan;1;234;39.25
+Dellwood Knolls;knolls;1;229.75;50.7
+Dellwood Seamounts;seamounts;1;229.3;50.6167
+Dellwood Valley;valley;1;229.583;50.8167
+Demerara Plain;plain;1;312;10
+Demerara Plateau;plateau;1;306;8
+Denham Ridge;ridge;1;178.5;-19.8333
+Denham Trough;trough;1;178.75;-20
+Dennis Knoll;knoll;1;177.7;51.05
+Denson Seamount;seamount;1;222.75;54
+Denys Canyon;canyon;1;309.733;42.7833
+Derickson Seamount;seamount;1;198.75;52.8333
+Derwent Hunter Tablemount;tablemount;1;156.25;-31
+Deryugin Basin;basin;1;146;54
+DesBarres Canyon;canyon;1;306.55;44
+Descartes Seamount;seamount;1;251.25;14.1
+Detroit Tablemount;tablemount;1;167.75;51.25
+Devils Hole;basin;1;0.666667;56.6333
+Devon Shelf;shelf;1;286;75.5
+Devon Slope;slope;1;290;74
+Devonport Seamount;seamount;1;175.383;-31.5333
+Diamantina Fracture Zone;fracture zone;1;105;-36
+Diamond Shoals;shoals;1;284.5;35.2
+Diana Reef;reef;1;285.217;22.5167
+Diane Bank;reef;1;149.667;-15.8333
+Diaphus Bank;bank;1;269.3;28.0833
+Dibble Basin;basin;1;133;-65.3333
+Dickins Seamount;seamount;1;223;54.5
+Dickins Shoal;reef;1;117.533;8.3
+Dietrich Guyot;tablemount;1;333.117;5.61667
+Dietz Tablemount;tablemount;1;176.5;22.6167
+Discovery II Fracture Zone;fracture zone;1;42.8333;-41
+Discovery Ridge;ridge;1;291.967;27.8333
+Discovery Tablemount;tablemount;1;0.166667;-42
+Disko Bank;bank;1;305;69.25
+Disney Reef;reef;1;185.9;-19.2833
+Dispatch Seamount;seamount;1;240.667;27.7
+Dixie Jane Seamount;seamount;1;162.133;18.6667
+Dixon Seamount;seamount;1;180.75;12.6
+Dixon Valley;valley;1;227;54.3167
+Djibouti Bank;bank;1;356.283;36.1667
+Djupall;valley;1;336;66.5833
+Dmitri Mendeleyev Seamount;seamount;1;154.967;4.86667
+Dogbody Canyon;canyon;1;291.217;40.05
+Dogfish Reef;reef;1;228.467;54.15
+Dogger Bank;bank;1;3;55
+Doldrums Fracture Zone;fracture zone;1;320.75;8.16667
+Dolphin Spur;spur;1;165;-38.25
+Dom Joa'o de Castro Reef;reef;1;333.367;38.2167
+Don Juan de Austria Shoals;reefs;1;118.167;7.63333
+Donegal Fan;fan;1;349.833;56.1667
+Donelson Seamount;seamount;1;169.467;25.1
+Donizetti Seamount;seamount;1;200;32.3333
+Dordrecht Basin;basin;1;101.333;-33.5
+Dorsey Seamount;seamount;1;203.25;48.8
+Dowd Guyot;tablemount;1;240.35;13.45
+Downwind Seamount;seamount;1;245.217;16.6167
+Dragon Seamount;seamount;1;343.5;34.9167
+Drygalski Basin;basin;1;166.5;-74.8333
+Du Toit Fracture Zone;fracture zone;1;28;-49
+Dubinin Trough;trough;1;80.5;-67.1667
+Dume Canyon;canyon;1;241.2;33.9667
+Dumshaf Plain;plain;1;5;68
+Duntroon Seamount;seamount;1;133.083;-35.4167
+Durand Reef;reef;1;168.65;-22.0333
+Durgin Seamount;seamount;1;218;56
+Dutton Ridge;ridge;1;149.25;20.0833
+Dutton Seamount;seamount;1;201.967;20.05
+Dvorak Seamount;seamount;1;198.667;30.5167
+Earl Dalhousie Bank;tablemount;1;144.95;8.13333
+East Aves Escarpment;escarpment;1;297;13
+East Azores Fracture Zone;fracture zone;1;334;36.5
+East Cape Ridge;ridge;1;179;-37.5
+East Cape Trough;trough;1;176.2;52.3167
+East Caroline Basin;basin;1;146.75;4
+East Cortes Basin;basin;1;241.5;32.25
+East Flower Garden Bank;bank;1;266.4;27.9167
+East Hinder;shoal;1;2.66667;51.5833
+East Indiaman Ridge;ridge;1;99.25;-27
+East Mariana Basin;basin;1;153;12
+East Mexico Shelf;shelf;1;262.5;24
+East Novaya Zemlya Trough;trough;1;61;73.5
+East O'Gorman Fracture Zone;fracture zone;1;258.5;14
+East Pacific Rise;rise;1;245;-20
+East Reef;reef;1;112.55;8.81667
+East Reef;reef;1;281.417;15.8833
+East Scotia Basin;basin;1;325;-57
+East Sheba Ridge;ridge;1;56.25;14.5
+East Tasman Plateau;plateau;1;152;-43.5
+East Thulean Rise;rise;1;338.25;51.6667
+Easter Fracture Zone;fracture zone;1;260;-26
+Eastern Bradelle Valley;valley;1;297.5;47.8333
+Eastern Shoals;shoals;1;309.5;46.45
+Eastward Knoll;knoll;1;290.85;28.5333
+Eauripik Rise;rise;1;142;3
+Ebeling Reef;reef;1;107.417;0.466667
+Ebro Fan;fan;1;3.6;40.6667
+Echizen Banks;banks;1;135.75;36.25
+Echo Seamount;seamount;1;340.583;25.3833
+Echuca Reef;reef;1;123.917;-13.9
+Eclipse Seamount;seamount;1;200.65;-19.1667
+Ecuador Fracture Zone;fracture zone;1;275.5;3
+Edoras Bank;bank;1;338;56
+Edremit Trough;trough;1;25.5;39.5
+Edwards Bank;reef;1;159.683;-7.71667
+Eel Canyon;canyon;1;235.417;40.65
+Eendracht Seamounts;seamounts;1;103;-28.5
+Egeria Bank;reef;1;114.933;16.0167
+Egeria Fracture Zone;fracture zone;1;66.5;-20
+Egmont Terrace;terrace;1;172.083;-39.6167
+Eia Canyon;canyon;1;147.933;-7.86667
+Eickelberg Ridge;ridge;1;226.833;48.5
+Eickelberg Seamount;seamount;1;226.833;48.5
+Einstein Seamount;seamount;1;249.717;13.8667
+Eirik Ridge;ridge;1;316;58.6667
+El Ferrol Canyon;canyon;1;350.75;44.05
+"""Elbow, The""";ridge;1;275.85;27.6833
+Eldad Reef;reef;1;114.667;10.3333
+Elizabeth Basin;basin;1;290;43.3333
+Elizabeth Shoals;reef;1;113.167;3.91667
+Ellice Ridge;ridge;1;178;-8
+Ellis Seamount;seamount;1;202.3;19.1667
+Eltanin Fracture Zone;fracture zone;1;230;-54
+Elvers Bank;bank;1;267.117;27.8333
+Ely Seamount;seamount;1;214.333;56.25
+Embattle Seamount;seamount;1;195.833;10.75
+Emden Deep;deep;1;126.6;10.65
+Emerald Bank;bank;1;297.5;43.5
+Emerald Basin;basin;1;297.25;44
+Emerald Basin;basin;1;162;-53.5
+Emery Basin;basin;1;241.867;31.8333
+Emery Knoll;knoll;1;241.6;33.0333
+Emilia Seamount;seamount;1;228.1;43.8333
+Emmons Seamount;seamount;1;193.167;15.9333
+Emperor Seamounts;seamounts;1;170;42
+Emperor Trough;trough;1;175.5;43
+Endeavour Seamount;seamount;1;190.567;-18.9333
+Endeavour Seamount;seamount;1;230.917;48.2667
+Endeavour Spur;spur;1;176.667;-53.6667
+Enderby Plain;plain;1;40;-60
+Enderby Reef;reef;1;149.117;7.38333
+Endurance Ridge;ridge;1;320;-62.5
+Enganno Basin;basin;1;103.75;-6
+Engelbrecht Seamount;seamount;1;14.3333;-36.25
+Enoshima Canyon;canyon;1;139.433;35.2333
+Equatorial Seachannel;seachannel;1;329;-3.75
+Eratosthenes Tablemount;tablemount;1;32.6667;33.8333
+Erben Tablemount;tablemount;1;227.467;32.8667
+Eriador Seamount;seamount;1;334.667;54.6667
+Erica Seamount;seamount;1;14.5;-38.25
+Erickson Seamount;seamount;1;169.167;25.55
+Erimo Seamount;seamount;1;144.917;40.9167
+Error Tablemount;tablemount;1;56.0833;10.3333
+Escanaba Ridge;ridge;1;232.8;41.1667
+Escanaba Trough;trough;1;232.5;41
+Esmeralda Bank;seamount;1;145.25;14.95
+Esperance Canyon;canyon;1;121.75;-34.6667
+Esperanza Canyon;canyon;1;232.5;49.6667
+Espinosa Seamount;seamount;1;245.833;9.63333
+Etienne Canyon;canyon;1;171.333;52.6667
+Euclid Seamount;seamount;1;249.5;12.75
+Euler Seamount;seamount;1;248;16.05
+Eurasia Basin;basin;1;80;87
+Everard Canyon;canyon;1;149.45;-38.3333
+Ewing Bank;bank;1;268.967;28.1
+Ewing Seamount;seamount;1;8.75;-23.3333
+Ewing Seamount;seamount;1;174.167;20.3333
+Exmouth Plateau;plateau;1;114;-19
+Explorer Seamount;seamount;1;229.2;49.0833
+Explorer Tablemount;tablemount;1;276.75;16.9167
+Explorer Trench;trench;1;229.417;49
+Eyjafjardhardjup;valley;1;341.25;66.4167
+Eyre Terrace;terrace;1;127;-34
+Fabert Seamount;seamount;1;201.45;-24.1167
+Fairway Plateau;plateau;1;161;-20.75
+Fairway Reef;reef;1;161.75;-21
+Fairweather Ground;banks;1;221.167;58.3667
+Fairweather Seamount;seamount;1;246.983;19.85
+Fairy Bank;shoal;1;2.33333;51.4167
+Falcon Bank;reef;1;185.883;-19.3167
+Falkland Escarpment;escarpment;1;315;-50
+Falkland Fracture Zone;fracture zone;1;319;-49.3333
+Falkland Plateau;plateau;1;310;-51
+Falkland Trough;trough;1;306;-53
+Fantome Bank;reef;1;123.95;-11.6333
+Faraday Seamounts;seamounts;1;331.5;49.5
+Farallon Basin;basin;1;250;25.5
+Farallon Escarpment;escarpment;1;236.833;37.7
+Farfalla Seamount;seamount;1;12.5;40.4167
+Faris Seamount;seamount;1;212.75;54.5
+Faroe Bank;seamount;1;351.333;60.9167
+Faroe Gap;gap;1;351.75;61.3833
+Faroe Shetland Trough;trough;1;356;61
+Faroe-Iceland Ridge;ridge;1;350;64
+Farquhar Ridge;ridge;1;51;-10
+Father Charles Canyon;canyon;1;233.5;48.6667
+Fathometer Reef;reef;1;194.717;54.2833
+Fearless Shoal;reef;1;117.617;7.38333
+Feinga Seamount;seamount;1;184.85;-20.15
+Feni Ridge;ridge;1;342;53.75
+Ferna'o Veloso Canyon;canyon;1;40.8;-14.3667
+Fernando de Noronha Plain;plain;1;329;-3
+Ferraz Ridge;ridge;1;327;-14
+Ferrel Seamount;seamount;1;242.7;29.5
+Ferris Seamount;seamount;1;257.25;-29
+Fieberling Tablemount;tablemount;1;232.167;32.3667
+Field Bank;seamount;1;185.2;-12.2833
+Fiery Cross Reef;reef;1;112.95;9.63333
+"""Fifty Fathoms Flat, The""";bank;1;71.5;18.5
+Fiji Plateau;plateau;1;173;-17
+Filebottom Canyon;canyon;1;292.017;40.1833
+Fillebrown Seamount;seamount;1;197.083;15.0833
+Finch Seamount;seamount;1;202.417;17.5333
+Fiordland Basin;basin;1;165.5;-45.5
+Fippennies Ledge;bank;1;290.7;42.7833
+First Thomas Shoal;reef;1;115.933;9.33333
+Fishers Island Furrow;furrow;1;288.1;41.1833
+Fishers Island Ridge;ridge;1;288.15;41.2
+Fishing Rip;shoal;1;290.583;41.0833
+Fishnet Bank;bank;1;268.183;28.15
+Fiskenaes Bank;bank;1;307.833;63.3
+Flanagan Seamount;seamount;1;338.633;8.36667
+Flavio Gioia;seamount;1;13.0833;40
+Flemish Cap;bank;1;315;47
+Flemish Pass;pass;1;313.25;47
+Fletcher Plain;plain;1;180.017;86
+Flinders Canyon;canyon;1;148.833;-39.6333
+Flinders Reefs;reefs;1;148.517;-17.6167
+Flinders Seamount;seamount;1;159.733;-34.6667
+Flora Reef;reef;1;147.75;-16.75
+Flores Basin;basin;1;120;-7.75
+Florida Escarpment;escarpment;1;274.75;27
+Florida Middle Ground;bank;1;275.75;28.5
+Florida Plain;plain;1;274;25.5
+Florida Reefs;reefs;1;279.333;24.8333
+Florida-Hatteras Slope;slope;1;280;31
+Fonera Canyon;canyon;1;3.45;41.8667
+Forde Seamount;seamount;1;189.883;-35.0167
+Formigas Reef;reef;1;284.25;18.5
+Forster Seamount;seamount;1;226.167;48.95
+Fortune Bank;reefs;1;57;-7.21667
+Fortymile Bank;knoll;1;242.033;32.65
+Foss Reef;reef;1;184;-14.4167
+Foster Ridge;ridge;1;334.5;54.5
+Four Ladies Bank;bank;1;77.5;-67.5
+Four North Fracture Zone;fracture zone;1;327.75;4
+Fourier Seamount;seamount;1;249;14.0833
+Fram Bank;bank;1;70;-67.3
+Fram Basin;basin;1;90;88
+Frances Reef;reef;1;119.25;4.45
+Francisco Canyon;canyon;1;147.083;-7.06667
+Franklin Basin;basin;1;291.917;42.0833
+Franklin Seamount;seamount;1;333.5;57.9
+Franklin Shoals;shoals;1;169;-76
+Franklin Swell;rise;1;291.083;42.0833
+Frants-Viktoriya Trough;trough;1;40.5;81
+Fred Seamount;seamount;1;54.3833;-6.23333
+Frederikshabs Bank;bank;1;309.25;62.2667
+Frederiksted Canyon;canyon;1;294.983;17.6833
+Freen Trough;trough;1;340;42.6833
+French Bank;bank;1;298.883;44.75
+French Frigate Shoals;reef;1;193.833;23.75
+Friedrich Reef;reef;1;118.35;4.23333
+Friendship Shoal;reef;1;112.517;5.96667
+Frindsbury Reef;reef;1;159.15;-5
+Froya Bank;bank;1;7.5;63.75
+Fryer Guyot;tablemount;1;148;20.5
+Frying Pan Shoals;shoals;1;282.083;33.75
+Fuerte Canyon;canyon;1;250.467;25.55
+Fugloy Bank;bank;1;20;71
+Fugloya Bank;bank;1;19.3333;71
+Fukue Bank;bank;1;128.45;32.7833
+Fukuyama Peak;peak;1;143.117;22.3667
+Fundian Valley;valley;1;293.5;42.3333
+Funk Seamount;seamount;1;37.4167;-46.25
+Fyllas Bank;bank;1;307;64
+Gagarin Seamount;seamount;1;205.75;1.5
+Galapagos Fracture Zone;fracture zone;1;260;0
+Galapagos Rise;rise;1;263;-15
+Galapagos Seamount;seamount;1;272.25;-0.966667
+Galicia Bank;bank;1;348.25;42.6667
+Gallieni Bank;tablemount;1;39.6667;-46.5
+Gallieni Fracture Zone;fracture zone;1;52.25;-37
+Galois Seamount;seamount;1;253.533;12.8667
+Galvez Banks;seamounts;1;144.45;13.0667
+Gambell Shoal;shoal;1;189.25;64
+Gambia Plain;plain;1;332;12
+Gambier Fracture Zone;fracture zone;1;147.5;-57
+Gamen Reef;reef;1;144.633;7.43333
+Ganges Fan;fan;1;87;12
+Gardar Ridge;ridge;1;334;57.25
+Gardner Valley;valley;1;192.5;25
+Garibaldi Seamount;seamount;1;13.75;39.1333
+Garnet Bank;seamount;1;310.583;-33.0833
+Garrett Fracture Zone;fracture zone;1;248;-13.3333
+Garrett Ridge;ridge;1;240.467;32.6167
+Gascogne Knoll;knoll;1;354.6;45.35
+Gascoyne Plain;plain;1;110;-16
+Gascoyne Tablemount;tablemount;1;156.5;-36.5
+Gauss Seamount;seamount;1;249.067;15.4
+Gaven Reefs;reefs;1;114.233;10.2
+Gazelle Basin;basin;1;170;-32
+Gem Reef;reef;1;119.15;5.6
+Genista Bank;bank;1;53.4667;16.55
+Genji Seamount;seamount;1;172.25;33.3333
+Gentatsu Shoal;shoal;1;135.75;36.2333
+Gentry Bank;bank;1;289.333;21.8
+Genzan Trough;trough;1;129.667;39.6667
+Geofizikov Spur;spur;1;165;84.75
+George Bligh Bank;seamount;1;346.25;58.9167
+George Seamount;seamount;1;299.2;33.3333
+George V Fracture Zone;fracture zone;1;141;-53.5
+Georges Bank;bank;1;292.5;41.25
+Georges Basin;basin;1;293;42.4167
+Georges Canyon;canyon;1;293.733;41.2667
+Georges Shoal;shoal;1;292.25;41.6667
+Gerda Seamount;seamount;1;302.5;36.25
+Gerdes Seamount;seamount;1;199.583;48.7
+Gershwin Seamount;seamount;1;200.5;27.2667
+Gettysburg Seamount;seamount;1;348.383;36.5333
+Geyer Bank;bank;1;266.933;27.8167
+Geyser Reef;reef;1;46.55;-12.3667
+Giacomini Seamount;seamount;1;213.583;56.4167
+Gibbs Seamount;seamount;1;296.067;16.5667
+Gibraltar Canyon;canyon;1;354.6;36.15
+Gibraltar Valley;valley;1;355.183;35.9167
+Gibson Seamount;seamount;1;211.333;52
+Gifford Tablemount;tablemount;1;159.417;-26.75
+Giglio Basin;basin;1;10.75;41.7833
+Giglio Ridge;ridge;1;10.6;41.75
+Gilbert Canyon;canyon;1;292.083;40.3
+Gilbert Ridge;ridge;1;173;1
+Gilbert Seamount;seamount;1;164;-42.8333
+Gilbert Seamount;seamount;1;209.833;52.8333
+Gilbert Seamounts;seamounts;1;211;52.5
+Gilg Seamount;seamount;1;338.1;6.86667
+Gilliss Seamount;seamount;1;301.417;35.6667
+Gira Canyon;canyon;1;147.983;-7.88333
+Giraud Seamount;seamount;1;46.9167;-9.95
+Gisborne Canyon;canyon;1;178.833;-38.75
+Glomar Challenger Basin;basin;1;180;-77.75
+Gloria Ridge;ridge;1;315;55.8333
+Glover Reef;reef;1;272.167;16.75
+Gluck Seamount;seamount;1;199.9;26.8833
+Goban Spur;spur;1;348;49.4167
+Godaigo Seamount;seamount;1;170.583;41.8667
+Godthab Valley;valley;1;307.5;63.5
+Gofar Fracture Zone;fracture zone;1;254;-4.25
+Golden Gate Bank;knoll;1;249.7;23.0667
+Goldsborough Seamounts;seamounts;1;191;10.5
+Golovnin Seamount;seamount;1;157.117;46.7833
+Goodrich Bank;reef;1;130.3;-10.7333
+Goose Island Bank;bank;1;231;51.6333
+Gorda Bank;bank;1;277.583;15.75
+Gorda Basin;basin;1;234;41
+Gorda Escarpment;escarpment;1;234.833;40.3667
+Gorda Ridges;ridges;1;232;41.5
+Gorda Trough;trough;1;250.633;22.8333
+Gorda Valley;valley;1;234.917;39.8667
+Gordon Seamount;seamount;1;224.933;46.8333
+Gorontalo Basin;basin;1;124;-0.25
+Gorringe Ridge;ridge;1;348.417;36.6667
+Gosanjo Seamount;seamount;1;171.583;32.9167
+Goshirakawa Seamount;seamount;1;171.667;32.6667
+Gosnold Seamount;seamount;1;297.717;38.1333
+Goto Banks;banks;1;128.417;33.1667
+Gounod Seamount;seamount;1;198.8;27.8833
+Graham Seamount;seamount;1;225.483;53.2333
+Graham Shoal;shoal;1;12.7167;37.1667
+Grainger Bank;reef;1;110.467;7.78333
+Grampian Trough;trough;1;177.5;-15.25
+Gran Cocal Reef;reef;1;176.25;-6
+Grand Bank;bank;1;310;45
+Grand Banks of Newfoundland;banks;1;307;45
+Grand Manan Banks;banks;1;292.917;44.2
+Grand Manan Basin;basin;1;293.5;44.4167
+Granville Shoal;shoal;1;270.667;21.9167
+Grappler Bank;bank;1;284.017;18.3833
+Grappler Seamount;seamount;1;294.083;17.8
+Grattan Seamount;seamount;1;347.183;-9.73333
+Gray Feather Bank;reef;1;148.767;8
+Grays Canyon;canyon;1;235.117;46.9167
+Great Abaco Canyon;canyon;1;283;27.0833
+Great Bahama Bank;bank;1;282;23.25
+Great Bahama Canyon;canyon;1;282.833;25.5
+Great Barrier Reef;reef;1;146.833;-18
+Great Danger Bank;reefs;1;117.3;7.61667
+Great Fisher Bank;bank;1;4;57
+Great Meteor Tablemount;tablemount;1;331.5;30
+Great Sea Reef;reef;1;178.55;-16.25
+Great Sole Bank;bank;1;349.833;49.6333
+Great Yangtze Bank;bank;1;123.5;31.75
+Greater Antilles Ridge;ridge;1;286;20
+Green Bank;bank;1;306.417;45.75
+Green Canyon;canyon;1;269.55;27.05
+Green Knoll;knoll;1;269.7;27
+Green Seamount;seamount;1;205.8;19.3
+Greenland Basin;basin;1;355;73.5
+Greenland Fracture Zone;fracture zone;1;0.5;75.5
+Greenland Plain;plain;1;357;75
+Greenland Trough;trough;1;340;69
+Greenland-Iceland Rise;rise;1;333;67
+Gregg Seamount;seamount;1;299;39
+Grenada Basin;basin;1;298;13.5
+Grenada Plain;plain;1;298;13.5
+Grenell Canyon;canyon;1;179.033;52.3167
+Gridley Trough;trough;1;196.75;16.5
+Grieg Seamount;seamount;1;197.95;27.85
+Grijalva Ridge;ridge;1;275;-5
+Grindavikurdjup;valley;1;337.5;63.4167
+Groll Seamount;seamount;1;328;-14
+Grue Bank;bank;1;23.2;-35
+Guacanayabo Trough;trough;1;278.333;19.75
+Guadalupe Arrugado;arrugado;1;117.583;28.8333
+Guadalupe Seamount;seamount;1;168.75;27.8333
+Guafo Fracture Zone;fracture zone;1;276.333;-42.9167
+Guardian Seamount;seamount;1;272.333;9.53333
+Guatemala Basin;basin;1;265;11
+Guayanilla Canyon;canyon;1;293.233;17.75
+Guaymas Basin;basin;1;248.5;27.25
+Guiana Basin;basin;1;308;11
+Guide Canyon;canyon;1;235.217;46.5667
+Guide Ridge;ridge;1;209.417;52.3667
+Guide Seamount;seamount;1;236.667;37.0167
+Guilvinec Canyon;canyon;1;354.75;46.7333
+Guinea Basin;basin;1;355;0
+Guinea Fracture Zone;fracture zone;1;333;9
+Guinea Plain;plain;1;357;1
+Guinea Plateau;plateau;1;342.5;9.75
+Guinea Rise;rise;1;0;-8
+Gulden Draak Seamount;seamount;1;98.3333;-29
+Gulf of Alaska Seamount Province;province;1;213;56
+"""Gully, The""";canyon;1;300.75;44.25
+Gumdrop Seamount;seamount;1;236.533;37.45
+Gunnerus Bank;bank;1;33;-68
+Gunnerus Ridge;ridge;1;33.75;-66.5
+Gunston Hall Bank;bank;1;129.75;36.5
+Gusinaya Bank;bank;1;46.5;71.5
+Gustaf Adolf Trough;trough;1;254;78.5833
+Guy Canyon;canyon;1;310.7;43.5
+Haast Canyon;canyon;1;168;-44.0833
+Habuto Canyon;canyon;1;140.2;35
+Hadrian Seamount;seamount;1;11.7;40.4333
+Halawa Canyon;canyon;1;203.283;21.2
+Haldimand Canyon;canyon;1;302.033;44
+Half Moon Shoal;reef;1;116.267;8.85
+Hall Tablemount;tablemount;1;39.0167;-21.8333
+Halmahera Basin;basin;1;128.75;-0.25
+Halten Bank;bank;1;8.75;64.75
+Hamilton Bank;bank;1;305.25;54
+Hamilton Tablemount;tablemount;1;177.217;19.9167
+Hammerstein Seamount;seamount;1;194.233;32.4667
+Hammondsport Seamount;seamount;1;159.583;-10.5333
+Hancock Bank;reef;1;269.783;-1.06667
+Hancock Bank;bank;1;240.3;32.5667
+Hancock Seamount;seamount;1;178.5;30.25
+Hand Shoal;reef;1;114.633;15.9833
+Handel Seamount;seamount;1;200.117;27.4333
+Hanna Bank;bank;1;198;72
+Hanna Shoal;shoal;1;198;72
+Hannibal Bank;bank;1;277.917;7.41667
+Hardie Reef;reef;1;112.533;5.91667
+Hardy Bank;bank;1;22.8333;-35.25
+Hardy Patches;reef;1;114.767;16.0833
+Hardy Reef;reef;1;116.133;10.1333
+Harrie Guyot;guyot;1;172.283;5.58333
+Harrington Hill;hill;1;282.433;31.35
+Harris Seamount;seamount;1;198.583;46.1667
+Harris Seamount;seamount;1;220;84
+Harrison Seamount;seamount;1;192.083;12.6667
+Hart Reef;reef;1;119.867;10.8
+Hartog Ridge;ridge;1;105;-30.5
+Hassayampa Seamount;seamount;1;196.517;15.3
+Hassler Reef;reef;1;228.383;54.8167
+Hatteras Canyon;canyon;1;286;34.6667
+Hatteras Plain;plain;1;289;31
+Hatteras Ridge;ridge;1;287.167;33.75
+Hatton Ridge;ridge;1;342.5;59
+Hatton-Rockall Basin;basin;1;343.5;57.5
+Hauraki Canyon;canyon;1;175.583;-35.3333
+Havre Trough;trough;1;180.5;-31.5
+Hawaiian Arch;arch;1;208;20
+Hawaiian Ridge;ridge;1;195;24
+Hawaiian Trough;trough;1;205;21
+Hawke Canyon;canyon;1;177.867;-39.6333
+Hawkins Reef;reef;1;167.367;-10.3
+Hawley Ridge;ridge;1;183.75;51
+Hayama Canyon;canyon;1;139.467;35.2167
+Haycock Basin;basin;1;177.8;52.0333
+Haydn Seamount;seamount;1;198.8;26.6667
+Hayes Fracture Zone;fracture zone;1;321.5;33.6667
+Hayes Reef;reef;1;112.65;5.36667
+Hazel Holme Bank;seamount;1;174.05;-12.8167
+Heald Bank;reef;1;265.733;29.0833
+Heaphy Valley;valley;1;171.517;-40.6667
+Hebrides Seamount;seamount;1;349.633;56.45
+Hecataeus Knoll;knoll;1;33.6333;34.4667
+Hecataeus Seamount;seamount;1;33.7;34.3833
+Hecate Patch;reef;1;10.8333;37.7667
+Hecate Seamount;seamount;1;329.033;52.2833
+Heceta Bank;bank;1;235.25;44.1667
+Heceta Escarpment;escarpment;1;235.05;44
+Heceta Knoll;knoll;1;224.683;55.6667
+Heceta Valley;valley;1;235.367;44
+Hecht Seamount;seamount;1;208.667;53.75
+Heck Canyon;canyon;1;175;52.25
+Heck Seachannel;seachannel;1;231.133;49.2
+Heck Seamount;seamount;1;230;48.5
+Heel Tapper Canyon;canyon;1;291.75;40.1333
+Heezen Fracture Zone;fracture zone;1;225;-53
+Heezen Plateau;plateau;1;289.2;38.3833
+Helen Shoal;reef;1;113.9;19.2
+Helena Seamount;seamount;1;158.933;29.65
+Helene Shoal;reef;1;149.133;5.53333
+Hellenic Trough;trough;1;22;35.5
+Hemler Guyot;guyot;1;151.667;19.6667
+Henderson Ridge;ridge;1;273.333;26.2833
+Henderson Seamount;seamount;1;240.45;25.5667
+Hendrickson Canyon;canyon;1;287.483;39.1167
+Henry Seamount;seamount;1;168.75;23.5333
+Henselt Seamount;seamount;1;198.733;27.0333
+Heradhsdjup;valley;1;346.5;65.8333
+Herald Bank;knoll;1;112.233;15.7333
+Herald Bank;bank;1;188.5;70.5
+Herald Reef;reef;1;112.6;4.96667
+Herald Reef;reef;1;188.933;70.3333
+Herald Valley;valley;1;185;71.5
+Herbert Canyon;canyon;1;189.333;53.4167
+Herdman Seamount;seamount;1;0.5;-45.25
+Herefordshire Shoal;reef;1;117.017;8.58333
+Hero Fracture Zone;fracture zone;1;294;-61.5
+Herodotus Basin;basin;1;30;34
+Herodotus Seamount;seamount;1;19.9333;33.5833
+Herodotus Sill;sill;1;20.4;33.5
+Herodotus Trough;trough;1;20.55;33.35
+Hess Escarpment;escarpment;1;284.167;15.0833
+Hess Rise;rise;1;177.25;36.75
+Hess Tablemount;tablemount;1;185.75;17.8333
+Heywood Shoal;reef;1;124.067;-13.4833
+Hibernia Reef;reef;1;123.383;-12
+Higashi-goto Seachannels;seachannels;1;128.667;33.3333
+Hikurangi Trench;trench;1;179;-40
+Hinds Seamount;seamount;1;206.833;18.4333
+Hinemoa Seamount;seamount;1;183.833;-35.3333
+Hirondelle II Seamount;seamount;1;348.167;36.4333
+Hispaniola Basin;basin;1;288.417;20.3
+Hispaniola Plain;plain;1;288.417;20.3
+Hitchfield Bank;reef;1;149.667;7.73333
+Hjort Fracture Zone;fracture zone;1;163;-62
+Hjort Seamount;seamount;1;159;-56.5
+Hjort Trench;trench;1;157.5;-58
+Hodges Knoll;knoll;1;204.383;12.4167
+Hodges Seamount;seamount;1;301.267;31.9
+Hodgkins Seamount;seamount;1;223.917;53.5
+Hodgkins Seamounts;seamounts;1;224;53.5
+Hodgson Seamount;seamount;1;301.333;35.5833
+Hohnhaus Seamount;seamount;1;180.817;13.45
+Hohonu Seamount;seamount;1;205.317;19.1833
+Hoke Seamount;seamount;1;233.067;32.1
+Hokitika Canyon;canyon;1;169.75;-42.3333
+Hokkaido Rise;rise;1;155;46
+Hokkaido Seamount;seamount;1;151.5;42.8333
+Holmes Reefs;reefs;1;147.917;-16.5
+Holothuria Banks;reefs;1;126;-13.4167
+Home Seamount;seamount;1;184.383;-12.9167
+Honopu Canyon;canyon;1;200.317;22.1833
+Hook Ridge;ridge;1;216.333;51.5
+Hoopers Canyon;canyon;1;171;-46.1
+Hope Valley;valley;1;189;68.8333
+Hopkins Reef;reef;1;116.25;10.8667
+Hopps Reef;reef;1;115.383;10.25
+Horizon Deep;deep;1;185.267;-23.2667
+Horizon Ridge;ridge;1;106.083;-14.8167
+Horizon Tablemount;tablemount;1;191.5;19.6667
+Hornafjardhardjup;valley;1;345.1;63.6667
+Hornsund Valley;valley;1;14.75;76.6667
+Horseshoe Plain;plain;1;347.667;35.6667
+Horseshoe Seamounts;seamounts;1;345;36.5
+Hotspur Seamount;seamount;1;324.083;-17.9167
+Hovgaard Fracture Zone;fracture zone;1;1.5;78
+Howard Shoal;reef;1;114.783;15.85
+Howell Basin;basin;1;291.267;42.2833
+Howell Hook;ridge;1;275.75;25.75
+Howell Swell;rise;1;291.483;42.2667
+Hoyles Canyon;canyon;1;310.917;43.55
+Hoyt Hills;hills;1;281.5;31.3333
+Hsin-i Canyon;canyon;1;121.367;23.0333
+Huddell Seamount;seamount;1;213.783;28.3333
+Hudson Canyon;canyon;1;287.8;39.45
+Hudson Fan;fan;1;290.5;36.5
+Hudson Shelf Valley;shelf valley;1;286.5;40.0833
+Hudson Valley;valley;1;289.05;38.4667
+Hueneme Canyon;canyon;1;240.767;34.1
+Humboldt Plain;plain;1;274;-54
+Hunafloaall;valley;1;339.333;66.3333
+Hunkins Seamount;seamount;1;204;81
+Hunter Bank;seamount;1;138.267;9.96667
+Hunter Gap;gap;1;332.5;-35
+Hunter Ridge;ridge;1;174.5;-21.5
+Hurd Bank;bank;1;14.8333;35.9167
+Hutchins Bank;bank;1;246.667;26.3833
+Hydock Seamount;seamount;1;161.583;24.0667
+Hydra Seamount;seamount;1;50.5833;-11
+Hydro Knoll;knoll;1;176.817;52.2
+Hydrographer Canyon;canyon;1;290.95;40.2
+Hyeres Seamount;seamount;1;331;31.5
+Hyuga Valley;valley;1;135.333;33.25
+Ianthe Reefs;reefs;1;145.65;5.88333
+Iberian Basin;basin;1;344;39
+Iberian Plain;plain;1;346.5;43.75
+Iceland Basin;basin;1;341;61
+Iceland Plateau;plateau;1;348;69.5
+Ignacio Canyon;canyon;1;250.5;25.5
+Iizuka Seamount;seamount;1;228.067;42.35
+Ikaria Trough;trough;1;26.3333;37.8333
+Ikitsuki Bank;bank;1;129.067;33.6
+Iligan Reef;reef;1;123.867;8.65
+Iltis Bank;reef;1;112.217;16.7667
+Imarssuak Seachannel;seachannel;1;316;57.25
+Inanudak Canyon;canyon;1;191.083;54
+Inca Fracture Zone;fracture zone;1;274.75;1.5
+Independence Knolls;knolls;1;290.3;28.4167
+Indian Cordillera;cordillera;1;66;-10
+Indianapolis Seamount;seamount;1;203.3;19.6333
+Indomed Fracture Zone;fracture zone;1;46.25;-39
+Indus Fan;fan;1;66.5;16
+Inga Canyon;canyon;1;175.5;52.6167
+Ingenstrem Trough;trough;1;175;52.5833
+Ingleses Banks;banks;1;268;21.7833
+Inharrime Terrace;terrace;1;34.8;-25.3333
+Inner Candelaria Canyon;canyon;1;249.833;23.0333
+Inner Gorda Bank;reef;1;250.483;23.0333
+Inoko Canyon;canyon;1;139.583;34.9167
+Investigator Bank;bank;1;293.8;17.75
+Investigator Northeast Shoal;shoal;1;116.45;9.16667
+Investigator Ridge;ridge;1;98.1667;-11.5
+Investigator Shoal;reef;1;114.733;8.15
+Invisible Bank;reef;1;93.4667;11.1667
+Io Rise;rise;1;150;52
+Ionian Basin;basin;1;20;36
+Ireland Trough;trough;1;347.333;55
+Ironwood Seamount;seamount;1;200.05;10.6667
+Iroquois Reef;reef;1;116.167;10.65
+Irving Reef;reef;1;114.933;10.8833
+Isabella Reef;reef;1;182.583;-12.4167
+Isafjardharjup;valley;1;337;66.1667
+Isakov Seamount;seamount;1;151.5;31.75
+Iselin Bank;spur;1;181;-72.5
+Iselin Seamount;seamount;1;181.75;-70.75
+Isfjordrenna;valley;1;12;78.0833
+Islas Orcadas Fracture Zone;fracture zone;1;6;-54
+Islas Orcadas Fracture Zone;fracture zone;1;6;-54
+Islas Orcadas Rise;rise;1;334;-51.5
+Islas Orcadas Rise;rise;1;334;-51.5
+Isobel Shoals;reef;1;112.783;3.86667
+Issel Seamount;seamount;1;13.6667;39.75
+Ita Mai Tai Guyot;guyot;1;157.167;12.5
+Iwabuchi Seamount;seamount;1;227.267;42.0667
+Iwo Jima Ridge;ridge;1;139.5;30
+Izu Trench;trench;1;142;31
+J-Anomaly Ridge;ridge;1;309;40.5
+JOIDES Basin;basin;1;174;-74.5
+Jackman Canyon;canyon;1;310.533;43.25
+Jacqueline Guyot;guyot;1;176.667;19.3333
+Jacques Swell;rise;1;291.667;42.6
+Jadul Ridge;ridge;1;10.25;41.6667
+Jaggar Seamount;seamount;1;203;19.3833
+Jagua Bank;reef;1;279.333;21.5833
+"""Jagua, Banco de""";reef;1;279.333;21.5833
+Jaguar Seamount;seamount;1;39.45;-21.8333
+Jakkula Bank;bank;1;268.35;27.9833
+Jamaican Plain;plain;1;281;15.5
+James Basin;basin;1;177.5;51
+James Canyon;canyon;1;177.2;50.85
+James Knoll;knoll;1;177.2;51
+James Patch;reef;1;119.2;4.5
+Jan Mayen Fracture Zone;fracture zone;1;352;71.2
+Jan Mayen Ridge;ridge;1;352;69
+Janga Canyon;canyon;1;40.8833;-14.6167
+Japan Basin;basin;1;135;40
+Japan Plain;plain;1;135;41.5
+Japan Trench;trench;1;143;37
+Japanese Guyots;guyots;1;148.5;32.5
+Jaseur Seamount;seamount;1;324;-20.5
+Jasper Seamount;seamount;1;237.3;30.5333
+Java Reef;reef;1;118.567;7.83333
+Java Ridge;ridge;1;109;-9.5
+Java Trench;trench;1;110;-10.5
+Jeffreys Bank;bank;1;291.25;43.3833
+Jeffreys Basin;basin;1;289.833;43.1
+Jeffreys Ledge;ridge;1;289.95;43
+Jehangire Reefs;reefs;1;112.667;16.35
+Jenkins Seamount;seamount;1;173.683;30.3333
+Jessie Beazley Reef;reef;1;119.817;9.03333
+Jimmu Seamount;guyot;1;169.417;46
+Jingu Basin;basin;1;172;39.5
+Jingu Seamount;guyot;1;171.25;38.8333
+Jogashima Canyon;canyon;1;139.533;35.1
+Johnson Patch;reef;1;111.583;7.78333
+Johnston Seamounts;seamounts;1;190.5;16
+Jokuldjup;valley;1;335.833;64.1667
+Jones Canyon;canyon;1;288.067;39.45
+Jones Seamount;seamount;1;227.417;43.55
+Jones Seamount;seamount;1;211.083;52.4167
+Jordan Basin;basin;1;292.25;43.5
+Jordan Knoll;knoll;1;276.2;23.5333
+Josephine Seamount;seamount;1;345.75;36.6667
+Jovellanos Seamount;seamount;1;355.8;44.5333
+Juan de Fuca Canyon;canyon;1;234.5;47.8333
+Juan de Fuca Fracture Zone;fracture zone;1;227;47
+Juan de Fuca Ridge;ridge;1;230;46
+Jubilee Seamount;seamount;1;111.467;8.55
+Jukes Canyon;canyon;1;307.983;43.2667
+Julia Shoal;reef;1;109.133;9.95
+Julianehab Valley;valley;1;313.083;60.3333
+Justus Seamount;seamount;1;307.5;34.4
+Jutland Bank;bank;1;7.33333;56.8333
+Kagami Seamount;seamount;1;219.383;45.4833
+Kahutara Ridge;ridge;1;173.767;-42.55
+Kaikata Seamount;seamount;1;141;26.6667
+Kaikoura Canyon;canyon;1;173.75;-42.5833
+Kailiu Canyon;canyon;1;200.383;22.25
+Kaiwhata Bank;bank;1;176.233;-41.3167
+Kalaniopuu Basin;basin;1;178;25
+Kaluanui Canyon;canyon;1;202.983;21.2333
+Kamchatka Terrace;terrace;1;161.55;53.7333
+Kamehameha Basin;basin;1;197;16.0667
+Kami Reef;reef;1;128.667;32.8333
+Kammu Seamount;guyot;1;173;32.1667
+Kamogawa Canyon;canyon;1;140.217;35.05
+Kamonga Shoal;reef;1;117.15;8.5
+Kanaga Basin;basin;1;181.583;50.8
+Kanaga Canyon;canyon;1;182;51.2167
+Kane Fracture Zone;fracture zone;1;315;23.5
+Kane Gap;gap;1;340.5;9.25
+Kane Seamount;seamount;1;331.967;21.1333
+Kangerdlugssuaq Valley;valley;1;329;67.3333
+Kangermio Canyon;canyon;1;325.5;64
+Kapuskasing Saddle;saddle;1;299;44.6333
+Karin Seamount;seamount;1;191.033;17.9167
+Karitane Canyon;canyon;1;171.167;-45.6333
+Karius Canyon;canyon;1;178.967;51.15
+Kashima Tablemount;tablemount;1;142.633;35.75
+Katakai Canyon;canyon;1;141;35.25
+Kaukau Bank;bank;1;175.5;-41.5667
+Kawainui Canyon;canyon;1;203.2;21.2167
+Kay Knoll;knoll;1;178.867;51.9667
+Kayar Canyon;canyon;1;342.767;14.95
+Keathley Canyon;canyon;1;266.55;26.4167
+Keats Reef;reef;1;173.467;5.88333
+Keith Reef;reef;1;10.9333;37.8167
+Keller Canyon;canyon;1;285.317;35.55
+Kelso Reef;reef;1;159.5;-24.1667
+Kelvin Seamount;seamount;1;296;38.8333
+Kepler Seamount;seamount;1;250.417;18.5
+Kerguelen Plateau;plateau;1;75;-55
+Kermadec Ridge;ridge;1;181.5;-30.5
+Kermadec Trench;trench;1;183;-30
+Kermit Roosevelt Seamount;seamount;1;214;39.5833
+Kern Seamount;seamount;1;194;32.55
+Kero Niuni Canyon;canyon;1;40.7;-11.5833
+Kettle Canyon;canyon;1;311;43.9833
+Khachaturian Seamount;seamount;1;198;28.15
+Khayyam Seamount;seamount;1;252.967;14.2833
+Kimmei Seamount;seamount;1;171.5;33.7167
+Kinan Seamounts;seamounts;1;136.833;30
+King Arthur Canyon;canyon;1;348.5;48.5
+King Island Shoal;shoal;1;191.9;65
+King Island Valley;valley;1;192;64.75
+Kingman Basin;basin;1;192.5;8.5
+Kings Trough;trough;1;338;43.8
+Kingston Shoal;reef;1;111.583;7.55
+Kiska Basin;basin;1;176.55;51.1167
+Kiska Knoll;knoll;1;176.4;51.1167
+Kiska Spur;spur;1;176.4;51.3
+Kitty Hawk Seamount;seamount;1;111.25;10.1333
+Kiwi Seamount;seamount;1;295.4;39.3167
+Kiwi Seamount;seamount;1;173.867;-30.7833
+Klamath Ridge;ridge;1;230.417;41.1667
+Knauss Knoll;knoll;1;289.133;37.4
+Knights Terrace;terrace;1;175.167;-35.0333
+Knipovich Ridge;ridge;1;7.5;76
+Kodiak Seamount;seamount;1;210.75;56.8667
+Kodiak Seamounts;seamounts;1;220;55
+Koko Seamount;guyot;1;171.583;35.25
+Kol'tso Seamount;seamount;1;132.333;40.5
+Kolbeinsey Ridge;ridge;1;342.5;69
+Kolff Shoal;shoal;1;136.833;-7
+Kolluall;valley;1;335.667;64.8333
+Komahashi Seamount;seamount;1;134.667;28.0833
+Komahashi-daini Seamount;seamount;1;133.317;29.8833
+Komandorskaya Basin;basin;1;168;57
+Kong Karls Basin;basin;1;29;79.5
+Kongsfjordrenna;valley;1;10;79
+Koniuji Canyon;canyon;1;184.717;52.25
+Kookoolik Valley;valley;1;190.083;64.1667
+Korai Reef;reef;1;128.717;33.1167
+Korean Plateau;plateau;1;130;38.5
+Koro Basin;basin;1;179.75;-17.75
+Korovin Canyon;canyon;1;185.917;52.75
+Kosciusko Tablemount;tablemount;1;179.717;-10.3
+Kossol Reef;reef;1;134.683;7.95
+Kottono Canyon;canyon;1;140.067;34.8667
+Kotzebue Seamount;seamount;1;146.333;41.3333
+Koyo Bank;reef;1;148.4;8.43333
+Kozlova Canyon;canyon;1;162;54.5333
+Kozlova Spur;spur;1;162.267;54.2667
+Kronotskaya Canyon;canyon;1;160.617;54
+Krylov Seamount;seamount;1;329.883;17.5833
+Krysi Canyon;canyon;1;177.75;51.5
+Kuga Bank;bank;1;128.5;32.9167
+Kuril Basin;basin;1;150;47
+Kuril Gap;gap;1;152;46.25
+Kuril Ridge;ridge;1;152;47
+Kuril Trench;trench;1;155;47
+Kushiro Canyon;canyon;1;145;42.3333
+Kutuzov Seamount;seamount;1;351.683;-15.2167
+Kyuquot Canyon;canyon;1;232.2;49.6667
+Kyushu-Palau Ridge;ridge;1;136;20
+L'Espoir Ridge;ridge;1;101.5;-33
+La Chapelle Bank;bank;1;352.7;47.6167
+La Corun'a Canyon;canyon;1;350.833;43.8
+La Corun'a Seamount;seamount;1;345.717;43.9667
+La Cruz Canyon;canyon;1;238.583;35.7167
+La Jolla Canyon;canyon;1;242.717;32.8833
+La Orchila Basin;basin;1;294.5;12
+La Paz Basin;basin;1;249.833;24.5
+La Perouse Bank;bank;1;234.167;48.6667
+La Perouse Seamount;seamount;1;54.15;-19.65
+La Rochelle Canyon;canyon;1;356.217;45.6333
+La Spezia Terrace;terrace;1;9.75;43.5833
+La Victoria Knoll;knoll;1;242.167;32.0833
+LaHave Bank;bank;1;295.917;43.1667
+LaHave Basin;basin;1;296.25;43.75
+Labrador Basin;basin;1;312;53
+Labrador Trough;trough;1;303.5;55
+Lacaze-Duthiers Canyon;canyon;1;3.46667;42.4667
+Lachlan Banks;bank;1;177.583;-39.65
+Lachlan Ridge;ridge;1;177.833;-39.5
+Lachlan Seamount;seamount;1;190.467;-19.2333
+Ladd Reef;reef;1;111.667;8.66667
+Ladd Seamount;seamount;1;183.333;28.5333
+Lady Elgin Bank;reef;1;149.467;6.3
+Lagrange Seamount;seamount;1;249.083;17.3
+Lalla Rookh Bank;seamount;1;184.333;-12.9167
+Lamont Guyot;guyot;1;159.533;21.5333
+Lamont Ridge;ridge;1;207;83
+Lancaster Trough;trough;1;274.5;74
+Landes Plateau;plateau;1;357.3;44.1333
+Langanesdjup;valley;1;345.417;66.6667
+Lansdowne Bank;bank;1;161.4;-20.8167
+Laplace Seamount;seamount;1;249.333;14.6667
+Laskowski Seamount;seamount;1;215.25;51.8333
+Lastres Canyon;canyon;1;355.45;43.8667
+Lasuen Knoll;knoll;1;242;33.4
+Lau Basin;basin;1;183;-20
+Lau Ridge;ridge;1;181.5;-21
+Laurentian Fan;fan;1;304.083;43.5833
+Laurentian Trough;trough;1;300;47
+Lawson Reef;reef;1;219.233;-8.76667
+Lazarev Trough;trough;1;130;-65.5833
+Le Cher Bank;bank;1;136.25;-8.5
+Le Danois Bank;bank;1;355.133;44.0833
+Le Trou sans Fond;canyon;1;356.033;5.2
+Learmonth Bank;bank;1;226.917;54.4167
+Learmonth Shoal;reef;1;114.667;15.7
+Leeuwin Canyon;canyon;1;115.5;-35.25
+Lefacor Knoll;knoll;1;202.617;45.5833
+Leibnitz Seamount;seamount;1;249.8;16.8333
+Lena Tablemount;tablemount;1;45;-53
+Lena Trough;trough;1;350;83
+Leonard Canyon;canyon;1;286.15;37.7667
+Leslie Bank;reef;1;117.467;11.0667
+Levantine Basin;basin;1;29;33
+Leven Bank;reef;1;47.8333;-12.5
+Lexington Seamount;seamount;1;111;13
+Ligeti Ridge;ridge;1;332;62
+Ligitan Reefs;reefs;1;118.517;4.25
+Ligurian Canyon;canyon;1;8.58333;43.75
+Lihou Reefs;reefs;1;151.667;-17.4167
+Lille Hellefiske Bank;bank;1;306.5;65.0833
+Lilly Canyon;canyon;1;311;44.8667
+Linden Bank;bank;1;146;-16.2833
+Lindenkohl Basin;basin;1;292.083;42.5833
+Lindenkohl Canyon;canyon;1;287.05;38.7667
+Lindenkohl Knolls;knolls;1;292.35;42.5
+Lindenows Valley;valley;1;317.333;60.3333
+Linosa Basin;basin;1;13.1667;35.8333
+Lion Seamount;seamount;1;344.417;35.25
+Lipari Ridge;ridge;1;14.9167;38.5
+Lipari Terrace;terrace;1;14.5;38.4167
+Lisboa Canyon;canyon;1;350.667;38.3333
+Liszt Seamount;seamount;1;197.917;28.9833
+Litke Canyon;canyon;1;163.917;57.9167
+Litke Trough;trough;1;14;81.25
+Little Abaco Canyon;canyon;1;283.25;26.6833
+Little America Basin;basin;1;198;-77.5
+Little Bahama Bank;reefs;1;281.333;26.9167
+Little Georges;shoals;1;291.717;41
+Little Sole Bank;bank;1;351.25;48.5
+Little Stellwagen Basin;basin;1;289.717;42.1167
+Livock Reef;reef;1;115.317;10.1833
+Lizzie Webber;reef;1;113.167;8.06667
+Llanes Canyon;canyon;1;355.617;43.6667
+Llobregat Canyon;canyon;1;2.18333;41.2667
+Lloyd Ridge;ridge;1;273.5;27.7
+Lobachevskiy Seamount;seamount;1;250.933;16.4833
+Lofoten Basin;basin;1;4;70
+Logan Canyon;canyon;1;300.167;43.25
+Loihi Seamount;seamount;1;204.733;18.9333
+Loma Canyon;canyon;1;242.517;32.7667
+Lombok Basin;basin;1;116;-9.83333
+Lomonosov Ridge;ridge;1;140;88
+London Reefs;reefs;1;112.533;8.85
+Long Basin;trough;1;240.667;32
+Long Forties;bank;1;0.5;57
+Lonsdjup;valley;1;345.833;63.9167
+Loon Shoal;shoal;1;210.867;70.5833
+Lord Auckland Shoal;reef;1;117.283;10.3333
+Lord Howe Basin;basin;1;159.167;-32.8333
+Lord Howe Rise;rise;1;162;-32
+Lord Howe Seamounts;seamounts;1;159;-28
+Lorien Bank;bank;1;340.167;54.1667
+Los Frailes Canyon;canyon;1;250.667;23.3667
+Los Roques Basin;basin;1;293.5;12.3333
+Lost Dutchmen Ridge;ridge;1;105;-24.1667
+Lost River Shoal;shoal;1;192.833;65.2333
+Loudoun Canyon;canyon;1;233.667;48.5833
+Lougheed Basin;basin;1;251.5;77.1667
+Louis Agassiz Guyot;tablemount;1;178.2;17.8667
+Louisa Bank;knoll;1;175.933;-11.75
+Louisiade Plateau;plateau;1;158;-12.5
+Louisville Ridge;ridge;1;187.5;-31
+Louisville Seamount;seamount;1;187.75;-31.25
+Loury Canyon;canyon;1;338;56.4333
+Lowrie Guyot;guyot;1;150.783;19.6667
+Loyalty Basin;basin;1;165;-17
+Lucia Canyon;canyon;1;238;35.9667
+Lund Valley;valley;1;271.833;26.8
+Lurio Canyon;canyon;1;40.6;-13.4833
+Lusitania Bank;reef;1;248.3;23.5833
+Luzon Ridge;ridge;1;121.75;20
+Lydonia Canyon;canyon;1;292.3;40.4667
+Lyman Seamount;seamount;1;222.083;30.2
+Lynch Seamount;seamount;1;305.75;32.75
+Lynedoch Shoal;shoal;1;130.8;-10.0333
+Lynher Reef;reef;1;121.917;-15.4333
+Lyra Basin;basin;1;151.5;2.5
+Lyra Reef;reef;1;153.583;-1.83333
+Lyra Trough;trough;1;152.083;-1.33333
+Lys Shoal;reef;1;114.583;11.3167
+M. N. Hill Ridge;ridge;1;53.1667;-3.5
+MGU Seamount;seamount;1;61.25;12.3333
+MGU Seamount;seamount;1;61.25;12.3333
+Mabahiss Fracture Zone;fracture zone;1;68;-2.75
+MacNeil Bank;bank;1;266.5;28.0167
+Macaloe Canyon;canyon;1;40.6667;-11.9167
+Macaw Bank;knoll;1;180.783;-10.7167
+Macclesfield Bank;bank;1;114.333;15.8333
+Macdonald Seamount;seamount;1;219.717;-29.0167
+Macgowen Reef;reef;1;270.1;-1.11667
+Mackenzie Spot;bank;1;297.583;43.9667
+Mackenzie Trough;trough;1;221.833;69.8667
+Macnab Seamount;seamount;1;224.3;45.1833
+Macomber Seamount;seamount;1;163.833;28
+Macquarie Ridge;ridge;1;159;-57
+Macquarie Trench;trench;1;159.333;-54.5
+Macunga Canyon;canyon;1;40.7833;-11.1667
+Madagascar Basin;basin;1;53;-27
+Madagascar Plateau;plateau;1;45;-30
+Madalene Shoals;reefs;1;112.967;3.9
+Madden Basin;basin;1;177;-40.4667
+Madden Canyon;canyon;1;177.333;-40.6333
+Madeira Plain;plain;1;339;32
+Madeira Ridge;ridge;1;344.25;35.5
+Madingley Rise;rise;1;61;-4.25
+Maeander Reef;reef;1;119.3;8.08333
+Maeno Bank;bank;1;136.333;37.2167
+Magdalena Escarpment;escarpment;1;248;23.5
+Magdalena Fan;fan;1;284;12
+Magellan Rise;rise;1;183;7.33333
+Magellan Seamounts;seamounts;1;152;17.5
+Magnaghi Seamount;seamount;1;11.75;39.9167
+Magpie Bank;reef;1;119.133;5.71667
+Magpie Shoal;reef;1;114.217;16.05
+Maher Seamount;seamount;1;211.167;29.5
+Mahia Banks;bank;1;177.883;-39.2833
+Mahin Canyon;canyon;1;4.41667;6
+Mahler Seamount;seamount;1;195.033;31.7667
+Maiko Seamount;seamount;1;145.917;34.0333
+Maio Seamount;seamount;1;337.55;14.8
+Makar Canyon;canyon;1;178.917;51.15
+Makarov Basin;basin;1;170;87
+Makarov Seamount;seamount;1;153.5;29.5
+Makassar Basin;basin;1;118;-2
+Makhahnas Seamount;seamount;1;144.833;20.4667
+Malay Reef;reef;1;149.333;-17.9667
+Maldive Ridge;ridge;1;73;3
+Mallory Seamount;seamount;1;22.25;-36.9
+Malloy Seamount;seamount;1;8.83333;-28
+Malpelo Ridge;ridge;1;278.783;3.83333
+Malta Escarpment;escarpment;1;15.6667;36
+Malta Ridge;ridge;1;17.5;35
+Malta Rise;rise;1;15;35.75
+Malta Trough;trough;1;13.4;36.4333
+Mameyes Canyon;canyon;1;294.283;18.45
+Mammerickx Seamount;seamount;1;166.167;27.5333
+Mangole Basin;basin;1;126.333;-1.5
+Mangsi Great Reef;reef;1;117.25;7.5
+Manihiki Plateau;plateau;1;196;-11
+Manila Reef;reef;1;148.95;7.05
+Manila Trench;trench;1;119.083;14.5
+Manipa Basin;basin;1;127.5;-3.66667
+Manning Seamounts;seamounts;1;299.333;38.1667
+Manokwari Trough;trough;1;132.333;-0.166667
+Manus Basin;basin;1;150;-3.58333
+Mapmaker Seamounts;seamounts;1;165;25
+Mar del Plata Canyon;canyon;1;306.333;-37.6667
+Marabout Shoal;reef;1;118.317;8.95
+Marchand Seamount;seamount;1;208.25;54.8333
+Marchant Seamount;seamount;1;337.75;7.25
+Marchi Seamount;seamount;1;12.25;40.25
+Marcus-Wake Seamounts;seamounts;1;158;22
+Margesson Shoal;reef;1;114.633;15.9167
+Margetts Seamount;seamount;1;112.133;14.55
+Maria Magdalena Rise;rise;1;252.75;21.6667
+Mariana Basin;basin;1;145;17.5
+Mariana Ridge;ridge;1;146;17
+Mariana Trench;trench;1;147.5;15
+Mariana Trough;trough;1;144;19
+Marie Byrd Seamount;seamount;1;242;-70
+Marie Celeste Fracture Zone;fracture zone;1;66;-17.5
+Marie Louise Bank;reef;1;116.883;11.9333
+Marie Reef;reef;1;130.1;-10.9167
+Marie Shoal;reef;1;112.8;3.68333
+Marietta Seamount;seamount;1;331.317;57.0333
+Marion Reef;reefs;1;152.283;-19.1667
+Mariveles Reef;reef;1;113.833;7.98333
+Markham Canyon;canyon;1;147;-6.75
+Marmara Trough;trough;1;28.5;40.8333
+Maro Reef;reef;1;189.417;25.4167
+Marquesas Fracture Zone;fracture zone;1;231.5;-9.25
+Marsala Seamount;seamount;1;325.717;33.8833
+Marseille Canyon;canyon;1;5.06667;43
+Marshall Seamount;seamount;1;195;11.8333
+Marshall Seamounts;seamounts;1;165;10
+Marvin Spur;spur;1;250;86
+Maryland Seamount;seamount;1;200;15.8333
+Mascarene Basin;basin;1;56;-15
+Mascarene Plain;plain;1;52;-19
+Mascarene Plateau;plateau;1;60;-10
+Mason Canyon;canyon;1;167.333;-46.95
+Mathematicians Seamounts;seamounts;1;249;15
+Matheson Bank;bank;1;180.7;-43.9167
+Matinicus Basin;basin;1;291.667;43.5833
+Matsu Bank;bank;1;135.933;36.3333
+Matsuye Bank;reef;1;148.017;8.01667
+Mattole Canyon;canyon;1;235.55;40.2833
+Maud Rise;rise;1;3;-66
+Maud Seamount;seamount;1;2.58333;-65
+Maurice Ewing Bank;plateau;1;317;-51
+Mauritania Canyon;canyon;1;343.167;16.8333
+Mauritius Trench;trench;1;55.5;-23.5
+Maury Seachannel;seachannel;1;336;56.55
+Mavis Reef;reef;1;123.667;-15.5333
+Mawson Bank;bank;1;174;-73.5
+Mazatlan Basin;basin;1;251.833;22.75
+McAlinden Spur;spur;1;282.883;29.25
+McAlinden Valley;valley;1;282.883;29.05
+McArthur Reef;reef;1;177.867;52.0667
+McCall Seamount;seamount;1;202.917;18.75
+McDougall Trough;trough;1;161;-52.5
+McGowan Seamount;seamount;1;339.333;8.4
+McGrail Bank;bank;1;267.4;27.9667
+McKernan Seamount;seamount;1;218.9;42.3333
+McKinley Seamount;seamount;1;222.75;29.5
+McLaughlin Bank;reef;1;148.1;9.11667
+McLeod Bank;reef;1;50.45;-10
+McManus Seamount;seamount;1;220.867;42.2
+McNish Seamount;seamount;1;351.583;-40.0833
+Mebuisi Canyon;canyon;1;40.7;-10.6
+Medina Bank;bank;1;15.1667;34.8333
+Medina Seamount;seamount;1;271.7;3.28333
+Mediterranean Ridge;ridge;1;23;34
+Medjumbe Canyon;canyon;1;40.7;-11.75
+Mednyy Seamount;seamount;1;167.283;55.4167
+Meiji Guyot;tablemount;1;165;53.0833
+Melanesian Basin;basin;1;160.583;0.0833333
+Mellish Rise;rise;1;156;-17
+Mellish Seamount;seamount;1;178.25;34
+Melmoore Seamount;seamount;1;335.133;6.1
+Melville Bank;bank;1;46.7667;-38.4833
+Melville Fracture Zone;fracture zone;1;60.6667;-30.5
+Melville Trough;trough;1;251.5;74
+Memba Canyon;canyon;1;40.6667;-14.1333
+Memnon Shoal;reef;1;118.417;7.46667
+Menard Fracture Zone;fracture zone;1;240;-50
+Menard Seamount;seamount;1;225.75;42.2
+Mendan'a Fracture Zone;fracture zone;1;269;-16
+Mendeleyev Plain;plain;1;190;81
+Mendeleyev Ridge;ridge;1;182;80
+Mendell Knoll;knoll;1;202.8;50.7
+Mendelssohn Seamount;seamount;1;198.35;25.1667
+Mendocino Canyon;canyon;1;235.55;40.3667
+Mendocino Escarpment;escarpment;1;220;40
+Mendocino Fracture Zone;fracture zone;1;215;40
+Mendocino Ridge;ridge;1;232.5;40.3667
+Mendoza Rise;rise;1;265.667;-20.1667
+Mendoza Seamount;seamount;1;252.767;9.5
+Mentawai Basin;basin;1;99.5;-1.5
+Mentawai Ridge;ridge;1;99.6667;-1
+Mentawai Trough;trough;1;101.5;-4
+Menzies Reef;reef;1;114.817;11.15
+Mera Canyon;canyon;1;139.7;34.8667
+Mercator Basin;basin;1;195;33
+Mergui Terrace;terrace;1;96.75;9
+Meriadzek Terrace;terrace;1;351.5;47.5
+Meridian Reef;reef;1;119.283;4.63333
+Merlin Seamount;seamount;1;209.267;-9.08333
+Mernoo Bank;bank;1;175.333;-43.3
+Merriam Spur;spur;1;277.5;-25
+Mertz Ninnis Valley;valley;1;146;-67.4167
+Merz Seamount;seamount;1;5.5;-48.5
+Mesyatsev Seamount;seamount;1;359.5;72.5
+Meteor Rise;rise;1;5.5;-46
+Meteor Seamount;seamount;1;8.5;-48
+Metundo Canyon;canyon;1;40.75;-11.0833
+Mexican Ridges;ridges;1;263.833;22.5
+Mexico Basin;basin;1;268;25
+Mey Canyon;canyon;1;287.567;39.1167
+Miami Guyot;guyot;1;161.917;21.6667
+Miami Terrace;terrace;1;280.083;25.75
+Michael Seamount;seamount;1;301.65;36.3667
+Michaelmas Reef;reef;1;146.033;-16.5833
+Michelson Ridge;ridge;1;146.75;25.8
+Mid-Atlantic Ridge;cordillera;1;340;0
+Mid-Indian Basin;basin;1;80;-10
+Mid-Indian Ridge;ridge;1;66;-12
+Mid-Pacific Mountains;seamounts;1;178;20
+Middle America Trench;trench;1;265;15
+Middle Arm;canyon;1;174.767;-41.45
+Middle Bank;bank;1;299.417;44.5
+Middle Canyon;canyon;1;183.25;58.6167
+Middle Reef;reef;1;176.05;51.9667
+Middle Reef;reef;1;119.25;4.5
+Middle Shoal;reef;1;118.433;9.98333
+Middle Toms Canyon;canyon;1;287.383;39
+Middleton Basin;basin;1;158.667;-27
+Miklukho-Maklaya Seamount;seamount;1;140.9;8.46667
+Mill Creek Canyon;canyon;1;238.417;35.9667
+Miller Seamount;seamount;1;215.667;53.5
+Milne Seamounts;seamount;1;320.5;44.5
+Milwaukee Seamounts;seamounts;1;171.917;32.4667
+Minami-Kasuga Seamount;seamount;1;143.633;21.6
+Minerva Seamount;seamount;1;322.583;-17.0833
+Minerva Shoal;reef;1;159.333;-20.8333
+Minerve Reef;reef;1;226.417;-22.75
+Minia Seamount;seamount;1;325.15;53.0333
+Minneapolis Ridge;ridge;1;202;5.41667
+Minnetonka Seamount;seamount;1;168.5;48.0833
+Minto Reef;reef;1;154.25;8.13333
+Misaine Bank;bank;1;301.333;45.25
+Misaki Bank;bank;1;139.483;35.05
+Misaki Canyon;canyon;1;139.5;35.1333
+Mischief Reef;reef;1;115.533;9.85
+Mississippi Canyon;canyon;1;270.25;28.5
+Mississippi Fan;fan;1;271.5;26.75
+Mississippi Slope;slope;1;270.167;27.75
+Mississippi-Alabama Shelf;shelf;1;271.833;29.6667
+Misteriosa Bank;reef;1;276.167;18.8333
+Mitchell Escarpment;escarpment;1;277.833;23.9
+Miura Bank;bank;1;139.45;35.1
+Miura Canyon;canyon;1;139.467;35.1667
+Mocambo Canyon;canyon;1;40.75;-15.1667
+Mocha Fracture Zone;fracture zone;1;282.25;-40
+Moctezuma Trough;trough;1;252.833;16.5
+Mogami Bank;reef;1;148.75;8.5
+Mogami Trough;trough;1;139;39
+Mohns Ridge;ridge;1;5;72.5
+Mokio Canyon;canyon;1;202.783;21.2833
+Molloy Seamount;seamount;1;105.167;83.9667
+Molodezhnaya Seamount;seamount;1;309.817;15.1833
+Molokai Fracture Zone;fracture zone;1;212;23
+Mona Canyon;canyon;1;292.617;19
+Monmouth Shoals;reefs;1;118.133;6.71667
+Mono Rise;rise;1;280;12
+Monsoon Seamount;seamount;1;196.967;14.3333
+Montague Seamount;seamount;1;323.3;-20.4167
+Montecristo Trough;trough;1;10.2833;41.6667
+Montepuez Canyon;canyon;1;40.6667;-12.55
+Monterey Canyon;canyon;1;237.917;36.6667
+Monterey Fan;fan;1;236.583;36
+Monticello Seamount;seamount;1;199.95;11.5
+Moody Reef;reef;1;112.367;5.61667
+Moonless Mountains;seamounts;1;220;30.6667
+Moore Bank;bank;1;246.567;26.1
+Moore Reefs;reefs;1;149.25;-16
+Moore Ridge;ridge;1;177.333;-20.6667
+Moore Seamount;seamount;1;224;48.8833
+Morant Trough;trough;1;284.5;18.0833
+Moresby Seachannel;seachannel;1;227;50.3
+Moresby Valley;valley;1;146.75;-10.75
+Moreton Seamount;seamount;1;154.833;-26.1667
+Morgan Bank;bank;1;248.833;23.4667
+Morotai Basin;basin;1;128;3
+Morozko Seamount;seamount;1;158.25;45.1667
+Morris Jesup Rise;rise;1;340;83.75
+Morton Seamount;seamount;1;217.25;50.25
+Moser Seamount;seamount;1;223.083;49.4833
+Moses Reef;reef;1;208.75;-22.8333
+Motagua Fan;fan;1;274.5;17.5
+Motukura Bank;bank;1;177.367;-40
+Mouchoir Bank;reefs;1;289.3;20.95
+Moyune Shoal;reef;1;118.133;8.03333
+Mozambique Escarpment;escarpment;1;36.5;-33
+Mozambique Plateau;plateau;1;35;-32
+Mozart Seamount;seamount;1;198.283;28.6667
+Mucalanga Canyon;canyon;1;40.6167;-15.5833
+Muertos Trough;trough;1;293.5;17.2
+Mugia Canyon;canyon;1;350.25;43
+Mugu Canyon;canyon;1;240.917;34.05
+Muir Seamount;seamount;1;297.5;33.6833
+Muirfield Reef;reef;1;96.0833;-13.2167
+Munson Canyon;canyon;1;292.967;40.6333
+Murchison Seamount;seamount;1;339;7.9
+Murmansk Rise;rise;1;37;75
+Murr Basin;basin;1;292.75;44.5333
+Murr Ledges;reef;1;293.167;44.5
+Murray Basin;basin;1;176.45;51.6167
+Murray Basin;basin;1;290.167;42.5
+Murray Canyon;canyon;1;176.833;51.5
+Murray Fracture Zone;fracture zone;1;225;34
+Murray Ridge;ridge;1;61.8333;21.75
+Murray Seamount;seamount;1;211.5;54
+Murray Spur;spur;1;176.5;51.75
+Musashi Banks;banks;1;140.167;44.75
+Musicians Seamounts;seamounts;1;198;31
+Mussau Ridge;ridge;1;149.167;1.25
+Mussau Trench;trench;1;148.5;1
+Mussorgsky Seamount;seamount;1;196.167;30.3667
+Mytilus Seamount;seamount;1;292.85;39.3667
+Nadeshda Basin;basin;1;148;30
+Nagahira Bank;bank;1;136.333;37.3333
+Nagata Seamount;seamount;1;192.983;12.5667
+Naifeh Seamount;seamount;1;191.867;26.9
+Naiwa Canyon;canyon;1;202.933;21.2333
+Nakano Bank;bank;1;136.467;37.5667
+Nakwe Seachannel;seachannel;1;149.5;37
+Namaete Canyon;canyon;1;40.5667;-15.7333
+Namaqua Seamount;seamount;1;11.3333;-31.5
+Nankai Trough;trough;1;135;32.1667
+Nanortalik Bank;bank;1;313.667;60.2333
+Nansen Basin;basin;1;75;84.5
+Nansen Cordillera;cordillera;1;90;87
+Nansen Reef;reef;1;323.85;-54.2667
+Nantucket Canyon;canyon;1;290.083;39.8333
+Nantucket Shoals;shoals;1;290.2;41.1833
+Napier Seamount;seamount;1;249.2;15.75
+Nares Bank;bank;1;116.117;11.4167
+Nares Basin;basin;1;297;23.5
+Nares Plain;plain;1;297;23.5
+Nashville Seamount;seamount;1;302.667;35
+Natal Basin;basin;1;40;-30
+Natal Seamount;seamount;1;22.25;-37.25
+Natal Valley;valley;1;33.25;-31
+Naturaliste Fracture Zone;fracture zone;1;107.583;-33
+Naturaliste Plateau;plateau;1;111.25;-34
+Naugler Seamount;seamount;1;168.717;25.7
+Nautilus Gap;gap;1;202.5;78.5
+Navarin Canyon;canyon;1;179.75;60.5
+Navarro Canyon;canyon;1;235.883;39.0833
+Navassa Knoll;knoll;1;285.067;18.3833
+Navidad Bank;tablemount;1;291.167;20
+Navy Bank;seamount;1;242.45;32.2833
+Nazare Canyon;canyon;1;350.667;39.6
+Nazareth Bank;bank;1;60.75;-14.5
+Nazca Ridge;ridge;1;278;-22
+Necker Ridge;ridge;1;192.75;22
+Neddick Basin;basin;1;289.75;42.95
+Neiba Valley;valley;1;289.4;17.75
+Neilson Reef;reef;1;213.967;-27.0167
+Nelson Guyot;tablemount;1;145.75;27.8333
+Neptuna Banks;reefs;1;112.517;16.5
+Nerita Patch;bank;1;12.8333;37.0667
+Nero Seamount;seamount;1;182.033;27.95
+Nerpich'ye Canyon;canyon;1;162.7;55.8
+Nerpich'ye Spur;spur;1;163.117;55.8
+Neva Shoal;shoal;1;186.083;26
+Nevel'skoye Seamount;seamount;1;147.5;45.5
+New Britain Trench;trench;1;153;-6
+New Caledonia Basin;basin;1;165;-30
+New England Seamounts;seamounts;1;299;38
+New Guinea Basin;basin;1;146;-3.5
+New Guinea Trench;trench;1;135.833;0.0833333
+New Hebrides Ridge;ridge;1;168.5;-17
+New Hebrides Trench;trench;1;170;-22.5
+Newell Seamount;seamount;1;205.25;16.8333
+Newfoundland Basin;basin;1;320;45
+Newfoundland Plain;plain;1;315;42
+Newfoundland Ridge;ridge;1;312;40.5
+Newfoundland Seamounts;seamounts;1;315;43.75
+Newhouse Seamount;seamount;1;163.267;24.5833
+Newport Canyon;canyon;1;242.083;33.5833
+Newport Valley;valley;1;234.867;44.5833
+Newton Seamount;seamount;1;248.417;16.0833
+Nias Basin;basin;1;98.25;1
+Nicaraguan Rise;rise;1;280;16
+Nicholas Seamount;seamount;1;198.883;9.71667
+Nichols Seamount;seamount;1;226.783;42.8333
+Nicobar-Simuelue Basin;basin;1;94.5;4
+Nidever Bank;bank;1;240.183;33.25
+Nierenberg Seamount;seamount;1;217.883;44.3167
+Niger Fan;fan;1;5;4.25
+Niglik Valley;valley;1;228.467;70.4167
+Nikitin Seamount;seamount;1;83;-3
+Nil Canyon;canyon;1;5.96667;36.9
+Nile Fan;fan;1;31;33
+Ninetyeast Ridge;ridge;1;90;-4
+Ninigi Seamount;seamount;1;170.217;41.7333
+Ninomiya Canyon;canyon;1;139.25;35.25
+Nintoku Basin;basin;1;168;40
+Nintoku Seamount;guyot;1;170.667;41
+Niobe Seamount;seamount;1;275.05;16.3333
+Nishi Reef;reef;1;128.633;32.8333
+Nishi-goto Seachannels;seachannels;1;128;32.75
+Nishinotoro Banks;banks;1;136.417;37.4167
+Nitinat Canyon;canyon;1;234.167;48.1333
+Nitinat Fan;fan;1;233;47.9167
+Niuni Canyon;canyon;1;40.75;-11.2167
+Noirmoutier Canyon;canyon;1;355.75;46
+Nola Seamount;seamount;1;334.467;17.2333
+Nordenskjold Basin;basin;1;165;-76.05
+Nordhfjardhardjup;valley;1;347.5;65.1333
+Norfolk Canyon;canyon;1;285.333;37.0667
+Norfolk Ridge;ridge;1;168;-29
+Norman Reef;reef;1;146;-16.4333
+Normanby Bank;reef;1;119.217;5.81667
+Norrie Seamount;seamount;1;166.1;-32.35
+North Aleutian Slope;slope;1;185;52.5
+North American Basin;basin;1;300;30
+North Australian Basin;basin;1;116.5;-14.5
+North Banda Basin;basin;1;124.5;-3.5
+North Bank;bank;1;230.083;52
+North Charcot Seamount;seamount;1;347;45.1167
+North Danger Reef;reef;1;114.333;11.4667
+North Fiji Basin;basin;1;174;-16
+North Heyes Canyon;canyon;1;286.467;38.25
+North Hinder;shoal;1;2.56667;51.6333
+North Honeycomb Canyon;canyon;1;175.883;-41.4167
+North Kenya Bank;bank;1;40.8333;-2.86667
+North Luconia Shoals;reefs;1;112.583;5.66667
+North Madden Bank;bank;1;177.183;-40.3333
+North Magellan Rise;rise;1;182.5;13
+North Makassar Basin;basin;1;118.5;-1
+North Maria Ridge;ridge;1;172.133;-33.8667
+North New Hebrides Trench;trench;1;166;-13
+North Oki Bank;bank;1;133.75;38
+North Reef;reef;1;114.383;11.4667
+North Regent Shoal;reef;1;117.083;8.63333
+North Seachannel;seachannel;1;172.583;-45.75
+North Solomon Trough;trough;1;159.5;-7
+North Tasman Seamounts;seamounts;1;156;-33.25
+North Tokelau Trough;trough;1;192.5;-4.5
+North Trinco Canyon;canyon;1;81.4167;8.86667
+North Vereker Bank;bank;1;116;21.1
+North Yamato Ridge;ridge;1;133.833;39.9167
+Northampton Seamount;seamount;1;191.533;11.5833
+Northampton Seamounts;seamounts;1;187.933;25.3333
+Northeast Bank;tablemount;1;240.333;32.3333
+Northeast Cape Shoal;shoal;1;191.5;63.3333
+Northeast Pacific Basin;basin;1;220;20
+Northern Holiday Seamount;seamount;1;212.25;29.55
+Northern Shelves;shelves;1;271.3;23.3833
+Northern Spur;spur;1;299.2;44.1333
+Northern Viti Canyon;canyon;1;172.5;-39
+Northwest Atlantic Mid-Ocean Canyon;seachannel;1;312;54
+Northwest Bellona Reef;reef;1;158.483;-20.8
+Northwest Danger Shoals;reefs;1;117.267;7.68333
+Northwest Dellwood Knoll;knoll;1;229.417;50.8833
+Northwest Hawaiian Ridge;ridge;1;184.7;33
+Northwest Pacific Basin;basin;1;155;40
+Northwest Ramos Shoal;reef;1;116.95;8.11667
+Northwest Slope;slope;1;264.333;26.75
+Northwind Escarpment;escarpment;1;205;76.5
+Northwind Plain;plain;1;199;76
+Northwind Ridge;ridge;1;202;75
+Northwind Shoal;shoal;1;344.5;79.1167
+Norton Plain;plain;1;192;63.9
+Norwegian Basin;basin;1;358;68
+Norwegian Trench;trough;1;4.5;59
+Nouakchott Canyon;canyon;1;343.5;18.05
+Nova Bank;tablemount;1;159;-23
+Nova Trough;trough;1;187;-2.5
+Noyes Canyon;canyon;1;225.633;55.1667
+Noyo Canyon;canyon;1;235.667;39.5167
+Nuevo Bank;bank;1;268.167;20.55
+Nuevo Reef;reef;1;267.917;21.8167
+Nygren Canyon;canyon;1;293.5;40.65
+O  Bank;bank;1;136;36.4
+O'Brian Seamount;seamount;1;175.633;29.1833
+Oates Bank;bank;1;165;-70.25
+Oates Canyon;canyon;1;164.5;-68
+Ob' Bank;bank;1;350;81
+Ob' Tablemount;tablemount;1;42.5;-52.5
+Ob' Trench;trench;1;98;-33
+Obispo Norte Shoal;shoal;1;267.8;20.5
+Obispo Sur Shoal;shoal;1;267.767;20.45
+Obruchev Rise;rise;1;166;52.5
+Obruchev Seamount;seamount;1;150.75;47.1667
+Oceanographer Canyon;canyon;1;291.833;40.5
+Oceanographer Fracture Zone;fracture zone;1;325;35
+Odessey Seamount;seamount;1;210.25;54.5
+Odet Canyon;canyon;1;354.867;46.6667
+Oga Basin;basin;1;139.6;39.55
+Ogamuko Bank;bank;1;139.567;39.85
+Ogasawara Plateau;plateau;1;144;26
+Ogasawara Trough;trough;1;141.333;28
+Oglala Canyon;canyon;1;179.417;51.7
+Oglala Seamount;seamount;1;228.533;50.3
+Ogotoruk Valley;valley;1;194.167;68
+Ojin Rise;rise;1;167.5;38
+Ojin Seamount;guyot;1;170.5;38
+Okhotsk Basin;basin;1;148;53
+Okhotsk Plain;plain;1;149;52
+Okhotsk Valley;valley;1;155;50.5833
+Oki Bank;bank;1;133;37
+Oki Ridge;ridge;1;135;37
+Oki Trough;trough;1;135.5;37
+Oki-Daito Ridge;ridge;1;133;23.8333
+Okinawa Trough;trough;1;125;25.5
+Okino Bank;bank;1;136.3;37.2667
+Okinoyama Bank;bank;1;139.583;34.9667
+Okmuk Canyon;canyon;1;190.65;53.8333
+Olbia Terrace;terrace;1;10.3333;41.0833
+Olga Basin;basin;1;29;78.3333
+Oliver Shoal;reef;1;114.467;16.1
+Oman Basin;basin;1;63;23.3333
+Oman Plain;plain;1;61;23
+Ona Basin;basin;1;304;-59
+Ontong Java Rise;rise;1;157;1
+Onyx Reef;reef;1;146.067;-16.4333
+Opouawe Canyon;canyon;1;175.383;-41.75
+Orairuguron Seamount;seamount;1;146.117;7.23333
+Oraitilipu Bank;reef;1;147.25;8.05
+Orange Canyon;canyon;1;12.4167;-32
+Orange Fan;fan;1;12;-32
+Orca Basin;basin;1;268.667;26.9167
+Oreti Bank;bank;1;168.083;-46.5333
+Orleana Shoal;reef;1;111.75;7.7
+Ormonde Seamount;seamount;1;348.833;36.6667
+Ormsbee Reef;reef;1;129.95;0.6
+Oropesa Canyon;canyon;1;1.31667;40.1667
+Orosei Canyon;canyon;1;9.9;40.2
+Orosei Seamount;seamount;1;10.65;39.7
+Orosei Terrace;terrace;1;11;40
+Orozco Fracture Zone;fracture zone;1;255.5;15.5
+Orphan Knoll;knoll;1;313.6;50.3833
+Orphelin Bank;bank;1;296.817;48.3
+Ortelius Fracture Zone;fracture zone;1;165;27.5
+Osborn Bank;knoll;1;240.967;33.3667
+Osborn Plateau;plateau;1;87;-14.75
+Oshawa Seamount;seamount;1;225.917;52.3667
+Ostenso Seamount;seamount;1;240;84
+Ostrovnoy Seamount;seamount;1;134;41.9167
+Ououkinsh Canyon;canyon;1;232;50
+Outer Bailey;seamount;1;347.5;60.45
+Outer Candelaria Canyon;canyon;1;249.75;23
+Outer Gorda Bank;bank;1;250.533;23.0167
+Outer Shoal;reef;1;117;7.03333
+Owen Bank;bank;1;70.2333;-6.78333
+Owen Basin;basin;1;293.25;44.8333
+Owen Fracture Zone;fracture zone;1;58;12
+Owen Shoal;reef;1;111.967;8.15
+Oyster Reef;reef;1;145.933;-16.6333
+Ozbourn Seamount;tablemount;1;185.167;-26
+Ozernoy Spur;spur;1;163.667;57.6667
+Pacific-Antarctic Ridge;ridge;1;203;-62
+Padang Bank;reef;1;117.933;4.03333
+Paganini Seamount;seamount;1;197.333;28.6833
+Pahaoa Canyon;canyon;1;175.75;-41.5833
+Paisley Seamount;seamount;1;41.5;-14.0833
+Palau Trench;trench;1;134.5;6.5
+Palawan Trough;trough;1;115;7
+Palermo Basin;basin;1;13.5833;38.3333
+Palliser Arm;canyon;1;175.083;-41.7333
+Palmas Canyon;canyon;1;250.417;23.75
+Palmer Ridge;ridge;1;340;42.85
+Palmer Seamount;seamount;1;203.417;18.6333
+Pamlico Canyon;canyon;1;285.45;34.3333
+Pamplona Spur;spur;1;217.5;59.5
+Panama Basin;basin;1;276.5;5
+Panama Fracture Zone;fracture zone;1;277.25;4
+Panama Plain;plain;1;281;11
+Pandora Bank;knoll;1;172.083;-12.1833
+Pandora Bank;shoal;1;172.583;-34.5833
+Pantelleria Basin;basin;1;12.3833;36.55
+Pantelleria Shoal;shoal;1;12.0833;37.1667
+Panulirus Seamount;seamount;1;295.167;38.4667
+Panzarini Seamount;seamount;1;11.75;-40
+Papanui Canyon;canyon;1;171.083;-45.8833
+Papatua Seamount;seamount;1;124.9;2.13333
+Papau Seamount;seamount;1;204.733;19.1167
+Papp Seamount;seamount;1;339.667;26
+Papua Plain;plain;1;151.5;-14
+Papua Plateau;plateau;1;148.25;-11
+Paraiba Seamount;seamount;1;326.583;-7.5
+Paramount Seamount;seamount;1;269.25;3.33333
+Parengarenga Canyon;canyon;1;173.4;-34.5
+Parker Bank;bank;1;267.967;27.9667
+Parker Ridge;ridge;1;291.15;42.7167
+Parker Seamount;seamount;1;208.75;52.5833
+Parker Seamount;seamount;1;197.817;30.6333
+Parks Seamount;seamount;1;230.067;44.2333
+Parnaiba Ridge;ridge;1;323;-2
+Parry Shoal;reef;1;113.833;15.4833
+Partington Canyon;canyon;1;238.25;36.1333
+Pascal Seamount;seamount;1;248.75;15.8167
+Pasco Bank;seamount;1;185.583;-13.0833
+Pasig Shoal;reef;1;119.5;9.9
+Pasley Canyon;canyon;1;124.25;-34.5
+"""Patch, The""";bank;1;297.667;44.25
+Patella Bank;bank;1;13.3667;37.15
+Pathfinder Reef;reef;1;143.133;16.5167
+Pathfinder Seamount;seamount;1;216.75;50.9167
+Patricia Shoal;reef;1;113.05;3.63333
+Patti Canyon;canyon;1;15.4;38.8167
+Patton Escarpment;escarpment;1;240;32.5
+Patton Ridge;ridge;1;239.5;33.5
+Patton Seamount;seamount;1;209.5;54.6667
+Patton Seamounts;seamounts;1;210.5;54.3333
+Paul Revere Ridge;ridge;1;230.5;50.0833
+Paul Seamount;seamount;1;187.4;23.4333
+Pavlov Seamount;seamount;1;162;50.6667
+Payne Rock;reef;1;119.217;4.56667
+Payne Shoal;reef;1;114.567;15.8667
+Paz Bank;bank;1;280.2;21.25
+Peake Trough;trough;1;339.8;43.05
+Pearl Bank;bank;1;119.7;5.81667
+Pearson Reef;reef;1;113.667;8.96667
+Peary Trough;trough;1;261.5;79.3333
+Pedro Escarpment;escarpment;1;281.333;15.75
+Pegasus Canyon;canyon;1;173.667;-43.25
+Pegasus Reef;reef;1;118.833;5.76667
+Peirce Seamount;seamount;1;223.467;53.7333
+Pelekunu Canyon;canyon;1;203.1;21.2167
+Pelorus Reef;reef;1;183.533;-22.8333
+Pelsaert Seamount;seamount;1;108.833;-31.2333
+Pendragon Escarpment;escarpment;1;347;49
+Penguin Bank;bank;1;202.5;21.0333
+Penguin Bank;knoll;1;175.483;-11.4833
+Penguin Reef;reef;1;113.733;15.65
+Penguin Ridge;ridge;1;176;-11.6667
+Peniscola Canyon;canyon;1;1.33333;40.3167
+Penmarc'h Canyon;canyon;1;354.333;46.95
+Pennant Canyon;canyon;1;175.083;51.9167
+Pennant Trough;trough;1;175.5;52.0833
+Pennell Bank;bank;1;179.983;-74.5
+Pennsylvania North Reef;reef;1;116.85;10.8
+Penrhyn Basin;basin;1;203.75;-7.5
+Pensacola Seamount;seamount;1;202.667;18.2833
+Pera Bank;bank;1;268.083;20.7167
+Pernambuco Plain;plain;1;333;-7.5
+Pernambuco Plateau;plateau;1;325.75;-8.16667
+Pernambuco Seachannel;seachannel;1;326.75;-12
+Pernambuco Seamounts;seamounts;1;328.333;-8.5
+Perpetua Bank;bank;1;235.333;44.2833
+Perret Seamount;seamount;1;202.683;19.4667
+Persey Rise;rise;1;36;77.75
+Perth Basin;basin;1;110;-28.5
+Perth Canyon;canyon;1;114.5;-31.8333
+Perth Plain;plain;1;110;-28.5
+Peru Basin;basin;1;275;-15
+Peru-Chile Trench;trench;1;287;-20
+Pervenets Canyon;canyon;1;182;59.5
+Pescadero Canyon;canyon;1;250.4;23.8
+Pescadero Trough;trough;1;251.167;24
+Petacalco Canyon;canyon;1;258;17.5
+Peters Canyon;canyon;1;176.067;52.5
+Peters Ridge;ridge;1;222.5;50.55
+Petersen Bank;bank;1;109.917;-65.75
+Petley Reef;reef;1;114.567;10.4
+Petr Velikiy Seamount;seamount;1;132.25;42
+Petrel Bank;bank;1;247.167;24.6667
+Petrel Bank;bank;1;179.833;52.1667
+Petrel Spur;spur;1;180.25;52.5
+Phelps Bank;shoal;1;290.667;40.8333
+Philippine Basin;basin;1;132;17
+Philippine Trench;trench;1;127;9
+Phillips Shoal;reef;1;114.417;15.85
+Phleger Bank;bank;1;268.1;27.8333
+Phoenix Canyon;canyon;1;286.267;37.8333
+Phoenix Ridge;ridge;1;232.3;41.1
+Phoenix Seamounts;seamounts;1;187;-4
+Phoenix Trough;trough;1;231.833;41
+Physalia Seamount;seamount;1;293.05;39.85
+Pickersgill Seamount;seamount;1;161.733;-46.7167
+Picket Seamount;seamount;1;294.033;39.6333
+Pickle Reef;reef;1;279.517;20.4
+Pickle Seamount;seamount;1;279.533;20.4667
+Pico Fracture Zone;fracture zone;1;325.25;38.0833
+Pigafetta Basin;basin;1;153;20.5
+Pigeon Reef;reef;1;114.633;8.86667
+Pilgrim Banks;banks;1;240.833;33.7333
+Pillar Bank;bank;1;177.233;52.05
+Pillar Basin;basin;1;177.35;52.0333
+Pillsbury Seamount;seamount;1;343;0.416667
+Pin'ones Canyon;canyon;1;294.05;18.4667
+Pinar del Rio Knoll;knoll;1;275.25;23.1667
+Pining Canyon;canyon;1;320;61.6667
+Pinne Marine Patch;bank;1;13.1333;37.1
+Pinta Bank;bank;1;269.267;0.75
+Pioneer Canyon;canyon;1;236.75;37.2833
+Pioneer Escarpment;escarpment;1;231.833;38.6667
+Pioneer Fracture Zone;fracture zone;1;225;38.5
+Pioneer Ridge;ridge;1;232;38.75
+Pioneer Seamount;seamount;1;236.583;37.35
+Pioneer Tablemount;tablemount;1;186.567;26
+Pixie Reef;reef;1;145.867;-16.55
+Plantagenet Bank;tablemount;1;294.817;31.9833
+Plateau de Rochebonne;reefs;1;357.55;46.2
+Plato Seamount;seamount;1;330.5;33.1667
+Platts Bank;bank;1;290.383;43.15
+Platts Basin;basin;1;290.667;43.4167
+Pliny Seamount;seamount;1;14.3833;39.25
+Pliny Trench;trench;1;25.5;34.6667
+Plover Shoal;reef;1;114.467;15.6
+Pochnoi Canyon;canyon;1;180.5;52
+Pochnoi Trough;trough;1;180.167;51.7
+Pocklington Ridge;ridge;1;155;-11
+Pocklington Trough;trough;1;155.5;-11.6667
+Podvodnikov Basin;basin;1;168;80.5
+Poincare Seamount;seamount;1;248.667;15.25
+Pokatyy Canyon;canyon;1;163.133;56.8833
+Pole Plain;plain;1;45;89
+Policastro Terrace;terrace;1;15.55;39.8667
+Pollux Guyot;tablemount;1;147.833;25.75
+Ponza Salerno Terrace;terrace;1;13.8333;40.5833
+Popcorn Ridge;ridge;1;242.333;29.4333
+Porcupine Bank;bank;1;346.5;53.3333
+Porcupine Plain;plain;1;344;49
+Porcupine Seabight;tongue;1;347;50
+Porpoise Basin;basin;1;289.833;43.0833
+Porpoise Basin;basin;1;128.5;-66.1667
+Port Clarence Valley;valley;1;192.5;65.3833
+Portland Reef;reef;1;225.5;-23.6833
+Portlock Bank;bank;1;209.5;58.3333
+Portlock Reefs;reefs;1;144.817;-9.53333
+Porto Seamount;seamount;1;350;40.6667
+Poseidone Seamount;seamount;1;13.8333;39.6667
+Pothorst Canyon;canyon;1;319.5;60
+Pourtales Escarpment;escarpment;1;278.25;24.25
+Pourtales Terrace;terrace;1;279;24.4167
+Poverty Canyons;canyons;1;178.25;-39
+Powell Basin;basin;1;310.5;-62.25
+Powell Canyon;canyon;1;292.633;40.3333
+Powers Seamount;seamount;1;201.083;19.6167
+Poyo Seamount;seamount;1;142.533;19.2167
+Pratt Basin;basin;1;178.833;51.9167
+Pratt Seamount;seamount;1;217.5;56.1667
+President Jackson Seamount;seamount;1;232.2;42.55
+President Thiers Bank;seamount;1;214.15;-24.65
+Prestrud Bank;bank;1;200.5;-77.5
+Pribilof Canyon;canyon;1;190;55.5833
+Prince Consort Bank;reef;1;110;7.88333
+Prince Edward Fracture Zone;fracture zone;1;35;-46
+Prince of Wales Bank;reef;1;110.533;8.11667
+Prince of Wales Shoal;shoal;1;192;65.9
+Princesse Alice Bank;bank;1;330.75;38
+Pritchett Seamount;seamount;1;198.833;50.3333
+Proa Seamount;seamount;1;196.167;11.3333
+Prokofiev Seamount;seamount;1;202.117;25.85
+Protea Seamount;seamount;1;18.0833;-36.8333
+Protector Shoal;shoal;1;331.833;55.9833
+Protector Shoal;shoal;1;331.833;55.9833
+Provencaux Bank;bank;1;357.55;35.55
+Providence Reef;reef;1;51.25;-9.5
+Ptolemy Basin;basin;1;156.5;27.5
+Ptolemy Seamounts;seamounts;1;25;34.5
+Puccini Seamount;seamount;1;197.65;32.25
+Puerto Rico Ridge;ridge;1;294;21
+Puerto Rico Trench;trench;1;294;20
+Pukaki Canyon;canyon;1;174;-43.3333
+Pukaki Gap;gap;1;174.333;-43.6667
+Pukaki Knoll;knoll;1;171.983;-49.3333
+Pukaki Saddle;saddle;1;176.667;-49.25
+Pulley Ridge;ridge;1;276.4;25.8667
+Pulmo Canyon;canyon;1;250.633;23.45
+Putnam Seamount;seamount;1;199.583;51.55
+Puysegur Bank;bank;1;166;-46.5
+Puysegur Trench;trench;1;164.167;-48.3333
+Pygmy Shoal;reef;1;114.683;16.2167
+Quatsino Canyon;canyon;1;231.833;50.1667
+Quebrada Fracture Zone;fracture zone;1;257;-3.66667
+Queen Charlotte Fan;fan;1;228.5;51.75
+Queen Charlotte Terrace;terrace;1;227.5;52.75
+Queen Charlotte Trough;trough;1;226.5;53
+Queen Elizabeth Rise;rise;1;249.5;82
+Queen Elizabeth Shelf;shelf;1;260;80.5
+Queen of the Sea Bank;reef;1;120.483;10.4
+Queensland Plateau;plateau;1;150;-17
+Queensland Tablemount;tablemount;1;155.167;-27.5833
+Queensland Trough;trough;1;148;-18.5
+Queiros Fracture Zone;fracture zone;1;265;-22.5
+Queiros Seamount;seamount;1;251.167;10
+Quinault Canyon;canyon;1;234.867;47.35
+Quinn Seamount;seamount;1;214.75;56.25
+Quionga Canyon;canyon;1;40.6667;-10.5333
+R.S.A. Seamount;seamount;1;353.75;-39.6667
+Rachmaninoff Seamount;seamount;1;196.6;29.5833
+Radford Ridge;ridge;1;201;12
+Raff Seamounts;seamounts;1;218.2;44.15
+Raita Bank;reef;1;190.55;25.6167
+Raitt Seamount;seamount;1;216.95;42.65
+Rakiura Gap;gap;1;168.3;-46.8333
+Ralik Ridge;ridge;1;167;8
+Ramapo Bank;seamount;1;145.167;27.25
+"""Rampart, The""";ridge;1;241.5;31
+Rancheria Basin;basin;1;286.917;12.75
+Ranger Bank;bank;1;244.5;28.5667
+Rangiauria Spur;spur;1;184.667;-45.4167
+Rankin Bank;bank;1;266.55;27.9167
+Rapano Ridge;ridge;1;201;26.6667
+Rat Fracture Zone;fracture zone;1;178;49
+Rat Island Canyon;canyon;1;177.85;51.5
+Ratak Ridge;ridge;1;170;10
+Raukumara Plain;plain;1;179;-36.3333
+Ravel Seamount;seamount;1;198.333;27.2667
+Raven Ridge;ridge;1;200.183;27.0833
+Rea Seamount;seamount;1;167.25;25.5167
+Rebman Seamount;seamount;1;338.6;7.28333
+Recorder Tablemount;tablemount;1;154.833;-25.1667
+Redondo Canyon;canyon;1;241.533;33.8167
+Redondo Knoll;knoll;1;241.433;33.6833
+Reed Bank;bank;1;116.9;11.45
+Reedjones Seamount;seamount;1;338.917;7.56667
+Rehoboth Seamount;seamount;1;300.167;37.5
+Reinga Basin;basin;1;170.417;-35
+Reinga Ridge;ridge;1;170.667;-33.5
+Rene Shoal;reef;1;119.167;5.51667
+Rennell Island Ridge;ridge;1;160;-12.25
+Rennell Trough;trough;1;159.25;-12
+Researcher Ridge;ridge;1;309.5;15.25
+Researcher Seamount;seamount;1;291.767;27.9333
+Reserve Bank;bank;1;177.167;-43.25
+Resolution Ridge;ridge;1;165;-46.1667
+Retriever Seamount;seamount;1;293.75;39.8
+Reunion Trench;trench;1;52.25;-23.3333
+Revelle Seamount;seamount;1;220.5;42.35
+Reydharfjardhardjup;valley;1;347.25;64.8333
+Reykjanes Basin;basin;1;326.5;62.5
+Reykjanes Ridge;ridge;1;333;62
+Reykjarfjardharall;valley;1;338.833;66.5
+Reynisdjup;valley;1;341.2;63.3
+Rezak Bank;bank;1;267.633;27.9667
+Rharb Valley;valley;1;352;34.75
+Rhode Island Shelf Valley;shelf valley;1;288.717;41.1667
+Rhodes Basin;basin;1;28.5;35.9167
+Rhone Fan;fan;1;5;42.5
+Rhone Fan;fan;1;5;41
+Richards Seamount;seamount;1;223.55;42.8333
+Richardson Hills;hills;1;282.5;32
+Richardson Seamount;seamount;1;14.1667;-40.75
+Richmond Reef;reef;1;112.717;5.08333
+Riddells Reef;reef;1;119.15;4.61667
+Riemann Seamount;seamount;1;249.933;12.05
+Rifleman Bank;reefs;1;111.633;7.75
+Rio Grande Gap;gap;1;320.833;-30.5
+Rio Grande Rise;rise;1;325;-31
+Rio de la Plata Canyon;canyon;1;306.267;-37.1667
+Ritchie Banks;banks;1;178.333;-39.6333
+Rittenburg Bank;bank;1;236.667;37.8833
+Rivera Fracture Zone;fracture zone;1;252.75;18.6667
+Robbie Bank;reef;1;183.117;-11.05
+Robbie Ridge;ridge;1;185;-10.25
+Roberts Canyon;canyon;1;179.35;52.45
+Rochambeau Bank;seamount;1;183.3;-15.15
+Rock Knoll;knoll;1;129.383;30.3167
+Rockall Bank;bank;1;346.167;57.5
+Rockall Rise;rise;1;346;59
+Rockall Trough;trough;1;348;57
+Rockaway Seamount;seamount;1;307.75;36.1667
+Rodgers Basin;basin;1;291.5;42.5
+Rodgers Pass;gap;1;291.283;42.5833
+Rodgers Seamount;seamount;1;323.167;-17.0833
+Rodrigues Fracture Zone;fracture zone;1;67;-20
+Rodrigues Ridge;ridge;1;62;-19.5
+Rodriguez Seamount;seamount;1;238.933;34.05
+Roggeveen Basin;basin;1;264.5;-31.5
+Roggeveen Rise;rise;1;268.5;31.4167
+Roia Canyon;canyon;1;7.65;43.75
+Romanche Fracture Zone;fracture zone;1;343;0
+Romanche Gap;gap;1;341.75;-0.166667
+Rompidas Ledge;reef;1;279.533;23.7833
+Roo Rise;rise;1;111;-12
+Rosa Seamount;seamount;1;245.033;26.2
+Rosalind Bank;bank;1;279.5;16.5
+Rosario Bank;bank;1;275.917;18.5
+Rose Blanche Bank;bank;1;301.167;47.4167
+Rosemary Bank;seamount;1;349.833;59.25
+Rosenberg Seamount;seamount;1;168.05;25.5
+Roseway Bank;bank;1;295.25;43.4167
+Roseway Basin;basin;1;294.917;43.1667
+Ross Bank;bank;1;176;-76.75
+Ross Canyon;canyon;1;197;-75
+Rossini Seamount;seamount;1;197;32.2
+Rost Bank;bank;1;11.5;68
+Rotuma Reef;reef;1;180.65;-13.4167
+Rouse Seamount;seamount;1;167.65;28.4333
+Rovuma Canyon;canyon;1;40.5;-10.4333
+Rowley Shelf;shelf;1;117;-20
+Rowley Shoals;reefs;1;119.167;-17.3333
+Royal Bishop Banks;reefs;1;108.167;9.7
+Royal Charlotte Bank;bank;1;322;-16
+Royal Charlotte Reef;reef;1;113.583;7
+Royal Trough;trough;1;311;16.1667
+Royalist Bank;reef;1;105.183;8.18333
+Ruapuke Basin;basin;1;168.5;-46.8833
+Rude Canyon;canyon;1;178.75;53.3
+Rude Knoll;knoll;1;179.5;52.8333
+Rumble III Seamount;seamount;1;178.467;-35.75
+Rune Seamount;seamount;1;314.833;57.1667
+Ryofu Seamount;seamount;1;145.967;37.9833
+Ryukyu Ridge;ridge;1;127;26
+Ryukyu Trench;trench;1;128;24.75
+S. Smith Seamount;seamount;1;164.35;26.9667
+SP Basin;basin;1;188;76.5
+Sa'o Vicente Canyon;canyon;1;350.583;36.95
+Saavedra Seamount;seamount;1;252.333;10.3
+Saba Bank;reefs;1;296.5;17.5
+Sabina Shoal;shoal;1;116.483;9.75
+Sabine Bank;reefs;1;266.333;29.45
+Sable Island Bank;bank;1;299.5;43.75
+Sables d'Olonne Canyon;canyon;1;355.95;45.9
+Sackett Bank;bank;1;270.45;28.6333
+Sado Ridge;ridge;1;138.75;39
+Saga Guyot;guyot;1;170;43.4167
+Sagami Bank;bank;1;139.383;35.15
+Sagami Canyon;canyon;1;139.367;35.25
+Sagami Trough;trough;1;139.667;34.7
+Saglek Bank;bank;1;298.333;59
+Saharan Seamounts;seamounts;1;340.167;25.5
+Sahul Bank;reefs;1;125;-11.5
+Sahul Shelf;shelf;1;125;-12.5
+Saint Canyon;canyon;1;176.917;51.5
+Saint Croix Basin;basin;1;295.833;18.0333
+Saint Croix Ridge;ridge;1;294.75;17.6667
+Saint Croix Valley;valley;1;295.567;17.6333
+Saint Esprit Shoal;reef;1;113;19.5333
+Saint George Canyon;canyon;1;188;56
+Saint Helena Shoal;shoal;1;279.65;32.4167
+Saint Lawrence Trough;trough;1;191.617;63.1667
+Saint Lawrence Valley;valley;1;191.333;62.8333
+Saint Matthew Canyon;canyon;1;182.667;58.5
+Saint Nazaire Canyon;canyon;1;355.533;46.1667
+Saint Paul Fracture Zone;fracture zone;1;335.333;0.666667
+Saint Paul Seamount;seamount;1;165.8;27.6
+Saint Paul Spur;spur;1;186.417;57.5
+Saint Pierre Bank;bank;1;304;46
+Saint Pierre Bank;bank;1;77.7333;-38.95
+Saint Rogatien Bank;bank;1;192.867;24.3333
+Saint Vincent Fracture Zone;fracture zone;1;144;-55
+Saint-Lazarus Bank;reef;1;41.4167;-12.0833
+Sakuyama Peak;peak;1;143.1;22.35
+Sala y Gomez Ridge;ridge;1;262;-25
+Salado Canyon;canyon;1;250.65;23.2833
+Salajar Trough;trough;1;120.583;-6.33333
+Salerno Basin;basin;1;14.45;40.3
+Salmon Bank;seamount;1;183.533;26.9333
+Salsipuedes Basin;trough;1;246.5;29.25
+Saltito Canyon;canyon;1;250.667;23.4167
+Sambro Bank;bank;1;296.667;43.75
+Samoa Basin;basin;1;194;-16
+San Andres Ridge;ridge;1;278.667;13.5
+San Andres Trough;trough;1;278.417;13.1667
+San Antonio Reef;reef;1;275;22.0333
+San Clemente Basin;trough;1;242.167;32.25
+San Clemente Canyon;canyon;1;241.783;32.75
+San Clemente Escarpment;escarpment;1;241.5;32.9667
+San Clemente Ridge;ridge;1;241.433;33
+San Cristobal Trench;trench;1;162.75;-11.25
+San Diego Trough;trough;1;242.417;32.6667
+San Gabriel Canyon;canyon;1;241.933;33.5667
+San Isidro Basin;basin;1;243.25;31.0833
+San Jaime Bank;reef;1;249.75;22.8333
+San Jose Canyon;canyon;1;250.167;22.75
+San Juan Seamount;seamount;1;239;33.0333
+San Lucas Canyon;canyon;1;250.083;22.75
+San Miguel Gap;gap;1;239;33.9
+San Nicolas Basin;basin;1;240.917;33.05
+San Pablo Canyon;canyon;1;245.417;27.25
+San Pablo Seamount;seamount;1;299.633;38.8333
+San Pedro Basin;basin;1;241.567;33.55
+San Pedro Escarpment;escarpment;1;241.633;33.6833
+San Pedro Martir Basin;basin;1;247.5;28.3333
+San Pedro Valley;valley;1;241.717;33.65
+San Quintin Basin;basin;1;243.333;30
+San Salvador Knoll;knoll;1;242.1;32.3
+San Vito Ridge;ridge;1;12.8833;38.3667
+Sanak Bank;bank;1;198;54.2667
+Sanak Reef;reef;1;197.283;54.3333
+Sanders Reef;reef;1;138.333;-36.0667
+Sanders Seamount;seamount;1;2;-52.5
+Sandettie Bank;shoal;1;1.95;51.2333
+Sandman Reefs;reefs;1;198;54.75
+Sandy Shoal;reef;1;117.633;11.05
+Sangihe Ridge;ridge;1;125.583;3.83333
+Sangihe Trough;trough;1;126.25;4.83333
+Sant Eufemia Terrace;terrace;1;15.6667;39.5833
+Santa Barbara Basin;basin;1;239.95;34.25
+Santa Canyon;canyon;1;120.417;17.4833
+Santa Cruz Basin;basin;1;163;-12
+Santa Cruz Basin;basin;1;240.45;33.6667
+Santa Cruz Canyon;canyon;1;240.183;33.9167
+Santa Cruz-Catalina Ridge;ridge;1;241.25;33.55
+Santa Isabel Trough;trough;1;158.5;-8.5
+Santa Lucia Bank;bank;1;9.48333;43.6
+Santa Lucia Bank;bank;1;238.6;34.8333
+Santa Lucia Escarpment;escarpment;1;238.3;34.6667
+Santa Lucia Valley;valley;1;238.25;35.35
+Santa Maria Canyon;canyon;1;250.25;22.8333
+Santa Maria Ridge;ridge;1;333;36.9667
+Santa Monica Basin;basin;1;241.167;33.75
+Santa Monica Canyon;canyon;1;241.367;33.9167
+Santa Rosa Reef;reef;1;144.417;12.8333
+Santa Rosa-Cortes Ridge;ridge;1;240.167;33.3333
+Santander Canyon;canyon;1;356.417;44.1667
+Santiago Canyon;canyon;1;250.4;23.6667
+Santo Anta'o Ridge;ridge;1;333.5;18.8333
+Santo Domingo Basin;basin;1;290.5;18.1667
+Santo Tomas Knoll;knoll;1;241.317;32.5
+Santos Plateau;plateau;1;317;-25
+Sardinia Seamount;seamount;1;10.1333;40.0667
+Sardinia Terrace;terrace;1;10.1667;39.5
+Sardinia-Corsica Trough;trough;1;10.55;41.1667
+Sarera Basin;basin;1;135.5;-2.25
+Sargo Plateau;plateau;1;182;78.25
+Sarmiento Ridge;ridge;1;276;-7
+Sars Bank;seamount;1;291;-59.5833
+Sau Sau Ridge;ridge;1;179;-15.75
+Saunders Basin;basin;1;205;-76.8333
+Saunders Canyon;canyon;1;171;-45.9667
+Saury Seamount;seamount;1;279.083;12.5
+Savage Seamount;seamount;1;190.767;-18.4667
+Savannah Seamounts;seamounts;1;208;-19
+Savu Basin;basin;1;123.25;-9.25
+Saxon Reef;reef;1;145.983;-16.4667
+Saxton Seamount;seamount;1;202.5;47.4
+Saya de Malha Bank;bank;1;61.5;-10.5
+Sayniq Canyon;canyon;1;35.3333;33.55
+Scalesby Castle Shoal;reef;1;117.3;9.08333
+Scantum Basin;basin;1;289.5;42.8333
+Scarlatti Seamount;seamount;1;199.75;27.6167
+Scatarie Bank;bank;1;300.75;45.9667
+Scawfell Shoal;reef;1;106.85;7.28333
+Schaefer Seamount;seamount;1;227.567;43
+Schmidt-Ott Seamount;seamount;1;13.5;-39.6167
+Schoppe Ridge;ridge;1;220.5;51.1667
+Schott Seamount;seamount;1;204.133;48.65
+Schouwen Bank;shoal;1;3.35;51.75
+Schubert Seamount;seamount;1;197.85;31.9333
+Schumann Seamount;seamount;1;199.817;25.7
+Schwabenland Seamount;seamount;1;0.25;-46
+Scoresby Valley;valley;1;338.5;70
+Scotian Shelf;shelf;1;298;44
+Scott Island Bank;ridge;1;180.083;-67.75
+Scott Plateau;plateau;1;120.5;-13.3333
+Scott Reef;reef;1;121.833;-14
+Scott Seachannel;seachannel;1;227;49.9167
+Scott Seamount;seamount;1;218.5;50.5
+Scott Seamounts;seamounts;1;180.167;-60
+Scott Shoal;shoal;1;177.75;-73.25
+Scripps Canyon;canyon;1;242.733;32.8667
+Scripps Guyot;guyot;1;159.383;23.8333
+Sculpin Ridge;ridge;1;192.667;15.75
+Scuso Bank;knoll;1;12.55;38.25
+Sea Otter Valley;valley;1;231;51.3333
+Seadragon Ridge;ridge;1;201.25;12.5
+Seafox Seamount;seamount;1;187.25;-30.5
+Seahorse Breakers;reef;1;112.6;5.51667
+Seahorse Shoal;reef;1;117.8;10.8
+Sealark Fracture Zone;fracture zone;1;68.5;-4
+Seamap Seachannel;seachannel;1;197.5;51.75
+Sebaou Canyon;canyon;1;3.71667;37.0833
+Second Thomas Shoal;reef;1;115.833;9.73333
+Sedlo Seamount;seamount;1;333.083;40.4167
+Sedna Fracture Zone;fracture zone;1;215;47.5
+Sedna Ridges;ridges;1;216.733;47.5
+Seewarte Seamounts;seamounts;1;331.5;30
+Sefsaf Canyon;canyon;1;3.55;36.8167
+Seguam Canyon;canyon;1;187.4;52.6667
+Segula Basin;basin;1;178;50.5167
+Segula Canyon;canyon;1;177.9;52.2
+Segula Knoll;knoll;1;177.967;50.4667
+Segundo Seamount;seamount;1;194.917;13
+Seine Plain;plain;1;347.75;34
+Seine Seamount;seamount;1;345.583;33.75
+Selkirk Rise;rise;1;278;-37
+Sembuni Reefs;reefs;1;109.183;2.28333
+Seminole Seamount;seamount;1;230.167;49.7667
+Sengfeller Seamount;seamount;1;202.25;49.8333
+Sentry Bank;reef;1;119.3;5.66667
+Seringapatam Reef;reef;1;122.083;-13.6333
+Sermilik Valley;valley;1;323.5;64.5
+Serrano Seamounts;seamounts;1;197;11.1667
+Serrano Tablemount;tablemount;1;201.917;9.25
+Setubal Canyon;canyon;1;350.75;38.25
+Sevuokuk Spur;spur;1;187.6;63.7667
+Sewell Ridge;rise;1;292.167;42.6833
+Seychelles Bank;bank;1;55.5;-4.75
+Seydhisfjardhardjup;valley;1;347;65.3333
+Seymour Canyon;canyon;1;178.75;51.2
+Seymour Spur;spur;1;178.25;50.9667
+Shackleton Seamount;seamount;1;22.75;-36.9
+Shallop Canyon;canyon;1;290.883;39.9333
+Shallow Shoal;reef;1;117.083;8.46667
+Shalowitz Seamount;seamount;1;224.8;46.15
+Shamrock Canyon;canyon;1;351.25;47.75
+Shannon Seamount;seamount;1;2.41667;-43
+Sharpshooter Canyon;canyon;1;291.417;40.0333
+Sharrer Basin;basin;1;291.017;42.4167
+Sharrer Ridge;ridge;1;290.95;42.55
+Shatskiy Rise;rise;1;160;35
+Shaw Seamount;seamount;1;209.25;52.6667
+Shcherbakov Seamount;seamount;1;104.833;-10.75
+Shediac Valley;valley;1;295.583;47.3333
+Sheldrake Seamount;seamount;1;297.833;38.4167
+Shepard Canyon;canyon;1;295.033;17.75
+Shepard Knoll;knoll;1;241.517;32.0833
+Shephard Guyot;guyot;1;180.25;19.1667
+Shepherd Seamount;seamount;1;205.883;17.5333
+Shepherdess Reef;reef;1;174.3;-41.75
+Shiashkotan Valley;valley;1;154.267;48.5
+Shichiriga Bank;bank;1;129.5;33.9333
+Shih-t'i Pi Canyon;canyon;1;121.5;23.5167
+Shikoku Basin;basin;1;137;28
+Shimada Seamount;seamount;1;242.483;16.8667
+Shin Bank;bank;1;139.533;39.6667
+Shin Reef;reef;1;128.667;32.8667
+Shin-matsuye Bank;reef;1;148.35;7.93333
+Ship Shoal;shoal;1;269;28.9
+Shirase Bank;bank;1;202;-76.6667
+Shirshov Ridge;ridge;1;171;57.5
+Shor Seamount;seamount;1;226.917;42.5
+Shortland Canyon;canyon;1;301.75;43.8333
+Shostakovich Seamount;seamount;1;195.117;33.2667
+Showa Guyot;guyot;1;170.5;43
+Shtokman Guyot;guyot;1;277.917;-25
+Shuleykin Seamount;seamount;1;163;41.25
+Shumagin Bank;bank;1;200.633;54.65
+Siafiafi Seamount;seamount;1;184.5;-12.25
+Siamese Shoal;reef;1;114.067;15.9667
+Sibelius Seamount;seamount;1;199.267;27.2167
+Siberia Seamount;seamount;1;132.417;41.75
+Siboney Seamount;seamount;1;298.333;33.3333
+Sibutu-Basilan Ridge;ridge;1;121;5.75
+Sicilia Basin;basin;1;17.5;36.5
+Sicilia Plain;plain;1;18;36
+Sicily Terrace;terrace;1;17;36.5
+Sidner Bank;bank;1;267.617;27.9167
+Sidra Plain;plain;1;19.3667;34.1667
+Sierra Leone Basin;basin;1;343;5
+Sierra Leone Fracture Zone;fracture zone;1;329;6
+Sierra Leone Plain;plain;1;343;5
+Sierra Leone Rise;rise;1;339;5.5
+Sierra Seamount;seamount;1;150.15;32.6333
+Sigsbee Basin;basin;1;290.783;42.9667
+Sigsbee Escarpment;escarpment;1;267.5;26
+Sigsbee Knolls;knolls;1;267.583;23.75
+Sigsbee Plain;plain;1;267;23.5
+Sigsbee Ridge;ridge;1;290.883;43.0333
+Sila Fracture Zone;fracture zone;1;210;51.5
+Siltcoos Bank;bank;1;235.583;43.85
+Silver Bank;reefs;1;290.25;20.5
+Silver Plain;plain;1;290.5;22.5
+Silvertown Bank;bank;1;280.083;21.4167
+Simo Banks;reefs;1;120.317;14.0833
+Simpson Fracture Zone;fracture zone;1;39.25;-43.5
+Simpson Seamount;seamount;1;199.75;12.6667
+Simpson Seamounts;seamounts;1;17.0333;-37.15
+Sinaloa Canyon;canyon;1;250.9;25.2333
+Sio Guyot;tablemount;1;171.1;18.3
+Siqueiros Fracture Zone;fracture zone;1;256;8.16667
+Sirius Seamount;seamount;1;199.167;52
+Sitkin Canyon;canyon;1;178.35;52.25
+Sixtymile Bank;seamount;1;241.75;32.05
+Skagafjardhardjup;valley;1;340.6;66.3833
+Skagit Seamount;seamount;1;180.467;21.0333
+Skeidharardjup;valley;1;343.25;63.4167
+Skerjadjup;valley;1;336.417;63.3333
+Skerki Bank;bank;1;10.8333;37.75
+Skjalfandadjup;valley;1;342.417;66.4167
+Skjoldungen Bank;bank;1;319.367;62.5833
+Skjoldungen Valley;valley;1;319.333;62.8667
+Sklinna Bank;bank;1;10.25;65.25
+Skraelling Canyon;canyon;1;321.5;62.5
+Smetanin Seamount;seamount;1;146.833;40.6667
+Smith Shoal;reef;1;114.2;15.45
+Smook Seamount;seamount;1;209.883;55.15
+Smoot Guyot;tablemount;1;145.333;26.0833
+Snellius Ridge;ridge;1;128;4
+Snodgrass Seamount;seamount;1;339.267;7.83333
+Snowden Seamounts;seamounts;1;204;16
+Sobaka Canyon;canyon;1;177.217;51.5
+Society Ridge;ridge;1;209;-17
+Sohm Plain;plain;1;305;36
+Solander Trough;trough;1;165.75;-47.5
+Soledad Basin;basin;1;242.417;30.1667
+Soledad Canyon;canyon;1;250.467;23.6667
+Solomon Basin;basin;1;152;-7
+Somali Basin;basin;1;52;0
+Somali Plain;plain;1;51.5;1
+Somers Seamount;seamount;1;193.417;13.9167
+Somnitel naya Shoal;shoal;1;165;59.5
+Sonne Seamount;seamount;1;203.333;15.1167
+Sonnier Banks;banks;1;267.55;28.3333
+Soquel Canyon;canyon;1;238;36.8
+Sorensen Seamount;seamount;1;338.167;7.83333
+Sorol Trough;trough;1;143;7.08333
+Soudan Bank;seamount;1;58.7167;-18.5333
+South Aleutian Slope;slope;1;185;51.6667
+South Australian Basin;basin;1;126;-38
+South Australian Plain;plain;1;130;-37.5
+South Banda Basin;basin;1;127.5;-6.5
+South Bellona Reefs;reefs;1;159.5;-21.85
+South Charcot Seamount;seamount;1;347;44.6833
+South China Basin;basin;1;115;15
+South Fiji Basin;basin;1;175;-26
+South Georgia Ridge;ridge;1;320;-54
+South Georgia Rise;rise;1;327.5;-52.5
+South Heyes Canyon;canyon;1;286.433;38.2167
+South Honeycomb Canyon;canyon;1;175.85;-41.45
+South Honshu Ridge;ridge;1;142;24
+South Indian Basin;basin;1;120;-60
+South Indian Plain;plain;1;125;-59
+South Luconia Shoals;reefs;1;112.7;5
+South Madden Bank;bank;1;177.017;-40.6333
+South Makassar Basin;basin;1;118.5;-4
+South Maria Ridge;ridge;1;171.8;-34.1
+South Orkney Ridge;ridge;1;320;-60
+South Orkney Trough;trough;1;315;-60
+South Reef;reef;1;114.283;11.4
+South Reef;reef;1;119.367;4.5
+South Regent Shoal;reef;1;117.083;8.53333
+South Sandwich Fracture Zone;fracture zone;1;340;-63
+South Sandwich Ridge;ridge;1;333;-58
+South Sandwich Trench;trench;1;335;-56.5
+South Scotia Ridge;ridge;1;313.5;-60
+South Seachannel;seachannel;1;172.25;-46.75
+South Shetland Trough;trough;1;300.5;-61
+South Solomon Trench;trench;1;164.5;-11
+South Tasman Rise;rise;1;148;-49
+South Toms Canyon;canyon;1;287.317;38.9833
+South Trinco Canyon;canyon;1;81.6333;8.66667
+South Vereker Bank;bank;1;115.95;20.9333
+South Vries Canyon;canyon;1;286.333;38.0833
+South Wilmington Canyon;canyon;1;286.533;38.2667
+Southampton Reefs;reefs;1;115.317;10.2
+Southeast Dellwood Knoll;knoll;1;229.7;50.7167
+Southeast Indian Ridge;ridge;1;110;-50
+Southeast Pacific Basin;basin;1;245;-60
+Southeast Shoal;shoal;1;310.2;44.25
+Southern California Borderland;borderland;1;241.5;32.5
+Southern Reefs;reefs;1;116.533;10.4167
+Southern Viti Canyon;canyon;1;172.45;-39.1167
+Southwest Aleutian Ridge;ridge;1;172;51
+Southwest Bank;reef;1;118.383;7.63333
+Southwest Indian Ridge;ridge;1;40;-43
+Southwest Pacific Basin;basin;1;210;-40
+Southwestern Banks;reefs;1;116.9;7.8
+Sovanco Fracture Zone;fracture zone;1;229;49.25
+Spanish Canyon;canyon;1;235.7;40.1
+Spar Fracture Zone;fracture zone;1;342.5;69
+Spencer Canyon;canyon;1;286.867;38.5667
+Spiess Seamount;seamount;1;0.25;-54.6667
+Spilhaus Seamount;seamount;1;218.25;42.6667
+Spitsbergen Bank;bank;1;23;76
+Spitsbergen Fracture Zone;fracture zone;1;0;80
+Spjaeldebod Canyon;canyon;1;324.333;63.5833
+Sprat Hall Canyon;canyon;1;295.05;17.75
+Springfield Seamount;seamount;1;229.8;48.0667
+Spur Reef;reef;1;146.05;-16.4
+Srivastava Seamount;seamount;1;223.883;44.5167
+Stalemate Bank;bank;1;170.917;53.0833
+Stalemate Canyon;canyon;1;171.417;52.8333
+Stamukhi Shoal;shoal;1;210.633;70.7
+Standard Seamount;seamount;1;157.733;-35
+Stanley Seamount;seamount;1;216.417;43.1333
+Staten Island Seamount;seamount;1;203.3;-0.883333
+Steel Vendor Seamount;seamount;1;230.55;40.3833
+Stefansson Basin;basin;1;227;82.5
+Stellwagen Bank;bank;1;289.75;42.3333
+Stellwagen Basin;basin;1;289.583;42.3333
+Stembel Knoll;knoll;1;223.45;29.1167
+Stephen Spur;spur;1;177;51.75
+Stetson Bank;bank;1;265.7;28.1667
+Stetson Guyot;guyot;1;176.083;19.6667
+Stetson Mesa;mesa;1;280.6;30.3167
+Stevens Seamount;seamount;1;202;48.15
+Stewart Seamount;seamount;1;118.833;17.3333
+Stickleback Seamount;seamount;1;182.1;24.6
+Stiffe Bank;bank;1;53.1333;26.4167
+Stingray Shoal;reef;1;142.367;20.5
+Stirni Seamount;seamount;1;227.7;49.1333
+Stocks Seamount;seamount;1;328;-12.25
+Stoddard Seamount;seamount;1;233.8;31.75
+Stokes Canyon;canyon;1;121;-34.8333
+"""Stone Fence, The""";escarpment;1;302.583;44.75
+Stonewall Bank;bank;1;235.583;44.5
+Stonewall Valley;valley;1;235.7;44.5833
+Store Hellefiske Bank;bank;1;305;67.5
+Storfjordrenna;valley;1;17;76
+Stout Seamount;seamount;1;149;31.6667
+Stout Swell;rise;1;291.9;42.2667
+Strabo Seamount;seamount;1;14.8333;39.4833
+Strabo Trench;trench;1;27;34.3333
+Stradbroke Seamount;seamount;1;155.667;-29
+Strakhov Seamount;seamount;1;173.25;12.5
+Strandberg Canyon;canyon;1;176.75;52.4333
+Strathmore Reef;reef;1;170.667;-11.1667
+Strauss Seamount;seamount;1;195.85;33.3
+Stravinsky Seamount;seamount;1;195.4;31.4833
+Sturdevant Rock;reef;1;177.283;52.1333
+Stvor Seamount;seamount;1;354.583;-9.91667
+Subi Reef;reef;1;114.167;10.9167
+Suiko Seamount;guyot;1;170.333;44.5
+Suitcase Seamounts;seamounts;1;247.5;21
+Sukkertoppen Bank;bank;1;306.417;65
+Sukkertoppen Valley;valley;1;307;64.3333
+Sultan Bank;reef;1;121.5;11.4
+Sultana Shoals;reefs;1;121.383;9.95
+Sulu Basin;basin;1;121.5;8
+Sulu Trough;trough;1;121.25;8
+Sulzberger Basin;basin;1;207.5;-77
+Sun Ray Seamount;seamount;1;271.45;-0.533333
+Suna Canyon;canyon;1;40.75;-11.3
+Sunda Shelf;shelf;1;107;5
+Sunda Trough;trough;1;109.5;-8.83333
+Sunday Bank;reef;1;119.15;5.83333
+Sunday Basin;basin;1;180;51.5667
+Suno Saki Canyon;canyon;1;139.583;34.9333
+Supply Reef;reef;1;145.1;20.15
+Sur Canyon;canyon;1;237.933;36.1
+Suruga Canyon;canyon;1;138.583;34.7167
+Surveyor Fracture Zone;fracture zone;1;205;43
+Surveyor Gap;gap;1;215.25;56.25
+Surveyor Seachannel;seachannel;1;212.667;56
+Surveyor Seamount;seamount;1;215.667;56.0833
+Sverdrup Bank;bank;1;239.55;33.1333
+Sverdrup Slope;slope;1;245;80
+Svyataya Anna Fan;fan;1;70;85
+Svyataya Anna Trough;trough;1;70;80
+Swain Reefs;reefs;1;152.25;-21.6667
+Swallow Knoll;knoll;1;291.467;28
+Swallow Reef;reef;1;113.817;7.36667
+Swan Trough;trough;1;276.833;17.6667
+Swatch of No Ground;trough;1;89.4667;21.25
+"""Swatch, The""";trough;1;67.2667;23.2667
+Sweet Bank;bank;1;268.183;27.85
+Swiftsure Bank;bank;1;235;48.55
+Swordfish Seamount;seamount;1;201.583;18.4167
+Sylvania Tablemount;tablemount;1;165;11.9667
+Sylvester Seamount;seamount;1;167.8;24.0833
+Sylvia Knoll;reef;1;11.0333;37.9167
+Tadjoura Trough;trough;1;44.5;12
+Taga Seamount;seamount;1;144.817;14.4
+Tagus Basin;basin;1;348.333;37.8333
+Tagus Plain;plain;1;348;37.5
+Tahoma Basin;basin;1;175.65;51.25
+Tahoma Canyon;canyon;1;175.383;51.75
+Tahoma Knoll;knoll;1;175.567;51.1833
+Tahoma Reef;reef;1;175.833;51.8833
+Taiaroa Canyon;canyon;1;171.167;-45.7667
+Taieri Canyon;canyon;1;170.783;-46.25
+Taiwan Banks;banks;1;118.583;23
+Takuyo-daiichi Seamount;seamount;1;145.933;41.2667
+Takuyo-daini Seamount;seamount;1;143.867;34.2833
+Takuyo-daisan Seamount;seamount;1;144.3;34.2
+Talantam Shoal;reef;1;119.45;5.7
+Talaud Ridge;ridge;1;126.75;4.5
+Talaud Trough;trough;1;127.417;4
+Talbot Shoal;shoal;1;11.6667;37.5
+Tamayo Fracture Zone;fracture zone;1;251.667;23
+Tambuzi Canyon;canyon;1;40.7333;-11.4167
+Tanadak Basin;basin;1;180.433;50.75
+Tanaga Canyon;canyon;1;181.5;51.7833
+Tancred Shoal;reef;1;113.9;15.6833
+Taney Seamounts;seamounts;1;234.667;36.75
+Tanner Bank;knoll;1;240.867;32.7
+Tanner Basin;trough;1;240.333;32.8667
+Tanner Canyon;canyon;1;240.967;32.5833
+Tarang Reef;reef;1;147.6;7.66667
+Tarang Tablemount;tablemount;1;145.25;8.38333
+Taranui Valley;valley;1;168.433;-32.3667
+Tasman Basin;basin;1;158;-43
+Tasman Fracture Zone;fracture zone;1;151;-58.5
+Tasman Plain;plain;1;153.25;-34.5
+Tasman Plateau;plateau;1;147;-45
+Tasmantid Seamounts;seamounts;1;156;-31
+Tatar Trough;trough;1;140;46.5
+Tateyama Canyon;canyon;1;139.75;35
+Tatsumi Reef;reef;1;145.667;14.9
+Taupo Tablemount;tablemount;1;156.167;-33.1667
+Taussig Seamount;seamount;1;201.75;48.5
+Taviuni Bank;seamount;1;185.417;-12.1
+Taylor Seamount;seamount;1;162;24.95
+Tchaikovsky Seamount;seamount;1;197.917;29.3833
+Teck Knoll;knoll;1;177.3;51.1
+Tehuantepec Ridge;ridge;1;262;13.5
+Tehuelche Fracture Zone;fracture zone;1;314;-54.5
+Tema Reef;reef;1;194.417;-11.0833
+Templer Bank;reef;1;117.233;11.15
+Tenji Seamount;guyot;1;168.417;49
+Ternate Trough;trough;1;126.667;0.5
+Terra Nova Canyon;canyon;1;159;-69
+Terrible Bank;bank;1;12.8333;37.1667
+Terry Seamount;seamount;1;220.133;43.4
+Tethys Seamounts;seamounts;1;197.5;11.9667
+Texas-Louisiana Shelf;shelf;1;267;28.5
+Tharp Fracture Zone;fracture zone;1;225;-54
+Theta Gap;gap;1;347.333;43.5
+Thetis Bank;reef;1;247.4;24.9333
+Thirtymile Bank;ridge;1;242.217;32.6667
+Thitu Reefs;reefs;1;114.267;11.0333
+Thomas Washington Guyot;guyot;1;149.25;32
+Thompson Seamount;seamount;1;231.417;46.05
+Thomson Trough;trough;1;158;-45
+Thornton Bank;shoal;1;3;51.5667
+Three Dory Ridge;ridge;1;290.65;43.2
+Three Kings Rise;rise;1;172.5;-33.5
+Three Kings Trough;trough;1;172;-34
+Three Points Spur;spur;1;357.5;3.83333
+Thunder Knoll;bank;1;278.667;16.45
+Thurmond Basin;basin;1;177.6;50.85
+Thurmond Canyon;canyon;1;178.05;50.8
+Thurmond Knoll;knoll;1;177.983;50.85
+Thurston Seamount;seamount;1;204.033;17
+Tiburon Basin;basin;1;247.167;29
+Tijitiji Reef;reef;1;119.9;4.86667
+Tiki Basin;basin;1;224.5;-13.5
+Tillies Basin;basin;1;289.667;42.5
+Timor Trough;trough;1;126;-9.83333
+Tin City Shoal;shoal;1;192.333;65.1333
+Tinaja Valley;valley;1;249.8;22.8333
+Tingmiark Valley;valley;1;228.833;70.4167
+Tinro Basin;basin;1;153;56
+Tinro Rise;rise;1;150;56
+Tiru Seamount;seamount;1;193.05;20.5833
+Titov Seamount;seamount;1;184;-0.5
+Tittman Seamount;seamount;1;202.25;45.1667
+Toba Guyot;guyot;1;171.667;33.25
+Tobago Basin;basin;1;299.5;12.5
+Tobago Plain;plain;1;300.5;13
+Tobi Ridge;ridge;1;132;4
+Tobishima Basin;basin;1;139.733;39.3667
+Tofin'o Bank;bank;1;356.067;35.4667
+Tofua Ridge;ridge;1;184.833;-20
+Tofua Trough;trough;1;185.217;-19.5
+Tokyo Canyon;canyon;1;139.75;35.05
+Toms Canyon;canyon;1;287.3;39.1167
+Tonga Ridge;ridge;1;185;-21
+Tonga Trench;trench;1;187;-20
+Tongue Reef;reef;1;145.8;-16.3333
+Tongue of the Ocean;trough;1;282.5;24.5
+Tore Seamount;seamount;1;347.133;39.4167
+Torreblanca Canyon;canyon;1;1.35;40.2167
+Torrelavega Canyon;canyon;1;356;44.1667
+Torres Rise;rise;1;165.167;-13.6667
+Torres Seamount;seamount;1;253.033;8.51667
+Tortugas Bank;reef;1;276.933;24.65
+Tortugas Terrace;terrace;1;277;24.0833
+Tortugas Valley;valley;1;276.833;23.95
+Tosa Terrace;terrace;1;133.5;32.4167
+Townsend Cromwell Seamount;seamount;1;179.067;29.8333
+Toyama Seachannel;seachannel;1;137.75;38.5
+Toyama Seamount;seamount;1;138.917;43.4167
+Toyama Trough;trough;1;138;38
+Tracey Seamount;seamount;1;144.417;13.65
+Traena Bank;bank;1;9.75;66.25
+Transkei Basin;basin;1;29;-35.5
+Trask Knoll;knoll;1;239.733;33.6167
+Tregrosse Reefs;reefs;1;150.5;-18
+Tres Marias Basin;basin;1;253.583;20.8333
+Tresslar Bank;bank;1;267.633;27.8833
+Tressler Bank;bank;1;95;-65
+Trevelyan Escarpment;escarpment;1;351;46.8333
+Treworgie Canyon;canyon;1;307.2;43.75
+Trident Ridge;ridge;1;333.617;36.55
+Trident Shoal;reef;1;114.633;11.5167
+Trincomalee Canyon;canyon;1;81.25;8.5
+Trindade Seachannel;seachannel;1;327.4;-23
+Trinidad Canyon;canyon;1;235.167;41.15
+Trinity Shoal;shoal;1;267.8;29.2
+Tripp Reef;reef;1;112.5;5.48333
+Tripp Seamount;seamount;1;14.25;-29.6167
+Triton Shoal;shoal;1;138.067;-5.96667
+Trobriand Trough;trough;1;150;-8
+Trold Canyon;canyon;1;322.5;62.6667
+Tromsoflaket;bank;1;18.5;71.5
+Tropic Seamount;seamount;1;339.333;23.8333
+Troubadour Shoals;reefs;1;128.583;-9.91667
+Truro Shoal;reef;1;116.683;16.3167
+Truxton Basin;basin;1;291.717;43.1167
+Truxton Swell;rise;1;292.5;43.1333
+Tryal Ridge;ridge;1;102.667;-31
+Tsushima Basin;basin;1;131;37
+Tsushima Plain;plain;1;131;37
+Tsushima Trough;trough;1;129.283;34.8167
+Tuamotu Fracture Zone;fracture zone;1;233;-12.5
+Tuamotu Ridge;ridge;1;215;-17
+Tubbataha Reefs;reefs;1;119.933;8.85
+Tucker Seamount;seamount;1;226.5;49.8333
+Tufts Plain;plain;1;220;47
+Tugela Canyon;canyon;1;32.2167;-30.0833
+Tui Seamount;seamount;1;173.267;-30.75
+Tulare Seamount;seamount;1;183.933;20.95
+Tumindao Reef;reef;1;119.317;4.7
+Tung-chiang Canyon;canyon;1;120.383;22.4
+Tungue Canyon;canyon;1;40.6667;-10.7333
+Turnagain Banks;banks;1;176.7;-40.55
+Turnagain Canyon;canyon;1;176.817;-40.9167
+Turpie Bank;knoll;1;175.75;-11.4167
+Tuscaloosa Seamount;seamount;1;202.967;22.0333
+Tuscany Trough;trough;1;9.9;42.3333
+Tuscarora Seamount;seamount;1;181.75;-11.8333
+Tusket Basin;basin;1;293.25;42.8333
+Tuzo Wilson Seamounts;seamounts;1;229.083;51.4333
+Tyrrhenian Basin;basin;1;13;40
+Tyrrhenian Plain;plain;1;12.75;40
+Udintsev Fracture Zone;fracture zone;1;215;-57
+Udintsev Fracture Zone;fracture zone;1;216.5;-56
+Ukivok Shoal;shoal;1;192.217;65.0833
+Ulak Basin;basin;1;180.867;50.75
+Uliaga Canyon;canyon;1;190.5;53.6667
+Ulloa Knoll;knoll;1;251.083;22.5833
+Ulloa Reef;reef;1;144.2;7.03333
+Ullung Plateau;plateau;1;131.5;38.5
+Ulm Plateau;plateau;1;176.5;54.8333
+Umitaka Bank;seamount;1;167;-67.4167
+Umnak Basin;basin;1;192.167;52.5833
+Umnak Canyon;canyon;1;190;53.75
+Umnak Plateau;plateau;1;189.75;54.25
+Unalaska Basin;basin;1;193.917;52.8333
+Unalga Basin;basin;1;180.75;51.3667
+Unarang Rock;reef;1;118.083;4.01667
+Uncle Sam Bank;bank;1;246.6;25.6333
+Unicorn Seamount;seamount;1;345.55;34.75
+Unimak Seamount;seamount;1;197.5;53.6667
+Union Reefs;reefs;1;114.367;9.8
+Union Seamount;seamount;1;227.25;49.5833
+Uracus Ridge;ridge;1;144.583;20.75
+Urashima Bank;bank;1;135.35;35.9667
+Urdaneta Seamount;seamount;1;248.85;9.38333
+Urry Bank;knoll;1;174.233;-45
+Usof Canyon;canyon;1;193.333;53.0833
+Ustica Escarpment;escarpment;1;11.6167;38.4833
+Ustica Ridge;ridge;1;12.4167;38.6333
+Ustica Trough;trough;1;12.6667;38.3667
+Uyeda Ridge;ridge;1;144.333;27.3333
+Vacquier Seamount;seamount;1;220.017;42.5
+Valdivia Fracture Zone;fracture zone;1;271;-41.5
+Valdivia Seamount;seamount;1;6.41667;-26.25
+Valencia Trough;trough;1;2;40.1667
+Valparaiso Shoal;reef;1;118.45;7.85
+Vamizi Canyon;canyon;1;40.75;-10.95
+Van Cloon Shoal;shoal;1;126.45;-12.6167
+Van Diemen Bank;bank;1;171.75;-34
+Van Wyckhouse Seamount;seamount;1;162.2;23.4
+Vance Seamount;seamount;1;229.333;45.5
+Vancouver Canyon;canyon;1;118.5;-35.5
+Vancouver Gap;gap;1;231.167;49.8333
+Vancouver Valley;valley;1;232;47
+Vanderford Valley;valley;1;110.167;-66.4167
+Vanguard Bank;reef;1;109.617;7.46667
+Vanguard Knoll;knoll;1;291.983;28.1667
+Vanguard Shoal;reef;1;117.267;8.91667
+Vaughan Bank;seamount;1;163.5;-67.6167
+Vavilov Seamount;seamount;1;12.6;39.8667
+Vavilov Spur;spur;1;150.5;46.8333
+Vayda Seamount;seamount;1;312;14.8333
+Veatch Canyon;canyon;1;290.4;39.8667
+Vega Basin;basin;1;177.05;50.7667
+Vega Canyon;canyon;1;177.15;51.5
+Velasco Reef;reef;1;134.617;8.33333
+Velero Basin;basin;1;241.5;31.5
+Vema Fracture Zone;fracture zone;1;316;11
+Vema Fracture Zone;fracture zone;1;66.5;-10
+Vema Gap;gap;1;291.333;24.25
+Vema Seamount;seamount;1;8.31667;-31.6333
+Vema Trench;gap;1;67.3333;-9
+Venezuelan Basin;basin;1;292;15
+Venezuelan Plain;plain;1;293;14
+Vening Meinesz Seamounts;seamounts;1;102.5;-11
+Veracruz Tongue;tongue;1;265.167;20.5
+Verde Canyon;canyon;1;7.9;43.7833
+Verdi Seamount;seamount;1;196.483;32.15
+Vereker Banks;banks;1;116;21.0833
+Vernadskiy Fracture Zone;fracture zone;1;325.25;7.5
+Vernon Basin;basin;1;274.667;26.8333
+Verrill Canyon;canyon;1;298.75;42.8333
+Veryan Bank;bank;1;176.167;-44.3333
+Veryan Seachannel;seachannel;1;176.583;-45.6667
+Vesteris Bank;seamount;1;351;73.5
+Vestfjord Valley;valley;1;13.5;67.6667
+Victoria Fracture Zone;fracture zone;1;176;4
+Vidal Plain;plain;1;305;15.5
+Vidal Seachannel;seachannel;1;306;14.5833
+Vigia Canyon;canyon;1;250.083;22.7833
+Vigo Seamount;seamount;1;349.3;41.2333
+Viking Bank;bank;1;2.58333;60.5833
+Viking Trough;trough;1;354.583;65.0833
+Vikurall;valley;1;334;65.9
+Villa Canyon;canyon;1;238.5;35.8
+Villalobos Seamount;seamount;1;248.883;6.91667
+Vinorama Canyon;canyon;1;250.983;23.2333
+Viosca Knoll;knoll;1;271.433;29.2
+Virgin Islands Trough;trough;1;294.833;17.9333
+Virgin Rocks;reef;1;309.183;46.45
+Visscher Valley;valley;1;171.833;-39.9667
+Vitoria Seamount;seamount;1;322.25;-20.75
+Vitoria-Trindade Seamounts;seamounts;1;325;-21
+Vittorio Emmanuel Seamount;seamount;1;11.8;39.8833
+Vityaz Fracture Zone;fracture zone;1;68.75;-5
+Vityaz Ridge;ridge;1;155;48
+Vityaz Seamount;seamount;1;186.75;13.5
+Vityaz Trench;trench;1;170;-10
+Viwa Trough;trough;1;176;-17.5
+Vizcaino Canyon;canyon;1;235.5;39.6667
+Vizcaino Knoll;knoll;1;235.533;39.5833
+Vogel Seamount;seamount;1;299.833;37.1333
+Vogt Guyot;guyot;1;149;19.8333
+Volador Seamount;seamount;1;191.35;26.5333
+Volador Spur;spur;1;192.333;26.2833
+Volcan Bank;bank;1;279.617;9.56667
+Voring Plateau;plateau;1;4;67
+Voronin Trough;trough;1;85;80
+Vostochno-Tikhookeanskoye Podnyatiye;rise;1;245;-20
+Vulcan Reef;reef;1;124.267;-12.8167
+Vysokaya Bank;bank;1;332.033;-59.7167
+W. Smith Seamount;seamount;1;163.867;26.6333
+Wachusett Ridge;ridge;1;224.5;49.3333
+Waghenaer Fracture Zone;fracture zone;1;167.5;26
+Wagner Basin;basin;1;245.833;31
+Wagner Seamount;seamount;1;197.1;31.7667
+Waialeia Canyon;canyon;1;203.05;21.2167
+Waiehu Canyon;canyon;1;203.15;21.2167
+Waihanau Canyon;canyon;1;203.017;21.2333
+Waikolu Canyon;canyon;1;203.083;21.2167
+Wailau Canyon;canyon;1;203.183;21.2167
+Waipu Canyon;canyon;1;203.117;21.2167
+Wairarapa Arm;canyon;1;174.95;-41.4667
+Wakefield Shoal;reef;1;117.867;8.31667
+Walker Ridge;ridge;1;268.667;26.25
+Walker Shoal;reef;1;114.483;15.9
+Wallaby Plateau;plateau;1;104;-22
+Wallace Bank;reef;1;107.667;9.53333
+Walls Basin;basin;1;176.117;52.1667
+Walls Knoll;knoll;1;204;53.7833
+Walls Plateau;plateau;1;175.2;52.25
+Walters Shoal;reef;1;43.8333;-33.2
+Walton Bank;bank;1;281.683;17.5333
+Walvis Ridge;ridge;1;3;-28
+Wanganella Bank;seamount;1;167.433;-32.45
+Wanganella Trough;trough;1;167.317;-33.2167
+Ward Basin;basin;1;179.8;51.0667
+Ward Canyon;canyon;1;179.3;51.0667
+Ward Knoll;knoll;1;179.817;51.2
+Waria Canyon;canyon;1;147.767;-7.71667
+Warr Canyon;canyon;1;286.433;37.9167
+Warwick Seamount;seamount;1;227.2;48.0667
+Washington Basin;basin;1;177;-19.3333
+Washington Canyon;canyon;1;285.517;37.45
+Washington Seamount;seamount;1;202.033;18.8833
+Watertown Seamount;seamount;1;245;10.5333
+Waterwitch Bank;seamount;1;183.25;-12.5
+Watkins Seamount;seamount;1;190.733;17.4667
+Webb Seamount;seamount;1;338.45;7
+Weber Basin;basin;1;131;-6
+Weddell Plain;plain;1;340;-65
+Wedge Bank;bank;1;175.3;51.8167
+Wegener Canyon;canyon;1;346;-70.75
+Welker Canyon;canyon;1;291.433;40.25
+Welker Seamount;seamount;1;219.667;55.1167
+Well Bank;shoal;1;2;53.3
+Weller Bank;bank;1;209.25;70.95
+Wentworth Seamount;seamount;1;182.167;28.9
+West Aves Escarpment;escarpment;1;296;15
+West Caroline Basin;basin;1;138;4
+West Caroline Rise;rise;1;140;7.75
+West Caroline Trough;trough;1;137.5;5
+West Cocos Seamount;seamount;1;271.117;5.66667
+West Cortes Basin;basin;1;240.833;32.1667
+West European Basin;basin;1;345;47
+West Florida Shelf;shelf;1;276.667;27
+West Florida Slope;slope;1;275.333;27
+West Flower Garden Bank;bank;1;266.167;27.8833
+West Hinder;shoal;1;2.53333;51.4667
+West Jan Mayen Ridge;ridge;1;347;71
+West Mariana Basin;basin;1;137;15
+West Mariana Ridge;ridge;1;143;18
+West Melanesian Trench;trench;1;150;-1
+West Norfolk Ridge;ridge;1;166.5;-33.5
+West Novaya Zemlya Trough;trough;1;50;73.5
+West O'Gorman Fracture Zone;fracture zone;1;251.25;14.3333
+West Pasig Shoal;reef;1;119.35;9.93333
+West Reef;reef;1;112.2;8.85
+West Reef;reef;1;281.333;15.8333
+West Scotia Basin;basin;1;307;-57
+West Sheba Ridge;ridge;1;48.25;12.75
+West Thulean Rise;rise;1;319.5;52
+Western Reef;reef;1;113.617;10.25
+Western Shoals;reefs;1;116.833;7.93333
+Westfall Seamount;seamount;1;239.967;30.25
+Wetar Basin;basin;1;126.5;-8.25
+Whale Bank;bank;1;306.5;45.25
+Whales Bay Furrows;furrows;1;191;-78
+Whangaroa Basin;basin;1;173.25;-33.5
+Whareama Bank;bank;1;176.25;-41.15
+Whareama Canyon;canyon;1;176.383;-41.1333
+Wharton Basin;basin;1;100;-21
+Whitbourne Canyon;canyon;1;308.8;42.9
+White Island Canyon;canyon;1;177.517;-37.1667
+White Marsh Seamount;seamount;1;216.517;53.1333
+Whiting Basin;basin;1;294.217;17.8833
+Whiting Seamount;seamount;1;294.3;17.8167
+Whitney Ridge;ridge;1;220;51.5
+Whitney Seamount;seamount;1;339.75;8.48333
+Whittard Canyon;canyon;1;349.217;48.5833
+Wildcat Knoll;knoll;1;290.083;42.5
+Wilde Guyot;guyot;1;163.5;21.1167
+Wilkes Fracture Zone;fracture zone;1;250;-9
+Wilkes Guyot;guyot;1;47.1333;-8.73333
+Wilkes Seamount;seamount;1;205.917;17.1667
+Wilkins Seamount;seamount;1;215;83
+Wilkinson Basin;basin;1;290.333;42.6667
+Wilkinson Divide;ridge;1;290.167;42.75
+Wilkinson Seamount;seamount;1;167;26.1667
+Willapa Canyon;canyon;1;235.25;46.4
+Willapa Seachannel;seachannel;1;234.167;46.3333
+Willaumez-Manus Rise;rise;1;147;-3
+Willcox Bank;reef;1;118.483;6.91667
+Williams Knoll;knoll;1;178.817;52.0667
+Williams Moat;moat;1;178.8;52.1
+Williams Seamount;seamount;1;321.283;43.95
+Wilmington Canyon;canyon;1;286.483;38.35
+Wilmington Valley;valley;1;287.783;37.5
+Wilshaw Ridge;ridge;1;56.5;-17.5
+Wilson Canyon;canyon;1;176.25;-70.5833
+Wilson Canyon;canyon;1;117.167;-35.5
+Wini Seamount;seamount;1;206.133;19.0333
+Winnebago Seamount;seamount;1;168.067;48.35
+Winona Ridge;ridge;1;230.667;50.3
+Winslow Reef;reef;1;185.05;-1.6
+Winterer Guyot;guyot;1;148.333;32.75
+Winyah Scarp;escarpment;1;281.7;32.75
+Wisconsin Seamount;seamount;1;194.867;21.2667
+Witter Bank;bank;1;282.067;17.5667
+Wood Seamount;seamount;1;203.917;17.45
+Woodbine Bank;reef;1;123.45;-12.4167
+Woodlark Basin;basin;1;153.333;-10.1667
+Woodlark Ridge;ridge;1;152;-9
+Woods Hole Guyot;guyot;1;166.45;21.1667
+Woodworth Seamount;seamount;1;210.5;52.25
+Woollard Seamount;seamount;1;181.883;29.1
+Wormley Seamount;seamount;1;57.95;-13.75
+Wrangel Plain;plain;1;160;81
+Wright Shoal;reef;1;117.667;8.31667
+Wright Swell;rise;1;291.917;42.5
+Wu-shih Pi Canyon;canyon;1;121.417;23.2167
+Wust Seamount;seamount;1;356.333;-34
+Wyandot Seamount;seamount;1;15.75;-37.75
+Wyer Seamount;seamount;1;211.333;54.4167
+Wyoming Seamount;seamount;1;303.05;33.4667
+Wyville Thomson Ridge;ridge;1;352.5;60.25
+Xauen Bank;bank;1;355.7;35.3833
+Yaghan Basin;basin;1;299;-56
+Yakobi Valley;valley;1;223;58
+Yakutat Seamount;seamount;1;312;35.25
+Yakutat Valley;valley;1;220;59.5
+Yamato Basin;basin;1;136;38.5
+Yamato Ridge;ridge;1;135;39.3333
+Yamato Rise;rise;1;134;39.5
+Yamato Seamount;seamount;1;136;38.8667
+Yamato Tablemount;tablemount;1;133.75;37.75
+Yamato Trough;trough;1;134.25;39.4167
+Yap Ridge;ridge;1;138;9
+Yap Trench;trench;1;138;8.5
+Yaquina Trough;trough;1;280;3
+Yasawa Trough;trough;1;176.667;-16.6667
+Yatsuhashi Seamount;seamount;1;199.767;27.9667
+Yermak Plateau;plateau;1;5;82
+Ymir Ridge;ridge;1;351.833;59.95
+Yomei Seamount;seamount;1;170.4;42.3
+York Breakers;reef;1;118.167;9.9
+York Shoal;shoal;1;192.5;65.2
+Yucatan Basin;basin;1;276;20
+Yucatan Escarpment;escarpment;1;273.5;19.6667
+Yucatan Plain;plain;1;275;20
+Yuma Basin;basin;1;291.75;18.0833
+Yunaska Canyon;canyon;1;189.167;53.25
+Yupanqui Basin;basin;1;259;-19
+Yuryaku Seamount;seamount;1;172.25;32.6667
+Zambezi Canyon;canyon;1;41.5;-21
+Zapiola Ridge;ridge;1;317;-45
+Zapiola Seamount;seamount;1;333.75;-38.25
+Zealandia Bank;reef;1;145.85;16.8833
+Zeewyk Seamount;seamount;1;101.3;-22.9167
+Zelee Bank;reef;1;46.25;-12.4667
+Zenker Seamount;seamount;1;354;-41
+Zenkevich Rise;rise;1;161;51
+Zephyr Reef;reef;1;182.883;-16.0333
+Zhemchug Canyon;canyon;1;184.667;57.5
+Zhemchug Spur;spur;1;184.333;57.6667
+Zhupanova Canyon;canyon;1;160.35;53.5333
+Zohhoiiyoru Bank;reef;1;139.95;9.88333
+Zubov Seamount;seamount;1;8.75;-20.75
+Zubov Seamount;seamount;1;160;15.6667

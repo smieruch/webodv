@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="Dirty_Dataset" xview="0.19">
+<GeographicMap>
+<MapDomain lat_min="-90" lat_max="90" lon_min="-174.8" lon_max="185.2"/>
+</GeographicMap>
+<MapWindow>
+<Symbol type="0" size="0.635587" small_size="0.211862" color="1"/>
+<Window>
+<Geometry x_left="-174.8" x_right="185.2" y_top="90" x_length_bb="24" y_bottom="-90" x_offset_bb="2" y_offset_bb="2.5" y_length_bb="17" y_projection="100" x_projection="100"/>
+</Window>
+</MapWindow>
+<BasicVariables>
+<!--Depth [m]-->
+<Variable max_value="3000" var_id="0" min_value="0"/>
+<!--Temperature [°C]-->
+<Variable max_value="40" var_id="1" min_value="0"/>
+<!--Salinity [psu]-->
+<Variable max_value="50" var_id="2" min_value="0"/>
+<!--Oxygen [ml/l]-->
+<Variable max_value="15" var_id="3" min_value="0"/>
+<!--Phosphate [μmol/l]-->
+<Variable max_value="35" var_id="4" min_value="0"/>
+<!--Silicate [μmol/l]-->
+<Variable max_value="100" var_id="5" min_value="0"/>
+<!--Nitrate [μmol/l]-->
+<Variable max_value="200" var_id="6" min_value="0"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Temperature [°C] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--Salinity [psu] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--Oxygen [ml/l] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+<!--Phosphate [μmol/l] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+<StationSelectionCriteria>
+<Names cruise="xxx"/>
+</StationSelectionCriteria>
+</View>

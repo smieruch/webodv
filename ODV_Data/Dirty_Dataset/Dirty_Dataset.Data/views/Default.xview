@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="Dirty_Dataset" xview="0.19">
+<GeographicMap>
+<MapDomain lon_min="-0.32" lat_min="38.6362" lat_max="45.7908" lon_max="10.72"/>
+</GeographicMap>
+<MapWindow>
+<Symbol color="1" size="0.635587" small_size="0.211862" type="0"/>
+<Window>
+<Geometry x_length_bb="8" y_offset_bb="1" x_right="10.72" x_projection="100" y_length_bb="7" x_left="-0.32" y_top="45.7908" x_offset_bb="1.5" y_bottom="38.6362" y_projection="100"/>
+</Window>
+</MapWindow>
+<DataWindow>
+<AxisVariables>
+<!--Temperature [°C]-->
+<xAxis var_id="1" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="15.8" x_right="40" y_length_bb="3.9" x_left="0" y_top="0" x_offset_bb="3" y_bottom="3000"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Salinity [psu]-->
+<xAxis var_id="2" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="10" x_right="50" y_length_bb="3.9" x_left="0" y_top="0" x_offset_bb="3" y_bottom="3000"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Oxygen [ml/l]-->
+<xAxis var_id="3" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="12" x_right="15" y_length_bb="7.7" x_left="0" y_top="0" x_offset_bb="12" y_bottom="3000"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Phosphate [μmol/l]-->
+<xAxis var_id="4" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="12" x_right="35" y_length_bb="7.7" x_left="0" y_top="0" x_offset_bb="21.5" y_bottom="2750"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Silicate [μmol/l]-->
+<xAxis var_id="5" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="2" x_right="100" y_length_bb="7.7" x_left="0" y_top="0" x_offset_bb="12" y_bottom="2750"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Nitrate [μmol/l]-->
+<xAxis var_id="6" var_list="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes window_mode="1" window_type="0" plot_mode="0"/>
+<Symbol color="0" size="0.8" small_size="0.3" type="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_length_bb="6.5" y_offset_bb="2" x_right="200" y_length_bb="7.7" x_left="0" y_top="0" x_offset_bb="21.5" y_bottom="2750"/>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--Depth [m]-->
+<Variable var_id="0" min_value="0" max_value="3000"/>
+<!--Temperature [°C]-->
+<Variable var_id="1" min_value="0" max_value="40"/>
+<!--Salinity [psu]-->
+<Variable var_id="2" min_value="0" max_value="50"/>
+<!--Oxygen [ml/l]-->
+<Variable var_id="3" min_value="0" max_value="15"/>
+<!--Phosphate [μmol/l]-->
+<Variable var_id="4" min_value="0" max_value="35"/>
+<!--Silicate [μmol/l]-->
+<Variable var_id="5" min_value="0" max_value="100"/>
+<!--Nitrate [μmol/l]-->
+<Variable var_id="6" min_value="0" max_value="200"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Temperature [°C] @ Depth [m]=first-->
+<IsoVariable var_id="1" surface_var_id="0" surface_value="first"/>
+<!--Salinity [psu] @ Depth [m]=first-->
+<IsoVariable var_id="2" surface_var_id="0" surface_value="first"/>
+<!--Oxygen [ml/l] @ Depth [m]=first-->
+<IsoVariable var_id="3" surface_var_id="0" surface_value="first"/>
+<!--Phosphate [μmol/l] @ Depth [m]=first-->
+<IsoVariable var_id="4" surface_var_id="0" surface_value="first"/>
+</IsoSurfaceVariables>
+<CurrentSelection stationID="6008" sampleID="0"/>
+</View>

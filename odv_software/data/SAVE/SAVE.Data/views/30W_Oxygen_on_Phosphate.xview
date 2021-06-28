@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.16" collection="SAVE">
+<GeographicMap>
+<MapDomain lon_max="22.6131" lat_max="10.402" lon_min="-66.0302" lat_min="-61.0552"/>
+</GeographicMap>
+<MapWindow background_color="31">
+<Symbol size="0.9" small_size="0.2" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="1" x_right="22.6131" y_offset_bb="1" y_length_bb="6.6" y_top="10.402" x_length_bb="10" x_projection="100" y_projection="100" y_bottom="-61.0552" x_left="-66.0302"/>
+<ColorScale z_range_start="0" z_range_end="1"/>
+</Window>
+</MapWindow>
+<Section width="0.12" section_name="30°W" coordinate="2">
+<xNodes>-37.8691,-25.0189,-25.3249</xNodes>
+<yNodes>-54.6227,-35.4777,3.12595</yNodes>
+</Section>
+<DataWindow background_color="31">
+<Axis draw_grid="T" auto_label="F" axis_color="0"/>
+<AxisVariables>
+<!--Section Latitude-->
+<xAxis var_list="1" var_id="200000" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+<!--Phosphate [μmol/kg]-->
+<zAxis var_list="1" var_id="4" is_reversed="F"/>
+</AxisVariables>
+<Modes plot_mode="2" window_mode="2" window_type="0"/>
+<Line width="0" style="0" color="0"/>
+<Symbol size="1.6" small_size="0.6" type="0" color="1"/>
+<Gridding draw_shaded="T" x_scale_length="2.08634" y_scale_length="1.99597"/>
+<BadEstimateHiding hide="T" max_distance="2.5"/>
+<DataMark size="0.3" color="0"/>
+<Window>
+<Geometry x_offset_bb="3" x_right="1.12621" y_offset_bb="9" y_length_bb="9.6" y_top="-12.1212" x_length_bb="23" y_bottom="6000" x_left="-54.2325"/>
+<ColorScale non_linearity_end="0.731" z_range_start="0" non_linearity_start="-0.969" palette_file_name="Bright0" z_range_end="2.61119"/>
+</Window>
+</DataWindow>
+<DataWindow background_color="31">
+<AxisVariables>
+<!--Silicate [μmol/kg]-->
+<xAxis var_list="1" var_id="5" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+<!--Phosphate [μmol/kg]-->
+<zAxis var_list="1" var_id="4" is_reversed="F"/>
+</AxisVariables>
+<Modes plot_mode="0" window_mode="2" window_type="0"/>
+<Line width="0" style="0" color="0"/>
+<Symbol size="1.1" small_size="0.8" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="13.5" x_right="150" y_offset_bb="1.5" y_length_bb="5.4" y_top="-12.1212" x_length_bb="5.2" y_bottom="6000" x_left="0"/>
+<ColorScale z_range_start="0" palette_file_name="Bright0" z_range_end="2.61119"/>
+</Window>
+</DataWindow>
+<DataWindow background_color="31">
+<AxisVariables>
+<!--Absolute Salinity SA [g/kg]-->
+<xAxis var_list="1" var_id="32000" is_reversed="F"/>
+<!--Conservative Temperature Θ [degC]-->
+<yAxis var_list="1" var_id="32001" is_reversed="F"/>
+<!--Silicate [μmol/kg]-->
+<zAxis var_list="1" var_id="5" is_reversed="F"/>
+</AxisVariables>
+<Modes plot_mode="0" window_mode="2" window_type="0"/>
+<Isopycnal ref_pressure="0" isopycnal_color="8" line_style="0" line_width="1"/>
+<Line width="0" style="0" color="0"/>
+<Symbol size="1.1" small_size="0.8" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="21.8" x_right="37.6292" y_offset_bb="1.5" y_length_bb="5.4" y_top="29.3705" x_length_bb="5.2" y_bottom="-1.09712" x_left="33.9045"/>
+<ColorScale z_range_start="0" palette_file_name="Bright0" z_range_end="150"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<Axis draw_grid="T" auto_label="F" axis_color="0"/>
+<AxisVariables>
+<!--Section Latitude-->
+<xAxis var_list="1" var_id="200000" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+<!--Oxygen [μmol/kg]-->
+<zAxis var_list="1" var_id="3" is_reversed="F"/>
+</AxisVariables>
+<Modes plot_mode="2" window_mode="2" window_type="1"/>
+<Line width="0" style="0" color="0"/>
+<Symbol size="1.6" small_size="0.6" type="0" color="1"/>
+<Contours draw="T">
+<Contour line_color="30" z_value="50" label_color="30"/>
+<Contour line_color="30" z_value="75" label_color="30"/>
+<Contour line_color="30" z_value="100" label_color="30"/>
+<Contour line_color="30" z_value="125" label_color="30"/>
+<Contour line_color="30" z_value="150" label_color="30"/>
+<Contour line_color="30" z_value="175" label_color="30"/>
+<Contour line_color="30" z_value="200" label_color="30"/>
+<Contour line_color="30" z_value="225" label_color="30"/>
+<Contour line_color="30" z_value="250" label_color="30"/>
+<Contour line_color="30" z_value="275" label_color="30"/>
+<Contour line_color="30" z_value="300" label_color="30"/>
+<Contour line_color="30" z_value="325" label_color="30"/>
+<Contour line_color="30" z_value="350" label_color="30"/>
+</Contours>
+<Gridding draw_shaded="F" x_scale_length="2.08634" y_scale_length="1.99597"/>
+<BadEstimateHiding hide="T" max_distance="2.5"/>
+<DataMark size="0.3" color="0"/>
+<Window>
+<Geometry x_offset_bb="3" x_right="1.12621" y_offset_bb="9" y_length_bb="9.6" y_top="-12.1212" x_length_bb="23" y_bottom="6000" x_left="-54.2325"/>
+<ColorScale non_linearity_end="0.731" z_range_start="50" non_linearity_start="-0.969" palette_file_name="Bright0" z_range_end="350"/>
+</Window>
+</DataWindow>
+<Canvas>
+<GraphicsObjects>
+<GObject post_data="T" own_coordinates="F" type="1" dragging="T" clipping="F">
+<Annotation frame_type="0" text_alignment="2" background_color="-1" frame_color="-1" x_coordinate="24.3271" y_coordinate="18.9127" font_size="17" angle="0" text_color="0" text="Phosphate [~$m~#mol/kg]" frame_width="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="F" type="1" dragging="T" clipping="F">
+<Annotation frame_type="0" text_alignment="2" background_color="17" frame_color="0" x_coordinate="4.61697" y_coordinate="18.9991" font_size="17" angle="0" text_color="15" text="Oxygen [~$m~#mol/kg]" frame_width="0"/>
+</GObject>
+</GraphicsObjects>
+</Canvas>
+<BasicVariables>
+<!--Depth [m]-->
+<Variable min_value="-500" var_id="0" max_value="6000"/>
+<!--Temperature [°C]-->
+<Variable min_value="-0.178" var_id="1" max_value="27.004"/>
+<!--Salinity [psu]-->
+<Variable min_value="33.5" var_id="2" max_value="37.5"/>
+<!--Oxygen [μmol/kg]-->
+<Variable min_value="50" var_id="3" max_value="400"/>
+<!--Phosphate [μmol/kg]-->
+<Variable min_value="0" var_id="4" max_value="2.75"/>
+<!--Silicate [μmol/kg]-->
+<Variable min_value="0" var_id="5" max_value="175"/>
+<!--Nitrate [μmol/kg]-->
+<Variable min_value="0" var_id="6" max_value="37"/>
+</BasicVariables>
+<DerivedVariables>
+<!--Potential Temperature θ [°C]-->
+<Variable digits_count="2" unit="°C" min_value="-5" var_id="7" max_value="30" type="104" label="Potential Temperature ~$q~#">
+<Input>0,1,2</Input>
+<iParameter>0</iParameter>
+<fParameter>0</fParameter>
+</Variable>
+<!--Absolute Salinity SA [g/kg]-->
+<Variable digits_count="3" unit="g/kg" min_value="33.5" var_id="32000" max_value="38" type="101" label="Absolute Salinity S~_A">
+<Input>0,2</Input>
+<iParameter>0</iParameter>
+</Variable>
+<!--Conservative Temperature Θ [degC]-->
+<Variable digits_count="2" unit="degC" min_value="-5" var_id="32001" max_value="30" type="105" label="Conservative Temperature ~$Q~#">
+<Input>0,1,2</Input>
+<iParameter>0</iParameter>
+</Variable>
+</DerivedVariables>
+<IsoSurfaceVariables>
+<!--Temperature [°C] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--Salinity [psu] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--Oxygen [μmol/kg] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+<!--Phosphate [μmol/kg] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+<StationSelectionCriteria>
+<Names last_station="zzzzzzzzzzzzzz"/>
+<Range last_station_id="99998" last_max_var="99999" first_bottom_var="0" first_max_var="0" last_bottom_var="99999"/>
+<Period first_year="1900" last_year="2100"/>
+</StationSelectionCriteria>
+<SampleSelectionCriteria>
+<Sample var_id="0">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="1">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="2">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="3">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="4">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="5">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="6">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="7">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+</SampleSelectionCriteria>
+<CurrentSelection stationID="324" sampleID="27"/>
+</View>

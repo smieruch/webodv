@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+
+    <!-- Styles -->
+    <link href="{{ asset('css/webodv/webodv_vendor.css').session('js_css_update') }}" rel="stylesheet">
+    <link href="{{ asset('css/webodv/webodvcore.css').session('js_css_update') }}" rel="stylesheet">
+
+    @if ( session('service') == 'DataExtraction' )
+	<link href="{{ asset('css/webodv/webodvextractor.css').session('js_css_update') }}" rel="stylesheet">
+    @endif
+
+
+    <!-- EMODnet , Geotraces-->
+    <link href="{{ asset('css/webodv/webodvgeotraces/emodnet.css').session('js_css_update') }}" rel="stylesheet">
+    <link href="{{ asset('css/webodv/webodvgeotraces/font.css').session('js_css_update') }}" rel="stylesheet">
+    <link href="{{ asset('css/webodv/webodvgeotraces/emodnet_style.css').session('js_css_update') }}" rel="stylesheet">
+    
+    
+    
+</head>
+<body>
+    <!-- <div class="container-fluid" style="background-color:#c8f0f0">	
+	 <div class="row">
+	 <div class="col-xs-1">
+	 &nbsp;
+	 </div>
+	 <div class="col-xs-1" style="border-right-style:solid;border-color:#647878;border-width:3px;padding-right:10px;padding-top:0px;margin:20px;margin-top:10px;">
+	 <a href="http://www.awi.de" target="_blank" data-toggle="tooltip" data-placement="auto" title="Go to central portal">
+	 <img class="img-fluid" src="{ url('/') . '/images/AWI_Logo_Farbe_RGB.png' }}" alt="Go to central portal" style="width:340px;">
+	 </a>
+	 </div>
+	 <div class="col-xs-9" style="margin:20px;">
+	 !! session('subtitle') !!}
+	 </div>
+	 <div class="col-xs-11 text-right ml-auto d-none d-md-block" style="margin-top:10px;margin-right:37px">
+	 <a href="#" class="privacy_a">Privacy</a> &nbsp; <a href="#" class="impressum_a">Legal Notice</a>
+	 </div>	    
+	 <div class="col-xs-11 text-left d-md-none" style="margin:10px;">
+	 <a href="#" class="privacy_a">Privacy</a> &nbsp; <a href="#" class="impressum_a">Legal Notice</a>
+	 </div>	    
+	 </div>
+	 </div>
+       -->
+
+    <div class="container-fluid webodv_top_nav" style="background-color:#c8f0f0;display:block;">
+	<div class="row" style="padding-top:16px;padding-bottom:0px;">
+	    <!-- <div class="col-md-4 col-12 text-left" style="">
+		 <a href="http://www.awi.de" target="_blank" data-toggle="tooltip" data-placement="auto" title="Go to http://www.awi.de">
+		 <img class="img-fluid" src="{ url('/') . '/images/AWI_Logo_Farbe_RGB.png' }}" alt="Go to central portal" style="width:100%;">
+		 <br>
+		 <br>	    
+		 </a>
+		 </div>
+		 <div class="col-md-4 col-12 text-left" style="padding-left:40px;border-left-style:solid;border-color:#647878;border-width:3px;">
+		 !! session('subtitle') !!}
+		 <br>
+		 <br>	    
+		 </div> -->
+	    <div class="col-md-4 col-12 text-right" style="padding-right:16px;">
+		<a href="#" class="privacy_a">Privacy</a> | <a href="#" class="impressum_a">Legal Notice</a>
+	    </div>	    
+	</div>
+	@if(null !== session('project') && null !== session('service'))
+	    @if (session('project') == "GEOTRACES")
+		@if (session('service') == 'DataExtraction' || session('service') == 'DataExploration')
+		    <div class="row" style="padding-top:0px;padding-bottom:4px;">
+			<div class="col-12 text-right" style="">
+			    <a href="#" id="egeotraces" class="geotraces_link"><i class="fa fa-picture-o"></i> eGEOTRACES</a>
+			    &emsp;
+			    <a href="#" id="known_issues" class="geotraces_link"><i class="fa fa-flag"></i> Known Issues</a>
+			    &emsp;
+			    <a href="#" id="publications" class="geotraces_link"><i class="fa fa-book"></i> Publications</a>
+			</div>
+		    </div>
+		@else
+		    <div class="row" style="padding-top:0px;padding-bottom:16px;">
+		    </div>				    
+		@endif
+	    @else
+		<div class="row" style="padding-top:0px;padding-bottom:16px;">
+		</div>		
+	    @endif
+	@else
+	    <div class="row" style="padding-top:0px;padding-bottom:16px;">
+	    </div>
+	@endif
+    </div>
+    
+
+    <div id="app">
+	<!-- <div class="container-fluid text-right" style="background-color: white;">
+	     <div class="row">
+	     <div class="col-12" style="padding-bottom:4px;">
+	     <a class="privacy" href="">Legal Notice</a> &nbsp;&nbsp;&nbsp; <a class="privacy" href="">Privacy Policy</a>
+	     </div>
+	     </div>
+	     </div> -->
+        <nav class="navbar navbar-expand-md navbar-dark  shadow-sm " id="navbar">
+
+	    
+            <div class="container-fluid">
+
+		<!-- <div style="top:0; position:absolute; right:0; font-size:12px; padding-right:4px;">
+		     <a id="legal" href="">Legal Notice</a> &nbsp;&nbsp;&nbsp; <a id="privacy" href="">Privacy Policy</a>
+		     </div>
+		   -->
+                <a class="navbar-brand" href="{{ url('/') }}" style="">
+                    {{ config('app.name', 'Laravel') }}
+                </a>
+                <button class="navbar-toggler" style="" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#1e6482;z-index:10;padding-left:20px;">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			    {!! session('dataset_link') !!}
+			</li>			
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+			    <li class="nav-item" style="" id="hide_top_bar_a">
+                                <a class="nav-link" href="#" id="hide_top_bar" data-toggle="tooltip" data-placement="auto" title="Hide/show top bar"><i class="fa fa-eye-slash help_color" style="font-size:20px;"></i></a>
+                            </li>
+			    <li class="nav-item" style="" id="contact_li">
+                                <a class="nav-link" href="#" id="contact_a" data-toggle="tooltip" data-placement="auto" title="Contact"><i class="fa fa-paper-plane-o help_color" style="font-size:20px;"></i></a>
+                            </li>
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+			    <!-- only allow if not vre -->
+			    @if ( session('vre_brand') === null ||  session('vre_brand') == '' )
+			    <li class="nav-item" style="display:none;" id="extractor_reset_all">
+                                <a class="nav-link" href="#" id="extractor_eraser" data-toggle="tooltip" data-placement="auto" title="Reset all settings!"><i class="fa fa-eraser help_color" style="font-size:20px;"></i></a>
+                            </li>
+                            <li class="nav-item" style="display:none;" id="extractor_help">
+                                <a class="nav-link" href="#" id="extractor_help" data-toggle="tooltip" data-placement="auto" title="Help"><i class="fa fa-question-circle-o help_color" style="font-size:20px;"></i></a>
+                            </li>
+				
+
+				<li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+			    @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ Auth::user()->name }}</a>
+                            </li>
+			    @endif
+                        @endguest
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
+    <!-- Scripts -->
+    <script src="{{ asset('js/webodv/webodv_vendor.js').session('js_css_update') }}" defer></script>
+
+    <script src="{{ asset('js/webodv/webodvcore/hummingbird_treeview_options.js').session('js_css_update') }}" defer></script>
+
+    <script src="{{ asset('js/webodv/webodvcore.js').session('js_css_update') }}" defer></script>
+
+    
+    @if ( session('service') == 'DataExploration' )
+	<script src="{{ asset('js/webodv/webodvcore/hummingbird_treeview_options_extractor.js').session('js_css_update') }}" defer></script>
+	<script src="{{ asset('js/webodv/odvonline.js').session('js_css_update') }}" defer></script>
+    @endif
+    @if ( session('service') == 'DataExtraction' )
+	<script src="{{ asset('js/webodv/webodvextractor.js').session('js_css_update') }}" defer></script>
+	<script src="{{ asset('js/webodv/webodvextractor_download.js').session('js_css_update') }}" defer></script>
+    @endif
+
+    @if (session('service') != 'DataExploration')
+	<div class="container-fluid text-center">
+	    <div class="row">
+		<div class="col-sm-12">
+		    <br>
+		    <br>
+		    <br>
+		    <div id="copyright text-center">&copy; webODV 2020</div>
+		</div>
+	    </div>
+	</div>
+    @endif
+    
+
+    <div class="modal fade" id="egeotraces_modal" tabindex="-1" role="dialog" aria-labelledby="egeotracesModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <h4 class="modal-title" id="egeotracesModalLabel">Link to the eGEOTRACES Electronic Atlas</h4>
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		    </button>
+		</div>
+		<div class="modal-body">
+		    The <a href="http://egeotraces.org/" target="_blank">eGEOTRACES</a> electronic
+		    atlas contains section plots and animated
+		    3D scenes for a large number of
+		    hydrographic parameters as well as trace
+		    elements and isotopes measured along
+		    GEOTRACES cruise tracks.
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-outline-emodnet emodnet-orange-border text-center" data-dismiss="modal" style="">Close</button>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+    <div class="modal fade" id="known_issues_modal" tabindex="-1" role="dialog" aria-labelledby="known_issuesModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <h4 class="modal-title" id="known_issuesModalLabel">Link to the GEOTRACES IDP2017 V2 Known Issues</h4>
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		    </button>
+		</div>
+		<div class="modal-body">
+		    See the <a href="https://www.bodc.ac.uk/data/documents/nodb/544232/" target="_blank">Known Issues</a> regarding the current GEOTRACES IDP2017 V2.
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-outline-emodnet emodnet-orange-border text-center" data-dismiss="modal" style="">Close</button>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+    <div class="modal fade" id="publications_modal" tabindex="-1" role="dialog" aria-labelledby="publicationsModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <h4 class="modal-title" id="publicationsModalLabel">Links to the GEOTRACES Publication Database</h4>
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		    </button>
+		</div>
+		<div class="modal-body">
+		    Researchers can enter new publications that should be linked to their IDP data <a target="_blank" href="https://goo.gl/forms/nqPuVc8DF4eze94F3">here</a>.<br><br>Instructions for checking whether publications are correctly listed in the IDP are available at the bottom of the <a target="_blank" href="http://www.geotraces.org/library-88/scientific-publications/peer-reviewed-papers">GEOTRACES Publication Database</a> web page.
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-outline-emodnet emodnet-orange-border text-center" data-dismiss="modal" style="">Close</button>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+
+		
+    
+
+    @php
+    include public_path('impressum.html');
+    include public_path('privacy.html');
+    @endphp
+
+
+    
+
+</body>
+</html>

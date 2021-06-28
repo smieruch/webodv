@@ -1,0 +1,15 @@
+{
+    "name": "webodv/webodvextractor",
+    "description": "Webodvextractor for the Laravel webODV",
+    "require": {
+        "textalk/websocket": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Sebastian Mieruch",
+            "email": "sebastian.mieruch@awi.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

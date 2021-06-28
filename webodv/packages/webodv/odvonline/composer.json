@@ -1,0 +1,12 @@
+{
+    "name": "webodv/odvonline",
+    "description": "ODV-online for the Laravel webODV",
+    "authors": [
+        {
+            "name": "Sebastian Mieruch",
+            "email": "sebastian.mieruch@awi.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

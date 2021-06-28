@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.15" collection="SAVE">
+<GeographicMap>
+<MapDomain lon_max="22.6131" lat_max="10.402" lon_min="-66.0302" lat_min="-61.0552"/>
+<MapLayerSeries name="C:ODV40CoastGlobLR">
+<LayerSet id="1">
+<Layer name="Backgrd"/>
+<Layer name="6000m"/>
+<Layer name="5000m"/>
+<Layer name="4000m"/>
+<Layer name="3000m"/>
+<Layer name="2000m"/>
+<Layer name="1000m"/>
+<Layer name="500m"/>
+</LayerSet>
+<LayerSet id="3">
+<Layer line_color="0" name="World"/>
+</LayerSet>
+</MapLayerSeries>
+</GeographicMap>
+<MapWindow background_color="31">
+<Symbol size="0.9" small_size="0.2" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="1" x_right="22.6131" y_offset_bb="1" y_length_bb="6.6" y_top="10.402" x_length_bb="8.5" x_projection="100" y_projection="100" y_bottom="-61.0552" x_left="-66.0302"/>
+<ColorScale z_range_start="0" z_range_end="1"/>
+</Window>
+</MapWindow>
+<Section width="0.12" section_name="LG2" coordinate="1">
+<xNodes>-40.295,-35.291,-22.4234,-9.19841,3.66917,14.3921</xNodes>
+<yNodes>-19.2109,-18.2453,-16.6359,-13.7389,-11.4858,-9.87639</yNodes>
+</Section>
+<DataWindow>
+<AxisVariables>
+<!--Section Longitude-->
+<xAxis var_list="1" var_id="200000" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+<!--Oxygen [μmol/kg]-->
+<zAxis var_list="1" var_id="3" is_reversed="F"/>
+</AxisVariables>
+<Modes plot_mode="2" window_mode="2" window_type="0"/>
+<Gridding draw_shaded="T" x_scale_length="2.26872" y_scale_length="2.16667"/>
+<BadEstimateHiding hide="T" max_distance="2.5"/>
+<DataMark size="0.2" color="0"/>
+<Window>
+<Geometry x_offset_bb="3.5" x_right="13.0514" y_offset_bb="9.3" y_length_bb="9.2" y_top="0" x_length_bb="23" y_bottom="6000" x_left="-38.1075"/>
+<ColorScale z_range_start="7.73101" z_range_end="266.29"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Temperature [°C]-->
+<xAxis var_list="1" var_id="1" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_mode="2" window_type="0"/>
+<DataMark size="0.2" color="0"/>
+<Window>
+<Geometry x_offset_bb="12" x_right="30" y_offset_bb="1.5" y_length_bb="5.2" y_top="0" x_length_bb="6" y_bottom="6000" x_left="0"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--Salinity [psu]-->
+<xAxis var_list="1" var_id="2" is_reversed="F"/>
+<!--Depth [m]-->
+<yAxis var_list="1" var_id="0" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_mode="2" window_type="0"/>
+<DataMark size="0.2" color="0"/>
+<Window>
+<Geometry x_offset_bb="21" x_right="38" y_offset_bb="1.5" y_length_bb="5.2" y_top="0" x_length_bb="6" y_bottom="6000" x_left="34"/>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--Depth [m]-->
+<Variable min_value="0" var_id="0" max_value="6000"/>
+<!--Temperature [°C]-->
+<Variable min_value="0" var_id="1" max_value="30"/>
+<!--Salinity [psu]-->
+<Variable min_value="34" var_id="2" max_value="38"/>
+<!--Oxygen [μmol/kg]-->
+<Variable min_value="0" var_id="3" max_value="275"/>
+<!--Phosphate [μmol/kg]-->
+<Variable min_value="0" var_id="4" max_value="3.5"/>
+<!--Silicate [μmol/kg]-->
+<Variable min_value="0" var_id="5" max_value="175"/>
+<!--Nitrate [μmol/kg]-->
+<Variable min_value="0" var_id="6" max_value="41"/>
+</BasicVariables>
+<DerivedVariables>
+<!--Tpot-0 [°C]-->
+<Variable digits_count="2" unit="°C" min_value="-5" var_id="7" max_value="30" type="1" label="Tpot-0">
+<Input>0,1,2</Input>
+<iParameter>0</iParameter>
+<fParameter>0</fParameter>
+</Variable>
+</DerivedVariables>
+<IsoSurfaceVariables>
+<!--Temperature [°C] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--Salinity [psu] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--Oxygen [μmol/kg] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+<!--Phosphate [μmol/kg] @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+<StationSelectionCriteria>
+<Names last_station="zzzzzzzzzzzzzz"/>
+<Range last_station_id="99998" last_max_var="99999" first_bottom_var="0" first_max_var="0" last_bottom_var="99999"/>
+<Period first_year="1900" last_year="2100" last_month="1"/>
+</StationSelectionCriteria>
+<SampleSelectionCriteria>
+<Sample var_id="0">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="1">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="2">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="3">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="4">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="5">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="6">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="7">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+</SampleSelectionCriteria>
+<CurrentSelection stationID="71" sampleID="0"/>
+</View>

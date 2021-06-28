@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.15" collection="MapView">
+<GeographicMap>
+<MapDomain lon_max="278.805" lat_max="70.1653" lon_min="115" lat_min="-36.9421"/>
+</GeographicMap>
+<MapWindow background_color="31">
+<Symbol size="0.7" small_size="0.2" type="0" color="1"/>
+<Window>
+<Axis cb_align="1"/>
+<Geometry x_offset_bb="2.2" x_right="278.805" y_offset_bb="2.2" y_length_bb="17" y_top="70.1653" x_length_bb="22" x_projection="100" y_projection="100" y_bottom="-36.9421" x_left="115"/>
+<ColorScale z_range_start="0" z_range_end="1"/>
+</Window>
+</MapWindow>
+<IsoSurfaceVariables>
+<!--Var @ Depth [m]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+</IsoSurfaceVariables>
+<StationSelectionCriteria>
+<Names last_station="zzzzzzzzzzzzzz"/>
+<Range last_station_id="999998" last_max_var="99999" first_bottom_var="0" first_max_var="0" last_bottom_var="99999"/>
+<Period first_year="1900" last_year="2100"/>
+</StationSelectionCriteria>
+<SampleSelectionCriteria>
+<Sample var_id="0">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+<Sample var_id="1">
+<QualityFilter schema_id="0">56</QualityFilter>
+</Sample>
+</SampleSelectionCriteria>
+</View>

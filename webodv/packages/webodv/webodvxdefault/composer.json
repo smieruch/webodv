@@ -1,0 +1,12 @@
+{
+    "name": "smieruch/awi",
+    "description": "webODV AWI",
+    "authors": [
+        {
+            "name": "Sebastian Mieruch",
+            "email": "sebastian.mieruch@awi.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

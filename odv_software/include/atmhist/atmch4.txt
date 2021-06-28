@@ -1,0 +1,23 @@
+Atmospheric CH4 [ppbv] for southern and northern hemisphere.
+R. Schlitzer Apr/1999
+
+Data Sources: Etheridge etal. 1992, Dlugokencky etal., 1993, CDIAC
+
+load lawdome.ch4; Ice Core: Etheridge etal. 1992,
+load cgo1.dat; Cape Grim 1985.5 - 1998.5 (CDIAC db1008; AGAGE)
+load mlo1.dat; Mauna Loa 1981.5 - 1994.5 (CDIAC db1008; AGAGE)
+load mht2.dat; Mace Head 1995.5 - 1998.5 (CDIAC db1008; AGAGE)
+
+T=[lawdome(:,1)' cgo1(:,1)']';
+S=[0.9899*lawdome(:,2)' cgo1(:,2)']';
+
+i=find(lawdome(:,1)==1980.5);
+lN=1.042*lawdome(1:i,2);
+mN=0.961*mht2(:,2);
+N=[lN' mlo1(:,2)' mN']';
+
+fp=fopen('ch4.his','w'); [j,k]=size(T);
+for l=1:j;
+ fprintf(fp,'%8.1f%12.1f%12.1f\n',T(l),N(l),S(l));
+end
+fclose(fp);

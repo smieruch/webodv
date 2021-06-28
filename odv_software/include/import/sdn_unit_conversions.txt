@@ -1,0 +1,829 @@
+// Linear unit conversions used for SDN P35 parameter aggregation in ODV
+// Reiner Schlitzer, Alfred Wegener Institute, Bremerhaven, Germany
+//
+// _________________________________________________________________________
+// FILE HISTORY:
+//
+//
+// v18 2018-04-27  error fix: changed conversion factor from 0.97561 to 1.025
+//                 MMKG>MEQL for SDN:P35::EPC00131
+//
+//
+// v17 2018-02-01  Aarhus University requested the following conversions:
+//                 UGPL>UPNM for SDN:P35::EPC00013
+//                 UGPL>UPNM for SDN:P35::EPC00016
+//                 UGPL>UPNM for SDN:P35::EPC00018
+//                 UGPL>UPNM for SDN:P35::EPC00021
+//                 UGPL>UPNM for SDN:P35::EPC00037
+//                 UGPL>UPNM for SDN:P35::EPC00041
+//                 UGPL>UPNM for SDN:P35::EPC00044
+//                 UGPL>UPNM for SDN:P35::EPC00046
+//                 UGPL>UPNM for SDN:P35::EPC00049
+//                 UGPL>UPNM for SDN:P35::EPC00055
+//                 UGPL>UPNM for SDN:P35::EPC00065
+//                 UPCT>UMKG for SDN:P35::EPC00114
+//                 UPCT>UMKG for SDN:P35::EPC00125
+//                 UMGL>UPOX for SDN:P35::EPC00212
+//
+// v16 2017-11-24  AWI requested the following conversions:
+//                 UPCT>UPOX for SDN:P35::EPC00002
+//                 MMKG>MEQL for SDN:P35::EPC00131
+//                 UUPH>MEQL for SDN:P35::EPC00131
+//                 UUUU>MEQL for SDN:P35::EPC00131
+//                 UGPL>UPOX for SDN:P35::EPC00160
+//                 UUUU>UUPH for SDN:P35::EPC00168
+//                 UGPL>UPOX for SDN:P35::EPC00186
+//                 UUKG>UMKG for ANY
+//                 MGPG>UGKG for ANY
+//                 MMCM>KGUM for ANY
+//                 UMGL>UGKG for ANY
+//
+// v15 2017-09-05  RoNODC requested the following conversions:
+//                 UGGR>UMKG for ANY
+//                 UGGR>UUKG for ANY
+//
+// v14 2016-11-18  HCMR requested the following conversion:
+//                 UMKG>UUKG for ANY
+//                 RoNODC requested the following conversions:
+//                 MMPL>UGPL for SDN:P35::EPC00225
+//                 MMPL>UGPL for SDN:P35::EPC00227
+//
+// v13 2016-11-15  IFREMER requested the following conversions:
+//                 UMKG>UUKG for SDN:P35::EPC00222
+//                 UMKG>UUKG for SDN:P35::EPC00223
+//                 UMKG>UUKG for SDN:P35::EPC00224
+//                 UNGL>UGPL for SDN:P35::EPC00225
+//                 UNGL>UGPL for SDN:P35::EPC00226
+//                 UNGL>UGPL for SDN:P35::EPC00227
+//
+// v12 2016-11-04  Formatting error for SDN:P35::EPC00206 corrected
+//                 IFREMER requested the following conversion:
+//                 GPRG>UUKG for SDN:P35::EPC00169
+//
+// v11 2016-10-28  RoNODC requested the following conversions:
+//                 UPOX>UPNM for SDN:P35::EPC00017
+//                 UMGL>UPNM for SDN:P35::EPC00017
+//                 UPOX>UPNM for SDN:P35::EPC00020
+//                 UMGL>UPNM for SDN:P35::EPC00020
+//                 UNGL>UPNM for SDN:P35::EPC00020
+//                 UPOX>UPNM for SDN:P35::EPC00022
+//                 UMGL>UPNM for SDN:P35::EPC00022
+//                 UGPL>UPNM for SDN:P35::EPC00025
+//                 UMGL>UPNM for SDN:P35::EPC00025
+//                 UPOX>UPNM for SDN:P35::EPC00038
+//                 UMGL>UPNM for SDN:P35::EPC00038
+//                 UNGL>UGPL for SDN:P35::EPC00141
+//                 UPDS>UMKG for SDN:P35::EPC00145
+//                 UNGL>UGPL for SDN:P35::EPC00146
+//                 UNGL>UGPL for SDN:P35::EPC00147
+//                 UNGL>UGPL for SDN:P35::EPC00148
+//                 UNGL>UGPL for SDN:P35::EPC00154
+//                 UNGL>UGPL for SDN:P35::EPC00163
+//                 UPDS>UMKG for SDN:P35::EPC00167
+//                 UNGL>UGPL for SDN:P35::EPC00172
+//                 UNGL>UGPL for SDN:P35::EPC00183
+//                 UNGL>UGPL for SDN:P35::EPC00185
+//                 NGPG>UUKG for SDN:P35::EPC00189
+//                 UNGL>UGPL for SDN:P35::EPC00194
+//                 UNGL>UGPL for SDN:P35::EPC00195
+//                 UNGL>UGPL for SDN:P35::EPC00213
+//                 UNGL>UGPL for SDN:P35::EPC00220
+//                 UNGL>UGPL for SDN:P35::EPC00221
+//
+// v10 2016-07-11  HCMR requested the following conversions:
+//                 UPPM>UMKG for SDN:P35::EPC00144
+//                 UUKG>UMKG for SDN:P35::EPC00144
+//                 UUKG>UMKG for SDN:P35::EPC00145
+//                 UPPM>UMKG for SDN:P35::EPC00145
+//                 UMKG>UUKG for SDN:P35::EPC00150
+//                 UGPL>UPOX for SDN:P35::EPC00157
+//                 UMMC>UPOX for SDN:P35::EPC00157
+//                 UGKG>UPOX for SDN:P35::EPC00157
+//                 UUKG>UMKG for SDN:P35::EPC00158
+//                 UPPM>UMKG for SDN:P35::EPC00158
+//                 UPPM>UMKG for SDN:P35::EPC00167
+//                 UUKG>UMKG for SDN:P35::EPC00167
+//                 UPCT>UGKG for SDN:P35::EPC00170
+//                 UPCT>UGKG for SDN:P35::EPC00173
+//                 MGPG>UGKG for SDN:P35::EPC00173
+//                 MMPL>UGKG for SDN:P35::EPC00178
+//                 UPOX>UGKG for SDN:P35::EPC00178
+//                 NGKG>UUKG for SDN:P35::EPC00187
+//                 UGKG>UMKG for SDN:P35::EPC00197
+//                 UUKG>UMKG for SDN:P35::EPC00197
+//                 UPPM>UMKG for SDN:P35::EPC00197
+//                 UPCT>UGKG for SDN:P35::EPC00200
+//                 UMKG>UGKG for SDN:P35::EPC00200
+//                 UMMC>UPOX for SDN:P35::EPC00201
+//                 UMKG>UUKG for SDN:P35::EPC00206
+//                 UMKG>UUKG for SDN:P35::EPC00210
+//                 UGPL>UPOX for SDN:P35::EPC00212
+//                 UMMC>UPOX for SDN:P35::EPC00212
+//                 UGKG>UPOX for SDN:P35::EPC00212
+//                 UMMC>UPOX for SDN:P35::EPC00213
+//
+// v9  2016-07-07  HCMR requested the following conversions:
+//                 UGPL>UPNM for SDN:P35::EPC00017
+//                 UGPL>UPNM for SDN:P35::EPC00022
+//                 UGPL>UPNM for SDN:P35::EPC00045
+//                 UGPL>UPNM for SDN:P35::EPC00048
+//                 UGPL>UPNM for SDN:P35::EPC00050
+//                 UGPL>UPNM for SDN:P35::EPC00053
+//                 UGPL>UPNM for SDN:P35::EPC00069
+//                 UGKG>UPNM for SDN:P35::EPC00072
+//                 UGPL>UPNM for SDN:P35::EPC00074
+//                 UMKG>UPNM for SDN:P35::EPC00074
+//                 UGKG>UPNM for SDN:P35::EPC00083
+//                 UGPL>UMMC for SDN:P35::EPC00105
+//                 UPPM>UMKG for SDN:P35::EPC00110
+//                 UUKG>UMKG for SDN:P35::EPC00110
+//                 UUKG>UMKG for SDN:P35::EPC00112
+//                 UPPM>UMKG for SDN:P35::EPC00112
+//                 UUKG>UMKG for SDN:P35::EPC00115
+//                 UPPM>UMKG for SDN:P35::EPC00115
+//                 UPPM>UMKG for SDN:P35::EPC00117
+//                 UUKG>UMKG for SDN:P35::EPC00117
+//                 UUKG>UMKG for SDN:P35::EPC00119
+//                 UPPM>UMKG for SDN:P35::EPC00119
+//                 UUKG>UMKG for SDN:P35::EPC00121
+//                 UPPM>UMKG for SDN:P35::EPC00121
+//                 UUKG>UMKG for SDN:P35::EPC00124
+//                 UPPM>UMKG for SDN:P35::EPC00124
+//                 UUKG>UMKG for SDN:P35::EPC00126
+//                 UPPM>UMKG for SDN:P35::EPC00126
+//                 UUKG>UMKG for SDN:P35::EPC00128
+//                 UUKG>UMKG for SDN:P35::EPC00130
+//                 UPPM>UMKG for SDN:P35::EPC00130
+//                 UPOX>KGUM for SDN:P35::EPC00139
+//                 UMKG>UUKG for SDN:P35::EPC00140
+//                 UGPL>UPNM for SDN:P35::EPC00141
+//                 UNGL>UPNM for SDN:P35::EPC00141
+//                 NGKG>UUKG for SDN:P35::EPC00142
+//                 UMKG>UUKG for SDN:P35::EPC00142
+//                 UMKG>UUKG for SDN:P35::EPC00143
+//                 UGKG>UMKG for SDN:P35::EPC00145
+//                 UUKG>KGUM for SDN:P35::EPC00152
+//                 UGPL>UPNM for SDN:P35::EPC00154
+//                 UNGL>UPNM for SDN:P35::EPC00154
+//                 UMKG>UUKG for SDN:P35::EPC00155
+//                 UNGL>UPNM for SDN:P35::EPC00156
+//                 UGPL>UPNM for SDN:P35::EPC00156
+//                 UMGL>UPOX for SDN:P35::EPC00157
+//                 UMKG>UUKG for SDN:P35::EPC00161
+//                 NGKG>UUKG for SDN:P35::EPC00162
+//                 UMKG>UUKG for SDN:P35::EPC00162
+//                 UMKG>UUKG for SDN:P35::EPC00164
+//                 UMKG>UUKG for SDN:P35::EPC00165
+//                 UMKG>UUKG for SDN:P35::EPC00166
+//                 UMKG>UUKG for SDN:P35::EPC00169
+//                 UMKG>UGKG for SDN:P35::EPC00170
+//                 NGKG>UUKG for SDN:P35::EPC00171
+//                 UMKG>UUKG for SDN:P35::EPC00171
+//                 UGPL>UPNM for SDN:P35::EPC00172
+//                 UNGL>UPNM for SDN:P35::EPC00172
+//                 UPCT>UGKG for SDN:P35::EPC00173
+//                 UMKG>UUKG for SDN:P35::EPC00174
+//                 UMKG>UUKG for SDN:P35::EPC00176
+//                 UPOX>KGUM for SDN:P35::EPC00180
+//                 UPOX>KGUM for SDN:P35::EPC00181
+//                 UMKG>UUKG for SDN:P35::EPC00182
+//                 UGPL>UPNM for SDN:P35::EPC00183
+//                 UNGL>UPNM for SDN:P35::EPC00183
+//                 UMKG>UUKG for SDN:P35::EPC00184
+//                 UMKG>UUKG for SDN:P35::EPC00187
+//                 UMKG>UUKG for SDN:P35::EPC00188
+//                 UMKG>UUKG for SDN:P35::EPC00189
+//                 UMGL>UPOX for SDN:P35::EPC00190
+//                 UMKG>UUKG for SDN:P35::EPC00191
+//                 UMKG>UUKG for SDN:P35::EPC00192
+//                 UMKG>UUKG for SDN:P35::EPC00193
+//                 UMBQ>UBQL for SDN:P35::EPC00196
+//                 UGKG>UMKG for SDN:P35::EPC00197
+//                 UPOX>KGUM for SDN:P35::EPC00199
+//                 UUKG>UGKG for SDN:P35::EPC00200
+//                 UMKG>UUKG for SDN:P35::EPC00202
+//                 UMKG>UUKG for SDN:P35::EPC00203
+//                 UMKG>UUKG for SDN:P35::EPC00204
+//                 UMKG>UUKG for SDN:P35::EPC00205
+//                 UMKG>UUKG for SDN:P35::EPC00206
+//                 UMKG>UUKG for SDN:P35::EPC00207
+//                 UMKG>UUKG for SDN:P35::EPC00208
+//                 UEQL>UUKG for SDN:P35::EPC00209
+//                 MEQL>UUKG for SDN:P35::EPC00209
+//                 UMKG>UUKG for SDN:P35::EPC00210
+//                 UPOX>KGUM for SDN:P35::EPC00211
+//                 UGPL>UPNM for SDN:P35::EPC00213
+//                 UNGL>UPNM for SDN:P35::EPC00213
+//                 NGKG>UUKG for SDN:P35::EPC00214
+//                 UMKG>UUKG for SDN:P35::EPC00214
+//                 UMKG>UUKG for SDN:P35::EPC00215
+//                 UMKG>UUKG for SDN:P35::EPC00216
+//                 UMKG>UUKG for SDN:P35::EPC00217
+//                 UMKG>UUKG for SDN:P35::EPC00218
+//                 UMKG>UUKG for SDN:P35::EPC00219
+//                 UGPL>UPNM for SDN:P35::EPC00220
+//
+// v8  2016-02-25  added the following conversions:
+//                 UMGL>UPOX for SDN:P35::EPC00134
+//                 UMGL>UPOX for SDN:P35::EPC00135
+//
+// v7  2015-12-02  added the following conversions:
+//                 UGPL>UPOX for SDN:P35::EPC00134
+//                 UGPL>UPOX for SDN:P35::EPC00135
+//                 UGPL>UPNM for SDN:P35::EPC00038
+//                 UGPL>UPNM and UMKG>UPNM for SDN:P35::EPC00066 (RS)
+//
+// v6  2014-12-09  added the following conversions: 
+//                 UMMC>UPOX, and UMMC>UPOX for SDN:P35::EPC00005,
+//                 UMMC>UPOX for SDN:P35::EPC00007,
+//                 UMMC>UPOX for SDN:P35::EPC00008,
+//                 UMMC>UPOX for SDN:P35::EPC00009,
+//                 UNGL>UPNM for SDN:P35::EPC00025,
+//                 UNGL>UPNM for SDN:P35::EPC00069,
+//                 UMGL>UMMC for SDN:P35::EPC00105 (RS)
+//
+// v5  2014-11-25  added UMGL>UPOX conversions for SDN:P35::EPC00004,
+//                 SDN:P35::EPC00006, SDN:P35::EPC00007, SDN:P35::EPC00008,
+//                 and SDN:P35::EPC00009 (RS)
+//
+// v4  2014-11-22  changed UGPL>UPOX conversions to use atomic weights
+//                 instead of molar weights, (RS)
+//
+//                 Fixed errors for "Water body particulate cadmium" and
+//                 "Water body dissolved+particulate mercury (total
+//                 chemical species)" (RS)
+//
+// v3  2014-11-17  added UPOX>MEQL conversions for SDN:P35::EPC00131 (RS)
+//
+// v2  2014-10-23  added two conversions for SDN:P35::EPC00131 (RS)
+//
+// v1  2014-08-19  released with ODV 4.6.3
+//
+// _________________________________________________________________________
+// CONVERSION DETAILS:
+//
+// to = factor * from + offset
+//
+// Entries without factor and offset values indicate impossible conversions.
+//
+// Constant density rho=1.025 kg/l used for all "per mass" to/from
+// "per volume" conversions
+//
+// Oxygen (O2)
+// Molar volume at STP = 22.391 l
+// Molar weight of O2 = 31.9988 g/mol
+// Atomic Mass of O = 15.9994 g/mol
+// 1 umol O2= 0.022391 ml
+// 1 ml/l = 1/0.022391 = 44.66080 umol/l
+// 1 mg/l = 22.391 ml/31.9988 mg = 0.699745 ml/l
+// 1 mg-at/l = 15.9994x22.391/31.9988 = 11.1955 ml
+//
+// Nitrate Nitrogen (NO3-N)
+// Molar weight of NO3 = 62.0049 g/mol
+// Atomic Mass of N = 14.00674 g/mol
+// 1 ug N/l = 0.0713942 umol NO3/l
+//
+// Nitrite Nitrogen (NO2-N)
+// Molar weight of NO2 = 46.0055 g/mol
+// Atomic Mass of N = 14.00674 g/mol
+// 1 ug N/l = 0.0713942 umol NO2/l
+//
+// Ammonium Nitrogen (NH4-N)
+// Molar weight of NH4 = 18.03846 g/mol
+// Atomic Mass of H = 1.00794 g/mol
+// Atomic Mass of N = 14.00674 g/mol
+// 1 ug N/l = 0.0713942 umol NH4/l
+//
+// Phosphate Phosphorous (PO4-P)
+// Molar weight of PO4 = 94.97136 g/mol
+// Atomic Mass of P = 30.973762 g/mol
+// 1 ug P/l = 0.03228539 umol PO4/l
+//
+// Silicate Silicon (SiO4-Si)
+// Molar weight of SiO4 = 92.08313 g/mol
+// Atomic Mass of Si = 28.08553 g/mol
+// 1 ug SiO4/l = 0.035605524 umol SiO4/l
+//
+// _________________________________________________________________________
+// CONVERSIONS:
+//
+P35 PARAMETER CODE	From: P06 UNIT CODE	To: P06 UNIT CODE	FACTOR	OFFSET
+
+// Universal conversions
+ANY	SDN:P06::KGUM	SDN:P06::UPOX	1.025	0.0
+ANY	SDN:P06::MLM3	SDN:P06::UPOX	1000.	0.0
+ANY	SDN:P06::MMPL	SDN:P06::UPOX	1000.	0.0
+ANY	SDN:P06::UGKG	SDN:P06::UMKG	1000.	0.0
+ANY	SDN:P06::UGPL	SDN:P06::UMMC	1.0	0.0
+ANY	SDN:P06::UMKG	SDN:P06::UUKG	1000.	0.0
+ANY	SDN:P06::UGGR	SDN:P06::UMKG	1.0	0.0
+ANY	SDN:P06::UGGR	SDN:P06::UUKG	1000.	0.0
+ANY	SDN:P06::UUKG	SDN:P06::UMKG	1.0e-3	0.0
+ANY	SDN:P06::MGPG	SDN:P06::UGKG	1.0	0.0
+ANY	SDN:P06::MMCM	SDN:P06::KGUM	0.97561	0.0
+ANY	SDN:P06::UMGL	SDN:P06::UGKG	0.97561e-3	0.0
+
+// ITS-90 water temperature
+SDN:P35::WATERTEMP	SDN:P06::UPKA	SDN:P06::UPAA	1.0	-273.15
+SDN:P35::WATERTEMP	SDN:P06::DEGE	SDN:P06::UPAA		
+
+// Water body salinity
+SDN:P35::EPC00001	SDN:P06::UUUU	SDN:P06::UPPT	1.0	0.0
+SDN:P35::EPC00001	SDN:P06::UGKG	SDN:P06::UPPT	1.0	0.0
+SDN:P35::EPC00001	SDN:P06::UMGL	SDN:P06::UPPT	0.97561e-3	0.0
+SDN:P35::EPC00001	SDN:P06::UPPM	SDN:P06::UPPT	1.0e-3	0.0
+
+// Water body dissolved oxygen concentration
+SDN:P35::EPC00002	SDN:P06::UMGL	SDN:P06::UPOX	31.25117	0.0
+SDN:P35::EPC00002	SDN:P06::UMLL	SDN:P06::UPOX	44.66080	0.0
+SDN:P35::EPC00002	SDN:P06::UPPT	SDN:P06::UPOX		
+SDN:P35::EPC00002	SDN:P06::UPCT	SDN:P06::UPOX		
+
+// Water body dissolved oxygen saturation
+SDN:P35::EPC00003	SDN:P06::UMLL	SDN:P06::UPCT		
+
+// Water body nitrate NO3
+SDN:P35::EPC00004	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00004	SDN:P06::UMGL	SDN:P06::UPOX	71.39420	0.0
+
+// Water body nitrate plus nitrite
+SDN:P35::EPC00005	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00005	SDN:P06::UMMC	SDN:P06::UPOX	0.0713942	0.0
+
+// Water body nitrite NO2
+SDN:P35::EPC00006	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00006	SDN:P06::UMGL	SDN:P06::UPOX	71.39420	0.0
+
+// Water body phosphate PO4
+SDN:P35::EPC00007	SDN:P06::UGPL	SDN:P06::UPOX	0.03228539	0.0
+SDN:P35::EPC00007	SDN:P06::UMMC	SDN:P06::UPOX	0.03228539	0.0
+SDN:P35::EPC00007	SDN:P06::UMGL	SDN:P06::UPOX	32.28539	0.0
+
+// Water body silicate SiO4
+SDN:P35::EPC00008	SDN:P06::UGPL	SDN:P06::UPOX	0.035605524	0.0
+SDN:P35::EPC00008	SDN:P06::UMMC	SDN:P06::UPOX	0.035605524	0.0
+SDN:P35::EPC00008	SDN:P06::UMGL	SDN:P06::UPOX	35.605524	0.0
+
+// Water body ammonium NH4
+SDN:P35::EPC00009	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00009	SDN:P06::UMMC	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00009	SDN:P06::UMGL	SDN:P06::UPOX	71.39420	0.0
+
+// Water body dissolved arsenic (AM = 74.9216 g/mol)
+SDN:P35::EPC00013	SDN:P06::UGPL	SDN:P06::UPNM	13.347286	0.0
+
+// Water body dissolved boron (AM = 10.811 g/mol)
+SDN:P35::EPC00016	SDN:P06::UGPL	SDN:P06::UPNM	92.498381	0.0
+
+// Water body dissolved cadmium (AM = 112.4118 g/mol)
+SDN:P35::EPC00017	SDN:P06::UNGL	SDN:P06::UPNM	8.89586e-3	0.0
+SDN:P35::EPC00017	SDN:P06::UGPL	SDN:P06::UPNM	8.895860	0.0
+SDN:P35::EPC00017	SDN:P06::UPOX	SDN:P06::UPNM	1000.	0.0
+SDN:P35::EPC00017	SDN:P06::UMGL	SDN:P06::UPNM	8895.86	0.0
+
+// Water body dissolved chromium (AM = 51.9961 g/mol)
+SDN:P35::EPC00018	SDN:P06::UGPL	SDN:P06::UPNM	19.232212	0.0
+
+// Water body dissolved copper (AM = 63.5463 g/mol)
+SDN:P35::EPC00020	SDN:P06::UGPL	SDN:P06::UPNM	15.73656	0.0
+SDN:P35::EPC00020	SDN:P06::UPOX	SDN:P06::UPNM	1000.	0.0
+SDN:P35::EPC00020	SDN:P06::UMGL	SDN:P06::UPNM	15736.56	0.0
+SDN:P35::EPC00020	SDN:P06::UNGL	SDN:P06::UPNM	0.01573656	0.0
+
+// Water body dissolved iron (total chemical species) (AM = 55.8452 g/mol)
+SDN:P35::EPC00021	SDN:P06::UGPL	SDN:P06::UPNM	17.9066	0.0
+
+// Water body dissolved lead (AM = 207.21 g/mol)
+SDN:P35::EPC00022	SDN:P06::UNGL	SDN:P06::UPNM	4.82602e-3	0.0
+SDN:P35::EPC00022	SDN:P06::UGPL	SDN:P06::UPNM	4.826020	0.0
+SDN:P35::EPC00022	SDN:P06::UPOX	SDN:P06::UPNM	1000.	0.0
+SDN:P35::EPC00022	SDN:P06::UMGL	SDN:P06::UPNM	4826.02	0.0
+
+// Water body dissolved manganese (total chemical species) (AM = 54.938 g/mol)
+SDN:P35::EPC00024	SDN:P06::UGPL	SDN:P06::UPNM	18.20234	0.0
+
+// Water body dissolved mercury (total chemical species) (AM = 200.59 g/mol)
+SDN:P35::EPC00025	SDN:P06::UNGL	SDN:P06::UPNM	4.985293e-3	0.0
+SDN:P35::EPC00025	SDN:P06::UGPL	SDN:P06::UPNM	4.985293	0.0
+SDN:P35::EPC00025	SDN:P06::UMGL	SDN:P06::UPNM	4985.293	0.0
+
+// Water body dissolved nickel (AM = 58.69344 g/mol)
+SDN:P35::EPC00027	SDN:P06::UGPL	SDN:P06::UPNM	17.03768	0.0
+
+// Water body dissolved vanadium (AM = 50.9415 g/mol)
+SDN:P35::EPC00037	SDN:P06::UGPL	SDN:P06::UPNM	19.63036	0.0
+
+// Water body dissolved zinc (AM = 65.3900 g/mol)
+SDN:P35::EPC00038	SDN:P06::UGPL	SDN:P06::UPNM	15.29286	0.0
+SDN:P35::EPC00038	SDN:P06::UPOX	SDN:P06::UPNM	1000.	0.0
+SDN:P35::EPC00038	SDN:P06::UMGL	SDN:P06::UPNM	15292.86	0.0
+
+// Water body dissolved+particulate arsenic (AM = 74.9216 g/mol)
+SDN:P35::EPC00041	SDN:P06::UGPL	SDN:P06::UPNM	13.347286	0.0
+
+// Water body dissolved+particulate boron (AM = 10.811 g/mol)
+SDN:P35::EPC00044	SDN:P06::UGPL	SDN:P06::UPNM	92.498381	0.0
+
+// Water body dissolved+particulate cadmium (AM = 112.4118 g/mol)
+SDN:P35::EPC00045	SDN:P06::UNGL	SDN:P06::UPNM	8.89586e-3	0.0
+SDN:P35::EPC00045	SDN:P06::UGPL	SDN:P06::UPNM	8.895860	0.0
+
+// Water body dissolved+particulate chromium (AM = 51.9961 g/mol)
+SDN:P35::EPC00046	SDN:P06::UGPL	SDN:P06::UPNM	19.232212	0.0
+
+// Water body dissolved+particulate copper (AM = 63.546 g/mol)
+SDN:P35::EPC00048	SDN:P06::UGPL	SDN:P06::UPNM	15.73663173	0.0
+
+// Water body dissolved+particulate iron (total chemical species) (AM = 55.8452 g/mol)
+SDN:P35::EPC00049	SDN:P06::UGPL	SDN:P06::UPNM	17.9066	0.0
+
+// Water body dissolved+particulate lead (AM = 207.21 g/mol)
+SDN:P35::EPC00050	SDN:P06::UNGL	SDN:P06::UPNM	4.82602e-3	0.0
+SDN:P35::EPC00050	SDN:P06::UGPL	SDN:P06::UPNM	4.826020	0.0
+
+// Water body dissolved+particulate mercury (total chemical species) (AM = 200.592 g/mol)
+SDN:P35::EPC00053	SDN:P06::UNGL	SDN:P06::UPNM	4.98524e-3	0.0
+SDN:P35::EPC00053	SDN:P06::UGPL	SDN:P06::UPNM	4.985240	0.0
+
+// Water body dissolved+particulate nickel (AM = 58.69344 g/mol)
+SDN:P35::EPC00055	SDN:P06::UGPL	SDN:P06::UPNM	17.03768	0.0
+
+// Water body dissolved+particulate vanadium (AM = 50.9415 g/mol)
+SDN:P35::EPC00065	SDN:P06::UGPL	SDN:P06::UPNM	19.63036	0.0
+
+// Water body dissolved+particulate zinc (AM = 65.3900 g/mol)
+SDN:P35::EPC00066	SDN:P06::UGPL	SDN:P06::UPNM	15.29286	0.0
+SDN:P35::EPC00066	SDN:P06::UMKG	SDN:P06::UPNM	15675.18	0.0
+
+// Water body particulate cadmium (AM = 112.4118 g/mol)
+SDN:P35::EPC00069	SDN:P06::UMKG	SDN:P06::UPNM	9.11826e+3	0.0
+SDN:P35::EPC00069	SDN:P06::UNGL	SDN:P06::UPNM	8.89586e-3	0.0
+SDN:P35::EPC00069	SDN:P06::UGPL	SDN:P06::UPNM	8.895860	0.0
+
+//Water body particulate copper (AM = 63.546 g/mol)
+SDN:P35::EPC00072	SDN:P06::UGKG	SDN:P06::UPNM	15736631.73	0.0
+
+// Water body particulate iron (total chemical species) (AM = 55.8452 g/mol)
+SDN:P35::EPC00073	SDN:P06::UGPL	SDN:P06::UPNM	17.9066	0.0
+
+//Water body particulate lead (AM = 207.2 g/mol)
+SDN:P35::EPC00074	SDN:P06::UGPL	SDN:P06::UPNM	4.826254826	0.0
+SDN:P35::EPC00074	SDN:P06::UMKG	SDN:P06::UPNM	4826.254826	0.0
+
+// Water body particulate manganese (total chemical species) (AM = 54.938 g/mol)
+SDN:P35::EPC00075	SDN:P06::UGPL	SDN:P06::UPNM	18.20234	0.0
+
+//Water body particulate zinc (AM =  65.38 g/mol)
+SDN:P35::EPC00083	SDN:P06::UGKG	SDN:P06::UPNM	15295197.31	0.0
+
+// Water body chlorophyll-a
+SDN:P35::EPC00105	SDN:P06::UMGL	SDN:P06::UMMC	1000.	0.0
+SDN:P35::EPC00105	SDN:P06::UGPL	SDN:P06::UMMC	1.0	0.0
+
+//Cadmium per unit dry weight of sediment (AM = 112.411 g/mol)
+SDN:P35::EPC00110	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+SDN:P35::EPC00110	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+
+//Copper per unit dry weight of sediment (AM = 63.546 g/mol)
+SDN:P35::EPC00112	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00112	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Iron (total chemical species) per unit dry weight of sediment (AM = 55.8452 g/mol)
+SDN:P35::EPC00114	SDN:P06::UPCT	SDN:P06::UMKG	10000.	0.0
+
+//Lead per unit dry weight of sediment (AM = 207.2 g/mol)
+SDN:P35::EPC00115	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00115	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Mercury (total chemical species) per unit dry weight of sediment (AM = 200.59 g/mol)
+SDN:P35::EPC00117	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+SDN:P35::EPC00117	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+
+//Zinc per unit dry weight of sediment (AM =  65.38 g/mol)
+SDN:P35::EPC00119	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00119	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Cadmium per unit dry weight of sediment <63um (AM = 112.411 g/mol)
+SDN:P35::EPC00121	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00121	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Copper per unit dry weight of sediment <63um (AM = 63.546 g/mol)
+SDN:P35::EPC00124	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00124	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Iron (total chemical species) per unit dry weight of sediment <63um (AM = 55.8452 g/mol)
+SDN:P35::EPC00125	SDN:P06::UPCT	SDN:P06::UMKG	10000.	0.0
+
+//Lead per unit dry weight of sediment <63um (AM = 207.2 g/mol)
+SDN:P35::EPC00126	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00126	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Mercury (total chemical species) per unit dry weight of sediment <63um (AM = 200.59 g/mol)
+SDN:P35::EPC00128	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+
+//Zinc per unit dry weight of sediment <63um (AM =  65.38 g/mol)
+SDN:P35::EPC00130	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00130	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+// Water body total alkalinity
+SDN:P35::EPC00131	SDN:P06::MMPL	SDN:P06::MEQL	1.000	0.0
+SDN:P35::EPC00131	SDN:P06::UEQL	SDN:P06::MEQL	0.001	0.0
+SDN:P35::EPC00131	SDN:P06::UPOX	SDN:P06::MEQL	0.001	0.0
+SDN:P35::EPC00131	SDN:P06::KGUM	SDN:P06::MEQL	1.025e-3	0.0
+SDN:P35::EPC00131	SDN:P06::MMKG	SDN:P06::MEQL	1.025	0.0
+SDN:P35::EPC00131	SDN:P06::UUPH	SDN:P06::MEQL		
+SDN:P35::EPC00131	SDN:P06::UUUU	SDN:P06::MEQL		
+
+// Water body total nitrogen (AM = 14.00674 g/mol)
+SDN:P35::EPC00134	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+SDN:P35::EPC00134	SDN:P06::UMGL	SDN:P06::UPOX	71.394200	0.0
+
+// Water body total phosphorus (AM = 30.97376 g/mol)
+SDN:P35::EPC00135	SDN:P06::UGPL	SDN:P06::UPOX	0.03228539	0.0
+SDN:P35::EPC00135	SDN:P06::UMGL	SDN:P06::UPOX	32.2853900	0.0
+
+//Nitrate plus nitrite in the sediment
+SDN:P35::EPC00139	SDN:P06::UPOX	SDN:P06::KGUM	1.025	0.0
+
+//Benzo(a)pyrene in Mytilus (MM = 252.30928 g/mol)
+SDN:P35::EPC00140	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body Benzo(a)pyrene (MM = 252.30928 g/mol)
+SDN:P35::EPC00141	SDN:P06::UGPL	SDN:P06::UPNM	3.963389694	0.0
+SDN:P35::EPC00141	SDN:P06::UNGL	SDN:P06::UPNM	0.00396339	0.0
+SDN:P35::EPC00141	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Phenanthrene in the sediment (MM = 178.2292 g/mol)
+SDN:P35::EPC00142	SDN:P06::NGKG	SDN:P06::UUKG	0.001	0.0
+SDN:P35::EPC00142	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Copper in Mytilus (AM = 63.546 g/mol)
+SDN:P35::EPC00143	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Copper in the sediment
+SDN:P35::EPC00144	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+SDN:P35::EPC00144	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+
+//Zinc in the sediment (AM =  65.38 g/mol)
+SDN:P35::EPC00145	SDN:P06::UGKG	SDN:P06::UMKG	1000.0	0.0
+SDN:P35::EPC00145	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00145	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+SDN:P35::EPC00145	SDN:P06::UPDS	SDN:P06::UMKG	1000.	0.0
+
+//Water body PCB138
+SDN:P35::EPC00146	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body PCB180
+SDN:P35::EPC00147	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body PCB101
+SDN:P35::EPC00148	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//p,p'-DDT/DDD/DDE in the sediment
+SDN:P35::EPC00150	SDN:P06::UUKG	SDN:P06::UUKG	1.0	0.0
+SDN:P35::EPC00150	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Dissolved inorganic nitrogen (DIN) in the sediment (AM = 14.00674 g/mol)
+SDN:P35::EPC00152	SDN:P06::UUKG	SDN:P06::KGUM	0.0713942	0.0
+
+//Water body anthracene (MM = 178.2292 g/mol)
+SDN:P35::EPC00154	SDN:P06::UGPL	SDN:P06::UPNM	5.610752896	0.0
+SDN:P35::EPC00154	SDN:P06::UNGL	SDN:P06::UPNM	0.005610753	0.0
+SDN:P35::EPC00154	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Lead in Mytilus (AM = 207.2 g/mol)
+SDN:P35::EPC00155	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body dissolved Mercury (AM = 200.59 g/mol)
+SDN:P35::EPC00156	SDN:P06::UNGL	SDN:P06::UPNM	0.004985293	0.0
+SDN:P35::EPC00156	SDN:P06::UGPL	SDN:P06::UPNM	4.985293385	0.0
+
+//Water body particulate organic carbon {POC} (AM =12.0107 g/mol)
+SDN:P35::EPC00157	SDN:P06::UMGL	SDN:P06::UPOX	83.25909397	0.0
+SDN:P35::EPC00157	SDN:P06::UGPL	SDN:P06::UPOX	0.083259094	0.0
+SDN:P35::EPC00157	SDN:P06::UMMC	SDN:P06::UPOX	0.083259094	0.0
+SDN:P35::EPC00157	SDN:P06::UGKG	SDN:P06::UPOX	83259.09397	0.0
+
+//Mercury (total chemical species) in the sediment
+SDN:P35::EPC00158	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00158	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+// Water body dissolved nitrogen (AM = 14.00674 g/mol)
+SDN:P35::EPC00160	SDN:P06::UGPL	SDN:P06::UPOX	0.0713942	0.0
+
+//Fluoranthene in Mytilus (MM = 202.26 g/mol)
+SDN:P35::EPC00161	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Fluoranthene in the sediment (MM = 202.26 g/mol)
+SDN:P35::EPC00162	SDN:P06::NGKG	SDN:P06::UUKG	0.001	0.0
+SDN:P35::EPC00162	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body PCB153
+SDN:P35::EPC00163	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//PCB101 in the sediment (MM = 326.4331 g/mol)
+SDN:P35::EPC00164	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB52 in Mytilus (MM = 291.98804 g/mol)
+SDN:P35::EPC00165	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB105 in the sediment (MM = 326.4331 g/mol)
+SDN:P35::EPC00166	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Cadmium in the sediment
+SDN:P35::EPC00167	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+SDN:P35::EPC00167	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00167	SDN:P06::UPDS	SDN:P06::UMKG	1000.	0.0
+
+//Water body pH
+SDN:P35::EPC00168	SDN:P06::UUUU	SDN:P06::UUPH	1.0	0.0
+
+//Tribultin (TBT) in Mytilus (MM=  290.05278 g/mol)
+SDN:P35::EPC00169	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+SDN:P35::EPC00169	SDN:P06::GPRG	SDN:P06::UUKG	1.0e9	0.0
+
+//Nitrogen in the sediment (AM = 14.00674 g/mol)
+SDN:P35::EPC00170	SDN:P06::UMKG	SDN:P06::UGKG	0.001	0.0
+SDN:P35::EPC00170	SDN:P06::UPCT	SDN:P06::UGKG	10.0	0.0
+
+//Benzo(a)pyrene in the sediment (MM = 252.30928 g/mol)
+SDN:P35::EPC00171	SDN:P06::NGKG	SDN:P06::UUKG	0.001	0.0
+SDN:P35::EPC00171	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body phenanthrene (MM = 178.2292 g/mol)
+SDN:P35::EPC00172	SDN:P06::UGPL	SDN:P06::UPNM	5.610752896	0.0
+SDN:P35::EPC00172	SDN:P06::UNGL	SDN:P06::UPNM	0.005610753	0.0
+SDN:P35::EPC00172	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Organic carbon in the sediment (AM = 12.0107 g/mol)
+SDN:P35::EPC00173	SDN:P06::UPCT	SDN:P06::UGKG	10.0	0.0
+SDN:P35::EPC00173	SDN:P06::MGPG	SDN:P06::UGKG	1.0	0.0
+
+//PCB118 in the sediment (MM = 326.4331 g/mol)
+SDN:P35::EPC00174	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//p,p'-DDT/DDD/DDE in Mytilus
+SDN:P35::EPC00176	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Inorganic carbon in the sediment (AM = 12.0107 g/mol)
+SDN:P35::EPC00178	SDN:P06::MMPL	SDN:P06::UGKG	0.0120107	0.0
+SDN:P35::EPC00178	SDN:P06::UPOX	SDN:P06::UGKG	1.20107E-05	0.0
+
+//Ammonium in the sediment (MM = 18.04 g/mol)
+SDN:P35::EPC00180	SDN:P06::UPOX	SDN:P06::KGUM	1.025	0.0
+
+//Phosphate in the sediment (AM = 94.9714 g/mol)
+SDN:P35::EPC00181	SDN:P06::UPOX	SDN:P06::KGUM	1.025	0.0
+
+//Anthracene in Mytilus (MM = 178.2292 g/mol)
+SDN:P35::EPC00182	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body naphthalene (MM = 128.1705 g/mol)
+SDN:P35::EPC00183	SDN:P06::UGPL	SDN:P06::UPNM	7.802107349	0.0
+SDN:P35::EPC00183	SDN:P06::UNGL	SDN:P06::UPNM	0.007802107	0.0
+SDN:P35::EPC00183	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//PCB180 in Mytilus (MM = 395.32322 g/mol)
+SDN:P35::EPC00184	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body p,p'-DDT/DDD/DDE
+SDN:P35::EPC00185	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+// Water body dissolved phosphorus (AM = 30.97376 g/mol)
+SDN:P35::EPC00186	SDN:P06::UGPL	SDN:P06::UPOX	0.03228539	0.0
+
+//Anthracene in the sediment (MM = 178.2292 g/mol)
+SDN:P35::EPC00187	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+SDN:P35::EPC00187	SDN:P06::NGKG	SDN:P06::UUKG	0.001	0.0
+
+//Cadmium in Mytilus (AM = 112.411 g/mol)
+SDN:P35::EPC00188	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Mercury in Mytilus (AM = 200.59 g/mol)
+SDN:P35::EPC00189	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+SDN:P35::EPC00189	SDN:P06::NGPG	SDN:P06::UUKG	1.	0.0
+
+//Water body dissolved organic carbon {DOC} (AM =12.0107 g/mol)
+SDN:P35::EPC00190	SDN:P06::UMGL	SDN:P06::UPOX	83.2590939745	0.0
+
+//PCB138 in Mytilus (MM = 360.87816 g/mol)
+SDN:P35::EPC00191	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB153 in Mytilus (MM = 360.87816 g/mol)
+SDN:P35::EPC00192	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB52 in the sediment (MM = 291.98804 g/mol)
+SDN:P35::EPC00193	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body PCB52
+SDN:P35::EPC00194	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body Hexachlorobenzene {HCB}
+SDN:P35::EPC00195	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body caesium-137
+SDN:P35::EPC00196	SDN:P06::UMBQ	SDN:P06::UBQL	0.001	0.0
+
+//Lead in the sediment (AM = 207.2 g/mol)
+SDN:P35::EPC00197	SDN:P06::UGKG	SDN:P06::UMKG	1000.0	0.0
+SDN:P35::EPC00197	SDN:P06::UUKG	SDN:P06::UMKG	0.001	0.0
+SDN:P35::EPC00197	SDN:P06::UPPM	SDN:P06::UMKG	1.0	0.0
+
+//Nitrate in the sediment (MM = 62.0049 g/mol)
+SDN:P35::EPC00199	SDN:P06::UPOX	SDN:P06::KGUM	1.025	0.0
+
+//Organic Nitrogen in the sediment (AM = 14.00674 g/mol)
+SDN:P35::EPC00200	SDN:P06::UUKG	SDN:P06::UGKG	0.000001	0.0
+SDN:P35::EPC00200	SDN:P06::UPCT	SDN:P06::UGKG	10.0	0.0
+SDN:P35::EPC00200	SDN:P06::UMKG	SDN:P06::UGKG	0.001	0.0
+
+//Water body particulate phosphorus (AM = 30.97376 g/mol)
+SDN:P35::EPC00201	SDN:P06::UMMC	SDN:P06::UPOX	0.032285393	0.0
+
+//Naphthalene in Mytilus (MM = 128.17052 g/mol)
+SDN:P35::EPC00202	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Phenanthrene in Mytilus (MM = 178.2292 g/mol)
+SDN:P35::EPC00203	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB118 in Mytilus (MM = 326.4331 g/mol)
+SDN:P35::EPC00204	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB28 in Mytilus (MM = 257.54298 g/mol)
+SDN:P35::EPC00205	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB28 in the sediment (MM = 257.54298 g/mol)
+SDN:P35::EPC00206	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Hexachlorobenzene {HCB} in Mytilus (MM = 284.7822 g/mol)
+SDN:P35::EPC00207	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Hexachlorobenzene {HCB} in the sediment (MM = 284.7822 g/mol)
+SDN:P35::EPC00208	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Total alkalinity in the sediment
+SDN:P35::EPC00209	SDN:P06::UEQL	SDN:P06::UUKG	1.025	0.0
+SDN:P35::EPC00209	SDN:P06::MEQL	SDN:P06::UUKG	1025.0	0.0
+
+//Tribultin (TBT) in the sediment (MM=  290.05278 g/mol)
+SDN:P35::EPC00210	 SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Silicate in the sediment
+SDN:P35::EPC00211	SDN:P06::UPOX	SDN:P06::KGUM	1.025	0.0
+
+//Water body particulate nitrogen (AW = 14.0067 g/mol)
+SDN:P35::EPC00212	SDN:P06::UGPL	SDN:P06::UPOX	0.071394404	0.0
+SDN:P35::EPC00212	SDN:P06::UMMC	SDN:P06::UPOX	0.071394404	0.0
+SDN:P35::EPC00212	SDN:P06::UGKG	SDN:P06::UPOX	71394.40411	0.0
+SDN:P35::EPC00212	SDN:P06::UMGL	SDN:P06::UPOX	71.39440411	0.0
+
+//Water body fluoranthene (MM = 202.26 g/mol)
+SDN:P35::EPC00213	SDN:P06::UGPL	SDN:P06::UPNM	4.944131316	0.0
+SDN:P35::EPC00213	SDN:P06::UNGL	SDN:P06::UPNM	0.004944131	0.0
+SDN:P35::EPC00213	SDN:P06::UMMC	SDN:P06::UPOX	0.004944131	0.0
+SDN:P35::EPC00213	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Naphthalene in the sediment ( MM =128.17052 g/mol)
+SDN:P35::EPC00214	SDN:P06::NGKG 	SDN:P06::UUKG	0.001	0.0
+SDN:P35::EPC00214	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+//Zinc in Mytilus (AM = 65.38 g/mol)
+SDN:P35::EPC00215	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB138 in the sediment (MM = 360.87816 g/mol)
+SDN:P35::EPC00216	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB180 in the sediment (MM = 395.32322 g/mol)
+SDN:P35::EPC00217	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB153 in the sediment (MM = 360.87816 g/mol)
+SDN:P35::EPC00218	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//PCB101 in Mytilus (MM = 326.4331 g/mol)
+SDN:P35::EPC00219	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body PCB118 (MM = 326.4331 g/mol)
+SDN:P35::EPC00220	SDN:P06::UGPL	SDN:P06::UPNM	3.063414831	0.0
+SDN:P35::EPC00220	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body PCB28
+SDN:P35::EPC00221	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//p,p'-DDT in the sediment
+SDN:P35::EPC00222	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//p,p'-DDD in the sediment
+SDN:P35::EPC00223	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//p,p'-DDE in the sediment
+SDN:P35::EPC00224	SDN:P06::UMKG	SDN:P06::UUKG	1000.0	0.0
+
+//Water body p,p'-DDT (MM = 354.48626 g/mol)
+SDN:P35::EPC00225	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+SDN:P35::EPC00225	SDN:P06::MMPL	SDN:P06::UGPL	0.35448626	0.0
+
+//Water body p,p'-DDD
+SDN:P35::EPC00226	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+
+//Water body p,p'-DDE (MM = 318.02532 g/mol)
+SDN:P35::EPC00227	SDN:P06::UNGL	SDN:P06::UGPL	0.001	0.0
+SDN:P35::EPC00227	SDN:P06::MMPL	SDN:P06::UGPL	0.31802532	0.0

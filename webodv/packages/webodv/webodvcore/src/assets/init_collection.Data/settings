@@ -1,0 +1,7 @@
+
+[Good Coverage]
+# Values = 4
+% Values = 20
+Gap Slope = 0.5
+Gap Upper Limit = 700
+Gap@minPrimVar = 175

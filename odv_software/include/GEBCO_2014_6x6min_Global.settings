@@ -1,0 +1,13 @@
+
+[Domain]
+EastLongitude = 180
+NorthLatitude = 90
+SouthLatitude = -90
+WestLongitude = -180
+
+[General]
+Comment = GEBCO_2014_6x6min_Global produced by Reiner Schlitzer (2015-01-27)
+
+[Resolution]
+LatitudeRes = 0.1
+LongitudeRes = 0.1

@@ -1,0 +1,530 @@
+%%BeginProlog
+%This is the "PS_Graph" Version 2.21 preamble (Jan/29/2010)
+%(c) Reiner Schlitzer, 2010
+
+/BeginPlot { /preVMState save def
+	     /BeginMatrix matrix currentmatrix def init } def
+/EndPlot { preVMState restore } def
+
+%                                       abbreviations
+/Fill { gsave fill grestore } bind def
+/np   { newpath } bind def
+
+/tmpstr 20 string def
+/PrintNum {				% num
+  tmpstr cvs print ( ) print } def
+/PrintLn { (\n) print flush } def
+%					text-alignment constants
+/TA_CC 0 def /TA_CU 1 def /TA_CL 2 def 
+/TA_RU 3 def /TA_RL 4 def /TA_LU 5 def 
+/TA_LL 6 def /TA_RC 7 def /TA_LC 8 def 
+%					ABBREVIATIONS
+/xdef { exch def }     bind def     /S    { setrgbcolor }  bind def
+/smul { scalefak mul } bind def     /sdiv { scalefak div } bind def
+/m    {moveto}         bind def     /l    {lineto}         bind def
+/rm   {rmoveto}        bind def     /rl   {rlineto}        bind def
+%					FONTS
+/getfont {                              %fontsize (pt) fontname
+  dup /fname xdef findfont exch smul dup /fsize xdef scalefont setfont } def
+/Roman   { /Times-Roman getfont } def
+/Helvet  { /Helvetica   getfont } def
+%/Helvet  { /Helvetica-Bold getfont } def
+/Math    { /Symbol      getfont } def
+/SetMyFont { fontfak mul dfltFont getfont } def
+/bigfont   {14 SetMyFont } def  /medfont  {11 SetMyFont} def
+/smallfont {8 SetMyFont}  def  /minifont {6 SetMyFont}  def
+%					LINES
+/solid_line  {[] 0 setdash} def
+/dotted_line {/c [ currentlinewidth .5] maximum def [c 3 c mul] 0 setdash} def
+/dashed_line {/c [ currentlinewidth .5] maximum def
+              [10 c mul 4 c mul] 0 setdash} def
+/extra_thick_line  {8.50 smul setlinewidth} def
+/very_thick_line   {6.00 smul setlinewidth} def
+/thick_line        {2.95 smul setlinewidth} def
+/medium_thick_line {1.45 smul setlinewidth} def
+/medium_line       {0.95 smul setlinewidth} def
+/thin_medium_line  {0.65 smul setlinewidth} def
+/thin_line         {0.35 smul setlinewidth} def
+/very_thin_line    {0.10 smul setlinewidth} def
+%					SUPERSCRIPTS & SUBSCRIPTS
+/superscript {				% string
+  dup stringwidth pop .6 mul /xd xdef /yd (H) stringwidth pop .5 mul def
+  currentpoint /y0 xdef /x0 xdef
+  0 yd rm  gsave .6 .6 scale show grestore  x0 xd add y0 m  } def
+/subscript {				% string
+  dup stringwidth pop .6 mul /xd xdef /yd (H) stringwidth pop -4 div def
+  currentpoint /y0 xdef /x0 xdef
+  0 yd rm  gsave .6 .6 scale show grestore  x0 xd add y0 m  } def
+%					initialize graphics
+/init {
+  A4_paper            linXlinY             /ul-pt { cm-pt } def
+  1 setlinecap        1 setlinejoin        /lenfak 1 def
+  /scalefak 1 def     /stroke? false def   /fill? false def
+  /usrclip? false def /showpage? true def  /frame? true def
+  /usrrot? false def  /usrrota? false def  /grid? false def
+  /leftlbl? true def  /tic? false def      /lorg TA_CC def
+  /xOrigin 0 def      /yOrigin 0 def       /paperfak 1 def
+  /fontfak 1 def      /nativeFont (Helvetica-Bold) def
+  /dfltFont nativeFont def
+  0 0 0 setTextFrameColor 1 1 1 setTextFillColor } def
+/magnify { scalefak mul /scalefak xdef /lenfak lenfak smul def } def
+/A4_paper    { /xoffset_pt  595 def } def 
+/Legal_paper { /xoffset_pt  612 def } def 
+/A3_paper    { /xoffset_pt  839 def /paperfak 1.4095 def
+   paperfak magnify } def 
+/A2_paper    { /xoffset_pt 1180 def /paperfak 1.9867 def
+   paperfak magnify } def 
+/A1_paper    { /xoffset_pt 1650 def /paperfak 2.8000 def
+   paperfak magnify } def 
+/A0_paper    { /xoffset_pt 2410 def /paperfak 4.3000 def
+   paperfak magnify } def 
+/default_usrsys {
+  usrrot? { /xmin 0 def /xmax 30 def /xof 0 def /xlen 30 def
+            /ymin 0 def /ymax 21 def /yof 0 def /ylen 21 def }
+          { /xmin 0 def /xmax 21 def /xof 0 def /xlen 21 def
+            /ymin 0 def /ymax 30 def /yof 0 def /ylen 30 def } ifelse
+  usrsys } def
+/setcolor { pop } def /setpalette { pop } def
+%                                       PROJECTIONS
+/linXlinY { /projection { } def } def
+/linXlogY { /projection { log } def } def
+/logXlinY { /projection { exch log exch } def } def
+/logXlogY { /projection { log exch log exch } def } def
+%                         		MOVE AND LINE VERSIONS
+/cm-pt {28.35 mul} bind def
+/in-pt {72 mul} bind def
+/pt-in {72 div} bind def
+/M  {projection hlp-dev m} def
+/L  {projection hlp-dev l} def
+/RM {ryh-d exch rxh-d exch rm} def
+/RL {ryh-d exch rxh-d exch rl} def /R { RL } bind def
+/Line {gsave usrclip? { dousrclip } if np M L stroke grestore} def
+/line {gsave usrclip? { dousrclip } if np m l stroke grestore} def
+%					COORDINATE TRANSFORMATIONS
+/hlp-dev { yh-d exch xh-d exch } def
+/dev-hlp { yd-h exch xd-h exch } def
+/xh-d { xli sub xfak mul } def       /yh-d { yli sub yfak mul } def
+/xd-h { xfak div xli add } def       /yd-h { yfak div yli add } def
+/rxd-h { xd-h xli sub } def          /ryd-h { yd-h yli sub } def
+/rxh-d { xli add xh-d } def          /ryh-d { yli add yh-d } def
+%					MATHEMATICAL FUNCTIONS
+/mean { add 2 div } def /Exp { 2.71828 exch exp } def
+/minimum { /min  1.e20 def 		% array - min
+  { dup min lt {/min xdef} {pop} ifelse } forall  min } def
+/maximum { /max -1.e20 def		% array - max
+  { dup max gt {/max xdef} {pop} ifelse } forall  max } def
+%					SETUP USER-COORDINATE SYSTEM
+/usrframepath { np 0 0 m x@ 0 l x@ y@ l 0 y@ l closepath } def
+/dousrframe { usrframepath stroke } def
+/dousrclip  { usrframepath clip } def
+/usrsysSet {
+  BeginMatrix setmatrix
+  xmin ymin projection /yli xdef /xli xdef /xlen@ xlen smul def
+  xmax ymax projection /yre xdef /xre xdef /ylen@ ylen smul def
+  /xof@ xof smul xOrigin paperfak mul add def
+  /yof@ yof smul yOrigin paperfak mul add def
+  /x@ xlen@ ul-pt def /y@ ylen@ ul-pt def
+  usrrota?
+   {xlen@ ylen@ gt usrrot? and { xoffset_pt 0 translate 90 rotate } if } 
+   {usrrot? { xoffset_pt 0 translate 90 rotate } if }   ifelse
+  xof@ ul-pt  yof@ ul-pt translate
+  /xfak {x@ xre xli sub div} def /yfak {y@ yre yli sub div} def
+ } def
+/usrsys {
+  usrsysSet
+  usrclip? { dousrclip } if   frame? { dousrframe } if
+  medium_line medfont
+ } def
+/UsrSys {		% xmin xmax xlen xof ymin ymax ylen yof
+  /yof xdef /ylen xdef /ymax xdef /ymin xdef
+  /xof xdef /xlen xdef /xmax xdef /xmin xdef usrsys
+ } def
+/SetupUsrSys {		% xmin xmax xlen xof ymin ymax ylen yof
+  /yof xdef /ylen xdef /ymax xdef /ymin xdef
+  /xof xdef /xlen xdef /xmax xdef /xmin xdef usrsysSet
+ } def
+%					% LABEL X- AND Y- AXIS
+/chksmall { dup abs 1.e-5 lt { pop 0 } if } def
+/autoct {				% start, tinc, linc, amin, end (usr)
+  /@e xdef /@a xdef /@l xdef /@t xdef /@s xdef
+  [ @s @a @s sub @t div cvi @t mul add
+    @s @e  @s sub @t div cvi @t mul add
+    2 copy exch sub dup abs div @t abs mul exch
+    { 0 } for
+    @s @a @s sub @l div cvi @l mul add
+    @s @e  @s sub @l div cvi @l mul add
+    2 copy exch sub dup abs div @l abs mul exch
+    { dup dup cvi eq { cvi } if  1 } for ] } def
+/xaxlabl {				% xs, tinc, linc (usr)
+  xmin xmax autoct xaxlbl } def
+/yaxlabl {				% ys, tinc, linc (usr)
+  ymin ymax autoct yaxlbl } def
+/xaxlbl {				% array
+  /myempty save def /ct xdef
+  /fsmall fsize .7 mul sdiv def /fnorm fsize sdiv def
+  /d (M) stringwidth pop 2 mul def
+  /x0 xli xh-d d sub def /x1 xre xh-d d add def
+  /str 20 string def thin_line /tic? true def
+  0 2 ct length 1 sub { /# xdef /x ct # get def /t ct # 1 add get def
+   t 0 eq { thin_line fsmall fname getfont
+            /lorg TA_CL def ( ) x ymax projection showstring
+            /lorg TA_CU def ( ) x ymin projection showstring }
+          { medium_line  fnorm fname getfont
+            /lorg TA_CL def ( ) x ymax projection showstring
+            /lorg TA_CU def x chksmall str cvs x ymin projection showstring
+            grid? { very_thin_line x ymin projection x ymax projection Line } if
+           } ifelse  } for
+  /del d 0.6 mul ryd-h def /tic? false def
+  fnorm 1.1 mul fname getfont
+  /lorg TA_CU def /labl xtitle def xli xre mean yli del sub showlabl
+  fsize 1.2 mul sdiv fname getfont
+  /lorg TA_CL def /labl title def  xli xre mean yre del 0.5 mul add showlabl
+  myempty restore } def
+/yaxlbl {				% array
+  /myempty save def /ct xdef /maxl 10 smul def
+  /fsmall fsize .7 mul sdiv def /fnorm fsize sdiv def
+  /d (M) stringwidth pop 2 mul def
+  /y0 yli yh-d d sub def /y1 yre yh-d d add def
+  /str 20 string def thin_line /tic? true def
+  0 2 ct length 1 sub { /# xdef /y ct # get def /t ct # 1 add get def
+   t 0 eq { thin_line fsmall fname getfont
+            /lorg TA_RC def ( ) xmin y projection showstring
+            /lorg TA_LC def ( ) xmax y projection showstring }
+          { medium_line  fnorm fname getfont
+            /lorg TA_RC def y chksmall str cvs dup stringwidth pop dup
+             maxl gt { /maxl xdef } { pop } ifelse
+             xmin y projection showstring
+            /lorg TA_LC def ( ) xmax y projection showstring
+            grid? { very_thin_line xmin y projection xmax y projection Line } if
+           } ifelse } for
+  /tic? false def /lorg TA_CL def /labl ytitle def
+  fnorm 1.1 mul fname getfont
+  xli maxl 1.25 mul rxd-h sub  yli yre mean  vertlabl
+  myempty restore } def
+/xaxis {				% yval xs tinc, linc (usr)
+  xmin xmax autoct
+  /myempty save def /ct xdef /yval xdef
+  /fsmall fsize .7 mul sdiv def /fnorm fsize sdiv def
+  lorg TA_CL eq { } {/lorg TA_CU def} ifelse
+  /d (M) stringwidth pop 2 mul def
+  /x0 xli xh-d d sub def /x1 xre xh-d d add def
+  xmin yval xmax yval Line thin_line /tic? true def
+  0 2 ct length 1 sub { /# xdef /x ct # get def /t ct # 1 add get def
+   t 0 eq { thin_line fsmall fname getfont
+            ( ) x yval projection showstring }
+          { medium_line  fnorm fname getfont
+            x tmpstr cvs x yval projection showstring
+            grid? { very_thin_line x ymin projection x ymax projection Line } if
+           } ifelse  } for
+  /del d 0.9 mul ryd-h def lorg TA_CL eq { /del del -1 mul def } if
+  /tic? false def  fnorm 1.1 mul fname getfont
+  /labl xtitle def xli xre mean yval del sub showlabl
+  fsize 1.2 mul sdiv fname getfont
+  /lorg TA_LL def /labl title def  xli yre del add showlabl
+  myempty restore } def
+/yaxis {				% xval ys, tinc, linc (usr)
+  ymin ymax autoct
+  /myempty save def /ct xdef /xval xdef /maxl 10 def
+  lorg TA_LC eq { } {/lorg TA_RC def} ifelse
+  /fsmall fsize .7 mul sdiv def /fnorm fsize sdiv def
+  /d (M) stringwidth pop 2 mul def
+  /y0 yli yh-d d sub def /y1 yre yh-d d add def
+  xval ymin xval ymax Line thin_line /tic? true def
+  0 2 ct length 1 sub { /# xdef /y ct # get def /t ct # 1 add get def
+   t 0 eq { thin_line fsmall fname getfont
+            ( ) xval y projection showstring }
+          { medium_line  fnorm fname getfont
+             y tmpstr cvs dup stringwidth pop dup
+             maxl gt { /maxl xdef } { pop } ifelse
+             xval y projection showstring
+             grid? { very_thin_line xmin y projection xmax y projection Line } if
+           } ifelse } for
+  /tic? false def /labl ytitle def fnorm 1.1 mul fname getfont
+  lorg TA_RC eq { /maxl maxl -1 mul def } if
+  /xval xval xh-d maxl 1.5 mul add xd-h def /yval yli yre mean def
+  lorg TA_RC eq { /lorg TA_CL def     xval yval vertlabl }
+                { /lorg TA_CL def -90 xval yval rotlabl  } ifelse
+  myempty restore } def
+%					labels and tics
+%	leftlbl?:	true leftjustified	false centered
+%
+/setTextFrameColor { /bTFrC xdef /gTFrC xdef /rTFrC xdef } def
+/setTextFillColor  { /bTFiC xdef /gTFiC xdef /rTFiC xdef } def
+/lblcoord { 				
+  lorg TA_CC eq {/x0 xo .5 xxl mul sub def /y0 yo .5 yyl  mul sub def} if
+  lorg TA_CU eq {/x0 xo .5 xxl mul sub def /y0 yo    yyl      sub def} if
+  lorg TA_CL eq {/x0 xo .5 xxl mul sub def /y0 yo                 def} if
+  lorg TA_RU eq {/x0 xo    xxl     sub def /y0 yo    yyl      sub def} if
+  lorg TA_RL eq {/x0 xo    xxl     sub def /y0 yo                 def} if
+  lorg TA_LU eq {/x0 xo                def /y0 yo    yyl      sub def} if
+  lorg TA_LL eq {/x0 xo                def /y0 yo                 def} if
+  lorg TA_RC eq {/x0 xo    xxl     sub def /y0 yo .5 yyl  mul sub def} if
+  lorg TA_LC eq {/x0 xo                def /y0 yo .5 yyl  mul sub def} if
+  /x1 x0 xxl add def /y1 y0 yyl add def np x0 y0 m x1 y0 l
+  x1 y1 l x0 y1 l closepath
+  fill?   {gsave rTFiC gTFiC bTFiC setrgbcolor fill grestore} if
+  stroke? {gsave rTFrC gTFrC bTFrC setrgbcolor stroke grestore} if } def
+/setTextProperties {    % pt lorg  fill?  stroke?
+  /stroke? xdef /fill? xdef /lorg xdef SetMyFont } def
+/myshow {                            % string
+  /myempty save def
+  /str xdef str length /strlen xdef /strind 0 def
+  { strind strlen ge {exit} if       % exit if no more characters
+    str strind get 126 eq               % get next char; is it '~'
+     { str strind 1 add dup /strind xdef get dup dup dup dup 3 copy  % next ch 7x
+       35 eq { fsize sdiv fname getfont } if                       % ~#
+       36 eq { fsize /Symbol findfont exch scalefont setfont } if  % ~$
+       37 eq { (\275) show } if                                    % ~%
+      115 eq { (\373) show } if                                    % ~s
+      126 eq { (~) show } if                                       % ~~
+       94 eq { str strind 1 add dup /strind xdef 1 getinterval
+               superscript } if                                    % ~^
+       95 eq { str strind 1 add dup /strind xdef 1 getinterval
+               subscript } if                                      % ~_
+       34 eq { str strind 1 add dup /strind xdef 1 getinterval dup
+               show currentpoint 3 -1 roll stringwidth pop -2 div
+               (\310) stringwidth pop -2 div add 0 rm
+               str strind get 90 le { 0 .2 fsize mul rm } if
+               (\310) show m } if }                                % ~"
+     { str strind 1 getinterval show } ifelse
+    /strind strind 1 add def
+  } loop currentpoint myempty restore m } def
+/mystringwidth {                            % string - wx wy (dev)
+  /myempty save def
+  /str xdef str length /strlen xdef /strind 0 def /wx 0 def
+  { strind strlen ge {exit} if       % exit if no more characters
+    str strind get 126 eq               % get next char; is it '~'
+     {
+       str strind 1 add dup /strind xdef get dup dup 3 copy  % next char 6x
+       36 eq { fsize /Symbol findfont exch scalefont setfont } if  % ~$
+       35 eq { fsize sdiv fname getfont } if                       % ~#
+      115 eq { (\373) stringwidth pop wx add /wx xdef } if         % ~s
+      126 eq { (~) stringwidth pop wx add /wx xdef } if            % ~~
+       94 eq exch 95 eq or { str strind 1 add dup /strind xdef 1 getinterval
+               stringwidth pop .6 mul wx add /wx xdef } if         % ~^ or ~_
+      }
+      { str strind 1 getinterval stringwidth pop wx add /wx xdef }  ifelse
+    /strind strind 1 add def
+  } loop  wx 0
+  myempty restore } def
+/showlabl {				% x0 y0 (hlp)
+  hlp-dev /yo xdef /xo xdef labl length /nl xdef /xw 0 def
+  (H) stringwidth pop 1.5 mul /yinc xdef
+  labl { mystringwidth pop /wx xdef wx xw gt {/xw wx def} if } forall
+  /xxl xw yinc add def /yyl nl .25 add yinc mul def
+  lblcoord  /# 0 def
+  labl {mystringwidth pop /xslen xdef leftlbl? {/xslen xw def} if
+        x0 xxl xslen sub 2 div add   y1 # 1 add yinc mul sub   m
+        labl # get myshow /# # 1 add def} forall
+  tic? {xo yo tic} if  } def
+/showstring { 				% (string) x0 y0 (hlp)
+  hlp-dev /yo xdef /xo xdef /yyl (H) stringwidth pop 2.2 mul def 
+  dup mystringwidth pop yyl 2 div add /xxl xdef
+  lblcoord x0 yyl 4 div add   y0 yyl .3 mul add  m  myshow
+  tic? {xo yo tic} if } def
+/showString { 				% (string) x0 y0 (hlp)
+  hlp-dev /yo xdef /xo xdef /yyl (H) stringwidth pop 1.9 mul def 
+  dup mystringwidth pop yyl 0.20 mul add /xxl xdef lblcoord
+  x0 yyl 0.015 mul add y0 yyl .25 mul add  m myshow } def
+/vertlabl {				% x0 y0 (hlp)
+  gsave hlp-dev translate 90 rotate xli yli showlabl grestore } def
+/rotlabl {				% ang x0 y0 (hlp)
+  gsave hlp-dev translate rotate xli yli showlabl grestore } def
+/rotatedText {			% (string) ang x0 y0 (hlp)
+  gsave hlp-dev translate rotate xli yli showString grestore } def
+/clipRotatedText {		% ang x0 y0 (hlp)
+  hlp-dev /y0 xdef /x0 xdef dup cos /fC xdef sin /fS xdef
+  /xxl xxl 1.15 mul def /yyl yyl 0.5 mul def usrframepath
+  /x1 fS yyl mul  0.5 mul  fC xxl mul 0.5 mul sub x0 add def
+  /y1 fS xxl mul -0.5 mul  fC yyl mul 0.5 mul sub y0 add def
+  x1                  y1                              m
+  fS yyl mul -1 mul   fC yyl mul  1  mul              rl
+  fC xxl mul          fS xxl mul  1  mul              rl
+  fS yyl mul          fC yyl mul -1  mul              rl
+  x1                  y1                              l   clip } def
+/twoplabl {				% x1 y1 x2 y2 (hlp)
+  hlp-dev /y2 xdef /x2 xdef  hlp-dev /y1 xdef /x1 xdef
+  /num y2 y1 sub def /den x2 x1 sub def
+  num den mul 0 ne { num den atan /ang xdef
+  ang 90 gt ang 270 lt and  {/ang ang 180 sub def} if
+  ang x1 x2 mean y1 y2 mean dev-hlp rotlabl } if  } def
+/tic {					% -
+  np m (0) stringwidth pop .6 mul /ticlen xdef
+  lorg TA_CU eq {/xdel  0        def /ydel -1 ticlen mul  def} if
+  lorg TA_CL eq {/xdel  0        def /ydel  1 ticlen mul  def} if
+  lorg TA_RC eq {/xdel -1 ticlen mul  def /ydel  0  def} if
+  lorg TA_LC eq {/xdel  1 ticlen mul  def /ydel  0  def} if
+  xdel ydel rl stroke } def
+%					ARROWS, DOTS AND OTHER SYMBOLS
+%new stroke arrows below
+/unitarrow { np  -0.5 0 m 1 0 rl
+  0.25 0.075 m 0.5 0 l 0.25 -0.075 l stroke } def
+/arrow {				% alength (ul) angle x0 y0 (hlp)
+  gsave hlp-dev translate rotate lenfak mul ul-pt dup dup
+  scale currentlinewidth exch div setlinewidth unitarrow grestore } def
+/unitdot { np 0 0 1 0 360 arc fill? { Fill } if stroke } def
+
+/dotr { smul 3 1 roll			% x y (usr) radius (pt)
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitdot grestore } def
+/minidot { 0.8 dotr } def /smalldot { 1.4 dotr } def
+/meddot { 2.3 dotr } def /bigdot { 3.8 dotr } def /dot { smalldot } def
+/unitsqu { np -.82 -.82 m .82 -.82 l .82 .82 l -.82 .82 l closepath
+  fill? { Fill } if stroke } def
+/square { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitsqu grestore } def
+/minisqu { 0.9 square } def /smallsqu { 1.5 square } def
+/medsqu { 2.5 square } def /bigsqu { 4.0 square } def
+/unitdiam { np 0 -1.32 m .98 0 l 0 1.32 l -.98 0 l closepath
+  fill? { Fill } if stroke } def
+/diam { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitdiam grestore } def
+/minidiam { 1.2 diam } def /smalldiam { 1.9 diam } def
+/meddiam { 3.2 diam } def /bigdiam { 5 diam } def
+/unitplus { np 0 -1 m 0 1 l  -1 0 m 1 0 l stroke } def
+/plusr { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitplus grestore } def
+/miniplus { 1.2 plusr } def /smallplus { 1.9 plusr } def
+/medplus { 3.2 plusr } def /bigplus { 5 plusr } def /plus { medplus } def
+/unitx { np -.9 -.9 m .9 .9 l  .9 -.9 m -.9 .9 l stroke } def
+/xr { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitx grestore } def
+/minix { 0.9 xr } def /smallx { 1.5 xr } def /medx { 2.5 xr } def
+/bigx { 4 xr } def
+/unitstar { np -.7 -.7 m .7 .7 l  .7 -.7 m -.7 .7 l
+  -1 0 m 1 0 l  0 -1 m 0 1 l stroke } def
+/starr { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unitstar grestore } def
+/ministar { 1.2 starr } def /smallstar { 1.6 starr } def
+/medstar { 2.5 starr } def /bigstar { 4 starr } def
+/unittrian { np -1.12 -.59 m 1.12 -.59 l 0 1.45 l
+  closepath fill? { Fill } if stroke } def
+/trianr { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale
+ currentlinewidth exch div setlinewidth unittrian grestore } def
+/minitrian { 1.0 trianr } def /smalltrian { 1.3 trianr } def
+/medtrian { 2.2 trianr } def /bigtrian { 3.5 trianr } def
+/utrianr { smul 3 1 roll
+ gsave projection hlp-dev translate dup dup scale 180 rotate
+ currentlinewidth exch div setlinewidth unittrian grestore } def
+/miniutrian { 1.0 utrianr } def /smallutrian { 1.3 utrianr } def
+/medutrian { 2.2 utrianr } def /bigutrian { 3.5 utrianr } def
+%					BOXES
+/bar {					% xul, yul, xor, yor (hlp)
+  2 copy hlp-dev 6 3 roll exch 6 1 roll sub rxh-d
+  5 -2 roll sub ryh-d box } def
+/box {					% x0, y0, xlen, ylen (dev)
+  /myempty save def /yl xdef /xl xdef /y0 xdef /x0 xdef
+  np x0 y0 m xl 0 rl 0 yl rl xl -1 mul 0 rl closepath
+  fill? { Fill } if stroke? { stroke } if myempty restore  } def
+/blackbox {				% x0, y0, xlen, ylen (dev)
+  gsave           /fill? true def /stroke? true def box grestore } def
+/whitebox {				% x0, y0, xlen, ylen (dev)
+  gsave 1 setgray /fill? true def /stroke? false def 4 copy box
+  grestore gsave /fill? false def /stroke? true def box grestore } def
+%
+/xmapframe {				% xstart, xinc (hlp)
+  /myempty save def very_thin_line
+  rxh-d abs /xinc xdef xh-d /xstart xdef
+%  /width [ x@ y@ mean 3.5e-3 mul 1.0 ] maximum def
+  /width [ x@ y@ mean 9.0e-3 mul 1.5 ] maximum def
+  /xleft xli xh-d width sub def /xright xre xh-d def
+  /ydown yli yh-d width sub def /yup yre yh-d def
+  xleft ydown width width whitebox  xright ydown width width whitebox
+  xleft yup   width width whitebox  xright yup   width width whitebox
+  xstart           xinc  2 mul   xright
+  {/x xdef /xdist [ xinc xright x sub ] minimum def
+      x      ydown xdist  width blackbox
+      x      yup   xdist  width blackbox   } for
+  xstart xinc add  xinc  2 mul   xright
+  {/x xdef /xdist [ xinc xright x sub ] minimum def
+      x      ydown xdist  width whitebox
+      x      yup   xdist  width whitebox   } for
+  xstart           xinc -2 mul   xleft  width add
+  {/x xdef /xdist [ xinc -1 mul xli xh-d x sub ] maximum def
+      x      ydown xdist  width whitebox
+      x      yup   xdist  width whitebox   } for
+  xstart xinc add  xinc -2 mul   xleft  width add
+  {/x xdef /xdist [ xinc -1 mul xli xh-d x sub ] maximum def
+      x      ydown xdist  width blackbox
+      x      yup   xdist  width blackbox   } for
+  myempty restore } def
+/ymapframe {				% ystart, yinc (hlp)
+  /myempty save def very_thin_line
+  ryh-d abs /yinc xdef yh-d /ystart xdef
+%  /width [ x@ y@ mean 3.5e-3 mul 1.0 ] maximum def
+  /width [ x@ y@ mean 9.0e-3 mul 1.5 ] maximum def
+  /xleft xli xh-d width sub def /xright xre xh-d def
+  /ydown yli yh-d width sub def /yup yre yh-d def
+  ystart           yinc  2 mul   yup
+  {/y xdef /ydist [ yinc yre yh-d y sub ] minimum def
+      xleft  y     width ydist blackbox
+      xright y     width ydist blackbox   } for
+  ystart yinc add  yinc  2 mul   yup
+  {/y xdef /ydist [ yinc yre yh-d y sub ] minimum def
+      xleft  y     width ydist whitebox
+      xright y     width ydist whitebox   } for
+  ystart           yinc -2 mul   ydown width add
+  {/y xdef /ydist [ yinc -1 mul yli yh-d y sub ] maximum def
+      xleft  y     width ydist whitebox
+      xright y     width ydist whitebox   } for
+  ystart yinc add  yinc -2 mul   ydown width add
+  {/y xdef /ydist [ yinc -1 mul yli yh-d y sub ] maximum def
+      xleft  y     width ydist blackbox
+      xright y     width ydist blackbox   } for
+  myempty restore } def
+/xmaplabl {				% (string) x (hlp)
+  /myempty save def /stroke? false def /fill? false def
+  /width [ x@ y@ mean 3.5e-3 mul 1.75 ] maximum def
+  /ydown yli yh-d width sub def /yup yre yh-d def
+  /x xdef /str xdef /lorg TA_CU def str x xh-d ydown dev-hlp showstring
+  myempty restore } def
+/ymaplabl {				% (string) y (hlp)
+  /myempty save def /stroke? false def /fill? false def
+  /width [ x@ y@ mean 3.5e-3 mul 1.75 ] maximum def
+  /xleft xli xh-d width sub def /xright xre xh-d def
+  /y xdef /str xdef /lorg TA_RC def str xleft y yh-d dev-hlp showstring
+  myempty restore } def
+/unitAWIstar { np 
+    0  1.5 m -0.273  0.667 l -1.061  1.061 l -0.667  0.273 l
+ -1.5    0 l -0.667 -0.273 l -1.061 -1.061 l -0.273 -0.667 l
+    0 -1.5 l  0.273 -0.667 l  1.061 -1.061 l  0.667 -0.273 l
+  1.5    0 l  0.667  0.273 l  1.061  1.061 l  0.273  0.667 l 0 1.5 l
+  closepath fill } def
+/AWIstarr {              % x y (usr) size (pt)
+  smul 3 1 roll  gsave 
+  projection hlp-dev translate dup scale unitAWIstar grestore } def
+/AWI_logo {	         % size [cm] angle xcenter ycenter (hlp)
+  gsave 0.0 0.42 0.65 setrgbcolor
+  hlp-dev translate rotate 4.3 div smul dup scale 2.5 setlinewidth
+  62 68 dev-hlp 10 sdiv AWIstarr
+  np -61 0 moveto 61 0 lineto 0 -61 moveto 0 61 lineto stroke
+  np 0   0 61 0 360 arc stroke
+  np 0 -45 15 0 360 arc fill
+  np 0  45 15 0 360 arc fill
+  np 0   0 61 0 360 arc clip
+  np 0 -19 64 0 360 arc stroke
+  np 0  19 64 0 360 arc stroke
+  np  18.75 0 48.75 0 360 arc stroke
+  np -18.75 0 48.75 0 360 arc stroke
+  np -10  53 moveto -17  58 lineto
+          -10 -53 moveto -17 -58 lineto stroke
+  np  10  53 moveto  17  58 lineto
+           10 -53 moveto  17 -58 lineto stroke
+  grestore } def
+%                                       COLOR & SHADING
+/C { dup red exch get exch dup gre
+     exch get exch blu exch get setrgbcolor } bind def
+/E { np dup yg exch 1 add get exch yg exch get
+     dup xll exch M xur exch L dup xur exch L xll exch L
+     gsave fill grestore stroke } bind def
+/G { C dup E 1 add } bind def /g { dup E 1 add } bind def /j { 1 add } bind def
+/T { C np dup dely add exch dup xll exch M
+     dup xur exch L exch dup xur exch L dup xll
+     exch L exch xll exch L fill } bind def
+%%EndProlog

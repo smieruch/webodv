@@ -1,0 +1,23 @@
+	-----File Import Start
+	
+	>>Collection:	C:/Users/rschlitz/atmp/Dirty_Dataset
+	
+	Variables:
+		1: Depth [m]	
+		2: Temperature [°C]	
+		3: Salinity [psu]	
+		4: Oxygen [ml/l]	
+		5: Phosphate [~$m~#mol/l]	
+		6: Silicate [~$m~#mol/l]	
+		7: Nitrate [~$m~#mol/l]	
+		8: pH	
+		9: Chlorophyll [~$m~#g/l]	
+	
+	ADD file: C:/Users/rschlitz/atmp/Dirty_Dataset.txt
+	10622 station(s) processed successfully; 0 station(s) failed.
+	
+	
+	-----File Import End
+	
+	
+	IMPORT FILE SUMMARY: Total=1	Used=1

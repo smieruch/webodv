@@ -1,0 +1,22 @@
+ODV4.0 Macro
+Estimation of anthropoganic CO2 using TrOCA.
+
+Touratier, F., L. Azouzi, and C. Goyet, 2007.
+CFC-11, Delta-14C and 3H tracers as a means to assess anthropogenic CO2
+concentrations in the ocean. Tellus B, 59, 318-325.
+
+>|--->----------------------------------------------------------|>--|
+     C~_A~_N~_T-TrOCA(Tellus07) [umol/kg]                         8.2
+#1   POTTEMP [DEG.C]                                             
+#2   OXYGEN [UMOL/KG]                                            
+#3   TCARBN [UMOL/KG]                                            
+#4   ALKALI [UMOL/KG]                                            
+
+#2 
+1.279 #3 #4 0.5 * - * 
++ 
+7.511  0.01087 #1 * - 7.81e5 #4 #4 * / - exp 
+-
+1.279 / 
+
+

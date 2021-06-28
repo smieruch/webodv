@@ -1,0 +1,13 @@
+ODV4.0 Macro
+Touratier, F. and C. Goyet, 2004
+Definition, properties, and Atlantic Ocean distribution of the new tracer TrOCA.
+Journal of Marine Systems, 46, 169.
+
+>|--->----------------------------------------------------------|>--|
+     TrOCA [~$m~#mol/kg]                                          8.2
+#1   Oxygen [~$m~#mol/kg]                                        
+#2   TCO~_2 [~$m~#mol/kg]                                        
+#3   TALK [~$m~#mol/kg]                                          
+
+#1 1.2 #2 * + 0.6 #3 * -
+

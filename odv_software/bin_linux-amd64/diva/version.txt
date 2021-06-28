@@ -1,0 +1,8 @@
+[general]
+compiler = gfortran 9.2.1
+generopt command = gfortran-9 -O3 -static -x f77-cpp-input -DDIVABINARYFILESMESH -o generopt generopt.f
+diva command = gfortran-9 -O3 -static -x f77-cpp-input -DDIVABINARYFILESMESH -DDIVABINARYFILES -o diva diva.f allody.f bcondi.f bilinin.f constr.f coord.f covar.f datapr.f dataqc.f esterr.f findca.f gcvfac.f mathpr.f newsolver.f optimi.f repeltest.f shapef.f solver.f sourcepr.f stores.f topolo.f ureadc.f utilit.f uur.f uwrit2.f varl.f vtools.f
+
+[versions]
+diva version = v4.6.1 - unformatted files
+generopt version = v4.4.2 - unformatted files

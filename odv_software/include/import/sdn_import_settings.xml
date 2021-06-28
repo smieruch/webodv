@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+ <Contents>
+   <AutoQualifiers>
+     <Entry code="LifeStage" value=":INDEXED_TEXT" /> 
+     <Entry code="SampleID" value=":INDEXED_TEXT" /> 
+     <Entry code="ScientificName" value=":INDEXED_TEXT" /> 
+     <Entry code="ScientificNameID" value=":INDEXED_TEXT" /> 
+     <Entry code="Sex" value=":INDEXED_TEXT" /> 
+     <Entry code="SubsampleID" value=":INDEXED_TEXT" />
+     <Entry code="EventID" value=":INDEXED_TEXT" />
+     <Entry code="SamplingProtocol" value=":INDEXED_TEXT" />
+     <Entry code="EventStartDateTime" value=":INDEXED_TEXT" />
+     <Entry code="EventEndDateTime" value=":INDEXED_TEXT" />
+   </AutoQualifiers>
+   <Labels>
+     <Entry code="SDN:P01::ADEPZZ01" value="Depth" /> 
+     <Entry code="SDN:P01::DEPHFP01" value="Depth" /> 
+     <Entry code="SDN:P01::DEPHTC01" value="Depth" /> 
+     <Entry code="SDN:P01::PRESPR01" value="Pressure" /> 
+     <Entry code="SDN:P01::PRESPS01" value="Pressure" /> 
+     <Entry code="SDN:P01::PRESPS02" value="Pressure" /> 
+     <Entry code="SDN:P01::CAPASS01" value="Air pressure" /> 
+     <Entry code="SDN:P01::CAPHZZ01" value="Air pressure" /> 
+     <Entry code="SDN:P01::COREDIST" value="Depth below seabed" /> 
+     <Entry code="SDN:P06::KGUM" value="umol/kg" />
+     <Entry code="SDN:P06::MLM3" value="mol/m^3" />
+     <Entry code="SDN:P06::MMPL" value="mmol/l" />
+     <Entry code="SDN:P06::UABB" value="deg T" /> 
+     <Entry code="SDN:P06::UECA" value="S/m" /> 
+     <Entry code="SDN:P06::UEQL" value="uEquiv/l" />
+     <Entry code="SDN:P06::MEQL" value="mEquiv/l" /> 
+     <Entry code="SDN:P06::MEKG" value="mEquiv/kg" /> 
+     <Entry code="SDN:P06::UFFU" value="FFU" /> 
+     <Entry code="SDN:P06::UGKG" value="g/kg" />
+     <Entry code="SDN:P06::UGPL" value="ug/l" />
+     <Entry code="SDN:P06::UKMC" value="kg/m^3" /> 
+     <Entry code="SDN:P06::ULAA" value="m" />
+     <Entry code="SDN:P06::UMES" value="uE/m^2/s" /> 
+     <Entry code="SDN:P06::UMGL" value="mg/l" />
+     <Entry code="SDN:P06::UMKG" value="mg/kg" />
+     <Entry code="SDN:P06::UMLL" value="ml/l" />
+     <Entry code="SDN:P06::UMMC" value="mg/m^3" />
+     <Entry code="SDN:P06::UNGL" value="ng/l" />
+     <Entry code="SDN:P06::UPAA" value="degrees C" />
+     <Entry code="SDN:P06::UPBB" value="mBar" />
+     <Entry code="SDN:P06::UPCT" value="%" /> 
+     <Entry code="SDN:P06::UPDB" value="dBar" />
+     <Entry code="SDN:P06::UPNM" value="nmol/l" />
+     <Entry code="SDN:P06::UPOX" value="umol/l" />
+     <Entry code="SDN:P06::UPPT" value="per mille" />
+     <Entry code="SDN:P06::USTU" value="NTU" /> 
+     <Entry code="SDN:P06::UTAA" value="days" />
+     <Entry code="SDN:P06::UTBB" value="seconds" /> 
+     <Entry code="SDN:P06::UUPH" value="pH units" />
+     <Entry code="SDN:P06::UUUU" value="dimensionless" />
+     <Entry code="SDN:P06::UVAA" value="m/s" /> 
+     <Entry code="SDN:P06::UVBB" value="cm/s" /> 
+     <Entry code="SDN:P06::UUKG" value="~$m~#g/kg" /> 
+     <Entry code="SDN:P06::USPC" value="Not specified" />
+   </Labels>
+   <PrimaryVarAttributes>
+     <Entry code="SDN:P01::ADEPZZ01" value="ocean_depth_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::DEPHFP01" value="ocean_depth_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::DEPHTC01" value="ocean_depth_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::DEPHPR01" value="ocean_depth_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::MINDPCDI" value="ocean_minimum_depth_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::PRESPR01" value="ocean_pressure_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::PRESPS01" value="ocean_pressure_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::PRESPS02" value="ocean_pressure_profiles,Ocean,Profiles" /> 
+     <Entry code="SDN:P01::CAPASS01" value="atmosphere_pressure_profiles,Atmosphere,Profiles" /> 
+     <Entry code="SDN:P01::CAPHZZ01" value="atmosphere_pressure_profiles,Atmosphere,Profiles" /> 
+     <Entry code="SDN:P01::COREDIST" value="sediment_depth_profiles,Sediment,Profiles" /> 
+     <Entry code="SDN:P01::DTUT8601" value="time_series,GeneralField,TimeSeries" /> 
+     <Entry code="SDN:P01::CJDY1101" value="time_series_CJD,GeneralField,TimeSeries" /> 
+   </PrimaryVarAttributes>
+ </Contents>
+ 

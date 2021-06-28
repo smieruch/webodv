@@ -1,0 +1,621 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>ODV4 - Getting Started</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:AdvTimes;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:AdvTimes-i;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Überschrift 1 Zchn";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:16.0pt;
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-style:italic;}
+h2
+	{mso-style-link:"Überschrift 2 Zchn";
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:28.8pt;
+	text-indent:-28.8pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-style:italic;}
+h3
+	{mso-style-link:"Überschrift 3 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+h4
+	{mso-style-link:"Überschrift 4 Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Überschrift 5 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+h6
+	{mso-style-link:"Überschrift 6 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Überschrift 7 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Überschrift 8 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Überschrift 9 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Kopfzeile Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Fußzeile Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Textkörper Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Sprechblasentext Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria",serif;
+	color:#365F91;
+	font-weight:bold;}
+span.SprechblasentextZchn
+	{mso-style-name:"Sprechblasentext Zchn";
+	mso-style-link:Sprechblasentext;
+	font-family:"Tahoma",sans-serif;}
+span.berschrift1Zchn
+	{mso-style-name:"Überschrift 1 Zchn";
+	mso-style-link:"Überschrift 1";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.berschrift2Zchn
+	{mso-style-name:"Überschrift 2 Zchn";
+	mso-style-link:"Überschrift 2";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.berschrift3Zchn
+	{mso-style-name:"Überschrift 3 Zchn";
+	mso-style-link:"Überschrift 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.berschrift4Zchn
+	{mso-style-name:"Überschrift 4 Zchn";
+	mso-style-link:"Überschrift 4";
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.berschrift5Zchn
+	{mso-style-name:"Überschrift 5 Zchn";
+	mso-style-link:"Überschrift 5";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.berschrift6Zchn
+	{mso-style-name:"Überschrift 6 Zchn";
+	mso-style-link:"Überschrift 6";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.berschrift7Zchn
+	{mso-style-name:"Überschrift 7 Zchn";
+	mso-style-link:"Überschrift 7";
+	font-family:"Times New Roman",serif;}
+span.berschrift8Zchn
+	{mso-style-name:"Überschrift 8 Zchn";
+	mso-style-link:"Überschrift 8";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.berschrift9Zchn
+	{mso-style-name:"Überschrift 9 Zchn";
+	mso-style-link:"Überschrift 9";
+	font-family:"Arial",sans-serif;}
+span.TextkrperZchn
+	{mso-style-name:"Textkörper Zchn";
+	mso-style-link:Textkörper;
+	font-family:"Times New Roman",serif;}
+span.KopfzeileZchn
+	{mso-style-name:"Kopfzeile Zchn";
+	mso-style-link:Kopfzeile;
+	font-family:"Times New Roman",serif;}
+span.FuzeileZchn
+	{mso-style-name:"Fußzeile Zchn";
+	mso-style-link:Fußzeile;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-top:12.0pt;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:0cm;text-align:center'><b><span lang=DE
+style='font-size:36.0pt;font-family:"Cambria",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-top:12.0pt;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:0cm;text-align:center'><b><span
+style='font-size:36.0pt;font-family:"Cambria",serif'>Infix-to-Postfix Converter</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:28.0pt;font-family:"Cambria",serif'>Version 1.0</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:28.0pt;font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:22.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:16.0pt;font-family:"Cambria",serif'>October 24, 2017</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='font-size:18.0pt;font-family:"Cambria",serif'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><span style='font-size:28.0pt;font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<b><i><span style='font-size:14.0pt;font-family:"Cambria",serif;color:#4F81BD'><br
+clear=all style='page-break-before:always'>
+</span></i></b>
+
+<p class=MsoNormal style='margin-top:12.0pt;page-break-after:avoid'><b><i><span
+style='font-size:14.0pt;font-family:"Cambria",serif;color:#4F81BD'>&nbsp;</span></i></b></p>
+
+<h1><a name="_Toc256440291"></a><a name="_Toc256439995">1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>General Information</a></h1>
+
+<p class=MsoNormal style='margin-top:12.0pt;page-break-after:avoid'><i><span
+style='font-family:"Cambria",serif'>Infix2Postfix</span></i><span
+style='font-family:"Cambria",serif'> is an application for the conversion of
+mathematical expressions from so-called </span><span lang=DE><a
+href="http://en.wikipedia.org/wiki/Infix_notation"><span lang=EN-US
+style='font-family:"Cambria",serif'>Infix Notation</span></a></span><span
+style='font-family:"Cambria",serif'> to </span><span lang=DE><a
+href="http://en.wikipedia.org/wiki/Reverse_Polish_notation"><span lang=EN-US
+style='font-family:"Cambria",serif'>Postfix Notation</span></a></span><span
+style='font-family:"Cambria",serif'>. Infix notation is the common arithmetic
+and logical formula notation, in which operators are written infix-style
+between the operands they act on (e.g. 2 <b>+</b> 2), while postfix notation is
+a mathematical notation wherein every operator follows all of its operands.
+Postfix notation (also called Reverse Polish notation) is needed in </span><span
+lang=DE><a href="http://odv.awi.de/"><span lang=EN-US style='font-family:"Cambria",serif'>Ocean
+Data View</span></a></span><span style='font-family:"Cambria",serif'> (ODV)
+expressions and macros. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;page-break-after:avoid'><span
+style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='page-break-after:avoid'><span style='font-family:
+"Cambria",serif'><img border=0 width=335 height=291 id="Grafik 1"
+src="Infix2Postfix-Dateien/image001.jpg" alt=Infix2Postfix.gif></span></p>
+
+<p class=MsoCaption style='margin-top:12.0pt'><i><span style='font-family:"Cambria",serif;
+color:windowtext;font-weight:normal'>Figure </span></i><i><span
+style='font-family:"Cambria",serif;color:windowtext;font-weight:normal'>1</span></i><i><span
+style='font-family:"Cambria",serif;color:windowtext;font-weight:normal'>&#8209;</span></i><i><span
+style='font-family:"Cambria",serif;color:windowtext;font-weight:normal'>1</span></i><i><span
+style='font-family:"Cambria",serif;color:windowtext;font-weight:normal'>: The
+Infix2Postfix application window.</span></i></p>
+
+<p class=MsoNormal style='margin-top:18.0pt'><span style='font-family:"Cambria",serif'>The
+normal way of using <i>Infix2Postfix</i> is to enter an infix expression in the
+upper text field (see Figure 1-1). Pressing the <i>Translate</i> button will
+convert the infix expressing and will put the corresponding postfix notation in
+the lower text field. Pressing the <i>Copy to Clipboard</i> button will place
+the postfix expression on the system’s clipboard, then allowing pasting it into
+the ODV <i>Expression</i> and <i>Macro</i> edit dialogs. Pressing <i>Help</i>
+will display this document.</span></p>
+
+<h2>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Infix Expressions</h2>
+
+<p class=MsoBodyText><span style='font-family:"Cambria",serif'>In infix
+expressions<span style='color:black'> you<b> </b>can </span>use the operators </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>+ - * / **</span></b><span
+style='font-family:"Cambria",serif'> (</span><b><span style='font-size:11.0pt;
+font-family:Consolas'>^</span></b><span style='font-family:"Cambria",serif'>
+may be used instead of </span><b><span style='font-size:11.0pt;font-family:
+Consolas'>**</span></b><span style='font-family:"Cambria",serif'>) for the
+basic arithmetic operations, </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>sqrt</span></b><span style='font-family:"Cambria",serif'>
+for the square root, </span><b><span style='font-size:11.0pt;font-family:Consolas'>ln</span></b><span
+style='font-family:"Cambria",serif'> and </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>exp</span></b><span style='font-family:"Cambria",serif'>
+for the natural logarithm and exponential, </span><b><span style='font-size:
+11.0pt;font-family:Consolas'>log</span></b><span style='font-family:"Cambria",serif'>
+for the base-10 logarithm, </span><b><span style='font-size:11.0pt;font-family:
+Consolas'>sin</span></b><span style='font-family:"Cambria",serif'> and </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>cos</span></b><span
+style='font-family:"Cambria",serif'> for sine and cosine (arguments in radians),
+</span><b><span style='font-size:11.0pt;font-family:Consolas'>abs</span></b><span
+style='font-family:"Cambria",serif'> for the absolute value, and </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>int</span></b><span
+style='font-family:"Cambria",serif'>, </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>floor</span></b><span style='font-family:"Cambria",serif'>,
+</span><b><span style='font-size:11.0pt;font-family:Consolas'>ceil</span></b><span
+style='font-family:"Cambria",serif'> for integer parts of the argument.<b><i> </i></b>Use<b><i>
+</i></b></span><b><span style='font-size:11.0pt;font-family:Consolas'>min</span></b><span
+style='font-family:"Cambria",serif'> and </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>max</span></b><span style='font-family:"Cambria",serif'>
+for the minimum and maximum of two operands.</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-family:"Cambria",serif'>As
+operands you use numbers or terms of the form </span><b><span style='font-size:
+11.0pt;font-family:Consolas'>#1</span></b><span style='font-family:"Cambria",serif'>,<b><i>
+</i></b></span><b><span style='font-size:11.0pt;font-family:Consolas'>#2</span></b><span
+style='font-family:"Cambria",serif'>,<b><i> </i></b>…, </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>#9</span></b><span
+style='font-family:"Cambria",serif'> to reference the values of the input
+variables 1 up to 9. Use the </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>%H</span></b><span style='font-family:"Cambria",serif'>
+for the elevation at the station position (given in meters above sea level;
+positive for land and negative for ocean), </span><b><span style='font-size:
+11.0pt;font-family:Consolas'>%t</span></b><span style='font-family:"Cambria",serif'>
+&nbsp;for the time of observation (in years since 1900 calculated from station
+date and time metadata; e.g., %t=84.4877 for June 27 1984), </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>%d</span></b><span
+style='font-family:"Cambria",serif'> for the day of the year&nbsp; (also
+calculated from station date metadata), </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>%x</span></b><span style='font-family:"Cambria",serif'>&nbsp;
+for the (east-) longitude and </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>%y</span></b><span style='font-family:"Cambria",serif'>
+for the (north-) latitude, respectively. Note that the elevation variable </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>%H</span></b><span
+style='font-family:"Cambria",serif'> is only available if the GEBCO1 and/or
+ETOPO2 optional packages are installed. Intermediate stored results can be
+accessed using the </span><b><span style='font-size:11.0pt;font-family:Consolas'>%0</span></b><span
+style='font-family:"Cambria",serif'>, </span><b><span style='font-size:11.0pt;
+font-family:Consolas'>%1</span></b><span style='font-family:"Cambria",serif'>,
+..., </span><b><span style='font-size:11.0pt;font-family:Consolas'>%9</span></b><span
+style='font-family:"Cambria",serif'> codes. This is explained further in the examples
+below. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<h1>2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Examples</h1>
+
+<h2>2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Tritium decay correction to 1980</h2>
+
+<p class=MsoBodyText>Assume that the seawater tritium concentration <i>c</i> at
+some location has been measured at some time <i>t</i>. For comparison reasons
+it is common practice to decay correct the actual values to a reference date <i>t<sub>0</sub></i>:</p>
+
+<p class=MsoBodyText><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+position:relative;top:3.0pt'><img width=109 height=20
+src="Infix2Postfix-Dateien/image002.png"></span>.</p>
+
+<p class=MsoBodyText><span style='font-size:11.0pt;font-family:"Cambria",serif'>With
+<i>#1</i> referring to the measured tritium concentration c, </span><i>t<sub>0</sub></i>=1980,
+<span style='font-family:Symbol'>t</span>=17.6 yrs and the time of observation
+given in ODV as <i>1900 + %t</i> the expression for <i>c<sub>0</sub></i> in
+infix notation is as follows:</p>
+
+<p class=MsoBodyText><i>#1*exp((1900+%t-1980)/17.6)</i>.</p>
+
+<p class=MsoBodyText>This is translated into the postfix sequence</p>
+
+<p class=MsoBodyText><b><span style='font-size:11.0pt;font-family:Consolas'>#1
+1900 %t + 1980 - 17.6 / exp *</span></b></p>
+
+<p class=MsoBodyText><span style='font-family:"Cambria",serif'>which can pasted
+into the ODV <i>Expression</i> and <i>Macro</i> edit dialogs.</span></p>
+
+<h2>2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Solubility of gases in seawater</h2>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-family:"Cambria",serif'>The
+</span><span style='font-family:"Cambria",serif'>partial pressure equilibrium
+constant <i>K’</i> of a gas is frequently expressed in the following form:</span></p>
+
+<p class=MsoBodyText><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoBodyText><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+width=522 height=44 src="Infix2Postfix-Dateien/image003.png"></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><span
+style='font-family:"Cambria",serif'>where </span><i><span style='font-family:
+"Cambria",serif'>T</span></i><span style='font-family:"Cambria",serif'> </span><span
+style='font-family:"Cambria",serif'>is the absolute temperature, </span><i><span
+style='font-family:"Cambria",serif'>S</span></i><span style='font-family:"Cambria",serif'>
+</span><span style='font-family:"Cambria",serif'>is the salinity and the <i>a<sub>i</sub></i>
+and <i>b<sub>i</sub></i> are experimentally determined constants. It is
+convenient to pre-compute the recurring term </span><span
+lang=DE style='font-size:12.0pt;font-family:"Times New Roman",serif;position:
+relative;top:6.5pt'><img width=35 height=29
+src="Infix2Postfix-Dateien/image004.png"></span><span style='font-family:"Cambria",serif'> as
+(</span><span lang=DE style='font-size:12.0pt;font-family:"Times New Roman",serif;
+position:relative;top:3.0pt'><img width=127 height=19
+src="Infix2Postfix-Dateien/image005.png"></span><span style='font-family:"Cambria",serif'> (infix
+notation assuming #1 refers to measured temperature in degrees C). This
+expression translates into the postfix sequence </span><b><span
+style='font-size:11.0pt;font-family:Consolas'>#1 273.15 + 100 /</span></b>. In
+ODV expressions and macros such intermediate results can be stored in numbered
+variables <i>%0</i>, <i>%1</i>, …, <i>%9</i> using the <span style='font-family:
+"Cambria",serif'>operators<b> </b><i>=%0, =%1, </i>…,<i> =%9</i> like this:</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><b><span
+style='font-size:11.0pt;font-family:Consolas'>#1 273.15 + 100 / =%0</span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><span
+style='font-family:"Cambria",serif'>With <i>%0</i> now holding</span><span
+lang=DE style='font-size:12.0pt;font-family:"Times New Roman",serif;position:
+relative;top:6.5pt'><img width=39 height=29
+src="Infix2Postfix-Dateien/image006.png"></span><span style='font-family:"Cambria",serif'>,
+#2 referring to salinity and using some </span><i><span style='font-family:
+"Cambria",serif'>a<sub>i</sub></span></i><span style='font-family:"Cambria",serif'>
+and <i>b<sub>i</sub></i> from the literature</span><span style='font-family:
+"Cambria",serif'> the above equation can be written as</span><span
+style='font-family:"Cambria",serif'>:</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><span
+style='font-size:10.0pt;font-family:"Cambria",serif'>ln(K’) = -82.1639
++120.152&#8260;%0 +30.6372*ln(%0) + #2*(0.02932 -0.035197*%0 +0.0074*%0*%0).</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><span
+style='font-family:"Cambria",serif'>This translates into the postfix sequence</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;page-break-after:avoid;text-autospace:
+none'><b><span style='font-size:11.0pt;font-family:Consolas'>0 82.1639 -
+120.152 %0 / + 30.6372 %0 ln * + </span></b></p>
+
+<p class=MsoNormal style='page-break-after:avoid;text-autospace:none'><b><span
+style='font-size:11.0pt;font-family:Consolas'>#2 0.02932 0.035197 %0 * - 0.0074
+%0 * %0 * + * +</span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><span
+style='font-family:"Cambria",serif'>Overall the postfix expression for </span><span
+style='font-family:"Cambria",serif'>ln(K’) is:</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-autospace:none'><b><span
+style='font-size:11.0pt;font-family:Consolas'>#1 273.15 + 100 / =%0</span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span lang=DE
+style='font-size:11.0pt;font-family:Consolas'>0 82.1639 - 120.152 %0 / +
+30.6372 %0 ln * + </span></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span lang=DE
+style='font-size:11.0pt;font-family:Consolas'>#2 0.02932 0.035197 %0 * - 0.0074
+%0 * %0 * + * +</span></b></p>
+
+</div>
+
+</body>
+
+</html>

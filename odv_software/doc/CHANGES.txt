@@ -1,0 +1,2118 @@
+This is the Ocean Data View development history file.
+
+© 1990 - 2018	  Reiner Schlitzer,
+       	 	  Alfred Wegener Institute for Polar and Marine Research,
+		  Bremerhaven, Germany
+		  E-mail: Reiner.Schlitzer@awi.de
+
+-----------------------------------------------------------------------
+NOTE: If you use Ocean Data View for your scientific work,
+      please cite it in your publications as follows:
+
+      Schlitzer, R., Ocean Data View, https://odv.awi.de, 2018.
+
+COMMERCIAL USE:
+
+      If you plan to use Ocean Data View or any of its components for
+      commercial and/or military applications and products, you need
+      to obtain a software license. Please contact the address above
+      for further information.
+
+-----------------------------------------------------------------------
+
+
+
+***ODV Release 5.1.0  (Windows, MacOS, Linux)  Aug/07/2018:
+
+
+-- New flag Q in SEADATANET quality flag scheme.
+
+-- New '?' operator in ODV macros and expressions allows conditional
+   calculations based on availability of values for given input
+   variables.
+
+-- New "Best-of" P35 aggregation algorithm using only those
+   contributing values with the best available quality. The previous
+   "Use-all" algorithm using all available contributing values is
+   still available. Also new is the creation of per-sample info
+   strings containing the P01/P06 codes of contributing variables.
+
+   The new "P35 Aggregation Properties" dialog allows algorithm
+   selection and switching per-sample info creation on or off. This
+   dialog always appears at the beginning of a P35 aggregation.
+
+   P35 aggregation now only downloads the P35 vocabulary if a newer
+   version is available on the NERC vocab server.
+
+-- NetCDF exporter now uses 'byte' instead of 'char' for quality flag
+   data, and sets the 'standard_name' attribute to 'status_flag'. Also
+   supports the 'ancillary_variables' attribute. now also exports
+   string data variables and info strings. now uses chunking and
+   compression for all variables.
+
+   WARNING: ODV-created netCDF files now require netCDF4 for reading.
+
+-- New "String ID" derived variable, which for any TEXT or
+   INDEXED_TEXT meta or data variable provides integer ID values for
+   the different string values of the variable.
+
+-- New "Sample Filter" submenu provides options "Accept All Data",
+   "Reject Outliers" and "Customize Settings" (previously: "Sample
+   Selection Criteria"). The first two options are automatic and easy
+   to use. Option 3 provides the full control over all filter settings
+   as in previous ODV versions.
+
+-- New "Export>Station Data>SDN Harmonized ODV Collection" option
+   for unit conversions and harmonization of SDN data collections.
+
+-- Outlier list files created by "Tools > Find Outliers (Range Check)"
+   now also include values of the primary variable.
+
+-- Changed ODV file download URL to https.
+
+
+
+BUG FIXES
+
+-- Fixed inaccurate section distance calculations for very short
+   sections.
+
+-- Fixed crash when importing WHP exchange files containing empty
+   lines after the END_DATA line.
+
+
+
+
+
+***ODV Release 5.0.0  (Windows, MacOS, Linux)  Mar/19/2018:
+
+
+-- New multi-view support via tabs and tool buttons.
+
+-- Sections can now have Time as along-section coordinate in addition
+   to distance, longitude and latitude.
+
+-- More efficient importers (SeaDataNet importer is now about 8 times
+   faster).
+
+-- Many other enhancements
+
+
+
+BUG FIXES
+
+-- Many fixes.
+
+
+
+
+
+
+***ODV4 Release 4.7.10  (Windows, Mac OS X, Linux)  Feb/07/2017:
+
+
+BUG FIXES
+
+-- Fixed problem not loading last view when starting ODV (bug
+   introduced in 4.7.9).
+   
+
+
+
+
+
+***ODV4 Release 4.7.9  (Windows, Mac OS X, Linux)  Jan/12/2017:
+   
+
+-- Derived variables "Data Error Value" and "Quality Flag Value" moved
+   from group "Metadata" to "Special".
+
+-- New "Tools > Other Collection > Compare Data Availability" option
+   allows data availability comparison between the currently open and
+   another, user-selected data collection.
+
+-- New "Tools > Other Collection > Inherit View File(s)" option allows
+   one or more user-selected view files from another collection to be
+   inherited into the current collection.
+
+-- View files for full-screen map and for overview displays of all
+   data are now automatically created when a new collection is
+   created. 
+
+-- String data variables of value type INDEXED_TEXT can now be used
+   for sample range filtering. This was already possible for numeric
+   variables and variables of type TEXT.
+
+-- The number of decimal places for numerical variables written by the
+   "WHP Exchange File > Bottle" exporter now is the number of decimal
+   places of the variable plus 3. This is the same behavior as with
+   the ODV Spreadsheet exporter.
+
+-- The exports of window X, Y, Z data via "Extras > Clipboard Copy"
+   and "Export > X, Y, Z Window Data" now write more decimal places
+   (decimal places of the variable + 3).
+
+-- The "Tools > 3D Estimation" option can now be used with collections
+   that have pressure data but not depth.
+   
+-- The new command "set_axis_full_ranges" is now available in ODV cmd
+   command files. The "load_view" and "open_collection" commands now
+   support specification of template views, such as "$FullScreenMap$".
+
+-- Existing station filters in the map are now maintained when loading
+   layout templates.
+   
+
+
+BUG FIXES
+
+-- Fixed problem with "CO3--" derived variable not being remembered in
+   view files.
+
+-- Fixed problem with range sample filter. Previously if the value of
+   a range-filtering variable was missing the sample was accepted. Now
+   the sample is rejected. Only samples that have values within the
+   acceptable range are accepted.
+
+-- Fixed problem with calculation of fractional "day-of-year",
+   "day-of-month", and "day-of-week" derived variables and axis
+   annotations, when used in data windows.
+
+-- Fixed bug when trying "Tools > 3D Estimation" with derived
+   variables. 
+
+-- Fixed bug when exporting to ODV Spreadsheet date/time data in
+   "minutes since ..." and "seconds since ..." units.
+
+-- Fixed occasional crashes when trying to open netCDF files a second
+   time.
+
+
+
+
+
+
+***ODV4 Release 4.7.8  (Windows, Mac OS X, Linux)  Aug/29/2016:
+   
+
+-- When exporting as collection, ODV now automatically also exports
+   local file references, including cruise report files, comment files
+   and info files.
+
+-- The Current Sample list window now has a search box for finding
+   particular variables quickly.
+
+
+
+BUG FIXES
+
+-- Fixed problem with wrong annotations on time axis.
+
+-- Fixed crashes occuring during "Tools > 3D Estimation" when
+   requesting estimates for depth values beyond the data range.
+
+-- Problem with case sensitivity of variable names in SDN .txt files
+   fixed. 
+
+
+
+
+
+
+
+***ODV4 Release 4.7.7  (Windows, Mac OS X, Linux)  Jul/12/2016:
+   
+
+-- The SeaDataNet importer now only lumps together variables with the
+   same column labels if P01/P06 codes also agree. If column labels
+   agree but codes differ a unique column label is generated by
+   appending a '_n' suffix, where n is a suitable integer, and a
+   separate variable with the modified column label is created.
+
+-- Station selection criteria "Date / Time > Period" now allows
+   specifying "From" and "To" day-time.
+
+-- PNG and TIF output images can now have a transparent background.
+
+
+
+BUG FIXES
+
+-- Fixed problem in Sea-Bird cnv file importer. Comments are now
+   successfully extracted.
+
+-- Fixed problem with "Difference from Reference" derived variables.
+
+-- Fixed problem with longitude and latitude values provided as degrees,
+   minutes, and seconds (e.g., "32 18 23.1 N" or "32°18'23.1''N") in
+   spreadsheet import files not being handled properly and not being
+   imported.
+
+-- Fixed problem of misplaced color bar in eps graphics export.
+
+-- Existing view files are now preserved if converting a ODVCF5
+   collection to ODVCF6.
+
+
+
+
+
+
+
+
+
+***ODV4 Release 4.7.6  (Windows, Mac OS X, Linux)  Mar/23/2016:
+   
+
+
+BUG FIXES
+
+-- Fixed station selection problem when using "Date/Time > Period".
+
+
+
+
+
+
+***ODV4 Release 4.7.5  (Windows, Mac OS X, Linux)  Mar/15/2016:
+
+
+-- New importer for GOSUD underway data.
+
+-- Collections created during Sea-Bird .cnv import now have the "Cast
+   Type" meta variable. This allows station filtering by up- and
+   down-cast.
+
+-- ODV strings may now contain '&#<code>;' html control sequences for
+   producing Unicode characters. '&#x00A9;', for instance, will
+   produce the copyright symbol.
+
+-- The ODV Spreadsheet, ODV Collection and netCDF data exporters now
+   allow subsetting the list of extended meta variables to be
+   exported. The ODV Collection exporter now allows enabling/disabling
+   station history export and copying of linked document files.
+
+-- The station history exporter now allows filtering the history
+   records to be exported.
+
+-- Calculation of isosurface variables now detects and uses samples on
+   the surface. No interpolation is performed in these cases.
+   
+-- Physical properties based on the outdated EOS80 are now available
+   as derived variables to allow comparative studies. Normally the
+   derived variables based on TEOS-10 should be used.
+
+-- Color bars can now be placed at the bottom or right of data
+   plots. The spacing between colorbar labels can now be set by the
+   user via "Properties > Data > Colorbar Settings > Label interval".
+
+-- The "unit-sized-dot" info box that appears when drawing data as
+   "Sized Dots" can now be dragged around and the new position is
+   remembered in the view.
+
+-- Removed the Print and Print Preview options. As alternative, please
+   save the canvas or individual plot windows as image or PostScript
+   files and then print the images or PostScript file.
+   
+
+
+BUG FIXES
+
+-- Fixed problem when importing cnv files containing multiple lines
+   for the same metadata item and the last such line is without value.
+
+-- Problems with shortcut keys, such as Ctrl+F and Alt-P fixed.
+
+-- Fixed problem with the "Tools > Infix-to-Postfix Converter" option.
+
+
+
+
+
+
+
+***ODV4 Release 4.7.4  (Windows, Mac OS X, Linux)  Oct/05/2015:
+
+
+-- The new keywords 'minimum' and 'maximum' can now be used for
+   specifying minimum (maximum) layers as isosurfaces in isosurface
+   variables. Examples: "Depth @ Oxygen=minimum", "Oxygen @
+   Oxygen=minimum", "Phosphate @ Oxygen=minimum". See chapter 7 in the
+   User's Guide for more information.
+
+-- The Sea-Bird cnv importer now supports multi-cast files. Multi-cast
+   cnv files must contain one cast description line for every cast in
+   the file. Cast description lines must be of the following form:
+   
+   "* cast   4 07 Jul 2015 09:00:29 samples 6415 to 7768, avg = 1, stop = mag switch"
+  
+   where the samples entry specifies the first and last data line
+   index of the respective cast.
+
+-- In addition to numeric data, ODV now also shows values of NC_CHAR
+   text variables from netCDF files opened with "File > Open" or "File
+   > Open Remote".
+
+   NOTE: Views created for netCDF files using ODV 4.7.3 and before may
+   not display properly with ODV 4.7.4 and later due to the
+   differences in the number and order of variables introduced with
+   ODV 4.7.4. If you encounter problems please re-define isosurface
+   variables and re-assign variables on the X, Y, and Z axis of your
+   data windows.
+
+-- Import history records now include MD5 checksums and file sizes in
+   addition to last-modified dates of the import files.
+
+-- It is now possible to create interrupted maps with the original
+   data points as colored dots.
+
+-- In FixedWidth animations you can now specify separate values for
+   step and interval width.
+
+-- ODV command files now support local variables via the new "set_var"
+   command.
+   
+-- This version automatically moves the ODV settings file from the ODV
+   user directory to the user's home directory. 
+
+-- The ODV user directory can now be moved to a different location via
+   "View > Settings > System > User Directory".
+   
+
+
+BUG FIXES
+
+-- Fixed problem when deleting stations in very large collections with
+   metadata file sizes exceeding 2GB.
+
+-- Fixed a problem when calculating "Derivative" derived variables.
+
+-- Fixed a P35 aggregation problem when quality flag values were
+   changed but the original flag value should have been kept.
+
+
+
+
+
+
+***ODV4 Release 4.7.3  (Windows, Mac OS X, Linux)  July/02/2015:
+
+
+-- The Argo profile and trajectory importers now provide large numbers
+   of additional metadata and data variables. In particular, the
+   bio-optical and bio-geochemical variables in bioArgo files are now
+   imported. The delayed mode version of the data (suffix "adjusted")
+   now use the values of _ADJUSTED_ERROR variables as 1-sigma error
+   values. Original values are provided in trajectory import files and
+   data averaging is no longer performed. The new Argo importers
+   require v3.1 netCDF files. Previous formats are rejected.
+
+-- The SDN netCDF importer now properly reads string variables of
+   arbitrary length (required length 80 before). The "sdn:scope="
+   entry in xlink references in .txt files is now used for assignment
+   to the respective LOCAL_CDI_ID. The "Instrument Info" value and the
+   variable names in the Current Sample window are now clickable, and
+   users will see the descriptions of the respective codes.
+
+-- The MEDATLAS profile importer now uses depth (DEPH) data if
+   pressure (PRES) is not provided. The depth data are automatically
+   converted to pressure and used in the pressure variable.
+
+-- The Sea-Bird cnv importer now extracts the additional "Operator"
+   and "Ship" metadata.
+
+-- The "Save as Interrupted Map" option now also draws the graphics
+   objects of the parent window.
+
+-- Refined interpolation methods provide better isosurface variable
+   values near the ends of the observed ranges.
+
+-- "Tools > Ocean Calculator > Settings" now lets user choose between
+   practical and absolute salinity as input to many variables.
+
+
+
+
+BUG FIXES
+
+-- Fixed crashes when using "Extras > Statistics" (F4) on data windows
+   with reversed ranges.
+
+
+
+
+
+
+
+***ODV4 Release 4.7.2  (Windows, Mac OS X, Linux)  April/20/2015:
+
+
+-- Data windows with longitude and latitude basic data variables on X
+   and Y are now treated as geographic maps. This was already the case
+   for derived longitude and latitude variables on X and Y.
+
+
+
+
+BUG FIXES
+
+-- Fixed problem with "readme.txt" files in SeaDataNet imports.
+
+-- Data errors now properly loaded and displayed for variables using
+   separate error variables holding the 1 sigma data errors.
+
+-- Problem with editing Aggregated derived variables fixed. Deleting
+   contributors did not work.
+
+
+
+
+
+***ODV4 Release 4.7.1  (Windows, Mac OS X, Linux)  Mar/19/2015:
+
+
+-- The ODV dummy palette is now the same as the new Odv.pal.
+
+
+
+
+
+
+***ODV4 Release 4.7.0  (Windows, Mac OS X, Linux)  Mar/18/2015:
+
+
+-- New interrupted map plot type for station and isosurface
+   maps. Available via context menu "Save As Interrupted Map" option.
+
+-- New map contour resources based on the GEBCO 2014 grid replaces the
+   GEBCO08 packages. Use "View > Settings > Map > Resources" ("odv4 >
+   Preferences" on Mac OS X) for installation.
+
+-- New global or regional gridded bathymetry resources for use as
+   section bottom bathymetry or in DIVA domain setup. Use "View >
+   Settings > Gridded Bathymetry > Resources" ("odv4 > Preferences" on
+   Mac OS X) for installation.
+
+-- Improved placement of contourline labels avoiding cluttering.
+
+-- The ODV spreadsheet importer now supports latitude and longitude
+   values as degrees, minutes, and seconds (seconds are optional) as
+   long as they appear in single columns. Supported formats include:
+   "32° 18' 23.1'' N", "32°18'23.1''N" or "32 18.756 N". You must use
+   "Latitude [deg min]" and "Longitude [deg min]" as column headers.
+
+-- Lines, polylines and polygons can now have special symbols such as
+   arrow heads, filled or open dots and bars at their start and/or end
+   points. You select such symbols and specify their size via the
+   property dialog of the object.
+
+-- New "1 SURFACE + 1 SCATTER Windows" layout template.
+
+-- The P35 aggregation option now uses the data agreement file of the
+   source collection (if any) for the target collection.
+
+-- The name of SDN usage agreement file must now be "readme.txt".
+
+-- The "Integral" derived variable now uses a more refined method for
+   calculating the value at integration start. In many cases this
+   produces results when the previous method failed.
+
+-- New Odv.pal color palette. The previous color palette is available
+   as "Odv_465.pal".
+
+
+
+BUG FIXES
+
+-- Fixed errors when calculating isosurface values on surface
+   variables with very small relative range. 
+
+-- Fixed issues with animations of arrow fields.
+
+-- Fixed issue with "==" operator in macros and expressions.
+
+-- Fixed P35 aggregation bug for impossible conversions.
+
+-- Fixed inconsistency when exporting time series data to spreadsheet
+   file.
+
+-- Printing via the "Print" and "Print Preview" options now works
+   again.
+
+
+
+
+
+***ODV4 Release 4.6.5  (Windows, Mac OS X, Linux)  Dec/11/2014:
+
+
+-- New "Collection > Package" option allows packaging a collection in
+   a zip file for backup or exchange.
+
+-- File open and save dialogs now use sidebar folders as in ODV 4.6.2
+   and before.
+
+-- The SDN importer now extracts the contents of the "read_me.txt"
+   file (if any) and uses this text for usage agreement dialogs of all
+   created collections.
+
+-- Recognizes more SDN biology parameters.
+
+
+
+BUG FIXES
+
+-- Map frame issues for south- and north polar projections fixed.
+
+-- Fixed crash when opening netCDF files with "Dummy" primary
+   variable. 
+
+
+
+
+
+
+
+***ODV4 Release 4.6.4.1  (Mac OS X)  Nov/24/2014:
+
+BUG FIXES
+
+-- Double-clicking on odv or var files in the Finder now opens the
+   collection in ODV.
+
+
+
+
+
+
+***ODV4 Release 4.6.4  (Windows, Mac OS X, Linux)  Nov/18/2014:
+
+-- "Import > SDN Formats" option now supports SDN netCDF files in
+   addition to SDN ODV spreadsheet files. Both file formats can be
+   combined in a single import.
+
+-- For option "Export > Station Data > SDN Aggregated ODV Collection"
+   ODV now downloads the latest unit conversion list from the ODV site
+   and the latest P35 vocab from the BODC site. If not connected to
+   the Internet ODV uses the most recent files available on the
+   system. Initial files are delivered during ODV installation.
+
+-- Variable "MinimumObservationDepth" (SDN:P01::MINDPCDI) in SDN data
+   files is now recognized as vertical coordinate and primary
+   variable.
+
+-- NetCDF files created via "Export > Station Data > NetCDF File" now
+   also contain data error values for variables containing data
+   errors.
+
+-- When opening netCDF files ODV now interpretes variables with names
+   of the form "nnn_STD" or "nnn_std" as data error variable for
+   parent variable "nnn".
+
+-- ARGO v3.1 profile and trajectory netCDF files are now supported by
+   "Import > ARGO Formats > ..." options.
+
+-- Transition to Qt 5. ODV 4.6.4 and later now use Qt 5 libraries on
+   all supported platforms (64 and 32 bit versions).
+
+ 
+
+BUG FIXES
+
+-- Fixed crash when editing text data values.
+
+
+
+
+
+
+***ODV4 Release 4.6.3.1  (Windows 64bit)  Aug/29/2014:
+
+-- "//<MetaVariable>" lines in ODV spreadsheet files may now also
+   contain the "var_type" tag to specify meta variables with special
+   meaning and treatment.
+
+ 
+
+BUG FIXES
+
+-- Fixed GOB-file import with Mac EOL characters.
+
+-- Fixed occasional problems setting TEXT values when importing or
+   editing data.
+
+-- Fixed user- and hostname bug on Windows 64 bit.
+
+
+
+
+
+***ODV4 Release 4.6.3  (Windows, Mac OS X, Linux)  Aug/19/2014:
+
+-- New 64-bit ODV versions for Windows, Mac OS X and Linux. It is
+   recommended to use the 64-bit ODV versions on 64-bit operating
+   systems. The 64-bit versions can be installed next to an already
+   installed 32-bit ODV. Both versions remain functional.
+
+-- High-resolution (retina) display support implemented (Mac OS X
+   64bit version only).
+
+-- New option "Export > Station Data > SDN Aggregated ODV Collection"
+   providing P35 variable aggregation for SDN collections.
+
+-- Collections created via "Import > SDN Spreadsheet" now contain many
+   more meta variables. References in "//<sdn_reference" lines are
+   extracted and instrument codes in semantic header "instrument" tags
+   are collected and stored in the new meta variable "Instrument Info".
+
+-- New derived variable "Metadata > Data Error Value" providing
+   1-sigma data errors (if available) as a separate variable.
+
+-- New "//<MetaVariable>" and "//<DataVariable>" structured comment
+   lines in ODV Spreadsheet files allow detailed property
+   specifications for meta and data variables.
+
+-- When exporting data to a netCDF file via "Export > Station Data >
+   NetCDF File" a summary table containing nc variable names and
+   associated ODV variable labels, units and comments is created in
+   the new nc_variables.txt file.
+
+-- New searchbox on some selection dialogs facilitates finding
+   specific entries when working with long lists.
+
+-- When calculating geostrophic flows via "Tools > Geostrophic Flows"
+   the user may now modifiy the required station distance and distance
+   from the Equator. Station pairs with smaller distances from each
+   other or from the Equator are excluded from the calculations. 
+ 
+
+BUG FIXES
+
+-- Fixed SDN importer bug for files that have SDN:P06::UUUU
+   (dimensionless) as units code of the first data variable (the one
+   following "Bot. Depth [m]").
+
+-- Fixed spreadsheet importer problem with files without
+   latitude/longitude or date information.
+
+-- Fixed rare crashes when calculating geostrophic velocities.
+
+
+
+
+
+***ODV4 Release 4.6.2  (Windows, Mac OS X, Linux)  Mar/31/2014:
+
+
+-- Efficiency of SeaDataNet and Spreadsheet importers improved
+   significantly. Performance of these importers now is comparable to
+   or better than in version 4.5.7.
+
+-- Spreadsheet file importer now uses the first QV column for a given
+   variable in cases of multiple such columns.
+
+-- Updated atmospheric gas history files (thanks to J. Bullister).
+
+ 
+BUG FIXES
+
+-- Fixed "mixup" of extra meta variables when using "Export > Station
+   Data > ODV Collection", or "Collection > Properties > Convert to
+   ODVCF6" on ODVCF5 collections.
+
+-- Fixed rare box-averaging bug for stations with very many samples.
+
+
+
+
+
+
+***ODV4 Release 4.6.1  (Windows, Mac OS X, Linux)  Feb/18/2014:
+
+
+-- New "Export > Station History" option writing the history records
+   of the currently selected stations to a file (ODVCF6 collections
+   only).
+
+-- Procedure for defining Aggregated and Converted derived variables
+   simplified.
+
+-- Data export to collection now also exports derived variable data.
+
+
+
+
+
+
+***ODV4 Release 4.6.0  (Windows, Mac OS X, Linux)  Jan/29/2014:
+
+
+-- New ODVCF6 collection format providing the following new features:
+
+   1. New Accession Number metadata variable providing a unique and
+      non-modifiable identification number for every station in a
+      collection. The Accession Number of a station is preserved
+      during Sort and Condense operations, while the Station IDs
+      normally change because of changes in the order of stations in
+      the collection.
+
+   2. New value types for metadata and data variables: SIGNED_BYTE,
+      UNSIGNED_SHORT, UNSIGNED_INTEGER, INDEXED_TEXT. INDEXED_TEXT
+      supports UNICODE strings of arbitrary lengths. Strings occurring
+      many times (e.g., cruise labels) are handled very efficiently.
+
+   3. Data variables can now have numerical 1-sigma error values as
+      well as info texts. Info texts can be literal, or links to info
+      files provided with the collection or URLs to external
+      webpages. Error and info values are optional. The ODV
+      spreadsheet format is extended and now allows error and info
+      columns.
+
+   4. Per-station history records. All import and data edit actions
+      are remembered in the history of the given station. History
+      information is maintained when exporting data to collection or
+      ODV spreadsheet file.
+
+   5. Proper ReadWrite or ReadOnly access management. ReadWrite access
+      to a collection is only granted if the application is the only
+      one currently working with the collection. A second application
+      opening the same collection will only have ReadOnly access. Once
+      a collection is open in more than one application, the access
+      mode of the first application is dynamically reduced to
+      ReadOnly. An original ReadWrite access is dynamically restored
+      when all other applications using the collection have
+      terminated.
+
+   6. Collection password protection. ODVCF6 collections can now be
+      password protected to prevent unauthorized use.
+
+
+APPLICATION WINDOW
+
+-- New collection access status (RW, R, R-) pane in the status bar.
+
+-- Separate context menus when right-clicking into the Current Sample
+   Window": (1) variable label click, (2) data and quality value
+   click, (3) info column click.
+
+
+IMPORTER
+
+-- The ODV Spreadsheet importer now also evaluates the LOCAL_CDI_ID
+   metavalue (if provided in the spreadsheet file) for detecting
+   station breaks.
+
+-- The SeaDataNet Importer now also extracts and imports .zip files
+   contained inside .zip files (1 extra level). The value in
+   //<SDN_REFERENCES> comment lines is now extracted and provided in
+   the new "Reference" meta variable. LOCAL_CDI_ID, EDMO_code and URL
+   metadata entries are clickable, thereby opening documents with more
+   in-depth information in the web-browser.
+
+-- The WOD importer now extracts values for two new meta variables:
+   "OCL Cruise Number" and "Investigator". Investigator codes from the
+   WOD files are resolved using the US NODC primary investigator
+   list. ODV shows the resolved investigator names.
+
+-- The Sea-Bird Importer now extracts all header lines from the top of
+   the imported .cnv files and makes this information available in
+   automatically created per-station comment files that are part of
+   the collection. A new "Comments" meta variable holds the name of
+   the corresponding comments file. Clicking on the file name will
+   show the contents of the comments file in your web-browser.  The
+   .cnv header often contains important information, such as sensor
+   identification and calibration data.
+
+
+ 
+BUG FIXES
+
+-- Consistent usage of missing value quality flag implemented. 
+
+-- Problem with finding outliers (Tools>Find Outliers (Range Check))
+   using derived variables fixed. 
+
+-- SDN importer bug for multiple variables with labels only differing
+   in case (e.g., TEMP [degC] and Temp [degC]) fixed.
+
+-- Issue when trying to change quality flags or deleting data values
+   via "Tools>Find Outliers (Range Check)" with only one station in
+   collection fixed.
+
+
+
+
+
+***ODV4 Release 4.5.7  (Windows, Mac OS X, Linux)  Oct/17/2013:
+
+
+-- The WOD Importer now supports WOD 2013 in addition to all previous
+   WOD versions.
+
+
+
+
+
+
+***ODV4 Release 4.5.6  (Windows, Mac OS X, Linux)  Jun/20/2013:
+
+
+-- Support for IODE data quality flag scheme added.
+
+-- Support for ARGO netCDF v3.0 profile and trajectory files
+   added. Users may now select individual .nc files, or .gz (or .zip)
+   packages, or a .lst file containing the list of files to be
+   imported. 
+
+-- X/Y input files for the "Extras>2D Estimation" option may now
+   include extra columns. Data in extra columns are copied to the
+   output file, thereby facilitation correlation analysis between the
+   estimated Z value and the extra variables.
+
+
+ 
+BUG FIXES
+
+-- Fixed crash when exporting netCDF file data to ODV collection.
+
+-- Many small fixes
+
+
+
+
+
+***ODV4 Release 4.5.5  (Windows, Mac OS X, Linux, Solaris-i386)  May/23/2013:
+
+
+ 
+BUG FIXES
+
+-- Map "Statistics F4" option properly enabled again.
+
+-- Issues with station time and quality flag variable naming in netCDF
+   output files fixed.
+
+
+
+
+
+***ODV4 Release 4.5.4  (Windows, Mac OS X, Linux, Solaris-i386)  May/15/2013:
+
+
+VISUALIZATION
+
+-- New "Isopycnic gridding" option creates distributions that better
+   align with isopycnals than the default cartesian gridding. Note
+   that this option is only enabled if neutral density gamma-n or a
+   potential density derived variable is defined and DIVA gridding is
+   used.
+
+-- DIVA gridding now uses variable-resolution rectangular
+   grids. Direction constraint feature is removed (use "Isopycnic
+   gridding" instead).
+
+-- DIVA optimizations lead to about 25% speed improvements (thanks to
+   J.-M. Beckers, Univ. Liege, Belgium).
+
+-- Data window color mapping settings now allow automatic "Auto
+   Adjust".
+
+
+DERIVED VARIABLES
+
+-- Derived variable "Meta Variable Value" is now also available for
+   meta variables with value-type TEXT.
+
+-- Setup of "Aggregated Variable" derived variables has been
+   simplified. 
+
+-- New "Converted Variable" derived variable allows quick unit
+   conversions.
+
+-- The Derived Variable dialog now allows loading derived variable
+   definitions from a view file in addition to manual setup. The view
+   file must belong to the currently open collection.
+
+
+IMPORTER
+
+-- Woce bottle or CTD data can now be imported by simply dropping the
+   files on the ODV window.
+
+-- The WOCE bottle importer now incorporates cruise reports found
+   during import in the data collection and provides a clickable meta
+   variable cruise report link. Comments at the top of WOCE exchange
+   files are extracted and viewable by clicking the "Comments"
+   meta-variable value.
+
+-- ODV Spreadsheet, ARGO, GTSPP, Medatlas and WOD imports can now be
+   initiated without an open collection. In such cases a suitable
+   target collection is created automatically and the data are
+   imported into the newly created collection.
+
+-- The SeaDataNet importer now accepts new SDN/ODV files with "P01"
+   and "P06" vocabulary names. Old files using "P011" and "P061" are
+   still supported.
+
+-- ODV now handles netCDF files containing variables with zero
+   dimensions. 
+
+
+MISC
+
+-- SeaDataNet collections now use "LOCAL_CDI_ID EDMO_code" for station
+   identification in the log file and outlier list files.
+
+-- The Undo facility has been improved and a Redo option has been
+   added.
+
+
+TOOLS
+
+-- The Ocean Calculator (invoked via Tools>Ocean Calculator) now
+   allows specification of vectors of input variable values as
+   "start:increment:end" triples for one or more input
+   variables. Results are calculated for all requested inputs and
+   copied to the clipboard. Curve and contour plots are automatically
+   created if one or two input variables have multiple values.
+
+
+ 
+BUG FIXES
+
+-- Fixed problem with csv data files.
+
+-- Fixed problem with import of ODV spreadhseet files with MAC-EOL.
+
+-- Fixed problem with derived variable Integral and some other derived
+   variables in situations with sparse data coverage and large gaps
+   between data points.
+
+-- Fixed font-size problem when generating graphics using ODV command
+   files.
+
+-- Fixed problem with labeling reversed time axis.
+
+-- Fixed problem with section bathymetry from .gob files. 
+
+
+
+
+
+***ODV4 Release 4.5.3  (Windows, Mac OS X, Linux, Solaris-i386)  Jan/15/2013:
+
+-- Mercartor map projection added.
+
+-- WOCE Bottle importer now reads comments from file README in
+   addition to the top of the *_hy1.csv file and makes these comments
+   available via meta-variable "Comments".
+
+-- WOCE Bottle importer now has meta-variable "Cruise Report"
+   containing a link to the cruise report of the respective expedition
+   (pdf or txt). Cruise reports found during import become part of the
+   collection and are copied to the "misc/cruise_reports"
+   directory. Clicking on the "Cruise Report" meta-variable value
+   opens the document in you web browser.
+
+
+BUG FIXES
+
+-- Fixed bug when importing ODV Spreadhseet files with MAC-EOL.
+
+-- Crash with "Metadata Time" map animation fixed.
+
+-- Full minute (hour) display format problem with netCDF files fixed.
+
+
+
+
+***ODV4 Release 4.5.2  (Windows, Mac OS X, Linux, Solaris-i386)  Dec/13/2012:
+
+IMPORT
+
+-- Sea-Bird importer now has a new dialog for specifying whether
+   up/down cast splitting and subsampling should occur. Now also tries
+   to extract bottom depth information from suitable user metadata
+   entry (e.g. "** Bottom Depth [m]: 123"). Fixed issues with files
+   containing more than one column with identical names and issues
+   with date/time extraction from user-metadata (e.g. "** UTC (Time):
+   May 10 2009 04:58:21").
+
+-- Woce CTD and Bottle imports can now be initiated with no collection
+   open. In these cases the superset of variables contained in the
+   import files is determined and a suitable receiving collection is
+   created automatically.
+
+-- Woce Bottle collections now have CTDPRS [DBAR] instead of DEPTH [M]
+   as first variable. In addition there is a new meta-variable
+   "Comments" of type TEXT holding a link to a file with the text
+   comments from the .csv file.
+
+-- SeaDataNet importer now extracts additional metadata from SDN .csv
+   files.
+
+NETCDF
+
+-- Quality control flag variables in netCDF files are now identified
+   and used as quality flag values of associated parent variable.
+
+-- .grd files are now accepted as netCDF type input files.
+
+-- Export of data into netCDF now supports large (>2GB) files.
+
+DERIVED VARIABLES
+
+-- New derived variables "Aggregated Variable" and "Interpolated
+   Variable". See section 6.1 in the User's Guide for more
+   information.
+
+-- Logical expressions and "if-then-else" constructs now supported in
+   ODV macros and expressions.
+
+MISCELLANEOUS
+
+-- Separate quality and range sample selection criteria can now be
+   specified for the different data windows. This allows displaying
+   data for some depth range in one of the windows, while other
+   windows may show all data or the data for some other depth range.
+
+-- LOCAL_CDI_ID and EDMO_code meta-variables can now be used for
+   station selection.
+
+-- New "Tools>Grid File Generator" option allows creation of 1D and 2D
+   regular grid files to be used for "Extras>1D Estimation" or
+   "Extras>2D Estimation" options.
+
+-- The "Extras>2D Estimation" option now automatically calculates x
+   and y components of the field gradient in addition to the field
+   values. 
+
+-- The display order of variables in the current sample list window
+   can now be saved to or loaded from a file.
+
+-- Map and data-window clipboard copy now allows export of original or
+   projected X/Y values. Original values is the default.
+
+-- Every running instance of ODV now uses its own, separate DIVA work
+   directory to avoid interference.
+
+-- Generalized duplicate station checks now allow specification of
+   additional meta variables used for the checks and other additional
+   meta variables to be included in the output file.
+
+-- X/Y station and sample tile counts of station map and data windows
+   are now exported via the Clipboard Copy option on the map and data
+   window Statistics dialog.
+
+
+BUG FIXES
+
+-- Fixed crash when opening a netCDF file on a read-only medium.
+
+-- Numerous other fixes.
+
+
+
+
+***ODV4 Release 4.5.1  (Windows, Mac OS X)  Aug/06/2012:
+
+-- ARGO profile and trajectory importer now also supports v2.3 netCDF
+   files in addition to v2.2 and v2.1.
+
+
+BUG FIXES
+
+-- Problem with overlay window creation fixed.
+
+
+
+
+***ODV4 Release 4.5.0  (Windows, Mac OS X, Linux, Solaris-i386)  May/15/2012:
+
+
+-- NetCDF files on remote OpenDAP servers (frequently used for model
+   output files and climate data resources) can now be opened and
+   analyzed via File>Open Remote. Transferred data are cached locally
+   and not transmitted a second time.
+
+-- Open netCDF file wizard now provides reasonable defaults for all
+   four steps and in many cases can be run through by simply pressing
+   OK each time.
+
+-- Drastic performance improvements when loading data into SCATTER and
+   SURFACE windows from netCDF files (local or remote).
+
+-- Data variables of type TEXT are now supported in ODV spreadsheet,
+   SeaDataNet data files and ODV collections. See section 16.3.2 in
+   the ODV User's Guide for more information.
+
+-- New importer for Sea-Bird .cnv files.
+
+-- New "Automatic scale lengths" mode determines gridding length
+   scales automatically. This is now the default setting for new data
+   windows.
+
+-- DIVA gridding can now be run in a mode that prevents negative
+   gridded values.
+
+-- Window Layout mode now allows changes of the data window drawing
+   order. Individual windows may now be brought to foreground or
+   background.
+
+-- The geostrophic velocity calculator now detects zero-distance
+   station pairs and outputs the station pair distance in additional
+   meta-variable "Distance".
+
+
+BUG FIXES
+
+-- Axis with Chronological Julian Date are now properly annotated.
+
+-- New version of DIVA mesh generator eliminates DIVA failures under
+   rare circumstances.
+
+-- DIVA direction constraints were effectively switched off since
+   release 4.4.2. This has been fixed.
+
+-- Many small fixes.
+
+
+
+
+
+***ODV4 Release 4.4.4  (Windows, Mac OS X, Linux, Solaris-i386)  Jan/12/2012:
+
+
+BUG FIXES
+
+-- Fixes ODV crash when pressing OK on the View>Settings dialog
+   (odv4>Preferences on Mac OS X) and no collection open.
+
+
+
+
+
+***ODV4 Release 4.4.3  (Windows, Mac OS X, Linux, Solaris-i386)  Jan/10/2012:
+
+-- Station selection criteria dialog now allows specifying value
+   ranges for numeric meta variables and wildcard patterns for text
+   meta variables.
+
+-- New "Layout Templates>From View File" option takes the new window
+   layout from a previously saved view file. The view file may belong
+   to the same or any other collection.
+
+-- New "Resource Priorities" page on the "General Settings" dialog now
+   allows specifying usage priorities for installed map resources.
+
+-- Improved "Gridding Misfit" color scale setup now ensures white
+   color for zero misfit. Size of dots in misfit field now derived
+   from symbol size of parent window.
+
+-- Special time axis labeling now also supported for times specified
+   as seconds or minutes since a reference date.
+
+-- GTSPP importer now fully supports version 4.0 format specification.
+
+
+BUG FIXES
+
+-- Fixed ODV installation issues on Mac OS X Lion systems.
+
+-- Read and write of large files (>2GB) now works on Linux systems.
+
+-- Fixed issue with dynamic z-range and colorscale adjustments in
+   animations.
+
+
+
+
+***ODV4 Release 4.4.2  (Windows, Mac OS X, Linux, Solaris-i386)  Oct/07/2011:
+
+-- New "Physical Properties (TEOS-10)" derived variables group
+   replaces the previous EOS-80 based variables and adds more than 20
+   new physical oceanography variables. References to previous EOS-80
+   based variables in cfg and xview files are automatically replaced
+   by the new TEOS-10 variables.
+
+-- Most TEOS-10 variables are now also available in the Tools>Ocean
+   Calculator.
+
+-- New GTSPP importer for version 3.8 and 4.0 GTSPP netCDF files.
+
+-- Data and metadata files may now become larger than 2GB.
+
+-- Drastic (ca. x50) speed-up of station selection, map drawing, and
+   duplicate station search. Setting up the station map now only takes
+   a few seconds, even for collections with millions of stations.
+
+-- New "Gridding Misfits" button on Statistics dialogs of data
+   windows, which, when pressed, shows the Estimate-Data differences
+   of the gridding procedure.
+
+-- New "Current Sample by ID" option in Current Sample context menu.
+
+
+BUG FIX
+
+-- "Collection>Delete Station Subset" would not properly update the
+   map.
+
+-- Many small fixes.
+
+
+
+
+***ODV4 Release 4.4.1  (Windows, Mac OS X, Linux, Solaris-i386)  Jul/28/2011:
+
+
+BUG FIX
+
+-- Section definition with maximized ODV application window would fail.
+
+
+
+
+***ODV4 Release 4.4.0  (Windows, Mac OS X, Linux, Solaris-i386)  Jul/22/2011:
+
+-- Support for logarithmic axis and six other stretched projections in
+   data windows added (usage via "Properties>Data>X(or Y)-Axis
+   Settings").
+
+-- High resolution coastline and ETOPO1 as well as GEBCO08 elevation
+   data are now available for the whole world in 2x2' and 6x6'
+   resolutions. The IBCAO map data are available at 1x1' resolution
+   for the region north of 60N. All these resources are now installed
+   or uninstalled using the "View>Settings>Map>Layer Series"
+   (ODV4>Preferences>... on Mac OS X) option. Installation of complete
+   packages or quick, "download-on-demand" installations are
+   possible. Manual installation of optional packages is no longer
+   needed. Previous optional packages have been removed from the ODV
+   download area.
+
+-- Carbon derived variables that previously could only be calculated
+   on the basis of Alkalinity and DIC input data can now also be
+   computed using any one of 8 additional input pairs. These new
+   capabilities are available as derived variables as well as in the
+   "Tools>Ocean Calculator".
+
+-- New derived variables "fCO2" (fugacity as function of pCO2) and
+   "pCO2" (as function of fCO2) allow conversion between the two.
+
+-- The following trigonometric functions are now available in
+   Expressions and Macros: tan, cot, arcsin, arccos, arctan, arccot.
+
+-- Derived variables in dialog's Choices widget now organized in
+   thematic groups.
+
+-- Special labeling for time axis implemented.
+
+-- Visually enhanced dragging of graphics objects.
+
+-- "Export>ODV Spreadsheet" of time-series data now allows exporting
+   of time data as stored in the collection.
+
+
+BUG FIXES
+
+-- Unnecessary creation of metavariables with ":METAVAR" qualifier
+   during spreadsheet import fixed.
+
+-- "3D Estimation" crash fixed.
+
+-- DIVA problem in cases of very different X and Y scale lengths fixed.
+
+-- Problems calculating "Geostrophic Flows" with Depth as derived
+   variable fixed.
+
+-- Linux/UNIX crashes in cases of non-default installation paths
+   fixed.
+
+-- "Animation>Validate Variable" bug fixed.
+
+
+
+
+***ODV4 Release 4.3.10  (Windows, Mac OS X, Linux, Solaris-i386)  Mar/23/2011:
+
+-- SDN Import now supports Cruise and Station metadata of up to 80
+   characters.
+
+-- TimeSeries ODV data collections now have separate window layout
+   templates with landscape sized windows.
+
+-- The derived variables "Time (station date&time)" and "Time (time
+   variable)" now provide decimal time in units of years, days or
+   hours since a user specified reference date.
+
+-- The View>Settings option now allows a wider range of user
+   customization.
+
+-- ODV now automatically checks for ODV software updates once per
+   month.
+
+-- Updated atmospheric trace gas histories now contain observed values
+   until 2011 and extrapolated values until 2014.
+
+
+BUG FIXES
+
+-- Fixed repainting issues after "File>Print Canvas" and "File>Print
+   Preview of Canvas".
+
+-- Fixed occasional erroneous import of quality flag values from WOCE
+   WHP exchange files.
+
+
+
+
+***ODV4 Release 4.3.9  (Windows, Mac OS X, Linux, Solaris-i386)  Feb/10/2011:
+
+
+
+BUG FIXES
+
+-- Fixed section gridding problems with Z variables that have an
+   associated error-variable, such as WOA09 variables.
+
+-- Fixed drawing of "ghost" points in highly zoomed-in data windows.
+
+-- Time conversion issues during import and export fixed.
+
+-- Identification of meta and collection variables during spreadsheet
+   imports improved.
+
+
+
+
+***ODV4 Release 4.3.8  (Windows, Mac OS X, Linux, Solaris-i386)  Feb/01/2011:
+
+-- New "Export>WOCE>Bottle" and "Export>WOCE>CTD" options allow
+   exporting the current stations to WOCE WHP exchange file(s).
+
+-- The "Import>SDN Spreadsheet" option has been updated and improved.
+
+-- Column labels in ODV spreadsheet files may now have extended
+   qualifiers of the form
+   ":PRIMARYVAR:<valueType>:<valueBytes>:<SchemaID>", now allowing to
+   specify a specific quality flag scheme SchemaID (e.g., ARGO, etc.)
+   in addition to a specific value type (e.g., DOUBLE, etc.).
+
+-- Import of spreadsheet files with column labels and units on
+   separate lines is now supported.
+
+-- OCEANSITES quality flags now supported. Quality flag mappings
+   to/from WOCEBOTTLE, WOCECTD, and WOCESAMPLE flags "5" and "9"
+   changed. Some quality codes of the BODC, PANGAEA and SMHI schemes
+   changed; existing ODV collections using BODC, PANGAEA or SMHI
+   quality flags may no longer work. New mapping tables are available
+   on the "Documentation" pages of the ODV website.
+
+-- New derived variable "Spiciness". Reference: Flament 2002, Progress
+   in Oceanography 54 (1-4), 493-501.
+
+-- Simplified and improved map layer selections in "Automatic" mode.
+
+-- The "Extras>2D Estimation" option now sets Z values at points
+   outside the window domain or in regions exceeding the window's
+   quality limit (white areas in the plot) to -1.e10.
+
+-- On Mac OSX systems .odv and .var files are now automatically
+   associated with the ODV application. You can now invoke ODV on a
+   particular data collection by double-clicking in the Finder on the
+   respective .odv or .var file.
+
+-- New default Odv.pal color palette with slightly different map
+   colors. The previous default palette is still available as
+   "Odv_437.pal".
+
+
+BUG FIXES
+
+-- Fixed crash when adding a Macro derived variable.
+
+-- Fixed "Collection>Identify Key Variables>Undo All" crash.
+
+-- Fixed bug when modifying a map data window to non-map data window.
+
+-- Fixed erroneous carbon parameter calculations with "Millero /
+   Mehrbach" equilibrium constants.
+
+-- Fixed issues with repainting after animations or aborted Sort and
+   Condense steps.
+
+-- Fixed issue with AOU calculation for Oxygen values equal to zero.
+
+-- Fixed issue of erroneous first point when defining a station
+   selection polygon on Mac X systems.
+
+
+
+
+***ODV4 Release 4.3.7  (Windows, Mac OS X, Linux, Solaris-i386)  Oct/19/2010:
+
+-- Drawing of data windows, station map and graphics objects improved
+   and accelerated.
+
+-- The station selection criteria "Cruise Label" field now allows more
+   than one specification. Individual items are separated by double
+   bars " || ". A cruise is selected if it matches one of the
+   specifications.
+
+-- New derived variable "Meta Variable Value" that provides the data
+   of numeric meta variables.
+
+-- Improved usage of column label qualifiers (e.g., :METAVAR:TEXT:51
+   or :DOUBLE, etc.) in ODV Spreadsheet export files and more
+   consistent interpretation of such qualifiers during import of
+   spreadsheet files.
+
+-- The data of a collection may now be exported to netCDF files using
+   option "Export>netCDF File".
+
+-- New command file "save_view" command.
+
+-- New "Help>Check for Updates" option checks whether a newer ODV
+   version is available.
+
+-- o4x importer implemented.
+
+
+BUG FIXES
+
+-- Fixed occasional crashes when exporting window data or reference
+   data.
+
+-- Fixed issue with automatic gridding scale length adjustment when
+   changing the domain of maps using non-default projections.
+
+-- Fixed issue with automatic deletion of derived variables such as
+   "Difference from Reference" that use the section coordinate as
+   input variable.
+
+-- Fixed issues with additional metavariables "Originator's Cruise"
+   and "Originator's Station" in World Ocean Database collections.
+
+-- Read-only ODVCF5 collections are now properly opened.
+
+
+
+
+
+***ODV4 Release 4.3.6  (Windows, Mac OS X, Linux, Solaris-i386)  May/27/2010:
+
+-- The DIVA direction constraint (called advection constraints in DIVA
+   documentation) can now be invoked in section plots. This allows
+   aligning the field (to some degree) along isopycnals.
+
+-- Support for user collection templates added. User collection
+   templates are .odv files that are placed in the
+   templates/collections subdirectory of the ODV user directory.
+
+-- The "open_collection" ODV batch-file command has been extended to
+   allow specification of a view file as second argument.
+
+-- The labels of the stations in a section can now be drawn along the
+   top margin of section plots by exporting the labels to a .gob file,
+   possibly editing the .gob file to delete some entries in areas of
+   dense station spacing, and adding the label graphics objects to the
+   section window via option "Extras>Import Graphics Object from
+   File>GOB File".
+
+-- The "Save Canvas As" option now only exports the used part of the
+   page to the image file.
+
+-- New status bar pane now indicates whether station selection or
+   sample quality and range filters are active.
+
+
+BUG FIXES
+
+-- Dropping a spreadsheet import file onto the ODV icon or specifying
+   the file on the command line will no longer switch to batch
+   mode. Messages during import will now be shown again to the user.
+
+-- Fixed a rare issue during import of WOD09 data files that lead to
+   invalid longitudes.
+
+-- Unclipped map without bathymetry after "Sort and Condense" fixed.
+
+-- Fixed crash in NetCDF emulator.
+
+-- WOCE CTD data can now be imported from zipped files.
+
+
+
+
+***ODV4 Release 4.3.5  (Windows, Mac OS X, Linux, Solaris-i386)  Apr/13/2010:
+
+-- File containing X/Y coordinates for "2D Estimation" now supports
+   ',' in addition to '.' as decimal point and TAB (in addition to
+   SPACE) as separator between X and Y values. If the window for which
+   2D Estimation is performed is a map the X coordinates are now
+   automatically adjusted to the map domain and the X/Y points are
+   projected before estimation is performed.
+
+-- Now switching to batch-mode when processing an import file via
+   command line invocation.
+
+
+
+
+
+***ODV4 Release 4.3.4  (Windows, Linux, Solaris-i386)  Apr/08/2010:
+
+
+BUG FIXES
+
+-- Fixed File>Open and File>New crashes on new ODV installations.
+
+
+
+
+
+***ODV4 Release 4.3.3  (Windows, Mac OS X, Linux, Solaris-i386)  Mar/24/2010:
+
+-- The current sample window now shows the numerical values and
+   quality flags of all samples, even those that are range or quality
+   filtered and do not show up in the plot windows.
+
+-- New "Assign Quality Flag" submenu of the the current sample menu
+   allowing assignment of quality flag values to data of the current
+   variable (possible scopes: current sample, current station, data in
+   a window, all valid stations, all stations).
+
+-- New derived variables Partial Pressure and Saturation of SF6.
+
+-- New "Tools > Infix-to-Postfix Converter" option allows input of
+   mathematical expressions in normal infix notation and conversion to
+   postfix for use in ODV expressions and macros.
+
+-- New SDN Spreadsheet multifile spreadsheet importer for SeaDataNet
+   retrieval data files.
+
+-- Improved performance when drawing shapefiles.
+
+
+BUG FIXES
+
+-- Fixed crashes during Full Range of map data windows.
+
+-- BYTE, SHORT, INTEGER, FLOAT,  DOUBLE, or TEXT qualifiers in
+   spreadsheet file column labels are no longer included in the
+   variable labels.
+
+-- Rare problems when opening netcdf files fixed.
+
+-- Fixed some typos in constants for the pressure dependence of carbon
+   system equilibrium constants (thanks to James Rae, University of
+   Bristol). Resulting changes in the derived carbon variables are
+   very small.
+
+
+
+
+***ODV4 Release 4.3.2  (Windows, Mac OS X, Linux, Solaris-i386)  Feb/18/2010:
+
+-- Methods for calculation of 1st and 2nd vertical derivatives
+   improved.
+
+
+BUG FIXES
+
+-- CRITICAL FIX: When editing data or quality flags via "Edit Data"
+   with a sample quality filter active, there was a danger of loosing
+   the filtered values of the edited station.
+
+-- Synchronize axis ranges issues fixed.
+
+-- GOB export of non-filled contours now only exports the stroke
+   parts.
+
+-- GOB export of sample dots from map data windows now properly
+   unprojects lon/lat coordinates before exporting.
+
+-- Error calculating 2nd vertical derivative fixed.
+
+
+
+
+***ODV4 Release 4.3.1  (Windows, Mac OS X, Linux)  Feb/05/2010:
+
+-- New adapted colorbar for data windows with filled
+   contours. PostScript support for filled contours and new colorbar
+   added. 
+
+-- Data values outside the domain are now taken into account if doing
+   VG-Gridding on sub-domains.
+
+-- Map and data windows are now aligned to the nearest mm when using
+   Move/Resize in Window Layout mode.
+
+
+BUG FIXES
+
+-- Crash when changing the scope of a data window with graphics
+   objects to/from SURFACE scope fixed.
+
+-- Using the data window Properties dialog would always synchronize
+   axis ranges, even if this was switched off on the View > Settings >
+   Windows page. This has been fixed.
+
+-- Axis ranges of overlay and parent windows are now always
+   synchronized.
+
+-- Crash when using gazetteers fixed.
+
+
+
+
+***ODV4 Release 4.3.0  (Windows, Mac OS X, Linux)  Jan/27/2010:
+
+-- New "Ocean Calculator" tool allows calculation of more than 45
+   oceanographic parameters for user specified input values (option:
+   Tools>Ocean Calculator).
+
+-- Clicking on URL and DOI metadata in the Current Station Window will
+   now open the link in your web-browser.
+
+-- Geographic features from ESRI shapefiles can now be added to the
+   station map.
+
+-- Calculation of geostrophic flows across sections now implemented
+   (option: Tools>Geostrophic Flows).
+
+-- Station and sampling matching criteria during spreadsheet file
+   import may now be modified by the user. This allows more
+   flexibility when importing data in "Merge" or "Update" modes.
+
+-- New implementation of map graphic objects now allows objects
+   extending across the Greenwich meridian.
+
+-- The gridded field values of a data window may now be exported via
+   the "Extras>Clipboard Copy" option (shortcut: Ctrl-C while the
+   mouse is over the window). A dialog appears that lets you define
+   properties of the export and lets you choose between exporting the
+   original data or the gridded field values.
+
+-- Option "Extras>2D Estimation" now also available if using DIVA
+   gridding.
+
+-- The "Tools>Find Duplicate Stations" option now allows two sorts of
+   actions: (1) delete all but one station of a duplicates group or
+   (2) merge all data into the first station of a duplicates group and
+   delete the other stations.
+
+
+BUG FIXES
+
+-- Incomplete cleanup after changing the collection's variable sets
+   fixed ("*_.Data" directory would remain).
+
+-- Samples without valid data are no longer exported to spreadsheet
+   files.
+
+-- Problem drawing Orthographic (Oblique) maps fixed.
+
+-- Editing the properties of derived variables now works.
+
+
+
+
+***ODV4 Release 4.2.1  (Windows, Mac OS X, Linux)  Oct/08/2009:
+
+
+BUG FIXES
+
+-- Loading newly saved views would not properly install the section.
+
+-- Automatic cruise colors in station map now supported in saved
+   images and eps files.
+
+
+
+
+***ODV4 Release 4.2.0  (Windows, Mac OS X, Linux)  Oct/06/2009:
+
+
+-- The primary variable of a collection can now be changed at any time
+   (option Collection>Properties>General).
+
+-- The set of ODV meta variables can now be changed at any time
+   (option Collection>Properties>Meta Variables). This includes
+   adding new variables, deleting or reordering existing ones, and
+   changing their properties. Mandatory meta variables may not be
+   deleted or re-ordered.
+
+-- The set of ODV collection variables can now be changed at any time
+   (option Collection>Properties>Collection Variables). This includes
+   adding new variables, deleting or reordering existing ones, and
+   changing their properties.
+
+-- Export of current station set to ODV Collection now implemented.
+
+-- Single or multi-file import of data in WOCE WHP exchange format now
+   implemented.
+
+-- STATION scope windows now show error-bars if X and/or Y variables
+   have associated error variables.
+
+-- New derived variables "Day of Week (station date)" and "Day of Week
+   (time variable)".
+
+-- The carbon dioxide system derived variables can now be evaluated at
+   in situ as well as user specified pressure and temperature
+   values. pH can now be calculated in one of the following pH scales,
+   TOTAL, SEA WATER and FREE.
+
+-- The dialogs "Current Station by ID", "Current Station by Name" and
+   "Set Ranges" have been updated and are now easier to operate
+   without the mouse. Pressing TAB moves from item to item, and
+   pressing ENTER or ESC has the same effect as clicking OK or
+   Cancel. 
+
+-- Some menu shortcut keys were added or modified.
+
+-- New File>Print Preview of Canvas options allows previewing the page
+   before sending it to a printer.
+
+-- When opening a netCDF file you can now select one of the previous
+   views.
+
+
+BUG FIXES
+
+-- Problem drawing Orthographic (Oblique) maps fixed.
+
+-- Many other fixes.
+
+
+
+
+***ODV4 Release 4.1.3  (Windows, Mac OS X, Linux)  June/23/2009:
+
+
+-- Carbonate chemistry derived variables now use equilibrium constants
+   as recommended in "Dickson A. G., Sabine C. L. & Christian J. R.,
+   2007. Guide to best practices for ocean CO2 measurements. PICES
+   Special Publication 3:1-191". Comparisons with SeaCarb 2.1.2
+   (http://www.obs-vlfr.fr/~gattuso/seacarb.php) show excellent
+   agreement of results. 
+
+-- Atmospheric CFC history files updated.
+
+-- The user can now choose whether changes of data window axis ranges
+   by zooming or other methods are applied to the given window only, or
+   whether the range changes are applied to other windows using the
+   same variable(s) as well (range synchronization; use option
+   View>General Settings>Windows).
+
+-- Method for calculating isosurface values changed to simple
+   interpolation for stations of type "C" or more than 250
+   samples. This now yields meaningful results for data with large
+   numbers of samples and high spatial or temporal variability.
+
+-- Running DIVA gridding on Windows is now a quiet process. No console
+   windows open temporarily and focus remains in the active
+   application window.
+
+-- Improved placement of contour labels.
+
+-- New ODV installer. The installation procedure is simplified, and
+   DIVA is now part of the basic installation package.
+
+
+BUG FIXES
+
+-- Problem exporting derived variables to ODV Spreadsheet files fixed.
+
+-- Problem with netCDF variables using scaling as well as valid ranges
+   fixed.
+
+
+
+
+***ODV4 Release 4.1.2  (Windows, Mac OS X, Linux)  May/26/2009:
+
+
+-- DIVA Settings page now allows manual specification of a water depth
+   for determination of land mass barriers.
+
+-- Station break criteria during ODV Spreadsheet file import modified:
+   if station names are provided and do not change, a station break is
+   still inserted if day-time changes by more than 1 hour.
+
+-- View settings with default values are no longer written to xview
+   files. This makes xview files considerably smaller and easier to
+   edit manually.
+
+-- New "Undo All Changes" option.
+
+
+
+BUG FIXES
+
+-- Problem calculating isosurface values (introduced with 4.1.1) fixed.
+
+
+
+
+***ODV4 Release 4.1.1  (Windows, Mac OS X, Linux)  May/12/2009:
+
+-- Section bathymetry may now be obtained from regional gridded
+   bathymetry files (prescribed netCDF format) or from POLYGON graphic
+   object .gob files. The latter option allows the use of
+   along-section shipboard bathymetric data.
+
+-- DIVA gridding of sections using gob bathymetry polygons now uses
+   the gob bathymetry for domain separation.
+
+-- Faster drawing of the station map.
+
+
+BUG FIXES
+
+-- Problem of DIVA not running for some complex domains fixed.
+
+-- jpeg problem on Windows fixed.
+
+-- Occasional crashes when station selection yielded no valid station fixed.
+
+
+
+
+***ODV4 Release 4.1.0  (Windows, Mac OS X, Linux)  May/08/2009:
+
+ODV SPREADSHEET FILES (for details see chapter 17.3 in User's Guide)
+
+-- When exporting time series data to ODV Spreadsheet files it is now
+   possible to output date/time data values as ISO8601 date/time
+   strings.
+
+-- Data variable labels in spreadsheet import files now may have
+   extensions of the form :PRIMARYVAR:<valueType>, where <valueType>
+   may be one of the following: BYTE, SHORT, INTEGER, FLOAT or
+   DOUBLE. Only one column label may have the :PRIMARYVAR extension to
+   indicate that this column is the primary variable.
+
+-- Support for new <MissingValueIndicators> comment line attribute in
+   spreadsheet import files added. This attribute line should be used
+   to indicate missing value indicators used in the file. Multiple
+   entries are separated by spaces.
+
+-- Enclosing double quotes "..." are now automatically removed before
+   processing an entry.
+
+GUI
+
+-- Alt+P shortcut key for window properties dialog now also works in
+   window layout mode and if the mouse is over the metadata or current
+   sample window (editing properties of meta- or collection
+   variables).
+
+-- New shortcut keys F8, F9, F10, F11, and F12 to quickly switch to
+   different window layouts.
+
+-- Display order of variables in the current sample window can now be
+   set according to data availability.
+
+BATCH COMMANDS (for details see chapter 14.5 in User's Guide)
+
+-- New "create_collection" and "delete_collection" batch commands for
+   automated creation and deletion of collections.
+
+-- New "import_data" batch command for automated import of data.
+
+MISC
+
+-- xview files now only store non-default settings.
+
+-- The strategy for calculation of isosurface values has been
+   modified: Before trying to interpolate between existing samples
+   there will be a search for a sample close to the requested
+   surface. If such a sample is found, its value will be used and no
+   interpolation is performed.
+
+-- New "DIVA Settings" page on the data window's Properties dialog now
+   allows specification of DIVA signal-to-noise ratio and domain
+   separation method on a per window basis.
+
+-- DIVA domain separation now supported in windows showing isosurface
+   variables with keyword "first".
+
+-- Absolute gridding length scales now remain constant when zooming in
+   or out a data window.
+
+
+BUG FIXES
+
+-- Load View problem for netCDF files fixed.
+
+-- netCDF station identification problem after zoom fixed.
+
+-- World Ocean Database importer bug fixed (would not import some
+   stations; <1%).
+
+-- Failure to convert values during spreadsheet import fixed.
+
+-- Improved automatic color and symbol selection for picked stations.
+
+-- When exporting map station positions via "Extras>Export as Graphics
+   Objects>Station Dots" connecting lines between points are now
+   switched off.
+
+-- Numerous other fixes.
+
+
+
+
+
+***ODV4 Release 4.0.1  (Windows, Mac OS X, Linux)  Mar/19/2009:
+
+
+BUG FIXES
+
+-- Problem loading cfg files with multiple macros fixed.
+
+-- Multiple stations at the same position are now properly added to a section.
+
+-- Windows with Z-variable now only show data points with valid
+   Z-value.
+
+-- Range filters no longer remembered between views.
+
+-- Improved support for ODV3 .cfg configuration files.
+
+-- More date formats supported in spreadsheet import files.
+
+-- Cancel button on Expression edit dialog now properly discards any
+   changes.
+
+
+
+
+***ODV4 Release 4.0.0  (Windows, Mac OS X, Linux)  Mar/16/2009:
+
+-- Automatic coastline/bathymetry series selection.
+
+-- Runtime optimizations for metadata access and station selection.
+
+-- Shortcut keys for frequently used menu options added.
+
+-- User may now abort lengthy data loading and drawing operations by
+   pressing ESC.
+
+-- Numerous other bug fixes.
+
+
+
+
+***ODV4 Release 4.0.0j  (Windows, Mac OS X)  Feb/23/2009:
+
+-- Spreadsheet import into ODVGENERIC collections: station data are
+   now properly truncated if necessary.
+
+-- Spreadsheet importer now tolerates lines containing fewer columns
+   than in header line. Missing columns are treated as being empty.
+
+-- Colors of highlighting marks in map and data windows may be set by
+   the user (View>General Settings>Highlighting). Different colors may
+   be chosen for map and data windows.
+
+-- Pressing Alt+P now brings up the properties dialog of the window or
+   graphics object pointed to by the mouse.
+
+-- Conversions from "Chronological Julian Date" to derived variables
+   Time (xx), Year (xx), Month of Year (xx), Day of Year (xx), Day of
+   Month (xx), and Day Time (xx) implemented (xx stands for "time
+   variable").
+
+-- Time series date/time data in import spreadsheet files may come as
+   single-column ISO8601 dates. The heading of the column has to be
+   "time_ISO8601".
+
+
+BUG FIXES
+
+-- Issue with scaled variables in netcdf files fixed.
+
+-- Numerous other bug fixes.
+
+
+
+
+***ODV4 Release 4.0.0i  (Windows, Mac OS X)  Feb/13/2009:
+
+-- ODV user directory moved to directory "ODV" in the users documents
+   directory. Note: Private palette, macro, gazetteer, command or
+   graphics objects files created by the user have to be copied
+   manually to the new user directory to make them available to
+   ODV4. The same applies to reference datasets saved with previous
+   ODV versions. 
+
+-- Easier access to predefined layout templates via "View>Layout
+   Templates>..." or "Layout Templates>..." from canvas popup menu.
+
+-- Information about the installed ODV can be retrieved via
+   "Help>About ODV" or "odv4>About odv4" on Mac OS X systems.
+
+-- Spreadsheet file importer now tolerates lines containing fewer
+   columns than the header line. Non-existing columns are treated as
+   empty.
+
+-- Numerous bug fixes.
+
+
+
+
+***ODV4 Release 4.0.0h  (Windows, Mac OS X, Linux)  Jan/28/2009:
+
+-- Netcdf emulation settings now stored in view files
+
+-- .gob files now store info about coordinate system
+
+-- Using Qt 4.4.3
+
+-- Many bug fixes.
+
+
+
+***ODV4 Release 4.0.0g  (Windows only)  Jan/13/2009:
+
+-- Using Qt 4.5.0 beta
+
+-- Save Plot As bug fixed.
+
+
+
+***ODV4 Release 4.0.0f  (Windows only)  Jan/13/2009:
+
+-- Support for animations added.
+
+-- Support for overlay windows added.
+
+-- ARGO profile importer now imports TUR2 "Light Attenuation
+   Coefficient" data.
+
+-- Documentation improved.
+
+-- many bug fixes and improvements.
+
+
+
+***ODV4 Release 4.0.0e  (Windows only)  Dec/22/2008:
+
+-- "Chronological Julian Date" variable created as 8-byte double
+   variable by default.
+
+-- many bug fixes and improvements.
+
+
+
+***ODV4 SDN+friends Release 4.0.0d  (Windows only)  Nov/26/2008:
+
+-- Newly coded, fully object oriented ODV version that overcomes many
+   limitations of ODV3, supports more general metadata models, an
+   unlimited number of collection variables, support for many data
+   quality flag schemas and new, additional graphics types.
+

@@ -1,0 +1,10 @@
+
+[Domain]
+EastLongitude = 35.
+NorthLatitude = 67.5
+SouthLatitude = 53.0
+WestLongitude = 9.
+
+[Resolution]
+LatitudeRes = 0.015
+LongitudeRes = 0.015

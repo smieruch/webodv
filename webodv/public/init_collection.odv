@@ -1,0 +1,38 @@
+
+[General]
+CollectionFormat = ODVCF6
+DataField = GeneralField
+DataType = GeneralType
+NumberOfMetaVariables = 13
+NumberOfVariables = 11
+PrimaryVariableIndex = 1
+SampleQualityFlagSchema = ODV
+StationQualityFlagSchema = ODV
+
+[Meta Variables]
+0001 = Cruise;;INDEXED_TEXT;4;0;0;ODV;METACRUISE;
+0002 = Station;;TEXT;21;0;0;ODV;METASTATION;
+0003 = Type;;TEXT;2;0;0;ODV;METATYPE;
+0004 = Longitude;degrees_east;FLOAT;4;3;0;ODV;METALONGITUDE;
+0005 = Latitude;degrees_north;FLOAT;4;3;0;ODV;METALATITUDE;
+0006 = Year;;SHORT;2;0;0;ODV;METAYEAR;
+0007 = Month;;BYTE;1;0;0;ODV;METAMONTH;
+0008 = Day;;BYTE;1;0;0;ODV;METADAY;
+0009 = Hour;;BYTE;1;0;0;ODV;METAHOUR;
+0010 = Minute;;BYTE;1;0;0;ODV;METAMINUTE;
+0011 = Second;;FLOAT;4;0;0;ODV;METASECOND;
+0012 = Accession Number;;UNSIGNED_INTEGER;4;0;0;ODV;METAACCESSIONNUMBER;
+0013 = Bot. Depth;m;FLOAT;4;0;0;ODV;METABOTDEPTH;
+
+[Variables]
+0001 = Depth;m;FLOAT;4;1;0;SEADATANET;BASIC;
+0002 = Temperature;°C;FLOAT;4;2;0;SEADATANET;BASIC;
+0003 = Salinity;psu;FLOAT;4;3;0;SEADATANET;BASIC;
+0004 = Oxygen;ml/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0005 = Phosphate;~$m~#mol/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0006 = Silicate;~$m~#mol/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0007 = Nitrate;~$m~#mol/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0008 = Nitrite;~$m~#mol/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0009 = pH;;FLOAT;4;2;0;SEADATANET;BASIC;
+0010 = Chlorophyll;~$m~#g/l;FLOAT;4;2;0;SEADATANET;BASIC;
+0011 = Plankton/Biomass;;FLOAT;4;2;0;SEADATANET;BASIC;
