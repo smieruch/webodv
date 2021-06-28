@@ -12,7 +12,7 @@ return [
     'explore_url' => getenv('explore_url'),
     'awi_url' => getenv('awi_url'),
     'home_url' => getenv('home_url'),
-    'mode' => '', //empty or '.min'
+    'mode' => '.min', //empty or '.min'
     'copyrights' => 'webODV 2021',
     'brand' => 'Your brand',
     'index_heading' => 'Add your heading!',
