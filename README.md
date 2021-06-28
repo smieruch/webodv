@@ -45,9 +45,9 @@ adapted to set up your own **webODV** instance. First we will setup a
 local implementation and in the end we explain how to transfer the
 instance to a server connected to the www.
 
-### ODV.zip
+### Download ODV.zip
 
-First, extract the *ODV.zip*.
+First, download *ODV.zip* at [https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing](https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing) extract it.
 
 ### docker-compose.yml
 
@@ -352,4 +352,12 @@ docker-compose up -d
 ```
 
 Congrats again ! You have your own customized **webODV** running.
+
+
+## Operational setup
+
+If you want to implement **webODV** on a public URL, you need access to a server, which is connected to the www via a registered URL.
+
+
+
 
