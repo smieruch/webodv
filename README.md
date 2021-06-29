@@ -26,7 +26,7 @@ A powerful tool for interactive online data exploration, analysis, visualization
 ## Dependencies
 
 - Docker
-- docker-compose
+- Docker Compose
 
 ## Getting started
 
@@ -34,25 +34,67 @@ Clone or download the webodv repository to your computer. Make sure to
 have Docker and Docker Compose installed and that you have the
 permissions to execute docker. Additionally you will need
 a text editor and
-having access to shell via a terminal. We are working in a
+having access to the shell via a terminal. We are working in a
 Linux environment, however thanks to the Docker abstraction other
-environments should be fine as well.
+environments could work as well.
 
 ## Setup
 
-In general there are a couple of files (less than 10) which have to be
-adapted to set up your own **webODV** instance. First we will setup a
-local implementation and in the end we explain how to transfer the
-instance to a server connected to the www.
+First we start with setting up a local "default" **webODV** instance,
+which is straight forward. For customizing and setting up an
+operational instance at a public URL you have to edit a couple of
+files, which will be explained later.
 
 ### Download ODV.zip
 
-First, download *ODV.zip* at [https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing](https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing) extract it.
+First, download *ODV.zip* at [https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing](https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing) and extract it.
+
+### Docker build
+
+To build the Docker image we simply open a terminal and type:
+
+``` shell
+docker build -t hub.awi.de/webodv/webodv:v1.0.0
+```
+
+We are using the image name, that is used in the *docker-compose.yml*.
+
+### docker-compose up
+
+Now that we have build the docker image, we can start **webODV** by typing
+
+``` shell
+docker-compose up
+```
+
+You can stop it by hitting CTRL-C, or you can run it in the background with
+
+``` shell
+docker-compose up -d
+```
+
+To stop it again type:
+
+``` shell
+docker-compose down
+```
+
+Congrats ! You have a fully working default version at
+*http://localhost:11112*, which looks like
+
+![alt text](./webODV_first_running_instance.png "webODV first running instance")
+
+You can now register / login and use the included example dataset with **webODV**.
+
+## Settings
+
+Now let's have a look into some files to understand how to customize
+**webODV** and how to finally deploy it on a public URL.
 
 ### docker-compose.yml
 
-Now let's start with the *docker-compose.yml* to get a first version of
-your **webODV** running. The first block is the user database:
+Let's look into the *docker-compose.yml*. The first block is the user
+database:
 
 ``` yaml
   db:
@@ -102,7 +144,7 @@ As you can see we have a **phpmyadmin** running on port 11111
 
 for easy accessing the user database.  
 Next we have the **webODV** app, where you can name the image as you
-like, but later keep in mind to build the image with that name.
+like, but keep in mind to build the image with that name.
 
 ``` yaml
   webodv:
@@ -140,9 +182,10 @@ from the current directory:
 
 - odv_software: This is the folder which contains the **wsodv** executable software.
 - ODV: This folder contains ODV map, borders, bathymetry etc. files.
-- ODV_Data: This is the folder, which contains your ODV
+- **ODV_Data**: This is the folder, which contains your ODV
   collections. Keep in mind that an ODV collection consists of a .odv
-  file and a .Data folder.
+  file and a .Data folder. Thus copy all your ODV collections into
+  that folder. You can use as many subfolders as you want.
 - settings: This folder contains specific setting files, which we will adapt later.
 - init.bash: This file is needed for running the **webODV** Docker container.
 - Finally we have three volumes for development purposes, which we do not need here.
@@ -163,63 +206,19 @@ The next block is the environment:
 In the case we want to provide **webODV** via SSL and a public URL, we
 have to adapt some settings here, which will be discussed later.
 
-
-### Docker build
-
-To build the Docker image we simply open a terminal and type:
-
-``` shell
-docker build -t hub.awi.de/webodv/webodv:v1.0.0
-```
-
-As you can see, we are using the image name from the
-*docker-compose.yml*. If you have changed the name there, you have to
-use exactly that name also here.
-
-
-### docker-compose up
-
-Now that we have build the docker image, we can start **webODV** by typing
-
-``` shell
-docker-compose up
-```
-
-You can stop it by hitting CTRL-C, or you can run it in the background with
-
-``` shell
-docker-compose up -d
-```
-
-To stop it again type:
-
-``` shell
-docker-compose down
-```
-
-Congrats ! You have a fully working first version at
-*http://localhost:11112*, which looks like
-
-![alt text](./webODV_first_running_instance.png "webODV first running instance")
-
-You can now register / login and use the included example dataset with **webODV**.
-
-However, now it's time to customize **webODV** to your project or application.
-
+Now it's time to customize **webODV** to your project or application.
 
 ### OverWrites
 
 The idea of customizing is that we have this folder *OverWrites*,
 which contains a couple of files, which we can edit to adapt
 **webODV** to our needs. To avoid that your custom files will be
-overwritten or changed during a next update you have first to copy the
+overwritten or changed during a next update (git pull etc.) you have first to copy the
 folder *OverWrites* to a custom folder: 
 
 ``` shell
 cp -r OverWrites MyOverWrites
 ```
-
-and optionally exclude it from git by adding "MyOverWrites" to your *.gitignore*
 
 We start now editing the files in *MyOverWrites* and then copy them
 into *webodv*. Finally we have to rebuild the **webODV** image.
@@ -297,7 +296,8 @@ MAIL_FROM_ADDRESS=sebastian.mieruch@awi.de
 MAIL_FROM_NAME="webODV"
 ```
 
-Include here your personal mail information including username and password. 
+Include here your personal mail information including username and
+password to enable sending emails.
 
 ### my_webodv_settings_default.json
 
@@ -329,7 +329,9 @@ have to be adapted:
     'cookie_text' => 'We use cookies to ensure that we give you the best experience on our website. Additionally we use the web analytics software <i>Matomo</i> to monitor page usage. If you continue to use this site we will assume that you are happy with it.'
 ```
 
-which are the "copyrights" text at the bottom of the page, the "brand", the "heading", additional texts and the text for the "cookie"-popup.
+which are the "copyrights" text at the bottom of the page, the
+"brand", the "heading", additional texts and the text for the
+"cookie"-popup.
 
 ### overwrites.bash
 
@@ -356,8 +358,88 @@ Congrats again ! You have your own customized **webODV** running.
 
 ## Operational setup
 
-If you want to implement **webODV** on a public URL, you need access to a server, which is connected to the www via a registered URL.
+If you want to implement **webODV** on a public URL, you need access
+to a server, which is connected to the www via a registered URL. Here
+we will implement the productive **webODV** on our own machine with an
+installed Apache server. We will run the Apache as a proxy server,
+generate ssl keys and we will make an entry into the */etc/hosts*
+file. This approach is a template for you to setup **webODV**
+operationally on your environment.
 
+## ssl certificates
 
+For our local productive system we need ssl certificates, which we
+will generate using **mkcert** ([https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)). 
 
+``` shell
+mkcert "*.webodv.de"
+```
+
+which will generate the files *_wildcard.webodv.de-key.pem* and
+*_wildcard.webodv.de.pem*. Copy the files into */etc/certs* (root
+permissions needed). These certificates are now valid for all
+subdomains ending with ".webodv.de".
+
+## proxy config
+
+Copy the *webodv_proxy.conf* to */etc/apache2/sites-available* (root
+permissions needed). As you can see in this file, the "ServerName" is
+"dev.webodv.de", thus the above certificates are valid. Further down
+in this file the certificates are loaded and a "ProxyPass" is
+defined. This means that every http request, which arrives at
+"dev.webodv.de" will be proxied to our **webODV** running on
+"http://localhost:11112/". Similar the WebSocket request used in
+**webODV** are proxied into the Docker container.
+
+## my_webodv_settings_default.json
+
+Now, let's go back to the *my_webodv_settings_default.json*. Now that
+**webODV** is securely running via ssl, we have to set the parameter:
+
+``` json
+	"ssl_client": true,
+```
+
+to *true*.
+
+## docker-compose.yml
+
+Finally, we have to adapt the "environment" block in the *docker-compose.yml*:
+
+``` yaml
+   environment:
+    settings_name: default #
+    settings_path: /var/www/html/webodv/storage/app/settings
+    path_to_odv_settings: settings_webodv
+    proxy_ws: webodv_ProxyPass.txt
+    REVERSE_PROXY: 1   #o or 1 for false and true
+    FORCE_SCHEME: https        #see AppServiceProvider
+    FORCE_ROOT_URL: https://dev.webodv.awi.de
+```
+
+We have to set "REVERSE_PROXY" to 1, "FORCE_SCHEME" to https and
+"FORCE_ROOT_URL" to the respective URL.
+
+## overwrites.bash
+
+Again execute *overwrites.bash*:
+
+``` shell
+./overwrites.bash
+```
+
+to overwrite the default files with the new settings.
+
+## Restart
+
+Stop docker, build the Docker image and run it again.
+
+``` shell
+docker-compose down
+docker build -t hub.awi.de/webodv/webodv:v1.0.0
+docker-compose up -d
+```
+
+Go to https://dev.webodv.de.  
+Now you have an operationl **webODV** running.
 

@@ -1,7 +1,7 @@
 APP_NAME=webODV
 APP_ENV=local
 APP_KEY=base64:vLeTMl/dO8M6tVbamNdXQP/Cm2if4058V9M844BR+2c=
-APP_DEBUG=true
+APP_DEBUG=false
 APP_URL=http://localhost
 
 LOG_CHANNEL=stack
