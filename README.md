@@ -396,6 +396,26 @@ defined. This means that every http request, which arrives at
 "http://localhost:11112/". Similar the WebSocket request used in
 **webODV** are proxied into the Docker container.
 
+## enable proxy config
+
+Enable the proxy config and reload apache:
+
+``` shell
+sudo a2ensite webodv_proxy.conf
+sudo service apache2 reload
+```
+
+## /etc/hosts
+
+Add a line to your */etc/hosts*, which forces the browser to follow
+the respective config.
+
+``` apacheconf
+127.0.0.1	localhost
+127.0.0.1	dev.webodv.de
+...
+```
+
 ## my_webodv_settings_default.json
 
 Now, let's go back to the *my_webodv_settings_default.json*. Now that
