@@ -47,14 +47,19 @@ files, which will be explained later.
 
 ### Download ODV.zip
 
-First, download *ODV.zip* at [https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing](https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing) and extract it.
+First, download *ODV.zip* at [https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing](https://drive.google.com/file/d/1pUf_FxNbNWQGvxdT3fUvWpCmLQC9tXme/view?usp=sharing) and extract it. Make sure that a user with uid=1000 has read/write access:
+
+``` shell
+sudo chgrp -R 1000 ODV
+sudo chmod -R 775 ODV
+```
 
 ### Docker build
 
 To build the Docker image we simply open a terminal and type:
 
 ``` shell
-docker build -t hub.awi.de/webodv/webodv:v1.0.0
+docker build -t hub.awi.de/webodv/webodv:v1.0.0 .
 ```
 
 We are using the image name, that is used in the *docker-compose.yml*.
@@ -349,7 +354,7 @@ Stop docker, build the Docker image and run it again.
 
 ``` shell
 docker-compose down
-docker build -t hub.awi.de/webodv/webodv:v1.0.0
+docker build -t hub.awi.de/webodv/webodv:v1.0.0 .
 docker-compose up -d
 ```
 
@@ -436,7 +441,7 @@ Stop docker, build the Docker image and run it again.
 
 ``` shell
 docker-compose down
-docker build -t hub.awi.de/webodv/webodv:v1.0.0
+docker build -t hub.awi.de/webodv/webodv:v1.0.0 .
 docker-compose up -d
 ```
 
