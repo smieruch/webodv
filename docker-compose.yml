@@ -71,9 +71,9 @@ services:
     - ./init.bash:/var/www/html/init.bash
     #
     # development: "xhost +" to tunnel X11 apps 
-    - ./webodv:/var/www/html/webodv:rw
-    - /home/smieruch/.Xauthority:/root/.Xauthority
-    - /tmp/.X11-unix:/tmp/.X11-unix
+    #- ./webodv:/var/www/html/webodv:rw
+    #- /home/smieruch/.Xauthority:/root/.Xauthority
+    #- /tmp/.X11-unix:/tmp/.X11-unix
     #
     #
    environment:
