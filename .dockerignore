@@ -1,7 +1,5 @@
 /db
-/webodv/node_modules
-/webodv/public/downloads
-/webodv/storage
+/webodv/public/downloads/*
 *~
 /ODV
 /settings
