@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'egiace' => [
+        'client_id' => env('EGI_ACE_CLIENT_ID'),
+        'client_secret' => env('EGI_ACE_CLIENT_SECRET'),
+        'redirect' => env('EGI_ACE_REDIRECT'),
+    ],
+    
 ];
