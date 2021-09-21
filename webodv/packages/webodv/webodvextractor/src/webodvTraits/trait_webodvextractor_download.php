@@ -18,8 +18,10 @@ trait trait_webodvextractor_download
 
         //check auth
 
-        if (!Auth::check()){
-            return ["auth" => false];
+        if (config('webodv.set_auth')){
+            if (!Auth::check()){
+                return ["auth" => false];
+            }
         }
                 
         /* Log::info(print_r($request->all(),1)); */
@@ -95,7 +97,11 @@ trait trait_webodvextractor_download
         Log::info(print_r($webodv_settings,1));
         
         //get user
-        $email = Auth::user()->email;
+        if (Auth::check()){
+            $email = Auth::user()->email;
+        } else {
+            $email = Str::random(8)."@webodv.de";
+        }
         //$email = "hallo@hallo.de";
         $user = str_replace('@','.at.',$email);
         $user = 'download_'.$user;

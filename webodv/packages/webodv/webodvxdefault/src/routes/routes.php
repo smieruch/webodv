@@ -14,9 +14,17 @@
 //Route::group(['middleware' => ['auth.basic.once']], function () {
 
 
+//Route::group(['middleware' => ['web','header','auth']], function () {
 
-Route::group(['middleware' => ['web','header','auth']], function () {
+if (config('webodv.set_auth')){
+    $use_middleware = ['web','header','auth'];
+} else {
+    $use_middleware = ['web','header'];
+}
 
+
+Route::group(['middleware' => $use_middleware], function () {
+            
     //stats
     Route::get('/webodv/stats/get', 'webodv\webodvcore\WebodvcoreController@stats')->name('stats');
 

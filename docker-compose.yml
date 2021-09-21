@@ -64,14 +64,15 @@ services:
     # ODV bathy data
     - ./ODV:/home/woody/Documents/ODV:rw
     # data
-    - ./ODV_Data:/var/www/html/webodv/storage/app/default:rw
+    #- ./ODV_Data:/var/www/html/webodv/storage/app/default:rw
+    - /home/smieruch/Docker/odv_data/SeaView:/var/www/html/webodv/storage/app/default:rw
     #- settings
     - ./settings:/var/www/html/webodv/storage/app/settings/settings_webodv:rw
     # init
     - ./init.bash:/var/www/html/init.bash
     #
     # development: "xhost +" to tunnel X11 apps 
-    #- ./webodv:/var/www/html/webodv:rw
+    - ./webodv:/var/www/html/webodv:rw
     #- /home/smieruch/.Xauthority:/root/.Xauthority
     #- /tmp/.X11-unix:/tmp/.X11-unix
     #
@@ -81,8 +82,8 @@ services:
     settings_path: /var/www/html/webodv/storage/app/settings
     path_to_odv_settings: settings_webodv
     proxy_ws: webodv_ProxyPass.txt
-    REVERSE_PROXY: 0   #o or 1 for false and true
-    FORCE_SCHEME: http        #see AppServiceProvider
+    REVERSE_PROXY: 1   #o or 1 for false and true
+    FORCE_SCHEME: https        #see AppServiceProvider
     FORCE_ROOT_URL: https://dev.webodv.awi.de
 networks:
   webodv-dev:

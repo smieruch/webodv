@@ -1,7 +1,10 @@
 /db
 /webodv/public/downloads/*
+/webodv/storage/app/default/*
+/webodv/node_modules/*
 *~
 /ODV
 /settings
 /odv_software
 /ODV_Data
+/ODV.zip

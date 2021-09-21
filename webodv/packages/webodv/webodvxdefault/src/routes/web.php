@@ -19,7 +19,9 @@
 
 //Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+if (config('webodv.set_auth')){
+    Auth::routes();
+}
 /* Auth::routes([ */
 /*     'register' => false, */
 /*     'login' => false, */

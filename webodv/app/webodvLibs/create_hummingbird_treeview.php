@@ -95,6 +95,10 @@ class create_hummingbird_treeview {
             foreach ($odv_file as $value) {
 
 
+                //remove $.
+                $value = preg_replace('/\$./', '', $value);
+                //remove special chars
+                $value = preg_replace('/[~%&#*$^]/', '', $value);
 
                 /////////////////////////////////////////////////////
                 //////////  cut out variables start

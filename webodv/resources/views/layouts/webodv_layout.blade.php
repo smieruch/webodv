@@ -154,10 +154,12 @@
 			    <li class="nav-item" style="" id="contact_li">
                                 <a class="nav-link" href="#" id="contact_a" data-toggle="tooltip" data-placement="auto" title="Contact"><i class="fa fa-paper-plane-o help_color" style="font-size:20px;"></i></a>
                             </li>
-                        @guest
+                            @guest
+			    @if (Route::has('login'))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
+			    @endif
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>

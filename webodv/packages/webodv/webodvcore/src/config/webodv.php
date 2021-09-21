@@ -11,6 +11,7 @@ return [
     'emodnet_url' => getenv('emodnet_url'),
     'explore_url' => getenv('explore_url'),
     'awi_url' => getenv('awi_url'),
+    'set_auth' => false,
     'home_url' => getenv('home_url'),
     'mode' => '', //empty or '.min'
     'copyrights' => 'webODV 2021',

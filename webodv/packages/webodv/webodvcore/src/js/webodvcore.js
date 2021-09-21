@@ -65,6 +65,7 @@ $(document).ready(function() {
 		func: "create_treeview_from_folder_ajax",
 		error:   function(data){
     		    console.log("ERROR");
+		    console.log(data)
     		},
     		success: function(data){
     		    console.log("SUCCESS 123");
