@@ -16,6 +16,8 @@ A powerful tool for interactive online data exploration, analysis, visualization
 
 #### [https://mvre.webodv.cloud.awi.de](https://mvre.webodv.cloud.awi.de)
 
+#### [https://hifis.webodv.cloud.awi.de](https://hifis.webodv.cloud.awi.de)
+
 
 
 ## Features
