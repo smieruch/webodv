@@ -1,5 +1,7 @@
 # webODV
 
+[![DOI](https://zenodo.org/badge/677699739.svg)](https://zenodo.org/badge/latestdoi/677699739)
+
 A powerful tool for interactive online data exploration, analysis, visualization and more
 
 ![alt text](./webODV_logo_v3_2_trans.png "webODV")
