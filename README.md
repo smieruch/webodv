@@ -12,6 +12,12 @@ A powerful tool for interactive online data exploration, analysis, visualization
 
 #### [https://explore.webodv.awi.de](https://explore.webodv.awi.de)
 
+#### [https://webodv-egi-ace.cloud.ba.infn.it](https://webodv-egi-ace.cloud.ba.infn.it)
+
+#### [https://mvre.webodv.cloud.awi.de](https://mvre.webodv.cloud.awi.de)
+
+
+
 ## Features
 
 - Set up your own **webODV** instance
